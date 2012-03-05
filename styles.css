@@ -1,5 +1,3 @@
-/* @override http://weblog.rubyonrails.org/styles.css */
-
 /* Common Definitions */
 
 body {
@@ -22,20 +20,31 @@ h1 {
 h2 {
 	font-size: 1.25em;
 	line-height: 1.4em;
-	margin: 1em 0 0.5em 0;
+	margin: 1em 0 0.25em 0;
 }
 h3 {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin: 0;
 }
+h4 {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 1.25em 0 0.25em;
+}
 p, ul {
-	margin: 0 0 1em 0;
+	margin: 0.5em 0 0.5em 0;
+}
+ul {
+	padding: 0 0 0 1.75em;
+}
+ul li {
+	margin: 0 0 0.25em 0;
 }
 pre	{
 	background-color: #eee;
 	margin: 1em 0;
-	padding: 0.5em 1em;
+	padding: 0.5em 1em !important;
 	font-size: 0.9375em;
 	overflow: auto;
 }
@@ -50,6 +59,9 @@ a {
 a:hover {
 	background-color: #f4dda6;
 	text-decoration: none;
+}
+a > img {
+	border: none;
 }
 
 /* Top Navigation */
