@@ -1,4 +1,8 @@
-exclude: [Gemfile, Gemfile.lock, CNAME]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - CNAME
 paginate: 10
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: rdiscount
