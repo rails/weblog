@@ -12,5 +12,5 @@ pagination:
   previous: "&larr; Previous"
   next: "Next &rarr;"
 disqus:
-  shortname: "ridingrailsweblog"
+  shortname: "ridingrails"
   developer: false
