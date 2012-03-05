@@ -126,23 +126,27 @@ a > img {
 	font-size: 14px;
 	line-height: 14px;
 	height: 22px;
-	box-sizing: border-box;
 	border: 1px solid #ccc;
 	width: 120px;
 	float: left;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 #search input[type=text]:focus {
 	outline: none;
 	border: 1px solid #999;
 }
-#search input[type=submit] {
+#search button[type=submit] {
 	margin: 0px 0px 10px 0px;
-	box-sizing: border-box;
+	text-align: center;
+	padding: 0px;
 	width: 40px;
-	height: 20px;
-	font-size: 16px;
-	line-height: 14px;
+	height: 22px;
 	float: right;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 #sidebar div.job a {
 	display: block;
@@ -254,5 +258,3 @@ a > img {
 #sponsored_by a img {
 	vertical-align: -7px;
 }
-
-
