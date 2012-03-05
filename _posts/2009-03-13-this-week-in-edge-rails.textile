@@ -1,0 +1,75 @@
+---
+layout: post
+title: This Week in Edge Rails
+categories:
+- edge
+author: Mike Gunderloy
+published: true
+date: 2009-03-13 12:22:00.000000000 +00:00
+---
+h3. March 6, 2009 - March 13, 2009
+
+Things have been pretty busy on the development side since the release of "Rails 2.3 RC2":http://weblog.rubyonrails.org/2009/3/5/rails-2-3-rc2-final-stop-before-release. The core team has been making a serious effort to review all of the open bugs and patches with an eye towards getting us a solid release. At this point, the bar for new features is set fairly high, but even so, there have been an incredible 94 commits in the week since RC2 - mostly fixes to ensure expected behavior and stability. Here are some of the highlights.
+
+h2. Swappable Parsers for XMLmini
+
+The support for XML parsing in ActiveSupport has been made more flexible by allowing you to swap in different parsers. By default, it uses the standard REXML implementation, but you can easily specify the faster LibXML or Nokogiri implementations for your own applications, provided you have the appropriate gems installed:
+
+<pre><code>
+XmlMini.backend = 'LibXML'
+XmlMini.backend = 'Nokogiri'
+</code></pre>
+
+"commit":http://github.com/rails/rails/commit/822c41d69d9228c9912d29ac45155d3a16bb5c50 "commit":http://github.com/rails/rails/commit/694998ee4fb8d257ba78424cab630846327a0889
+
+h2. rake gem Task Rewrite
+
+The internals of the various <code>rake gem</code> tasks have been substantially revised, to make the system work better for a variety of cases. The gem system now knows the difference between development and runtime dependencies, has a more robust unpacking system, gives better information when querying for the status of gems, and is less prone to "chicken and egg" dependency issues when you're bringing things up from scratch. There are also fixes for using gem commands under JRuby and for dependencies that try to bring in external copies of gems that are already vendored.
+
+"commit":http://github.com/rails/rails/commit/99d75a7b02bf430a124b9c3e2515850959d78acf "commit":http://github.com/rails/rails/commit/5b751ae0b3f6c10a1053e4a2e04fd92d228d787f "commit":http://github.com/rails/rails/commit/9d906707bea997016fd370e33e12dbc21cfcc531
+
+h2. Routing Fixes
+
+A couple of small fixes to the routing engine. First, member routes with requirements now work (previously the requirements were ignored):
+
+<pre><code>
+map.resources :orders, 
+  :requirements => { :id => %r([^/;,?]+) }, 
+  :member => { :accept => :get }
+</code></pre>
+
+"commit":http://github.com/rails/rails/commit/5b7527ca44521edf9782b3d7f449bf09a29267f2
+
+Also, shallow routes now work properly with namespaces ("commit":http://github.com/rails/rails/commit/5c87e9adddc22703a3dbbb785e32fafe0e91ce78) and you can now use the <code>OPTIONS</code> verb in route conditions ("commit":http://github.com/rails/rails/commit/5e0f6214d2421a4931c85ee6a239158c69e57b65).
+
+h2. Client-side Caching Improvements
+
+The <code>expires_in</code>, <code>stale</code>, and <code>fresh_when</code> methods now accept a <code>:public</code> option to make them work well with proxy caching.
+
+<pre><code>
+expires_in 10.minutes, :public => true
+fresh_when :last_modified => @user.updated_at.utc, 
+  :public => true
+fresh_when :etag => @user, :public => true
+</code></pre>
+
+"commit":http://github.com/rails/rails/commit/f2a32bd0dedf11021027e36cc2c99f97434cae17
+
+h2. Odds and Ends
+
+The <code>String#parameterize</code> method now accepts an optional separator character.
+
+<pre><code>
+"My big duck".parameterize =>      "my-big-duck"
+"My big duck".parameterize('_') => "my_big_duck"
+</code></pre>
+
+"commit":http://github.com/rails/rails/commit/20d3892f46c553e8ca3d4e8d223a3bd92789556d
+
+The <code>ActiveRecord::Base#invalid?</code> method now works as the opposite of <code>ActiveRecord::Base#valid?</code>. ("commit":http://github.com/rails/rails/commit/96eaeee4467a03cba3c4c30aeb6fc6afe545ae1d)
+
+The <code>ActiveSupport::Json.decode</code> method now handles <code>\u0000</code> style escape sequences. ("commit":http://github.com/rails/rails/commit/9b9b2937ce3bef3bca9d22821e76c40cc74fa689)
+
+You can now set content types such as <code>multipart/mixed</code> in Action Mailer. ("commit":http://github.com/rails/rails/commit/1dff106888d671dac07f93711ecb319170132c56)
+
+Rails 2.3 will ship with a bundled version of Rack, but if you have Rack 1.0 installed as a gem it will use the gem version instead. ("commit":http://github.com/rails/rails/commit/0a887e2386a827f554c685dccf91701bb38422b5)

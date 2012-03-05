@@ -1,0 +1,12 @@
+---
+layout: post
+title: Ruby on Rails has its web presence overhauled
+categories:
+- general
+author: admin
+published: true
+date: 2004-12-27 07:55:54.000000000 +00:00
+---
+Welcome to the bling-spanking new web presence for Ruby on Rails. We've gathered all the fledging properties under one design and bound them all in slickness. In the same breath, we're restoring the lands of "Loud Thinking":http://www.loudthinking.com to more of a personal weblog for David Heinemeier Hansson and assigning the responsibility of lavish Rails praise and tracking to this entity.
+
+Until we've had some time to move it all around properly, the SVN repository remains at http://dev.rubyonrails.org/svn/rails while the rest of the site has home at .com. We'll get it all sorted out eventually.

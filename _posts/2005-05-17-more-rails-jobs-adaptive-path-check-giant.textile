@@ -1,0 +1,16 @@
+---
+layout: post
+title: ! 'More Rails jobs: Adaptive Path, Check Giant'
+categories:
+- jobs
+author: admin
+published: true
+date: 2005-05-17 18:55:22.000000000 +01:00
+---
+Adaptive Path is in need of some extra talent, writes Michael Buffington:
+
+<blockquote>If you're interested in a pretty aggressive project and you're good with Ruby on Rails, <a href="mailto:michael.buffington@gmail.com">drop me a line</a>. The project will only last a couple of weeks but will be intense. We'll expect you to develop code for our application, but also build tools that you can give away to the community at large. The schedule requires that we move quickly, so please make sure you're able to start as early as next Monday and work hard until the end of May or thereabouts.</blockquote>
+
+Check Giant, LLC, a finanial services start-up from Lake Bluff, Illinois is looking too:
+
+<blockquote>Will be involved in architectural discussions and be asked to implement parts of the system. It will be important for the candidate to be able to take on a project independently and ensure its success. The ideal candidate will be fluent in Ruby as well as Rails. Experience in Javascript and CSS is desirable as is AJAX. SQL is a must, with experience in MySQL and Postgres being big pluses. Experience with Unix a must. A degree in Computer Science, Engineering or relevant experience. Write in plain text to <a href="mailto:jobs@cashnetusa.com">jobs@cashnetusa.com</a></blockquote>

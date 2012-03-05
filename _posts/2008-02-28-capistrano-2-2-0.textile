@@ -1,0 +1,60 @@
+---
+layout: post
+title: Capistrano 2.2.0
+categories:
+- releases
+author: jamis
+published: true
+date: 2008-02-28 04:15:00.000000000 +00:00
+---
+"Capistrano":http://www.capify.org is a utility for managing remote servers and automating remote tasks. It is popularly used to deploy Rails applications (but can do oh, so much more!). Version 2.2.0 is now available (well, it's released, anyway, you might need to wait for the file to propagate to the gem mirrors).
+
+  gem install capistrano
+
+Version 2.2.0 sports the following changes:
+
+*FEATURE*: Dynamic role definition. The role() method now accepts a block, which should return either a host name, a Capistrano::ServerDefinition object, an array of host names, or an array of Capistrano::ServerDefinition objects. This can be used to describe the servers in a role at runtime.
+
+<pre>role :app do
+  hosts = some_method_that_looks_up_the_current_hosts
+  hosts[0,3]
+end
+</pre>
+
+*FEATURE*: Alternative server-centric role definitions, using the server() method:
+
+<pre>role :app, "server"
+role :web, "server"
+
+# the above is the same as this:
+server "server", :app, :web
+</pre>
+
+*FEATURE*: Support for a :max_hosts option in tasks, that restricts the task so that it is only executed in <max_hosts> hosts at a time, in chunks. This helps people who use Capistrano with very large numbers of servers, and prevents them running into connection caps and from running out of memory.
+
+<pre>task :ping, :max_hosts => 100 do
+  # anything here will only run against 100 hosts at a time
+end
+
+# alternatively, you can pass :max_hosts to the run command itself for
+# finer granularity
+task :pong do
+  # this will run on ALL hosts at once
+  run "something"
+
+  # this will run on no more than 100 hosts at a time
+  run "something-else", :max_hosts => 100
+end
+</pre>
+
+*ENHANCEMENT*: Improved Git support!
+
+*ENHANCEMENT*: Password prompt support in the Mercurial SCM.
+
+*ENHANCEMENT*: Implement Bzr#next_revision so that pending changes can be reported correctly, and use checkout --lightweight instead of branch.
+
+*ENHANCEMENT*: Bring back the :p4sync_flags and :p4client_root variables for perforce SCM.
+
+Additionally, there are several minor bugs and typos that have been fixed. You can see the "CHANGELOG":http://svn.rubyonrails.org/rails/tags/capistrano_2-2-0/CHANGELOG for all the gory details.
+
+As ever, please report bugs via the Rails trac, at "http://dev.rubyonrails.org":http://dev.rubyonrails.org. And if you aren't yet subscribed to the "Capistrano mailing list":http://groups.google.com/group/capistrano, it's where all the cool cappists hang out.

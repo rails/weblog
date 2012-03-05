@@ -1,0 +1,12 @@
+---
+layout: post
+title: European RailsConf Talk Proposal Deadline Approaching
+categories:
+- sightings
+author: chad
+published: true
+date: 2006-07-18 23:11:00.000000000 +01:00
+---
+For the procrastinators out there, don't forget that the "talk proposal deadline":http://eurorails.rubycentral.org/ for the "European RailsConf":http://europe.railsconf.org is coming this Friday, July 21.
+
+If you missed "RailsConf":http://technorati.com/search/railsconf, this is your chance to not only "attend":http://europe.railsconf.org but to _speak_ at the first ever European Rails Conference.

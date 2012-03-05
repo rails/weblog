@@ -1,0 +1,14 @@
+---
+layout: post
+title: Rails Guides Gets a Facelift
+categories:
+- documentation
+author: Mike Gunderloy
+published: true
+date: 2009-02-04 01:05:00.000000000 +00:00
+---
+There's a brand new version of Rails coming, "as you already know":http://weblog.rubyonrails.org/2009/2/1/rails-2-3-0-rc1-templates-engines-rack-metal-much-more. What better time for a new version of some of the Rails documentation? So the Rails Guides team is pleased to announce a refresh of the "Ruby on Rails Guides":http://guides.rails.info site, just in time for the Rails 2.3 release.
+
+The most obvious change you'll see is a new look, thanks to some awesome design work from "Jason Zimdars":http://www.thinkcage.com/. But the visual refresh isn't all that's going on here. We've also been working to update the Guides for Rails 2.3, as well as to add new guides to the list.
+
+And there's good news if you want to get involved too. Behind the scenes, "Tore":http://tore.darell.no and Pratik switched our markup engine from AsciiDoc to Textile. This makes the Guides easier to write and edit and easier to build into a Rails project. If you've got some spare time to help out, join us in the #docrails room on irc.freenode.net, and help make the Rails Guides into a great resource in time for the 2.3 release.

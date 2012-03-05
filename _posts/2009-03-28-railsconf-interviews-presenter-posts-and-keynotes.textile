@@ -1,0 +1,19 @@
+---
+layout: post
+title: RailsConf interviews, presenter posts, and keynotes
+categories: []
+author: David
+published: true
+date: 2009-03-28 22:28:00.000000000 +00:00
+---
+"RailsConf 2009":http://en.oreilly.com/rails2009/ is drawing ever closer and it's going to be one hell of a show worthy of Vegas glitz and glamour. To let you all get more familiar with who's going to be talking and what they'll be talking about, Chad Fowler has been doing a series of presenter interviews:
+
+* "Michael Bleigh from Present.ly on Twitter apps with Rails":http://chadfowler.com/2009/3/19/railsconf-speaker-interview-michael-bleigh
+* "Obie Fernandez from Hashrocket on Rails entrepreneurs":http://chadfowler.com/2009/3/16/railsconf-speaker-interview-obie-fernandez
+* "Charlie Nutter and Evan Phoenix on alternative Ruby implementations":http://chadfowler.com/2009/3/10/railsconf-speaker-interview-charlie-nutter-and-evan-phoenix
+
+In addition, "Nicke Plante is talking about his Rumble Panel":http://blog.zerosum.org/2009/3/1/rumble-panel-at-railsconf and "Marty Andrews about his automated code quality check talk":http://www.martyandrews.net/blog/2009/03/im_speaking_at_railsconf_2009.html.
+
+We've also announced some of the keynoters. In addition to yours truly, we'll have Bob Martin of ObjectMentor, Chris Wanstrath of Github, and Timothy Ferris of 4-hour work week and lifestyle designs rock it out. We're also going to have a Rails Core panel of some sort. 
+
+It's going to be a great time. You can follow along with even more announcements from the conference on Twitter by subscribing to "@railsconf":http://twitter.com/railsconf. See you in Vegas? Of course I will!

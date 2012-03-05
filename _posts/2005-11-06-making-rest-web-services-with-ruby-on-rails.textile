@@ -1,0 +1,10 @@
+---
+layout: post
+title: Making REST web services with Ruby on Rails
+categories:
+- documentation
+author: David
+published: true
+date: 2005-11-06 07:45:00.000000000 +00:00
+---
+O'Reilly's XML.com has a new article entitled <a href="http://www.xml.com/pub/a/2005/11/02/rest-on-rails.html">REST on Rails</a> that explores the building of a simple REST-based web service. They even finish up with a tad of meta-programming to wrap their approach nicely.

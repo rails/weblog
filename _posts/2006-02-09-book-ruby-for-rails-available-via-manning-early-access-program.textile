@@ -1,0 +1,14 @@
+---
+layout: post
+title: ! 'Book: Ruby for Rails available via Manning Early Access program'
+categories:
+- documentation
+author: chad
+published: true
+date: 2006-02-09 21:45:00.000000000 +00:00
+---
+Long time resident mentor on "ruby-talk":http://www.ruby-talk.org and "Ruby Central":http://www.rubycentral.org co-founder, "David Black":http://www.rubypowerandlight.com,  is just finishing up a book that should be of special interest to those whose first Ruby experiences are coming by way of Rails: "Ruby for Rails - Ruby techniques for Rails developers":http://manning.com/books/black.
+
+The book will be available in stores at the beginning of May. Meanwhile you can get chapters one at a time, as they're completed, through the Manning Early Access Program.
+
+"Check it out.":http://manning.com/books/black

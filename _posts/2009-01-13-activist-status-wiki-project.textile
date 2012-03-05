@@ -1,0 +1,62 @@
+---
+layout: post
+title: Activist Status & Wiki Project
+categories: []
+author: Gregg Pollack
+published: true
+date: 2009-01-13 17:38:00.000000000 +00:00
+---
+So last week we were announced as activists, but what have we been doing?  I'm sure there are some wondering, so here is our first report. Read on for news of our first big project, what each of us is working on, and how you can help today.
+
+Firstly, we've been very pleased by the number of people who are actively interested in helping us improve the Rails ecosystem. Your input through "UserVoice":http://rails.uservoice.com/, the "Activism Mailing List":http://groups.google.com/group/rails-activism, Twitter, e-mail, and instant messages has been inspiring (and a bit overwhelming!). We listened, and one of the most popular requests revolved around the Wiki.
+
+<img src="/assets/2009/1/13/Engine_Start.png" />
+
+h1. The Rails Wiki Reform
+
+The Rails Wiki is in poor shape, for many reasons and it's not one person's fault.  The good news is that our first major project is going to be revitalizing the wiki.  To get our engines started, we're forming a dedicated team to shape it into something the Rails community can be proud of.  
+
+If you're interested in helping, simply join the "Ruby on Rails Wiki":http://groups.google.com/group/rubyonrails-wiki Google Group. After you join, you'll find a note on the group from Matt Aimonetti with more details.
+
+<img src="/assets/2009/1/13/Shadows.png" />
+
+h1. What we're doing
+
+All of the Activists are busy with projects that fall under the general heading of "helping Rails." Here's a sampling of what we're up to:
+
+*Gregg Pollack*
+* Producing the "Rails Envy Podcast":http://www.railsenvy.com/podcast. 
+* Working on free "Scaling Rails Screencasts":http://railslab.newrelic.com/scaling-rails.  Now released.
+* Launching year 2 of the Ruby Hero Awards shortly.
+* Promoting Ruby/Rails at OOP 2009 in Germany, then "Acts As Conference":http://www.actsasconference.com in Orlando, FL.
+
+*Matt Aimonetti*
+* Putting together Case Studies.
+* Investigating the current state of the Rails wiki and possibilities.
+* Working on the "Merb book":http://github.com/mattetti/merb-book (yes, Merb projects help Rails too).
+
+*Ryan Bates*
+* Doing "Railscasts.com":http://railscasts.com/.
+* Creating a Screencast application for aggregating Rails screencasts all into one feed on the RubyOnRails.org website.
+
+*Mike Gunderloy*
+* Covering This Week in Edge Rails on the official Rails blog.
+* Working with Chad Woolley to improve the Rails CI server, including builds across multiple versions of Ruby and JRuby.
+* Providing user support via #rubyonrails and #rails-activism on IRC freenode.
+* Posting daily "link roundups":http://afreshcup.com/ pointing to things of interest to Rails developers.
+
+<img src="/assets/2009/1/13/Marbles.png" />
+
+h1. Other Stuff You Can Do
+
+If you're asking "What can I do today to help Ruby on Rails?", aside from joining one of our mailing lists and collaborating with us, here are a few items that come to mind:
+
+# Contact "Matt Aimonetti":mailto://mattaimonetti@gmail.com if you think you have a good Case Study on Rails.
+# Go to "RubyForum":http://www.ruby-forum.com/forum/3 or IRC and help new Rails developers.
+# Go to your local Ruby Users Group, or start one.
+# Go to a "Rails related conference":http://www.railsinside.com/events/195-3-upcoming-rails-events-in-early-2009.html.
+# The next time you tackle a hard problem in your rails app, write a blog entry.  
+# Take one of your Rails Libraries/Modules, and turn it into a Gem or Plugin.
+# If you're surfing Rails blog articles and you find one that is outdated leave a comment or let the author know the content should be updated or marked as obsolete.
+
+<small>Flickr Credits: "Big Red Button":http://www.flickr.com/photos/shanafin/575853040/ "Okinawa-Churaumi Aquarium":http://www.flickr.com/photos/carolsawada/177677493/ "marbles":http://www.flickr.com/photos/photos-martha/527179606/</small>

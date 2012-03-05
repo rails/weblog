@@ -1,0 +1,32 @@
+        <div class="hentry article"><article>
+          <div class="entry-header header"><header>
+            <h2 class="entry-title">
+              <a href="{{ post.url }}" rel="bookmark">{{ post.title | escape }}</a>
+            </h2>
+            <p class="entry-meta">
+              Posted by <span class="vcard"><span class="fn">{{ post.author }}</span></span>,
+              <span class="published" title="{{ post.date | date_to_xml_schema }}">{{ post.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
+            </p>
+          </header></div>
+          <div class="entry-content section"><section>
+<!-- Begin Post -->
+{{ post.content }}
+<!-- End Post -->
+          </section></div>
+          <div class="entry-footer footer"><footer>
+            <p>
+{% if post.categories.size > 0 %}
+              <span class="categories">Posted in
+{% for category in post.categories %}
+{% if forloop.last %}
+                <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
+{% else %}
+                <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
+{% endif %}
+{% endfor %}
+              </span> |
+{% endif %}
+              <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+            </p>
+          </footer></div>
+        </article></div>

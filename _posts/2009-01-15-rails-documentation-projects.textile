@@ -1,0 +1,61 @@
+---
+layout: post
+title: Rails Documentation Projects
+categories:
+- activism
+author: Mike Gunderloy
+published: true
+date: 2009-01-15 09:58:00.000000000 +00:00
+---
+<img src="/assets/2009/1/15/book.png" align="left" style="padding:5px;" /> With the recent revitalization of the "Rails Wiki":http://groups.google.com/group/rubyonrails-wiki project, we're seeing people ask how the various pieces of Rails documentation fit together. I thought it might be useful to lay out how the Rails Activists see everything fitting together as we move forward. 
+
+Rails is a large and mature framework, with a lot of functionality - and with the Merb merger, there will be even more to learn in the future. As such, it presents challenges for developers at all levels trying to understand how to use Rails effectively. There are many resources to help with the learning process, including commercial books and magazines, screencasts and podcasts, tutorials, blog entries, and training courses. But there is also a series of official written documentation projects.
+
+There's no such thing as one-size-fits-all documentation. Different developers bring different skill sets, backgrounds, and levels of professional maturity to learning Rails. There are at least four levels of official documentation, overlapping but serving different needs:
+
+* Inline documentation, with comments within the code itself (that you can see by running <code>rake doc:rails</code> within any Rails project).
+* "Rails Guides":http://guides.rubyonrails.org/
+* Rails Book (a new project for Rails 3.0)
+* Rails wiki
+
+Although at first glance there appears to be substantial overlap, our feeling is that the each of these projects occupies a distinct (and valuable) niche.
+
+h2. RDoc
+
+* Provides immediate help for syntax questions
+* Maintained by the actual core developers and generally up-to-date
+
+h2. Rails Guides:
+
+* Provides focused "how to" help for particular problem domains
+* Target the mid-level developer, possibly with Rails experience
+* Have a large amount of existing high-quality material
+* Are already being continuously revised to track changes in edge Rails
+* Can include version-specific tutorial code samples
+* Can be delivered as a part of core Rails to provide "guidance at your fingertips" for new developers
+
+h2. Rails Book:
+
+* Provides high-level architectural guidance and overview of how the pieces fit together
+* Digs into the philosophy of the "Rails Ways", so readers can understand why the framework works the way it does
+* Targets the developer new to Rails or those wanting to go from the "trees" to the "forest" view
+* Offers help in conceptualizing Rails and choosing between alternative modules (ORMs, routing DSLs, etc.) in the Rails 3 timeframe
+* Can draw on the Merb experience in simultaneous translation and pulling in contributions from many writers
+* Largely version independent
+* Gives a structured path through end-to-end documentation in a way that standalone Guides do not
+
+h2. Rails Wiki
+
+* Community-driven documentation that can respond rapidly to new software and new questions
+* A good repository to links to external information
+* Potentially a showcase for Rails itself in the underlying software
+* A place to put the accumulated community knowledge, even the pieces that are not often needed
+
+It's important to note that we don't see these four projects as entirely separate efforts that have no interaction with one another. In particular, it seems likely that the Book will link to the Guides for those seeking additional detail, while the Guides will link to the Book for those seeking additional high-level guidance. We also anticipate that the wiki will point readers to both Guides and Book (as well as to other sources of information).
+
+So, what can _you_ do to get involved? If you're a writer, translator, or editor, any of these documentation projects would love to have your help:
+
+* To contribute to the RDoc, write a Rails patch with good comments or check out the "docrails":http://weblog.rubyonrails.org/2008/5/2/help-improve-rails-documentation-on-git-branch project.
+* To help the Rails Guides, get in touch with "Pratik Naik":mailto:pratiknaik@gmail.com or "Mike Gunderloy":mailto:mikeg1@larkfarm.com, or drop by the #docrails channel on IRC freenode.
+* To get involved with the Rails Book, contact "Matt Aimonetti":mailto:mattaimonetti@gmail.com.
+* To add to the Rails Wiki, join the "rubyonrails-wiki":http://groups.google.com/group/rubyonrails-wiki group.

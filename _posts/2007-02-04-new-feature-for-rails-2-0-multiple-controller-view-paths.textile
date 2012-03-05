@@ -1,0 +1,20 @@
+---
+layout: post
+title: ! 'New Feature for Rails 2.0: Multiple Controller View Paths'
+categories:
+- documentation
+- edge
+author: rick
+published: true
+date: 2007-02-04 23:12:00.000000000 +00:00
+---
+Thanks to "John Long":http://radiantcms.com, Rails now supports "multiple view paths for each controller":http://dev.rubyonrails.org/ticket/2754.  For 90% of the apps, this probably won't make a huge difference.  But, for those of you wanting to productize various open source apps, you can now do this:
+
+<macro:code>
+/beast/trunk$ mkdir vendor/plugins/test_view_paths
+/beast/trunk$ cd vendor/plugins/test_view_paths
+/beast/trunk/vendor/plugins/test_view_paths$ mkdir views
+/beast/trunk/vendor/plugins/test_view_paths$ echo "ActionController::Base.view_paths.unshift File.join(directory, 'views')" > init.rb
+</macro:code>
+
+What you've done is created a minimal rails plugin that inserts a 'views' directory in the plugin to the beginning of the #view_paths array.  Now, copy a view from the rails app into the plugin's 'views' directory, make a noticeable change, and start your app.  You'll notice that it picked your plugin's view over the application's view.

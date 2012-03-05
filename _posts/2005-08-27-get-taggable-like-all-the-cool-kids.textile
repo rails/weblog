@@ -1,0 +1,22 @@
+---
+layout: post
+title: Get taggable like all the cool kids
+categories: []
+author: admin
+published: true
+date: 2005-08-27 10:00:00.000000000 +01:00
+---
+Demetrius Nunes has a very <a href="http://dema.ruby.com.br/articles/2005/08/27/easy-tagging-with-rails">cool acts-as mixin</a> ready for you in a single line. It allows you to do stuff like:
+
+<pre><code>class Photo < ActiveRecord::Base
+  acts_as_taggable
+end
+ 
+elephant = Photo.find(4437)
+elephant.tag 'zoo animals nature'
+ 
+elephant.tagged_by?('urban') # => false
+elephant.tags.size # => 3
+elephant.tag_names => [ 'zoo', 'animals', 'nature' ]</code></pre>
+
+Without any real effort at all. Neato. It's pending as a patch too, so it'll most likely make it into the next version.

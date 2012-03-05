@@ -1,0 +1,38 @@
+---
+layout: post
+title: This Week in Edge Rails
+categories:
+- edge
+author: Mike Gunderloy
+published: true
+date: 2008-11-21 15:19:00.000000000 +00:00
+---
+First up this week, a warning for those who don't closely follow the state of the "Rails repository":http://github.com/rails/rails/tree/master - "edge" really means edge now. The bits for 2.2 are getting locked down for release, and the repository has been forked; for the moment, edge Rails is being identified as "2.3":http://github.com/rails/rails/commit/51a19ae2bf33e66b23ff5c91bf584b2efa9e669f , though that projected version number might change later. If you're trying to install almost-released 2.2 bits on your machine, make sure you're using the 2-2-stable branch, and not edge, which is currently seeing some major changes.
+
+The 2-2-stable code is still seeing changes, but they're either bug fixes or very small things. This week, that includes fixing "a bug in assignment to has_one :through associations":http://github.com/rails/rails/commit/d3fd9971093101712e4cc97ccc534631888b673d , some further tuning of "CSRF protection":http://github.com/rails/rails/commit/8c197fb4ab4fa432a6e9421e0339a17a7ec296f1 , a fix to handling of "checkboxes for Boolean attributes":http://github.com/rails/rails/commit/337c361e26fe5647036f94556fe792535a921f93 , updating the bundled copies of TZInfo, Prototype, and script.aculo.us, and some Ruby 1.9 compatibility work (though currently full Ruby 1.9 compatibility is targeted for Rails 2.3). 
+
+The biggest feature change in the 2.2 branch is the addition of explicit I18n support to newly-generated Rails projects, including a sample locale file, auto-loading all locales in config/locales, and sample settings in config/environment.rb. "commit":http://github.com/rails/rails/commit/d9b92ee11b33fed5c7a94a91415fa846705f7dd3
+
+Also worth noting in 2.2 is a chunk of code removal: a whole mess of special case tests for the SQL Server adapter have been chopped out of the Active Record test cases. That's because Ken Collins has done tremendous work in making the "SQL Server adapter":http://github.com/rails-sqlserver/2000-2005-adapter/tree/master work the way that Rails expects data adapters to work, giving us a big step in the area of backend portability. "commit":http://github.com/rails/rails/commit/8e4624be9e55cd0865b307be70a1e6287ec033ca
+
+On the actual edge code (the master branch in the repository), there's a lot more action. With that branch just opened, some pent-up code has been checked in, and some big changes are being made. It's an exciting time, and edge is definitely worth checking out. Here are some of the most notable changes in the past week.
+
+One big set of changes has come from Jeremy Kemper, who has been overhauling the internal Rails testing to switch from <code>Test::Unit::TestCase</code> to <code>ActiveSupport::TestCase</code>. This work also includes requiring Mocha to test Rails (in the 2.2 code, some tests are skipped if you don't have Mocha installed) and generally making the Rails testing strategy (both within core and for generated applications) more consistent moving forward.
+
+If you're one of the people who has always been bothered by the special-case naming of application.rb, rejoice! It's been reworked to be application_controller.rb in the edge code. More info "here":http://afreshcup.com/2008/11/17/rails-2x-the-death-of-applicationrb/ and "here":http://ryandaigle.com/articles/2008/11/19/what-s-new-in-edge-rails-application-rb-duality-is-no-more . "commit":http://github.com/rails/rails/commit/fcce1f17eaf9993b0210fe8e2a8117b61a1f0f69
+
+Rails 2.3 will introduce the notion of "default scopes":http://ryandaigle.com/articles/2008/11/18/what-s-new-in-edge-rails-default-scoping : similar to named scopes, but applying to all named scopes or find methods within the class. For example, you can write <code>default_scope :order => 'name ASC'</code> and any time you retrieve records from that class they'll come out sorted by name (unless you override the option, of course). "commit":http://github.com/rails/rails/commit/2530d0eea8eaecd2c61f99225f050ff47973e9a0 
+
+A lot of folks have adopted the notion of using try() to attempt operations on objects - Here's Chris Wanstrath's "blog post":http://ozmm.org/posts/try.html introducing it. It's especially helpful in views where you can avoid nil-checking by writing code like <code><%= @person.try(:name) %></code>. Well, now it's baked right into Rails. "commit":http://github.com/rails/rails/commit/51730792ca930a896361eb92354a42bc56903de1
+
+Also new on the syntactic sugar front is <code>Enumerable#none?</code> to check that none of the elements match the supplied block. "commit":http://github.com/rails/rails/commit/f451f0e5cfa358e88ac9d03d813a9c84facd6648
+
+The render method has been getting smarter over the years, and it's going to be even smarter in 2.3. If you have an object or a collection and the naming matches up, you can now just do <code><% render @article %></code> or <code><% render @articles %></code> and things will just work. Ryan Daigle has some more "examples":http://ryandaigle.com/articles/2008/11/20/what-s-new-in-edge-rails-render-stops-being-high-maintenance on this. "commit":http://github.com/rails/rails/commit/e442448fa3f706062ef9c89912c1fd95e1119f67
+
+On a somewhat similar note, render_component goes from "deprecated" to "nonexistent" in 2.3. If you still need it, you can install the "plugin":http://github.com/rails/render_component/tree/master . "commit":http://github.com/rails/rails/commit/27c03e69e94655482b0d77d3ae0ca902ce537f8c
+
+The <code>autolink</code> helper has been refactored to make it a bit less messy and more intuitive. "commit":http://github.com/rails/rails/commit/c6c5cd554110f6e62290de3e3008076b2f69e7cb "commit":http://github.com/rails/rails/commit/4f984c9d0e66601a81cb5ae6e3b50582e6dc0c2d
+
+There's a fix to a memory leak connected to thread safety and asset tags, that could bite sites that were referencing a lot of external images. Aaron Batalion contributed the fix, as well as a "blog post":http://blog.hungrymachine.com/2008/11/19/are-your-mongrels-growing-to-600mb-blame-assettag explaining the issue. "commit":http://github.com/rails/rails/commit/e54c33bfc8eab7ac482d571ab6bb0285b40fa56b and "commit":http://github.com/rails/rails/commit/d7f4921a9a852da7c1075275eaf73822edb7acff
+
+Finally, it's worth mentioning that some controversy has erupted over a change made to the 2.2 code "five months ago":http://github.com/rails/rails/commit/22af62cf486721ee2e45bb720c42ac2f4121faf4 - the addition of <code>Array#second</code> through <code>Array#tenth</code> as aliases for <code>Array#[1]</code> through <code>Array#[9]</code>. Without taking a stand on the controversy (I've done that "elsewhere":http://afreshcup.com/2008/11/20/a-modest-proposal/), I'll just note that the most recent edge checkin as I write this trims this down to only support <code>Array#second</code> through <code>Array#fifth</code> - and uses the savings in overhead to implement <code>Array#forty-two</code>. "commit":http://github.com/rails/rails/commit/e50530ca3ab5db53ebc74314c54b62b91b932389

@@ -1,0 +1,13 @@
+---
+layout: post
+title: Prototype 1.6.0 and script.aculo.us 1.8.0 released
+categories:
+- documentation
+- releases
+author: sam
+published: true
+date: 2007-11-07 20:07:00.000000000 +00:00
+---
+New versions of the JavaScript libraries that ship with Rails, Prototype 1.6.0 and script.aculo.us 1.8.0, have been released.  You can find out about the numerous changes on the "Prototype blog":http://prototypejs.org/2007/11/7/prototype-1-6-0-script-aculo-us-1-8-0-and-the-bungee-book-now-available and on "mir.aculo.us":http://mir.aculo.us/2007/11/7/script-aculo-us-1-8-prototype-1-6-and-the-book-released. If you're running Edge Rails, just @svn up@ and run @rake rails:update:javascripts@ to install the latest versions into your application automatically.
+
+Also of note: Christophe Porteneuve's _Prototype & script.aculo.us_ book is now out of beta and "available for purchase from the Pragmatic Programmers":http://pragprog.com/titles/cppsu.  It's up-to-date with all of the new features in both libraries, so be sure to check it out if you're using Prototype and script.aculo.us in your applications.

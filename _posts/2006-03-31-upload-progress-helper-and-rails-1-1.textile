@@ -1,0 +1,15 @@
+---
+layout: post
+title: Upload Progress Helper and Rails 1.1
+categories:
+- releases
+author: michael
+published: true
+date: 2006-03-31 05:20:00.000000000 +01:00
+---
+One of the casualties of the "1.1 release":http://weblog.rubyonrails.com/articles/2006/03/28/rails-1-1-rjs-active-record-respond_to-integration-tests-and-500-other-things  was the experimental "upload progress helper":http://sean.treadway.info/demo/upload/.   Unfortunately it didn't work on all the platforms we support and it was a source of numerous bug reports.   After talking with Sean, we decided to remove it from rails' core.  
+
+For those of you who were using it,  the code was extracted to a "rails plugin":http://dev.rubyonrails.org/browser/plugins/upload_progress.   To install it just run the following command and everything will be back where you need it.
+
+  ./script/plugin install upload_progress
+

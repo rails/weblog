@@ -1,0 +1,60 @@
+---
+layout: post
+title: Ruby on Rails 2.3.6 Released
+categories:
+- releases
+author: Jeremy Kemper
+published: true
+date: 2010-05-23 07:56:00.000000000 +01:00
+---
+We’ve released Ruby on Rails "2.3.6":http://rubygems.org/gems/rails/versions/2.3.6: six months of bug fixes, a handful of new features, and a strong bridge to Rails 3.
+
+We deprecated some obscure and ancient features in Rails 2.3.6 so we could cut them entirely from Rails 3. If your app runs on Rails 2.3.6 without deprecation warnings, you're in good shape for a smooth sail onward.
+
+This slow-cooked dish is brought to you some "87 committers":http://github.com/rails/rails/compare/v2.3.5...v2.3.6 from our all-volunteer kitchen.
+
+Now, let's open the goodie bag!
+
+h4. Action Pack
+
+* Upgrade Rack from 1.0.1 to 1.1.0.
+* XSS prevention: update to match Rails 3 and move to the official plugin at "http://github.com/rails/rails_xss":http://github.com/rails/rails_xss.
+* Cookies: convenient cookie jar add-ons to set permanent or signed cookies, or both at once: <code>cookies.permanent.signed[:remember_me] = current_user.id</code>. "Read more":http://github.com/rails/rails/commit/0200e20f148c96afceeebc4da7b5985643f9f707.
+* Flash: promote <code>alert</code> and <code>notice</code>, the most common flash keys in many apps, to <code>self.alert = '...'</code> and <code>self.notice = '...'</code>. Add <code>redirect_to url, :alert => '...'</code> and <code>:notice => '...'</code>. "Read more":http://github.com/rails/rails/commit/e6cadd422b72ba9818cc2f3b22243a6aa754c9f8.
+* i18n: localize the <code>label</code> helper.
+
+h4. Active Record
+
+* Namespacing: support optional table name prefixes on modules by defining <code>self.table_name_prefix</code>. "Read more":http://github.com/rails/rails/commit/03d5d0b5f50161d8ec1b2b627e483aad7100494a.
+* Destroy uses optimistic locking.
+* Counter cache: use <code>Post.reset_counters(1234, :comments)</code> to count the number of comments for post 1234 and reset its comments_count cache.
+* PostgreSQL: always use standard-conforming strings, if supported.
+* MySQL: add index length support. "Read more":http://github.com/rails/rails/commit/3616141fa2d2f35675d5962a1b329c8c51a5e9a3.
+* MySQL: <code>add_</code> and <code>change_column</code> support column positioning using <code>:first => true</code> and <code>:after => :other_column</code>.
+
+h4. Active Support
+
+* Upgrade i18n from 1.3.3 to 1.3.7.
+* Upgrade TZInfo from 0.3.12 to 0.3.16.
+* Multibyte: speed up string verification and cleaning.
+* JSON: use "YAJL":http://github.com/brianmario/yajl-ruby for JSON decoding, if available. <code>gem install yajl-ruby</code>
+* Testing: add <code>assert_blank</code> and <code>assert_present</code>. "Read more":http://github.com/rails/rails/commit/4b08679ba9627884d531cf59a9bb2fd1d2c86d62.
+* Core: backport <code>Object#singleton_class</code> from Ruby 1.8.8, deprecating our <code>Object#metaclass</code>.
+* Core: add <code>Object#presence</code> that returns the object if it's <code>#present?</code> otherwise returns <code>nil</code>. Example: <code>region = params[:state].presence || params[:country].presence || 'US'</code>
+* Core: add <code>Enumerable#exclude?</code> to match <code>include?</code>.
+* Core: rename <code>Array#rand</code> to <code>Array#random_element</code> to avoid collision with <code>Kernel#rand</code>.
+* Core: rename <code>Date#</code> and <code>Time#last_(month|year)</code> to <code>#prev_(month|year)</code> for Ruby 1.9 forward compatibility.
+
+h4. Active Resource
+
+* JSON: set <code>ActiveResource::Base.include_root_in_json = true</code> to serialize as a hash of model name -> attributes instead of a bare attributes hash. Defaults to false.
+
+h4. Action Mailer
+
+* Upgrade TMail from 1.2.3 to 1.2.7.
+
+h4. Railties
+
+* Silence RubyGems 1.3.6 deprecation warnings.
+
+Peruse the "commit log":http://github.com/rails/rails/compare/v2.3.5...v2.3.6 for the full story.

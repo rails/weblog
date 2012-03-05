@@ -1,0 +1,22 @@
+---
+layout: post
+title: ThoughtWorks wins big contract on Rails
+categories:
+- praise
+author: David
+published: true
+date: 2005-12-21 18:14:04.000000000 +00:00
+---
+Obie Fernandez has a great story on <a href="http://www.jroller.com/page/obie?entry=productivity_arbitrage">how ThoughtWorks recently won a $800,000 bid</a> for a critical application against another consultancy. They probably do that all the time, but the interesting part about this particular bid is that they made it powered by Ruby on Rails. The other consultancy bid a million dollars for a Java-based system, but the CIO picked the Rails solution from ThoughtWorks.
+
+So saving $200,000 was obviously a big advantage of the Rails bid, but more interesting is the second-level concerns. Obie writes:
+
+<blockquote><i>Analysts from Gartner and Forrester and even members of his personal grapevine are all abuzz about Ruby... Ruby may not be a corporate standard (yet), but don't even get him started on his organization's dismal track record building J2EE applications... The risk of late delivery is much, much scarier to him than proceeding with a relatively unproven technology that the whole world seems to be talking about as the successor to Java.</i></blockquote>
+
+This story comes hot on the heels of Stuart Halloway's exposure of how Rails makes it possible for his consultancy to <a href="http://www.relevancellc.com/blogs/?p=92">win accounts over Java solutions</a> due to higher productivity. As he put it:
+
+<blockquote><i>Developers have more fun, make more money, and customers get better products cheaper and faster.</i></blockquote>
+
+Indeed.
+
+<b>UPDATE:</b> The story is indeed "fictional", but with the very deep underlining of "inspired by real events". Obie has no permission to speak on specific deals of ThoughtWorks, so names have been withheld to protect the real involved parties and the exact figures, estimates, and so on.

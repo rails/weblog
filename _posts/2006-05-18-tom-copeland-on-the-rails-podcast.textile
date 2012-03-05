@@ -1,0 +1,16 @@
+---
+layout: post
+title: Tom Copeland on the Rails podcast
+categories:
+- sightings
+author: marcel
+published: true
+date: 2006-05-18 03:31:00.000000000 +01:00
+---
+The latest "Rails podcast":http://podcast.rubyonrails.org/ features "Tom Copeland":http://tomcopeland.blogs.com/, one of the guys who generously runs "RubyForge":http://rubyforge.org/. Some might be surprised to know that "Rich Kilmer":http://richkilmer.blogs.com/ and Tom Copeland have been running RubyForge out of Rich's basement for the past few years.
+
+Aside from keeping all our Ruby libraries available for download, Rich and Tom have  been putting in a lot of work on their latest application, "indi":http://www.getindi.com/ which is in  a private beta until mid summer.
+
+Download the podcast: "mp3":http://paranode.com/~topfunky/audio/2006/Tom-Copeland.mp3, "mp4":http://paranode.com/~topfunky/audio/2006/Tom-Copeland.m4a.
+
+A typed transcript should be available soon as well. For those interested in typed transcripts, you can subscribe to a "transcript RSS feed":http://feeds.feedburner.com/rubyonrails_transcript.

@@ -1,0 +1,13 @@
+---
+layout: post
+title: Ruby on Rails rides into Asterisk on RAGI
+categories: []
+author: admin
+published: true
+date: 2005-09-12 05:47:51.000000000 +01:00
+---
+<a href="http://www.asterisk.org/">Asterisk</a> is the open-source PBX that makes the phone an interesting and hackable device again. But the UI is more than a little geeky, which is where RAGI comes in. It's the <a href="http://ragi.sourceforge.net/">Ruby Asterisk Gateway Interface</a> that serves as a bridge between Ruby on Rails and Asterix. Their pitch goes:
+
+<blockquote>RAGI eases the development of interactive automated telephony applications such as IVR, call routing, automated call center, and extended IP-PBX functionality by leveraging the productivity of the Ruby on Rails framework.  RAGI simplifies the process of creating rich telephony and web apps with a single common web application framework, object model and database backend.   RAGI is available under the BSD license.</blockquote>
+
+Pretty exciting stuff.

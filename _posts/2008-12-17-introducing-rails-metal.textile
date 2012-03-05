@@ -1,0 +1,47 @@
+---
+layout: post
+title: Introducing Rails Metal
+categories:
+- documentation
+author: David
+published: true
+date: 2008-12-17 11:08:00.000000000 +00:00
+---
+Rails Edge adopted <a href="http://rack.rubyforge.org/">Rack</a> a while back and we've been exploring ways to expose that better. The first thing we did was to make it really easy to hook up any piece of Rack middleware in front of a Rails request. In your config/environment.rb file, you can do:
+
+  config.middlewares.use(Rack::Cache, :verbose => true)
+
+This will make your application use <a href="http://tomayko.com/src/rack-cache/">Ryan Tomayko's excellent Rack::Cache middleware</a> for better HTTP caching. There are lots of other great generic, reusable Rack middleware pieces. Do go shopping.
+
+But there's another use case where Rack also comes in handy. If you have a Rails application that has service end points that need to be really, really fast. So fast that the few milliseconds that a trip through the Rails router and Action Controller path is too much.
+
+For this scenario, we've built a thin wrapper around the generic Rack middleware and given it a place in the hierarchy along with the name "Metal". Rails Metal is meant for things like the <a href="http://www.campfirenow.com">Campfire</a> poller service, which is doing hundreds of requests per second and needs to be really fast and is at the same time really simple (2 database calls and returning a string). This service is currently written in C, but we'll look into converting it to Rails Metal instead.
+
+<b>Rails Metal is a subset of Rack middleware</b><br/>
+Think of Rails Metal as a subset of middleware intended for application-specific end points that need the extra speed ("write to the metal", hence the name). Thanks to recent adoption of Rack sessions, these pieces of metal even have access to the same session as Rails. You can either run them as part of the Rails process or run them as individual services through rackup.
+
+We've even included a generator for Metal, which by default will create a stub ala:
+
+  class Poller
+    def self.call(env)
+      if env["PATH_INFO"] =~ /^\/poller/
+        [200, {"Content-Type" => "text/html"}, "Hello, World!"]
+      else
+        [404, {"Content-Type" => "text/html"}, "Not Found"]
+      end
+    end
+  end
+
+As you can see, all this does is capture requests to /poller and return "Hello, World!" (and the request is not for /poller, it'll let the Rails router handle it -- that's what the 404 return does). It will do that just about as fast as is technically possible in Rack (cue useless metric of how Rails now has the fastest, most meaningless "hello world" stat!!).
+
+Note that this is a pretty specialized tool. While you could write an entire Rails application using just metal, it would be a terrible idea in most cases. The vast majority of applications out there will never do what they do so fast that the overhead of the already heavily optimized Rails router and Action Controller execution path will matter one bit (pick up <a href="http://2008.parisonrails.org/torrents/ParisOnRails2008-Michael_Koziarski-Rails_performance.mov.torrent">Michael Koziarski's talk on Rails Performance</a> through torrent for more on this).
+
+Also, if you're writing a generic filter in the vein of Rack::Cache, Metal is not the right choice either. You should just be creating regular middleware which can be shared across all Rack applications.
+
+But for those few, specialized cases where you just need as much raw speed as possible, Metal can be exactly what the doctor ordered. It allows you to have the best of both worlds in one package. The lowest possible overhead for a Rack application when that matters and the full-featured goodness of Action Controller when it doesn't.
+
+We hope you like this. Josh Peek has putting tireless hours into getting Rails on Rack and this is just the latest product of his efforts. Thanks a bunch, Josh!
+
+<b>Update:</b> Jesse Newland wrote up a "great introduction to Metal":http://soylentfoo.jnewland.com/articles/2008/12/16/rails-metal-a-micro-framework-with-the-power-of-rails-m as well. It includes benchmarks and even more examples!
+
+<b>Update 2:</b> Changed code example to <a href="http://github.com/rails/rails/commit/61a41154f7d50099da371e0d2f22fd25ab9113c2">match latest style</a>.

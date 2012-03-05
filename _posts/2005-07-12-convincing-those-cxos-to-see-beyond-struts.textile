@@ -1,0 +1,20 @@
+---
+layout: post
+title: Convincing those CxO's to see beyond Struts
+categories:
+- sightings
+author: admin
+published: true
+date: 2005-07-12 11:56:05.000000000 +01:00
+---
+<a href="http://raibledesigns.com/comments/rd/sunsets/scaling_with_rails">Matt Raible hopes to become a Ruby on Rails developer</a>, but has doubts on how exactly he's going to convince CxO's to see beyond Struts. Matt recognizes that it's not about technology any more, but rather appearance. On the once golden "but will it scale?", Matt writes:
+
+<blockquote>The one thing that I see time and time again is that Java developers don't seem to realize that some of the highest traffic sites on the net are using LAMP stacks similar to what Rails advocates. IMHO, I don't think "Rails can't scale" is a valid argument. In fact, I don't know if there's any argument or way to put down Rails anymore.</blockquote>
+
+So it's not about scaling. Rather, Matt sees the problem as an appearance of being unable to hire:
+
+<blockquote>Try convincing a Fortune 500 company to program in Rails vs. Struts and they'll probably choose Struts because there are thousands of Struts Developers. Is this a good decision on their part? I don't think so. I think it's more important to hire smart people that can learn a technology, rather than hiring those that know a technology. Of course, if someone knows a technology really well, there's probably no harm in hiring them.</blockquote>
+
+Considering the nice flow of job applications we've been posting on this weblog and the growing number that has been appearing at places like craigslist, I'm pretty sure this is a mirage. I haven't heard of anyone getting into Rails development that hasn't been able to hire.
+
+And the step from corporations like <a href="http://weblog.rubyonrails.com/archives/2005/06/30/ruby-on-rails-making-inroads-in-corporate-america/">Bank of America posting job listings with Rails</a> as a "nice to have" to "required" is not that big. And with <a href="http://weblog.rubyonrails.com/archives/2005/07/12/epson-chooses-rails-for-developer-site/">wins at places like EPSON</a>, it gets even easier.

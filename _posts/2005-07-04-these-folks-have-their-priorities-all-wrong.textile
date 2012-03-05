@@ -1,0 +1,16 @@
+---
+layout: post
+title: ! '''These folks have their priorities all wrong'''
+categories:
+- praise
+author: admin
+published: true
+date: 2005-07-04 14:26:04.000000000 +01:00
+---
+Brian McCallister is <a href="http://kasparov.skife.org/blog/src/ruby/rails-is-no-fun.html">frustrated</a> that Ruby on Rails is taking away his joyful life as a tool smith. Always creating new libraries and frameworks. Now with all that stuff taken care of, he's left having to do <i>the actual work</i>:
+
+<blockquote>Along comes RoR, now I find myself having to bear down and implement the actually business functionality for the application. Now it is "implement a SOAP/HTTP service to allow the Swing client to post back its offline changes" and "build an arbitrarily queryable entity-change audit report." This is no fun compared to writing a config file parser or persistence abstraction layer that can transparently swap out any number of relational databases, orm frameworks, ldap backends, or transaction log based in-memory systems!</blockquote>
+
+That's bad news when you're a self-professed "library and framework writing junky". At least he gets to talk about it. Brian is doing a session at <a href="http://www.apachecon.com/2005/EU/index.html/e=MjAwNS9FVQ">ApacheCon Europe</a> later this month entitled <a href="http://www.apachecon.com/html/session-popup.html?id=1299">Cheap, Fast, and Good: You can have it all with Ruby on Rails</a>. 
+
+Have a great conference, Brian!

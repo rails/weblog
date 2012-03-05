@@ -1,0 +1,14 @@
+---
+layout: post
+title: New Mephisto Release
+categories:
+- sightings
+author: rick
+published: true
+date: 2006-08-31 17:49:00.000000000 +01:00
+---
+!http://weblog.rubyonrails.org/assets/2006/8/31/immortus-assets.png!
+
+The latest version of "Mephisto":http://mephistoblog.com, the blog that powers Riding Rails, has been released.  Justin Palmer has "the nitty gritty details":http://mephistoblog.com/2006/8/31/mephisto-immortus-released at the Mephisto Blog.  Our focus for this release has been the simple Asset Manager, as shown in the screenshot.  I feel it's pretty solid for a blog, so future releases will focus on broadening the horizons with some more CMS capabilities.
+
+Even if you're not looking for a publishing tool now, there's a wealth of good, unit tested code in the "subversion repository":http://svn.techno-weenie.net/projects/mephisto/trunk/.

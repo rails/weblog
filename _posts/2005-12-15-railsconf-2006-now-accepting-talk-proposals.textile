@@ -1,0 +1,12 @@
+---
+layout: post
+title: ! 'RailsConf 2006: Now accepting talk proposals'
+categories:
+- horizon
+author: sam
+published: true
+date: 2005-12-15 18:15:00.000000000 +00:00
+---
+Crack your knuckles -- Chad Fowler has announced that "talk proposals are now being accepted":http://railsconf.org/articles/2005/12/15/call-for-participation-is-open for RailsConf 2006. Talks are around 50 minutes each, and speakers will receive free admission to the conference.
+
+Don't miss your chance to speak at what's shaping up to be one of the most important gatherings of the year. "Submit your proposal":http://railsconf.org/talks/ now (and "subscribe to the RailsConf RSS":http://railsconf.org/xml/rss/feed.xml if you haven't already).

@@ -1,0 +1,35 @@
+---
+layout: post
+title: ! 'New in Rails: Enumerable#group_by and Array#in_groups_of'
+categories:
+- documentation
+- tricks
+author: marcel
+published: true
+date: 2006-03-01 20:35:00.000000000 +00:00
+---
+"Changeset 3726":http://dev.rubyonrails.org/changeset/3726 adds two little methods to ActiveSupport: @Enumerable#group_by@ and @ Array#in_groups_of@.
+
+@Enumerable#group_by@ is for collecting an enumerable into sets, grouped by the result of a block. Useful, for example, for grouping records by date.
+<pre><code>
+     latest_transcripts.group_by(&:day).each do |day, transcripts| 
+       p "#{day} -> #{transcripts.map(&:class) * ', '}"
+     end
+     "2006-03-01 -> Transcript"
+     "2006-02-28 -> Transcript"
+     "2006-02-27 -> Transcript, Transcript"
+     "2006-02-26 -> Transcript, Transcript"
+</code></pre>
+
+@Enumerable#group_by@ will be baked right into Ruby in the future, and currently lives in the 1.9 branch.
+
+@Array#in_groups_of@ let's you iterate over an array in groups of a certain size, optionally padding any remaining  
+slots with a specified value (@nil@ by default).
+<pre><code>
+     %w(1 2 3 4 5 6 7).in_groups_of(3) {|g| p g}
+     ["1", "2", "3"]
+     ["4", "5", "6"]
+     ["7", nil, nil]
+</code></pre>
+
+You gotta love the elegant encapsulation afforded by blocks! Yield.

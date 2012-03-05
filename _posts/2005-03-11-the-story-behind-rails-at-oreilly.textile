@@ -1,0 +1,16 @@
+---
+layout: post
+title: The story behind Rails at O'Reilly
+categories:
+- sightings
+author: admin
+published: true
+date: 2005-03-11 01:26:05.000000000 +00:00
+---
+Jason Fried from <a href="http://www.37signals.com">37signals</a> <a href="http://www.oreillynet.com/pub/a/network/2005/03/10/basecamp.html">talks about the origins of Rails</a> with Marc Hedlund from O'Reilly:
+
+<blockquote>Ruby on Rails is the open source web application framework we extracted from <a href="http://www.basecamphq.com">Basecamp</a>. When we built Basecamp we didn't know we were building Rails at the same time, but that's exactly how it happened. Basecamp came first; Rails was born from Basecamp. Basecamp was the divine chicken, Rails was the egg.
+
+I had some natural hesitation about using Ruby at first ("What the #@!* is Ruby?""Why don't we just use PHP--it served us well before?"), but David cogently made the case and I bought it. I'm thrilled with the results.</blockquote>
+
+I'm sure a few of the readers here are thankful that Jason decided to trust yours truly and bet on Ruby :)

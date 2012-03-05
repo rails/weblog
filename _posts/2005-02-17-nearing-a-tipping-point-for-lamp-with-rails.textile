@@ -1,0 +1,12 @@
+---
+layout: post
+title: Nearing a tipping point for LAMP with Rails
+categories:
+- praise
+author: admin
+published: true
+date: 2005-02-17 21:09:48.000000000 +00:00
+---
+Tom Purl believes we're getting near a <a href="http://www.tompurl.com/?p=3">tipping point for LAMP in the enterprise</a> and that the missing piece, "...this bridge appears to be Ruby on Rails":
+
+<blockquote>So in addition to being able to use LAMP and increased productivity, why would large companies wan to use Ruby on Rails? Well, for starters, large companies are already using the MVC framework extensively with J2EE and .Net, so another slightly-different framework wouldn&rsquo;t be too hard to swallow. Also, Ruby is is an object-oriented scripting language that shares many features with Java an C#. It certainly has its differences, but nothing compared to the differences between Cobol and Java or VB 6.</blockquote>

@@ -1,0 +1,16 @@
+---
+layout: post
+title: Obie Fernandez on the Rails podcast
+categories:
+- general
+- sightings
+author: marcel
+published: true
+date: 2006-05-08 19:41:00.000000000 +01:00
+---
+In this installment of the "Rails podcast":http://podcast.rubyonrails.org, "Geoffrey Grosenbach":http://nubyonrails.com catches up with "Obie Fernandez":http://www.jroller.com/page/obie of "Thoughtworks":http://thoughtworks.com. 
+
+Obie has been using Rails with great success to take on "enterprise" scale projects. A die hard Java programmer since 1996, he admits that his first impression of Ruby was that "he hated it":http://en.wikipedia.org/wiki/Denial. 
+
+Available, as usual, in multiple formats: "mp3":http://paranode.com/~topfunky/audio/2006/Obie-Fernandez.mp3, "m4a":http://paranode.com/~topfunky/audio/2006/Obie-Fernandez.m4a. Enjoy.
+

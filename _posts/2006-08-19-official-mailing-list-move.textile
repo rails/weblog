@@ -1,0 +1,18 @@
+---
+layout: post
+title: Official Mailing List Move
+categories: []
+author: rick
+published: true
+date: 2006-08-19 00:19:00.000000000 +01:00
+---
+Don't worry if you see some mailing list subscriptions in your inbox, we're simply transferring everything to Google Groups.  This takes the incredible load off the Ruby on Rails server so it can focus on Trac, and gives everyone a Google-powered search engine for the archives.  Atom feeds are also available if that's your preference.  Here are the new Google Groups:
+
+* "rubyonrails-talk":http://groups.google.com/group/rubyonrails-talk - Discuss general Ruby on Rails topics.
+* "rubyonrails-spinoffs":http://groups.google.com/group/rubyonrails-spinoffs - Talk about script.aculo.us and Prototype as they fit inside of Rails and outside.
+* "rubyonrails-security":http://groups.google.com/group/rubyonrails-security - Security annoucements for Ruby on Rails.
+* "rubyonrails-core":http://groups.google.com/group/rubyonrails-core - Discussion list for Ruby on Rails core development.
+
+Hey everyone, lets give the new rubyonrails-security list a warm welcome.  It is an announcement-only list spawned from the lessons learned during the recent security incident.
+
+By the way, it's possible to "subscribe to a Google Group without a Google account":http://groups.google.com/support/bin/answer.py?answer=12346&topic=251.

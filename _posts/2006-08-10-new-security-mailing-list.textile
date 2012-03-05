@@ -1,0 +1,11 @@
+---
+layout: post
+title: New security mailing list
+categories: []
+author: David
+published: true
+date: 2006-08-10 18:10:00.000000000 +01:00
+---
+In light of the past days of fun and games, we've started a new mailing list focused entirely around security. This list will be much lower volume than the main list and be exclusively about security concerns. You can signup at the "rails-security mailing list":http://lists.rubyonrails.org/mailman/listinfo/rails-security page.
+
+UPDATE: This an announce only list. So you won't get spammed unless it matters.

@@ -1,0 +1,31 @@
+---
+layout: post
+title: This Week in Rails (July 11, 2008)
+categories:
+- general
+author: Antonio Cangiano
+published: true
+date: 2008-07-11 22:05:00.000000000 +01:00
+---
+Welcome to the third edition of This Week in Rails, a weekly report with highlights from the Rails community. My apologies for the delay of this post, the past two weeks have been pretty crazy, so this edition covers the most interesting articles and news from the past two weeks.
+
+Let's kick off this report with a couple of maintenance releases by Jamis Buck. Both "Capistrano 2.4.3":http://weblog.jamisbuck.org/2008/6/28/capistrano-2-4-3 and "Net::SSH 2.0.3":http://weblog.jamisbuck.org/2008/6/28/net-ssh-2-0-3 were published two weeks ago. If you use them, consider upgrading.
+
+Rails 2.1 has been out for a while now, but in case you didn't have a chance to catch up yet, "this post":http://jasonrudolph.com/blog/2008/07/08/5-resources-for-getting-up-to-speed-on-rails-21/ collects several links to useful resources which will help bring you up-to-date.
+
+The Pathfinder Development's blog put out three highly interesting posts. The first is "More Named Scope Awesomeness":http://www.pathf.com/blogs/2008/06/more-named-scope-awesomeness by Noel Rappin, while the second and third ones are "Pretty blocks in Rails views":http://www.pathf.com/blogs/2008/07/pretty-blocks-in-rails-views/ and "DRYing up Rails Controllers: Polymorphic and Super Controllers":http://www.pathf.com/blogs/2008/07/drying-up-rails-controllers-polymorphic-and-super-controllers/, both by Josh Symonds. Another good (and quick) recent read about controllers, was "MVC: How to write controllers ":http://andrzejonsoftware.blogspot.com/2008/07/mvc-how-to-write-controllers.html.
+
+The same Noel also published the second part of "Developing iPhone applications using Ruby on Rails and Eclipse" for DeveloperWorks ("part 1":http://www.ibm.com/developerworks/opensource/library/os-eclipse-iphoneruby1/
+ and "2":http://www.ibm.com/developerworks/opensource/library/os-eclipse-iphoneruby2/).
+
+FiveRuns released a valuable gem called "data_fabric":http://blog.fiveruns.com/2008/7/9/introducing-data_fabric which adds support for sharding and replication to Active Record. The same company also "has a contest up":http://blog.fiveruns.com/2008/7/10/run-your-way-to-railsconf-europe and they're offering two free tickets to RailsConf Europe in Berlin. Speaking of conferences, Fabio Akita announced that there will be a "Rails Summit Brazil 2008":http://akitaonrails.com/2008/7/11/rails-summit-brazil-2008 this coming October in São Paulo. This will be the first event of its kind for the Rails community in South America.
+
+"An improved version":http://blog.rayapps.com/2008/06/28/activerecord-oracle-enhanced-adapter-version-111-released/ (i.e. 1.1.1) of the Oracle enhanced adapter was released, as well as "version 0.9.5":http://rubyforge.org/frs/?group_id=2361&release_id=23307 of the IBM_DB adapter for DB2 and Informix, which adds support for Rails 2.1.
+
+In purely chronological order, I found the following articles to be worth pointing out: "Speed up slow Rails development in vista":http://www.plopcentral.com/articles/2008/07/02/rails-development-environment-slow-in-vista - a handy tip for developers using Vista, "Adding Google Maps To Your Rails Applications":http://www.developer.com/open/article.php/10930_3757576_1, "Live fulltext search in Ruby on Rails":http://blog.zmok.net/articles/2008/07/10/live-fulltext-search-in-ruby-on-rails and "Useful Flash Messages in Rails":http://rubypond.com/articles/2008/07/11/useful-flash-messages-in-rails/.
+
+The Railscasts website published two new episodes, one on "testing through Selenium":http://railscasts.com/episodes/116, and another on "semi-static pages":http://railscasts.com/episodes/117.
+
+Finally, let's close this edition on a lighter note. The next time you are about to create an acts_as_an_evil_genius plugin or other imaginatively named one, think about "this post":http://www.pluginaweek.org/2008/07/06/acts_as_what/. ;-)
+
+If you'd like to read more updates from the Ruby side of things, please head over to "This Week in Ruby":http://antoniocangiano.com/2008/07/11/this-week-in-ruby-july-11-2008.

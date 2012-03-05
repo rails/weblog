@@ -1,0 +1,14 @@
+---
+layout: post
+title: ! 'Scratch: The minimalist''s weblog'
+categories:
+- launches
+author: admin
+published: true
+date: 2005-03-01 23:07:00.000000000 +00:00
+---
+<a href="http://scratch.rubyforge.org">Scratch</a> is a very interesting weblog package by Scott Barron (and with help from Sam Stephenson) that shuns any HTML interface:
+
+<blockquote>Scratch is the minimalist's web log. Scratch gives you nothing more than the meta-weblog API for posting. Reading is done via Atom or RSS. That's it. There's no HTML to hack up. You don't have to use the same, tired old web log template that everyone else is using. Break out of that blue, rounded rectangle! Be original! Thumb your nose at those primitive apes still using the web! Use Scratch! Scratch can also serve as a framework for developing your own weblog package, if that's the way you roll.</blockquote>
+
+Scratch is available as a gem (just <code>gem install scratch</code>) and <a href="http://dev.elitists.textdriven.com/svn/software/Scratch/trunk">the source from SVN</a> (it uses the new <a href="aws.rubyonrails.com/">Action Web Service</a> framework).

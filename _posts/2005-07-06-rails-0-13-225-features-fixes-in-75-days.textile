@@ -1,0 +1,124 @@
+---
+layout: post
+title: ! 'Rails 0.13: 225+ features/fixes in 75 days!'
+categories:
+- releases
+author: admin
+published: true
+date: 2005-07-06 14:11:51.000000000 +01:00
+---
+After the longest gap between releases since Rails was made public and after more than 225 fixes and new features, the final major release before the 1.0 milestone has arrived. We've basically put in three new features or fixes <i>every</i> single day for the past 75 days. But what do you care about our labouring efforts? Here's what's new in 0.13.0:
+
+*Ajax: Visual effects, drag'n'drop, sortable lists, auto-completing text fields* 
+Thomas Fuchs is the latest member of the Rails core contributor group and his amazing set of Javascript magic, entitled script.aculo.us, has been integrated in this release. 
+
+It adds a completely rewritten visual effects engine, drag-and-drop capability including sortable lists, and autocompleting text fields to Rails. All building on top of Prototype, the foundation for Ajax in Rails, which has also received a spiffy upgrade by Sam Stephenson.
+
+Hand in hand with the Javascript files is a <a href="http://api.rubyonrails.com/classes/ActionView/Helpers/JavaScriptHelper.html">fresh batch of helper methods</a> that enables to skip the process of writing any Javascript yourself. The new <a href="http://api.rubyonrails.com/classes/ActionController/AutoComplete/ClassMethods.html">auto_complete_for</a> macro is one of these helpers and it makes adding Google Suggest style auto-completing text fields effortless, as does <code>sortable_element</code> for sortable lists and floats and <code>draggable_element</code> and it's counterpart <code>drop_receiving_element</code> for drag-and-drop. Try out the <a href="http://script.aculo.us/demos">live demos and see source code</a>.
+
+We also have Ajaxified progress indicators for file uploads in as an experimental feature in this release. It makes for a much more user-friendly experience uploading large files. <a href="http://sean.treadway.info/demo/upload">See the demo</a>. It's experimental nature means that it only works on Apache, lighttpd 1.4.x, and only in some environments. Consider it a preview of really cool tech. You need to include <code>ActionController::Base.enable_upload_progress</code> in your environment.rb file to turn it on.
+
+We've additionally added support for graceful error handling of Ajax calls:
+
+<pre><code>
+link_to_remote(      
+      "test",
+      :url => { :action =>"faulty" },
+      :update => { :success =>"good", :failure =>"bad" },
+      403 =>"alert('Forbidden- got ya!')",
+      404 =>"alert('Nothing there...?')",
+      :failure =>"alert('Unkown error ' + request.status)")
+</code></pre>
+
+And if you want to perform multiple document updates on a single Ajax call, there's now the lovely <code>JavascriptHelper#update_element_function</code>, which can be used to generate a stacked return.
+ 
+*Migrations: Agile software needs agile databases*
+Migrations can manage the evolution of a schema used by several physical databases. It's a solution to the common problem of adding a field to make a new feature work in your local database, but being unsure of how to push that change to other developers and to the production server. With migrations, you can describe the transformations in self-contained classes that can be checked into version control systems and executed against another database that might be one, two, or five versions behind.
+
+They currently only work with MySQL and PostgreSQL, but with the help of the community, we'll hopefully have most databases supported in upcoming releases. Read more in the <a href="http://api.rubyonrails.com/classes/ActiveRecord/Migration.html">Migration documentation</a>.
+
+*Performance: Faster routes, faster everything!*
+One of our primary goals with this release is to identify and address performance issues. Stefan Kaes took on the task of optimizing the entire code base and contributed numerous speedups with additional help from Jeremy Kemper. An entire rewrite of Routes by Nicholas Seckar makes it nearly _seven times faster_ now. And all this comes with complete backwards compatability. In an effort to make developers more performance-aware, you can now use the <a href="http://api.rubyonrails.com/classes/ActionView/Helpers/BenchmarkHelper.html">new BenchmarkHelper</a> to measure the execution time of a block in a template.
+
+*Sweepers: Clean up your caches in a single sweep*
+<a href="http://api.rubyonrails.com/classes/ActionController/Caching/Sweeping.html">ActionController::Caching::Sweeper</a> is a new approach to sweeping caches that follows a much more intuative one-sweep system where the caches are actually cleared on the observer callbacks. Not just recorded to be cleared during a later filter callback. Sanity is restored to sweeping.
+
+*Rendering: One method to bind them all* 
+In the wake of refactoring Active Record's <code>find</code> API, the various <code>render</code> methods got a whole new suit, making the <code>render</code> method the single point of entry for all rendering tasks. Tobias Luetke has a <a href="http://blog.leetsoft.com/articles/2005/05/26/new-in-rails">good before and after write up</a> of how render is used now.
+
+Lessons learned from find and render: Consolidate multiple method names that do similar things into one method, use symbols to dictate what used to be done by method name and parametrize with an options hash rather than positional parameters.
+
+Read more about it on the <a href="http://api.rubyonrails.com/classes/ActionController/Base.html">new API documentation for render</a>.
+
+*FastCGI: Easier to update, more stable in the running* 
+With a new release of a better and up to date FastCGI Ruby binding, and as FastCGI becomes solidified as the deployment mechanism of choice, it's a good time to have a vastly improved dispatch.fcgi with changes that include:
+
+* Send HUP to force the fcgi process to dynamically reload the application
+* Send USR1 to force the process to gracefully restart (allowing active requests to finish first)
+* Better crash logging
+
+We've also extracted a RailsFCGIHandler, so you in the future can update Rails and get improvements without having to get a fresh dispatch.fcgi file.
+
+*Routes: Giving them a name and calling them by it*
+On top of Nicholas Seckar's entire rewrite of the Routes code come Named Routes by Marcel Molina. Named Routes allow you to reduce code duplication by associating a name with a given route rule. This generates a convenience method that wraps the route rule hash. You define a named route by calling it in your routes.rb in place of the connect method. So, for example:
+
+<pre><code>
+  map.home '', :controller => 'main', :action => 'start'
+</code></pre>
+So with the above named route, what would have previously been
+<pre><code>
+  redirect_to :controller => 'main', :action => 'start'
+</code></pre>
+is now
+<pre><code>
+  redirect_to :home_url
+</code></pre>
+Parametrize your routes. With:
+<pre><code>
+  map.user_page 'users/:user', :controller => 'users', :action => 'show'
+</code></pre>
+You could do
+<pre><code>
+  link_to @user.username, user_page_url(:user => @user)
+</code></pre>
+
+See more at the <a href="http://wiki.rubyonrails.com/rails/show/NamedRoutes">Named Routes wiki page</a>.
+
+*Email attachements: Make those emails carry the load*
+Action Mailer now supports sending attachments and multipart messages. Jamis Buck has been leading the way to making ActionMailer robust and feature complete. There's a fresh new API too that gives specifying emails a more domain-language feel to it. Read all about it in Action Mailer API.
+
+*Validations: Run them conditionally and only if*
+With the new <code>:if</code> option for all validations, you can limit when an attribute is validated, either using a block or a method reference. Examples:
+<pre><code>
+  # Conditional validations such as the following are made possible:
+    validates_numericality_of :income, :if => :employed?
+
+  # Conditional validations can also solve the salted login generator problem:
+    validates_confirmation_of :password, :if => :new_password?
+
+  # Using blocks:
+    validates_presence_of :username, :if => Proc.new { |user| user.signup_step > 1 }
+</code></pre>
+
+*Fully backwards compatible!* 
+As has been the norm since around 0.9.0, this release is mindful of backward compatibility, so despite the flow of fixes, improvements, and features, your existing applications won't need to be updated code-wise. All you need to do to upgrade is get the new gems with <code>gem update rails</code> and then generating the new infrastructure files with <code>rails &lt;your-app-dir></code>. 
+
+You want to overwrite the dispatches, the prototype library, the Rakefile, and the test_helper.rb. Don't overwrite application_controller.rb, application_helper.rb, or other files you may have tailored, though. It's always good to do this run on a backup first and check that every things work.
+
+*Last major stop before 1.0!*
+First I want to congratulate the core contributor team on the amazing accomplishment that is this release. The group came together in a stronger-than-ever force especially for the last few weeks up to release. And as the latest member of the group, Thomas Fuchs deserves special praise for giving Rails such a boost of Ajaxiness with script.aculo.us and the associated helpers. It's incredible that Rails is home to both Prototype and script.aculo.us &mdash; the two strongest Javascript libraries for Ajaxians around &mdash; and Thomas and Sam deserve much lavish praise for making it happen.
+
+Another shout out for Nicholas Seckar. The second-most recent addition to the group. He has once again delivered goodness all over the code base. From named routes to all those little fixes that makes 0.13 a much more solid experience. You tha man.
+
+And all the hard work is paying off. We're planning to make 0.13 the last major release before 1.0! We might well see 0.13.1 (but hopefully not 0.13.2) before we start pumping out release candidates for the big one-oh, but it's getting close. Real close, now.
+
+What you've seen here is of course only a tiny sliver of the massive amount of new features and fixes. For the full scoop be sure to devour the changelogs:
+
+* <a href="http://api.rubyonrails.com/files/CHANGELOG.html">Rails</a>
+* <a href="http://api.rubyonrails.com/files/vendor/rails/activerecord/CHANGELOG.html">Active Record</a>
+* <a href="http://api.rubyonrails.com/files/vendor/rails/actionpack/CHANGELOG.html">Action Pack</a>
+* <a href="http://api.rubyonrails.com/files/vendor/rails/actionmailer/CHANGELOG.html">Action Mailer</a>
+* <a href="http://api.rubyonrails.com/files/vendor/rails/actionwebservice/CHANGELOG.html">Action Web Service</a>
+* <a href="http://api.rubyonrails.com/files/vendor/rails/activesupport/CHANGELOG.html">Active Support</a>
+
+Enjoy Rails 0.13!

@@ -1,0 +1,27 @@
+---
+layout: post
+title: Capistrano 1.4.1
+categories:
+- releases
+author: jamis
+published: true
+date: 2007-02-24 20:39:00.000000000 +00:00
+---
+Here it is, another Capistrano release, and less than a month since the last one! Miracles truly never cease.
+
+Capistrano, for those embarrassingly late to the party, is a utility for executing commands in parallel on multiple remote servers. It is useful for lots of things, including automating deployment of Rails applications.
+
+Version 1.4.1, available just as soon as the mirrors get updated, is a pretty minor update, but has one new feature:
+
+* You can now pass :env to 'run' (and friends), in order to specify environment variables that should be set for that command. For example:
+
+  run "some_batch_thang.rb", :env => { "DEBUG" => "1" }
+
+There is also one deprecation: if you are using UPPERCASE variables in your Capistrano recipes, you'll being seeing warnings now. Support for variables that start with uppercase letters will be removed altogether in Capistrano 2.0. If you want uppercase identifiers, you should use Ruby constants.
+
+The two fixes in this release:
+
+* Actor#get will not close the SFTP channel when it finishes. This makes it possible to do multiple SFTP gets and puts in a single session.
+* The subversion adapter now passes the "no-auth-cache" option, so that if you configure an explicit subversion username for deployment _other_ than your dev username, those deployment auth tokens won't clobber your development tokens.
+
+So, go get it, "gem install capistrano." Or download it directly from "RubyForge":http://rubyforge.org/frs/?group_id=1420. And at the risk of promising too much, too early: I expect this to be the last 1.x release of Capistrano, barring any critical problems that may arise with 1.4.1. Come on, cap2!

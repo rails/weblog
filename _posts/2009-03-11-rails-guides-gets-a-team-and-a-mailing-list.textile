@@ -1,0 +1,21 @@
+---
+layout: post
+title: Update on Rails Guides and Documentation
+categories:
+- documentation
+author: Pratik Naik
+published: true
+date: 2009-03-11 18:57:00.000000000 +00:00
+---
+We have been working on the "Rails guides":http://guides.rubyonrails.org for some months now. With substantial contributions from "a variety of authors":http://guides.rubyonrails.org/credits.html, things are looking even better in the "next version":http://guides.rails.info of the guides. That makes this the right time to take the overall documentation efforts to the next level.
+
+*Announcing the Documentation Team*<br/>
+We're very happy to announce a formal "documentation team":http://guides.rails.info/credits.html - consisting of "Xavier Noria":http://www.hashref.com, Mike Gunderloy and myself. However, eventually Mike and I will be just acting as advisors to the documentation team. So we're definitely looking to empower some new faces here. If you've been working on improving the documentation and guides, keep up the good work and you'll be on the team soon enough!
+
+The documentation team will be to responsible for keeping the guides and API documentation up-to-date, working to improve the Rails documentation, and also helping more people contribute to the documentation efforts.
+
+*Documentation Mailing List and IRC*<br/>
+As part of the renewed documentation effort, we're launching a mailing list. So go ahead and subscribe to "rubyonrails-docs":http://groups.google.com/group/rubyonrails-docs. The mailing list will be the main point of communication with the documentation team. If you have any suggestions or need any help, please post it to the mailing list. For quick questions, you can also find some of the team in the #docrails room on IRC most hours of the day.
+
+*How to Contribute*<br/>
+If you're new to the Rails documentation process (or want to get involved for the first time!), you might want to have a look at the "Contributing to the Rails Documentation":http://guides.rails.info/contributing_to_rails.html#contributingtothe-rails-documentation section of the _Contributing to Rails_ guide.

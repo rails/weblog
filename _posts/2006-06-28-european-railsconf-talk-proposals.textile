@@ -1,0 +1,32 @@
+---
+layout: post
+title: European RailsConf talk proposals
+categories:
+- horizon
+author: marcel
+published: true
+date: 2006-06-28 13:38:00.000000000 +01:00
+---
+"Talk proposals are now being accepted":http://eurorails.rubycentral.org for the "European Rails                     
+Conference":http://europe.railsconf.org/, to be held September 14-15 in London.  Accepted speakers              
+will get free admission to the conference.  Join a line up that already includes the creator of Rails, David Heinemeier Hansson, Pragmatic Programmer Dave Thomas, best-selling author and passion maven Kathy Sierra, Rails core developers Jamis Buck, Marcel Molina, Jr., and Thomas Fuchs, Rails authors and trainers David Alan Black, and Chad Fowler, and Rake author Jim Weirich.                                      
+                                                                                  
+Proposal suggestions span a variety of Rails topics, including:                  
+                                                                                  
+  * case-studies in interesting Rails applications                                
+  * Rails add-ons and adapations (including experimental ones)                    
+  * analyses and critiques of specific aspects of the framework                   
+  * the use of Ruby in/for/with Rails development                                 
+  * comparative analysis of Rails and other frameworks                            
+  * testing, coding, deployment, and all the rest!                                
+                                                                                  
+The deadline for proposals is July 21.  You are asked to submit a title, a short abstract, and a slightly longer                       
+description (400 words or so).  You don't have to have the whole talk             
+written, just a reasonably detailed overview.
+
+"Send in your talk proposal":http://eurorails.rubycentral.org.                           
+                                                                                  
+You can write to David A. Black (dblack at wobblini.net) if you have questions about the proposal             
+process.
+
+Keep an eye on the conference website "feed":http://europe.railsconf.org/xml/rss/feed.xml for updates.

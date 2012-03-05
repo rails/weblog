@@ -1,0 +1,18 @@
+---
+layout: post
+title: ! 'Community Highlights: Rails Prescriptions'
+categories:
+- activism
+author: Gregg Pollack
+published: true
+date: 2009-07-04 01:52:00.000000000 +01:00
+---
+Doing Test Driven Development (TDD) effectively is not something that comes easy, even when you're working with a well structured Rails application.  Up until March of this year there really was no guide I could recommend for developers who wanted to learn TDD with Rails.  
+
+<a href="http://www.railsrx.com/"><img src="/assets/2009/7/4/Test-Prescriptions_1.jpg" style="border: none;"/></a>
+
+What happened in March?  Noel Rappin released his "Rails Test Prescriptions":http://www.railsrx.com/ PDF guide.  You can start out by reading his FREE 84 page "Getting Started With Rails Testing":http://www.railsrx.com/ PDF Guide, and then maybe upgrade to his "$9 dollar 286 page guide":http://www.lulu.com/content/e-book/rails_test_prescriptions/6418439 which covers advanced topics like creating Test helpers, stubbing, mocking, and even how to use factories, shoulda, rspec, and cucumber. 
+
+Noel is a great teacher providing examples that are really easy to follow and code downloads if you want to try writing tests on your own.  So if you're not doing testing yet or you want to learn some best practices, definitely check out "Rails Prescriptions":http://www.railsrx.com/.  
+
+It's also worth mentioning that Noel has posted some pretty interesting blog posts on the "Rails Prescriptions Blog":http://blog.railsprescriptions.com/ going over a few testing topics and even some "testing interviews":http://blog.railsprescriptions.com/interview with developers like Chad Fowler, James Golick, Ryan Bates, and Mike Gunderloy.  Lastly I can't talk about Noel without mentioning his contributions to the "Pathfinder blog":http://www.pathf.com/blogs/author/noel-rappin/, I'm a big fan of his blog posts.

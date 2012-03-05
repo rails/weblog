@@ -1,0 +1,11 @@
+---
+layout: post
+title: Convince your manager to let you use Ruby on Rails
+categories: []
+author: admin
+published: true
+date: 2005-08-22 10:10:16.000000000 +01:00
+---
+Zed Shaw has compiled a long list of suggestions on <a href="http://article.gmane.org/gmane.comp.lang.ruby.rails/19332">how you can get your manager to let you use Ruby on Rails</a> for your next project. It's full of goodies including this strategy of dealing with the ill-informed 'does it scale':
+
+<blockquote> For example, they say, "It needs to handle 500 connections/second."  Don't let them say "users", "users" means nothing.  Then you go test their current WizBangOMatic and find it only handles 10 conn/second.  You can then come to them and say that Rails can't do 500 conn/second, but it can do better than the WizBangOMatic which only has 10 conn/second performance.  It's evil, but it puts the performance harpies at rest.</blockquote>

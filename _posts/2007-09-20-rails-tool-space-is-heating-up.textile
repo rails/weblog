@@ -1,0 +1,12 @@
+---
+layout: post
+title: Rails tool space is heating up
+categories:
+- tools
+author: David
+published: true
+date: 2007-09-20 22:45:00.000000000 +01:00
+---
+There's a lot of action going on in the Rails IDE space these days. Besides "Aptana RadRails":http://www.radrails.org/, which has been around for a long time, Sun's got impressive "Rails support in the new NetBeans":http://wiki.netbeans.info/wiki/view/RubyOnRails, and just this week "CodeGear launched their 3rdRail IDE":http://www.codegear.com/products/3rdrail/, which also looks like a great setup.
+
+I'm personally not quite ready to leave TextMate behind, but it's encouraging to see all these options for dedicated Rails IDEs. It's not going to be long before they'll be giving regular text editors a serious run for their money.

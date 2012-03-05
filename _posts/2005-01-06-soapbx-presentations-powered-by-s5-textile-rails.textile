@@ -1,0 +1,20 @@
+---
+layout: post
+title: ! 'SoapBX: Presentations powered by S5, Textile, Rails'
+categories:
+- launches
+author: admin
+published: true
+date: 2005-01-06 12:01:26.000000000 +00:00
+---
+Pelle Braendgaard just launched and "announced":http://one.textdrive.com/pipermail/rails/2005-January/001442.html a new free Rails service entitled <a href="http://www.soapbx.com/">SoapBX</a> that let's you use a combination of <a href="http://www.whytheluckystiff.net/ruby/redcloth/">Textile</a> and <a href="http://www.meyerweb.com/eric/tools/s5/">S5</a> to forget about Powerpoint and Keynote:
+
+!http://web.rubyonrails.com/pictures/soapbx.png!
+
+About the development of SoapBX using Rails, Pelle writes:
+
+<blockquote>I got an idea less than two weeks ago and now as a testament to the
+power of Rails I have released the first initial beta version of
+SoapBx, with less than 20 hours of programming involved so far.</blockquote>
+
+Congratulations on the launch, Pelle!

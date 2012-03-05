@@ -1,0 +1,31 @@
+---
+layout: post
+title: RailsConf Keynotes and Fourth Track
+categories: []
+author: chad
+published: true
+date: 2007-04-14 18:08:00.000000000 +01:00
+---
+We're putting the finishing touches on the "RailsConf 2007":http://railsconf.org schedule this week.  Given the huge number of high quality proposals (well over 3 times the number from last year), we're working on putting together a fourth track.
+
+We have also finalized an exciting lineup of keynote speakers for the conference.  I was frankly a bit worried about the keynote lineup as we started initial planning of RailsConf 2007.  "Last year's":http://2006.railsconf.org keynotes were going to be hard to live up to.  My fears were ill-founded.  We ended up with a program to be really excited about. 
+
+!/assets/2007/4/14/Tim.jpg!
+"Tim Bray":http://www.tbray.org/ongoing/, Sun, Co-creator of XML and "Atom":http://atompub.org/rfc4287.html
+
+!/assets/2007/4/14/avi_bryant.jpg!
+"Avi Bryant":http://smallthought.com/avi/, Creator of "Seaside":http://www.seaside.st and "DabbleDB":http://dabbledb.com
+
+
+!/assets/2007/4/14/ze_frank.jpg!
+"Ze Frank":http://zefrank.com, Comedic Digital Savant
+
+!/assets/2007/4/14/david_hansson.jpg!
+"David Heinemeier Hansson":http://loudthinking.com, "37 Signals":http://37signals.com, Creator of Ruby on Rails
+
+!/assets/2007/4/14/dave_thomas.jpg!
+"Dave Thomas":http://pragmaticprogrammer.com, The Pragmatic Programmers
+
+The RailsConf program promises to be thought-provoking, trend-starting, entertaining, tone-setting, and, most of all, fun.
+
+See you in May!

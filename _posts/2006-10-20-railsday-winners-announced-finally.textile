@@ -1,0 +1,12 @@
+---
+layout: post
+title: RailsDay winners announced (finally)!
+categories:
+- sightings
+author: David
+published: true
+date: 2006-10-20 14:33:00.000000000 +01:00
+---
+RailsDay finally got around to "announcing the winners":http://railsday2006.com/2006/10/18/rails-day-2006-winners. Congratulations to them all. Especially Amy Hoy and Bryan Wood, who with "Freckle":http://www.slash7.com/articles/2006/06/21/railsday-railsconf won the Best Overall. Also of interest is jaded Pixel "Awesome Ninja Game":http://blog.leetsoft.com/2006/10/20/ninjistix-ftw that won Most Creative.
+
+Evan Weaver has a more "in-depth rundown of all the winners":http://blog.evanweaver.com/articles/2006/10/19/grand-tour-of-the-13-railsday-winners.

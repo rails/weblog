@@ -1,0 +1,12 @@
+---
+layout: post
+title: Paris on Rails on November 17th
+categories:
+- sightings
+author: David
+published: true
+date: 2006-10-17 18:09:00.000000000 +01:00
+---
+Regional Rails conferences are popping up all over the place. On November 17th, "Paris on Rails":http://paris.onrails.info/ will go down. It looks like it'll be a great show for all French speaking people out there. And they got some nice sponsors lined up, such as IBM and Telecom Italia. Way to go.
+
+If you want to sign up, the fee is 60 euro.

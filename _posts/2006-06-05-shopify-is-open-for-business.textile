@@ -1,0 +1,14 @@
+---
+layout: post
+title: Shopify is open for business
+categories:
+- launches
+author: David
+published: true
+date: 2006-06-05 21:39:00.000000000 +01:00
+---
+We're lagging the <a href="http://blog.jadedpixel.com/articles/2006/06/02/shopify-is-live">official announcement</a> by a fair margin, but that won't hold back our official word of congratulations for Jaded Pixel as they've launched <a href="http://shopify.com/">Shopify</a>. It's instant-on stores that don't smell like a candy bar left in your pocket in the mid-90'ies. Complete with its own templating engine, Shopify makes it silly easy to create great looking stores that doesn't just follow a cookie-cutter format.
+
+In Rails circles, Jaded Pixel is mostly known as the company starring Rails Core developer Tobias L&uuml;tke. The team has already been sharing a great many extractions from the work of Shopify. So if you've played with the template engine <a href="http://home.leetsoft.com/liquid">Liquid</a> or installed the forum-system <a href="http://home.leetsoft.com/opinion">Opinion</a>, you've been touched by Shopify (now isn't that heart warming!).
+
+Once again, major props to Tobi and crew for finally delivering on this massive undertaking. 

@@ -1,0 +1,26 @@
+---
+layout: post
+title: ! 'Rails 2.3: Templates, Engines, Rack, Metal, much more!'
+categories:
+- releases
+author: David
+published: true
+date: 2009-03-16 14:39:00.000000000 +00:00
+---
+Rails 2.3 is finally done and out the door. This is one of the most substantial upgrades to Rails in a very long time. A brief rundown of the top hitters:
+
+* *Templates*: Allows your new skeleton Rails application to be built your way with your default stack of gems, configs, and more.
+* *Engines*: Share reusable application pieces complete with routes that Just Work, models, view paths, and the works.
+* *Rack*: Rails now runs on Rack which gives you access to all the middleware goodness.
+* *Metal*: Write super fast pieces of optimized logic that routes around Action Controller.
+* *Nested forms*: Deal with complex forms so much easier.
+
+And that's just the tip of the iceberg. We've put together a complete guide for <a href="http://guides.rubyonrails.org/2_3_release_notes.html">the Rails 2.3 release notes</a> with much more information. Be sure to checkout the section on <a href="http://guides.rubyonrails.org/2_3_release_notes.html#deprecated">what was deprecated</a> when you're ready to upgrade your application.
+
+You install 2.3 with (the final version is marked <a href="http://github.com/rails/rails/tree/v2.3.2">2.3.2</a>):
+
+<code>gem install rails</code>
+
+If you're running on Passenger, be sure to <a href="http://blog.phusion.nl/2009/03/13/phusion-passenger-212-final-released/">upgrade to 2.1.2</a> as well. Rails 2.3 doesn't run on older versions of Passenger!
+
+We hope you'll love it.

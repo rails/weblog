@@ -1,0 +1,14 @@
+---
+layout: post
+title: ! 'Rails 2.1.2: Security, other fixes'
+categories:
+- releases
+author: David
+published: true
+date: 2008-10-23 18:21:00.000000000 +01:00
+---
+Rails 2.1.2 includes the same two security fixes that we pushed out for 2.0.x recently. We're talking about "a backport of the offset/limit sanitization fix for Active Record":http://github.com/rails/rails/commit/213f31513e4cb640fa3ed45f387f221401023646 and a "fix against header-injection when using user-contributed strings in redirect_to":http://github.com/rails/rails/commit/7282ed863ca7e6f928bae9162c9a63a98775a19d (see "Response Splitting":http://weblog.rubyonrails.org/2008/10/19/response-splitting-risk for more information).
+
+In addition, Rails 2.1.2 fixes the warning that users of RubyGems 1.3.0 were having with script/generate as well as a range of other minor fixes. Enjoy!
+
+As always, you can install with:<br/> <code>gem install rails --version 2.1.2</code>

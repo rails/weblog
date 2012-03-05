@@ -1,0 +1,17 @@
+---
+layout: post
+title: David Heinemeier Hansson's RailsConf 2006 keynote now online
+categories:
+- general
+- sightings
+author: marcel
+published: true
+date: 2006-07-10 15:09:00.000000000 +01:00
+---
+David's RailsConf 2006 keynote, "Discovering a World of Resources on Rails":http://blog.scribestudio.com/pages/rails/, is now online. 
+
+In this talk he announced the new ActiveResource project, for consuming REST web services and evangelized his new infatuation with regimenting his domain into simple CRUD operations.
+
+You can get the slides and a slice of David's point of view on all this, over at "LoudThinking":http://www.loudthinking.com/arc/000593.html.
+
+For those twitching at the flash video player, "Ruby Central":http://rubycentral.org will be making the footage available in the future in an unflashy format.

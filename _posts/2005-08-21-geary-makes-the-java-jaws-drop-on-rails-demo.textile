@@ -1,0 +1,13 @@
+---
+layout: post
+title: Geary makes the Java jaws drop on Rails demo
+categories: []
+author: admin
+published: true
+date: 2005-08-21 16:46:01.000000000 +01:00
+---
+David Geary has moved into <a href="http://www.jroller.com/page/dgeary/20050714">the Rails caf&eacute;</a> and is now spending a considerable amount of time telling others about this place. Most recently, he did just that again at the No Fluff, Just Stuff symposium in Salt Lake City. His presentation left <a href="http://jroller.com/page/dgeary?entry=rails_drops_jaws">more than a few jaws hanging</a>:
+
+<blockquote>Near the end of that demo, I looked into the audience and saw something that I'd never seen at a NFJS symposium: a woman sitting at a table near the front of the room was looking at me with her mouth wide open and the most incredulous look on her face. It was almost like I could read her mind: "This can't be real!", she must've been thinking. I pointed at her and said "That's pretty amazing, huh?" She nodded a reply, but the look of astonishment never left her face.</blockquote>
+
+The language and environment you choose to work with those make a large difference on productivity. Smart people can succeed with nearly anything, but that doesn't mean they shouldn't look for that edge whenever they can find it.

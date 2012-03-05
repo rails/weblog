@@ -1,0 +1,12 @@
+---
+layout: post
+title: Typo 2.0 is out in force
+categories:
+- launches
+author: admin
+published: true
+date: 2005-05-01 06:49:14.000000000 +01:00
+---
+It took me a week, but dammit, I'll trout the horn of fanfare none the less: <a href="http://blog.leetsoft.com/articles/2005/04/23/typo-2-0-arrives">Typo 2.0 is out!</a> Typo is that little weblogging engine that Tobias started while he was waiting for a client in a coffee shop, but which has now attracted an entire team around it. And boy, is it ever looking great!
+
+It seems that I'm out of excuses for still running this blog on WordPress. I can't wait to port it over to Typo within the foreseeable future.

@@ -1,0 +1,20 @@
+---
+layout: post
+title: ! 'Rails 0.9.5: A world of fixes and tweaks'
+categories:
+- releases
+author: admin
+published: true
+date: 2005-01-26 01:25:03.000000000 +00:00
+---
+This release is mostly about polishing the Rails by closing holes, deficiencies, and subtle extensions to existing features. The long-awaited <a href="http://www.soapbx.com/viewer/show/34">Directions</a> and <a href="http://dev.rubyonrails.com/ticket/487">generator upgrade</a> have been postponed to the next release. The highlights of this release is:
+
+* *Rewritten reloading*: Working in development with models and controllers reloading on every request now resembles "the real thing" a lot more by actually removing the model classes before reloading them. This fixes a bunch of subtle bugs and makes it possible to remove a method and see it reflected without restarting the application. 
+
+* *Create and update collections:* Through calls like <code>text_field "student[]", "last_name"</code>, it's now much easier to get input tags like <code>input name="student[123][last_name]"...</code>, which together with the fact that Base#create, Base#update, Base#destroy, Base#delete, AssociationCollection#build, and AssociationCollection#create now all accept arrays enables handling of many records at once.
+
+* *Stopping after render/redirect:* Any before_filter can now terminate the chain by calling render or redirect and the pattern of redirect-and-return now works again. The first call to either render or redirect wins as well and subsequent calls are ignored.
+
+That's just three of the 37 changes, fixes, and additions available in Rails 0.9.5. You can read the full story in the changelogs for <a href="http://ar.rubyonrails.com/files/CHANGELOG.html">Active Record</a>, <a href="http://ap.rubyonrails.com/files/CHANGELOG.html">Action Pack</a>, and <a href="http://rails.rubyonrails.com/files/CHANGELOG.html">Rails</a>.
+
+This release shouldn't require any changes to your application if you're coming from Rails 0.9.4 unless you were relying on const_missing to load non-AR/AO/AC classes. In that case, you'll have to start being explicit with require_dependency for the reloading to be triggered.

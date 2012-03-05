@@ -1,0 +1,12 @@
+---
+layout: post
+title: Ruby on Rael
+categories:
+- sightings
+author: admin
+published: true
+date: 2005-03-16 21:00:50.000000000 +00:00
+---
+You may be afraid, very afraid: "Ruby on Rael":http://rubyonrael.com/
+
+(That would be IBM's Sam Ruby on O'Reilly's Rael Dornfest)

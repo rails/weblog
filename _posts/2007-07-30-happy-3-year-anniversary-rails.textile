@@ -1,0 +1,9 @@
+---
+layout: post
+title: Happy 3-year anniversary, Rails
+categories: []
+author: David
+published: true
+date: 2007-07-30 17:46:00.000000000 +01:00
+---
+We've passed the 3-year mark for when Rails first saw the light of day as a public release. It's been an amazing ride, don't you think?

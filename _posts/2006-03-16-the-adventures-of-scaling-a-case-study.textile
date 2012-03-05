@@ -1,0 +1,15 @@
+---
+layout: post
+title: ! 'The Adventures of Scaling: A Case Study'
+categories:
+- sightings
+- documentation
+author: marcel
+published: true
+date: 2006-03-16 04:16:00.000000000 +00:00
+---
+"Patrick Lenz":http://poocs.net has started in on a case study "The adventures of scaling":http://poocs.net/articles/2006/03/13/the-adventures-of-scaling-stage-1, in four instalments, on how he made "eins.de":http://eins.de scale, improving its performance by about 60%. 
+
+The online community site was ported from 50,000 lines of PHP to 5,000 lines of Rails. It serves up over 1 million dynamic page impressions on a "good day". This first instalment goes through their unsuitable initial setup and explains why it didn't work, including a diagram of their configuration. As one of the article's commenters says, "Nothing beats a shiny chart". Looks promising. Good start. Thanks for the write up Patrick. Stay tuned.
+
+!http://weblog.rubyonrails.com/files/adventures-in-scaling.jpg!

@@ -1,0 +1,16 @@
+---
+layout: post
+title: Amazon goes Ruby on Rails
+categories:
+- sightings
+author: David
+published: true
+date: 2006-11-29 21:35:00.000000000 +00:00
+---
+Never thought you'd hear that, eh? But that's exactly what "unspun.amazon.com":http://unspun.amazon.com is. A Rails application sitting on the Amazon.com domain. Adam Selipsky from Amazon Web Services introduces the site with this:
+
+<blockquote> UnSpun helps you to find and create ranked lists by gathering votes from workers on Amazon Mechanical Turk and from the UnSpun community. We show the popular opinion, with no "spin" (hence the name) -- along with links to websites with more information about the particular items on the list.  If you don't see the list you are looking for, simply create it and rankings will start populating within a few minutes. 2,294 ranked lists are already on UnSpun, holding 640,107 items, with more coming in all the time.</blockquote>
+
+Congratulations to the AWS team at Amazon!
+
+Coming shortly, we'll have a bunch of other announcements for high-profile companies going Ruby on Rails for various new projects. Exciting times.

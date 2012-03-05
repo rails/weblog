@@ -1,0 +1,10 @@
+---
+layout: post
+title: Interview with David from Canada on Rails
+categories:
+- sightings
+author: David
+published: true
+date: 2006-11-15 18:07:00.000000000 +00:00
+---
+Better late than never, the InfoQ team has finally released an "interview done with yours truly":http://www.infoq.com/interviews/David-Hansson back in April at Canada on Rails. It includes questions like "How long until you are the vendor?" and "WS-* is that bullshit?" and many more fun themes. The questioner is "Obie Fernandez":http://www.jroller.com/page/obie.

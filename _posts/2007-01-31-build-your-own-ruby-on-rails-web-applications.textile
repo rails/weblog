@@ -1,0 +1,16 @@
+---
+layout: post
+title: Build Your Own Ruby on Rails Web Applications
+categories:
+- sightings
+author: rick
+published: true
+date: 2007-01-31 15:27:00.000000000 +00:00
+---
+p(asset-left). !/assets/2007/1/31/sitepoint-rails.png!
+
+"Patrick Lenz":http://poocs.net/ wrapped up yet another Rails book: "Build Your Own Ruby on Rails Web Applications":http://www.sitepoint.com/launch/5d3acfb/3/96, published by SitePoint.  This one takes a beginners look at the Rails 1.2 framework, building a sample Digg-clone in the process.
+
+bq. Build Your Own Ruby on Rails Web Applications is an easy-to-follow, practical and fun guide to Ruby on Rails for beginners. It covers all you need to get up and running, from installing Ruby, Rails and MySQL to building and deploying a fully featured web application.
+
+*Update:* Patrick posted a few "sample chapters":http://www.sitepoint.com/article/learn-ruby-on-rails of the book at Sitepoint.

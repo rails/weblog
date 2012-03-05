@@ -1,0 +1,14 @@
+---
+layout: post
+title: Power Flash and Flex from Rails
+categories:
+- sightings
+author: David
+published: true
+date: 2006-08-28 19:17:00.000000000 +01:00
+---
+<img src="http://www.themidnightcoders.com/images/newindex/blue_rails.jpg" align="right" border="0" />Jon Shumate introduces "WebORB":http://www.themidnightcoders.com/weborb/rubyonrails/index.htm:
+
+<blockquote><i>WebORB for Rails is server-side technology enabling connectivity between Flex and Flash Remoting clients and Ruby on Rails applications. WebORB for Rails can be installed as a plugin into any Rails application to expose Ruby classes as remote services. The product provides a complete implementation of the Adobe's AMF0 and AMF3 messaging protocols and thus supports any Flash Remoting or Flex client.</i></blockquote>
+
+Working with Flash and Flex? Check it out.

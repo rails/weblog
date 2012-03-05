@@ -1,0 +1,14 @@
+---
+layout: post
+title: Interview with Mongrel developer Zed Shaw
+categories:
+- sightings
+author: marcel
+published: true
+date: 2006-05-18 02:38:00.000000000 +01:00
+---
+"Zed Shaw's":http://www.zedshaw.com/ new (mostly) Ruby webserver "Mongrel":http://mongrel.rubyforge.org/ has been getting people's attention lately. What started out as perhaps just an itch has turned into a full time project for Zed, backed by corporate funding.
+
+"Pat Eyler":http://on-ruby.blogspot.com/ caught up with Zed over at "O'Reillynet":http://www.oreillynet.com/ for an "interview":http://www.oreillynet.com/ruby/blog/2006/05/post.html where Zed gives some details about the Mongrel project.
+
+Many have already switched their apps over to use Mongrel. Keep an eye on it as an increasingly viable option for serving up your Rails applications.

@@ -1,0 +1,31 @@
+---
+layout: post
+title: Capistrano 1.1
+categories:
+- tools
+author: jamis
+published: true
+date: 2006-03-06 19:11:00.000000000 +00:00
+---
+Capistrano is a utility for executing tasks in parallel across multiple remote hosts. It was formerly known as SwitchTower.
+
+Installation:
+
+  gem install capistrano
+
+Version 1.1 introduces a few changes:
+
+* The generated capistrano.rake file is simpler now than it used to be. You can easily append custom options to individual tasks now. For instance, if you want the deploy to be silent, instead of verbose, just add "-q" to the parameter list for that task.
+* The generated capistrano.rake file uses the "remote" namespace, so you'll need to have at least Rake 0.7.0. You can still do "rake deploy" and "rake rollback", but the other tasks must be prefixed with the namespace ("rake remote:exec", "rake remote:show_tasks", etc.)
+* The 'switchtower' command is replaced by the 'cap' command.
+* The cap utility is verbose by default. If you want it to be silent, use the -q option. If you want it to be less verbose, you can specify the -v or -vv flags explicitly.
+* The cap utility uses more rake-like command-line semantics. Instead of needing to do "cap -r config/deploy -a deploy", you can just do "cap deploy". It will look for config/deploy.rb, capfile, or Capfile automatically, and will treat raw parameters as action names.
+
+Upgrading/switching from SwitchTower to Capistrano is a little inconvenient. Here's what you'll need to do:
+
+* gem uninstall switchtower (remove all versions)
+* gem install capistrano
+* For each of your Rails projects, do "cap -A .", keeping your deploy.rb
+* For each of your Rails projects, remove lib/tasks/switchtower.rake
+
+Enjoy!

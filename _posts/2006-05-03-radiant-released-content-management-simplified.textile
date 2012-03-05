@@ -1,0 +1,19 @@
+---
+layout: post
+title: ! 'Radiant released: Content Management Simplified'
+categories:
+- releases
+author: marcel
+published: true
+date: 2006-05-03 15:58:00.000000000 +01:00
+---
+<img src="http://weblog.rubyonrails.com/files/radiant-screenshot.jpg"  style="float: right; padding: 0px 0px 10px 10px" />
+"John Long":http://wiseheartdesign.com/ has announced the initial release of "Radiant":http://radiantcms.org/, the simple and elegant CMS that is planned to eventually power the "redesigned":http://redhanded.hobix.com/redesign2005/ reincarnation of the official Ruby website, "ruby-lang.org":http://ruby-lang.org.
+
+You can take a look at some "screenshots":http://www.flickr.com/photos/86701100@N00/sets/72057594122572739/, check out the "demo":http://radiantcms.org/demo/, read   the "source":http://dev.radiantcms.org/, subscribe to the "mailing list":http://radiantcms.org/mailing-list/, and follow along on the "weblog":http://radiantcms.org/blog/. 
+
+Underneath the sheets, John is using his custom templating library "Radius":http://radius.rubyforge.org/, on top of which he's implemented his so called "Behaviors":http://radiantcms.org/blog/2006/05/02/behaviors/. To help you dig into such features, John has provided some starting points for "learning Radiant":http://dev.radiantcms.org/#LearningRadiant as well as a "quickstart for Radius":http://radius.rubyforge.org/files/QUICKSTART.html. If you want to jump aboard and help the development, he's providing some tips on  "how you can contribute":http://dev.radiantcms.org/#Contributing.
+
+@svn co http://dev.radiantcms.org/svn/radiant/trunk/radiant/@
+
+Things called a CMS are notoriously complex. Cheers for keeping it simple.

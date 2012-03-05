@@ -1,0 +1,30 @@
+---
+layout: post
+title: This Week in Rails (September 10, 2008)
+categories:
+- general
+author: Gregg Pollack
+published: true
+date: 2008-09-10 14:32:00.000000000 +01:00
+---
+Welcome to the fifth edition of This Week in Rails, a weekly report with highlights from the Rails community.  Antonio Cangiano (the original author) has been "pretty busy":http://antoniocangiano.com/2008/09/09/a-status-update/, so I figured I'd step in this week.  
+
+As you probably already know, "Rails 2.0.4":http://weblog.rubyonrails.org/2008/9/3/rails-2-0-4-maintenance-release and "Rails 2.1.1":http://weblog.rubyonrails.org/2008/9/5/rails-2-1-1-lots-of-bug-fixes were released this week.  Both are mostly bug fixes, but checkout the changelog if you want all the details.
+
+If your Rails app has alot of heavy duty SQL Queries you may want to take a look at a plugin by Fernando Blat called "Query memcached":http://www.inwebwetrust.net/post/2008/09/08/query-memcached.   This plugin overwrites Rails default query cache functionality, storing all database queries in memcached for use by sequential requests. 
+
+Have you ever implemented an advanced search page for a Rails application? If yes, you may have ended up with bloated controller code.  One solution to the problem is "Searchgasm":http://www.binarylogic.com/2008/9/1/searchgasm-released by Binary Logic which helps you do object based searching, and keep your search code clean and simple.
+
+Ryan Daigle told us about some great new features in Rails Edge, including "Connection Pooling":http://ryandaigle.com/articles/2008/9/7/what-s-new-in-edge-rails-connection-pools, "Shallow Routes":http://ryandaigle.com/articles/2008/9/7/what-s-new-in-edge-rails-shallow-routes, and "Mailer Layouts":http://ryandaigle.com/articles/2008/9/7/what-s-new-in-edge-rails-mailer-layouts.  We should be getting a Rails 2.2 beta any day now, so stay tuned for that.
+
+If you have any Java friends who use "Apache Derby":http://db.apache.org/derby/ who are looking to try out JRuby, Michael Galpin wrote up an "introduction to Rails using JRuby and Derby":http://www.ibm.com/developerworks/opensource/library/os-ad-prototype-jruby/index.html?ca=dgr-btw01os-ad-prototype-jruby&S_TACT=105AGX59&S_CMP=GRsitebtw01.
+
+Last week Mark Imbriaco from 37 Signals put together a great blog entry and screencast which shows how they use "HAProxy in their server setup":http://www.37signals.com/svn/posts/1073-nuts-bolts-haproxy.  If you're not familiar with the benefits of using HAProxy over the apache round robin load balancer, you need to watch his screencast.
+
+Perhaps you've started using jQuery instead of Prototype for Rails.  You might have used a plugin for this (ex. "jQuery on Rails":http://ennerchi.com/projects/jrails), but if you started from scratch you might have run into that problem with sending authenticity tokens with your AJAX requests.  Lawrence Pit posted "the jQuery code you'll need":http://blog.lawrencepit.com/2008/09/04/unobtrusive-jquery-rails/ to take care of this.
+
+"Neverblock":http://www.espace.com.eg/neverblock/ is a library that allows you to use Ruby Fibers to write non-blocking concurrent code.  This project recently released a "non-blocking PostgreSQL adapter":http://www.espace.com.eg/neverblock/blog/2008/08/24/neverblock-and-activerecord-concurrent-db-access-without-threads/, a "non-blocking MySQL adapter":http://www.espace.com.eg/neverblock/blog/2008/08/28/neverblock-mysql-support/, and most recently got their Fiber library "running on Ruby 1.8 with Rails":http://www.espace.com.eg/neverblock/blog/2008/09/04/neverblock-instant-scaling-for-your-rails-apps/ with some amazing benchmarks!  It's still a very young project, but it's one more step towards a safely multi-threaded Rails stack.
+
+Lastly, I've got some events to tell you about.  "Ruby DCamp":http://rubydcamp.org/ is taking place October 11th-12th in Arlington, VA, the "Rails Summit Latin America":http://site.locaweb.com.br/railssummit/?language=7 is taking place October 15th and 16 in Sao Paulo, Brazil, and the "South Carolina Ruby Conference":http://scrubyconf.colaruby.org/ is on October 18th in Columbia, SC.
+
+Thanks for reading! If you would have rather listened to this information (with slightly more detail), you should check out the "Rails Envy Podcast #46":http://www.railsenvy.com/2008/9/10/rails-envy-podcast-episode-046-09-10-2008 which came out today.  It's no mistake that it's covering the same material (I help with the podcast).

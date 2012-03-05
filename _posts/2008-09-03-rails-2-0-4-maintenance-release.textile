@@ -1,0 +1,18 @@
+---
+layout: post
+title: ! 'Rails 2.0.4: Maintenance release'
+categories:
+- releases
+author: David
+published: true
+date: 2008-09-03 09:43:00.000000000 +01:00
+---
+Thanks to Git it's been a lot easier to maintain older branches of the code base, so we've taken the opportunity to backport a bunch of bug fixes to the 2.0 branch and here's the release for that. 
+
+The only major issue is that we've fixed the REXML DoS vulnerability with a monkey patch that ships in the box. So if you're on 2.0 and haven't dealt with the issue already, you can upgrade to 2.0.4 and get it fixed.
+
+You can install with: <code>gem install rails --version 2.0.4</code>
+
+"See all the changes":http://gist.github.com/8565
+
+<b>UPDATE:</b> The actual 2.0.4 gem didn't get published yesterday due to a bug in the release script. It's been fixed and 2.0.4 is actually available on the main gem repository. Sorry about that!

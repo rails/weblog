@@ -1,0 +1,16 @@
+---
+layout: post
+title: Who wants faster ERb rendering for free?
+categories:
+- sightings
+author: David
+published: true
+date: 2006-10-02 12:44:00.000000000 +01:00
+---
+Stefan Kaes from "RailsExpress":http://railsexpress.de has "recently released":http://railsexpress.de/blog/articles/2006/08/15/rails-template-optimizer-beta-test a Rails plugin that greatly reduces the time Rails spends for rendering ERb templates. He's now looking for help to get the code out of beta.
+
+The basic idea behind the plugin is to improve rendering speed by partially evaluating the code produced by ERb at template compile time. This is especially helpful for pages that contain many calls to helpers that make use of Rails' route generation, because most routes can be resolved at template compile time.
+
+Stefan has reported some data on the speedups obtainable which looks very promising.
+
+He has set up "Trac":http://railsexpress.de/plugins/trac for you to submit bug reports, feature requests and patches.

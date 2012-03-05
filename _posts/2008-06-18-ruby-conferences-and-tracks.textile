@@ -1,0 +1,84 @@
+---
+layout: post
+title: Ruby Conferences and Tracks
+categories:
+- sightings
+author: Gregg Pollack
+published: true
+date: 2008-06-18 14:15:00.000000000 +01:00
+---
+There are several Ruby / Rails related conferences coming up in the next few months.  Some of these are smaller regional conferences, and some of them are larger conferences which have their own Ruby tracks.  If you know of any additional events, please comment and I'll add them to this list.
+
+*July 21-25 - "OSCON":http://en.oreilly.com/oscon2008/public/content/home* in
+Portland, Oregon
+
+"!/assets/2008/6/17/Oscon_1.png!":http://en.oreilly.com/oscon2008/public/content/home
+
+This year O'Reilly's "Open Source Convention":http://en.oreilly.com/oscon2008/public/content/home is sporting a nice looking "Ruby Track":http://en.oreilly.com/oscon2008/public/schedule/topic/Ruby with several advanced topics.  Yup, this is at the Portland Convention Center, same place as Railsconf. 
+
+Cost: $1345 (sessions only)
+
+*August 1-2 - "Ruby Nation":http://www.rubynation.org/* in
+Herndon, VA
+
+"!/assets/2008/6/17/RubyNation-1.png!":http://www.rubynation.org/
+
+A Washington DC Regional area Ruby conference with a great location: right next to the Washington Dulles Airport. 
+
+Cost: $175
+
+*August 8-9 - "Ruby Hoedown":http://www.rubyhoedown.com* in
+Huntsville, AL
+
+"!/assets/2008/6/17/RubyHoeDown_1.png!":http://www.rubyhoedown.com
+
+A southeast regional Ruby conference located just down the street from the Space Center (aka Spacecamp).  
+
+Cost: $199
+
+*August 15-17 - "erubycon":http://www.erubycon.com/* in
+Columbus, OH
+
+"!/assets/2008/6/17/Erubyconf_1.png!":http://www.erubycon.com/
+
+A conference dedicated to Ruby's place in the Enterprise, organized by EdgeCase. 
+
+Cost: $199
+
+*September 4-6 - "Lone Star Ruby Conference":http://www.lonestarrubyconf.com/* in
+Austin, TX
+
+"!/assets/2008/6/17/LoneStar_1.png!":http://www.lonestarrubyconf.com/
+
+A regional Ruby conference deep in the heart of Texas.  They haven't announced their speakers or opened registration yet, but I'm told they will shortly. 
+
+Cost: $250
+
+*September 20 - "Windy City Rails":http://www.windycityrails.org/* in Chicago, IL
+
+"!/assets/2008/6/17/WindyCityRails_1.png!":http://www.windycityrails.org/
+
+A day long Rails conference in Chicago covering the freshest topics in the Rails world put together by "Chicago Ruby":http://www.chicagoruby.org. 
+
+Cost: $99
+
+*November 17-21 - "QCon":http://qcon.infoq.com/sanfrancisco-2008/conference/* in
+San Francisco, CA
+
+"!/assets/2008/6/17/QCon_1.png!":http://qcon.infoq.com/sanfrancisco-2008/conference/
+
+"InfoQ":http://www.infoq.com and Trifork (from JAOO) put together this annual San Francisco conference with a "DSLs in Practice":http://qcon.infoq.com/sanfrancisco-2008/tracks/show_track.jsp?trackOID=165 and "Ruby for the Enterprise":http://qcon.infoq.com/sanfrancisco-2008/tracks/show_track.jsp?trackOID=172 track that any Ruby programmer would probably enjoy. 
+
+Cost: $1,695 (sessions only)
+
+Also worth mentioning:
+
+* "Ruby Fringe":http://rubyfringe.com/ is July 18-20, but tickets are no longer available.
+* "Railsconf Europe":http://en.oreilly.com/railseurope2008/public/content/home is September 2-4 as "David announced":http://weblog.rubyonrails.org/2008/6/10/railsconf-europe-registration-is-open last week.
+* Rubyconf is November 6-8 in "Orlando, FL":http://www.omnihotels.com/FindAHotel/OrlandoChampionsGate.aspx, but "rubyconf.org":http://www.rubyconf.org doesn't have any information about that yet.
+* Voices that Matter: "Professional Ruby Conference":http://www.voicesthatmatter.com/ruby2008/ is November 17-20 in Boston, MA.  I'm told more details will be revealed next month.
+* Merb Camp is hasn't been officially announced yet, but I hear it might be October 11-12 in San Diego. 
+* "Railscamp #3":http://railscamp08.org/ is going on this weekend (June 20-22) near Sydney, Australia, and there's also a Railscamp UK being planned for sometime in August.
+* "RuPy":http://www.rupy.ru/ is this weekend (Saturday, June 21) in Omsk, Russia. 
+
+If I've missed any conferences, please let me know and I'll be happy to add them.

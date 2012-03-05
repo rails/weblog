@@ -1,0 +1,16 @@
+---
+layout: post
+title: Capistrano mailing list
+categories:
+- general
+author: jamis
+published: true
+date: 2006-09-18 14:27:00.000000000 +01:00
+---
+After getting all inspired by "Kathy Sierra's keynote":http://www.snowblink.co.uk/articles/2006/09/15/railsconf-europe-2006-part-two at the RailsConf last week, and reflecting on the requests I've received for a Capistrano-specific mailing list, I decided it was time to do something about it.
+
+<small>(Btw, you can read more about Capistrano "in the manual":http://manuals.rubyonrails.com/read/book/17.)</small>
+
+So, I started a mailing list for Capistrano. Currently, it is intended for any and all discussion related to Capistrano--sharing recipe files, relating success (or horror!) stories, posting patches, discussing tips and techniques, etc. So if you use Capistrano, or want to be using Capistrano, go ahead and sign up! You can join by sending an email to capistrano-subscribe@googlegroups.com, or by using the Google Groups web interface at http://groups.google.com/group/capistrano.
+
+Let the good times roll!

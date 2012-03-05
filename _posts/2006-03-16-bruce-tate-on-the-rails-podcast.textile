@@ -1,0 +1,17 @@
+---
+layout: post
+title: Bruce Tate on the Rails podcast
+categories:
+- sightings
+- horizon
+author: marcel
+published: true
+date: 2006-03-16 03:28:00.000000000 +00:00
+---
+While down in Austin for "SXSW":http://2006.sxsw.com/, "Geoffrey Grosenbach":http://nubyonrails.com/ caught up with "Bruce Tate":http://weblogs.java.net/blog/batate/ for the "Ruby on Rails podcast":http://podcast.rubyonrails.com. Bruce talks about how Rails is the catalyst behind a sea change in the development world. Download as "mp3":http://paranode.com/~topfunky/audio/2006/Bruce-Tate.mp3 or "mp4":http://paranode.com/~topfunky/audio/2006/Bruce-Tate.m4a.
+
+A long time Java developer, earlier this year Bruce put out a book called "Beyond Java":http://www.oreilly.com/catalog/beyondjava/ which caused quite a stir.
+
+He also just wrote an article for IBM's "developer Works":http://www-128.ibm.com/developerworks/ about Active Record aimed at Java developers called "Crossing Borders: Exploring Active Record":http://www-128.ibm.com/developerworks/java/library/j-cb03076/?ca=dgr-lnxw .
+
+Keep an eye out for his upcoming "Java to Ruby":http://www.pragmaticprogrammer.com/titles/fr_j2r/ book. Your boss will thank you for alerting him/her to it one day.

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Thomas Fuchs on Audible Ajax
+categories:
+- sightings
+author: jamis
+published: true
+date: 2006-01-09 13:37:00.000000000 +00:00
+---
+"Thomas Fuchs":http://mir.aculo.us, a Rails "core developer":http://www.rubyonrails.org/core and the creator of the fantastic "script.aculo.us library":http://script.aculo.us/, has been interviewed on "Audible Ajax":http://ajaxian.com/archives/audible-ajax-episode-12-thomas-fuchs-of-scriptaculous.  Learn about the origins and future of script.aculo.us, Rails with Ajax, the relationship between prototype and script.aculo.us, and more.

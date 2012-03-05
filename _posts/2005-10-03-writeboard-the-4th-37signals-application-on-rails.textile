@@ -1,0 +1,11 @@
+---
+layout: post
+title: ! 'Writeboard: The 4th 37signals'' application on Rails'
+categories: []
+author: admin
+published: true
+date: 2005-10-03 13:54:21.000000000 +01:00
+---
+Writeboards are collaborative documents with version control, difference tracking, and comments. They're created through <a href="http://writeboard.com/">Writeboard.com</a>, the latest Rails application from 37signals. And if you happen to have a <a href="http://www.backpackit.com">Backpack</a>, you can even manage your Writeboards from there. It's totally free and you can create as many Writeboards as you like.
+
+The code underneath is currently 908 lines, according to "rake stats".

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Riding Rails: {{ page.title }}</title>
+{% include head.html %}
+{% include google.html %}
+  </head>
+  <body>
+{% include navigation.html %}
+    <div id="wrapper">
+      <div id="content" class="section"><section>
+<!-- Begin Content -->
+        <div class="hentry article"><article>
+          <div class="entry-header header"><header>
+            <h2 class="entry-title">
+              <a href="{{ page.url }}" rel="bookmark">{{ page.title | escape }}</a>
+            </h2>
+            <p class="entry-meta">
+              Posted by <span class="vcard"><span class="fn">{{ page.author }}</span></span>,
+              <span class="published" title="{{ page.date | date_to_xml_schema }}">{{ page.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
+            </p>
+          </header></div>
+          <div class="entry-content section"><section>
+<!-- Begin Post -->
+{{ content }}
+<!-- End Post -->
+          </section></div>
+          <div class="entry-footer footer"><footer>
+            <p>
+{% if page.categories.size > 0 %}
+              <span class="categories">Posted in
+{% for category in page.categories %}
+{% if forloop.last %}
+                <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
+{% else %}
+                <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
+{% endif %}
+{% endfor %}
+              </span> |
+{% endif %}
+              <a href="{{ page.url }}#disqus_thread" data-disqus-identifier="{{ page.url }}">Comments</a>
+            </p>
+          </footer></div>
+        </article></div>
+        <div class="pagination nav"><nav>
+        {% if page.previous %}
+          <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">&larr; Previous</a>
+        {% endif %}
+        {% if page.next %}
+          <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next &rarr;</a>
+        {% endif %}
+        </nav></div>
+{% include comments.html %}
+<!-- End Content -->
+      </section></div>
+      <div id="sidebar" class="aside"><aside>
+{% include sidebar.html %}
+      </aside></div>
+    </div>
+{% include footer.html %}
+{% include disqus.html %}
+  </body>
+</html>

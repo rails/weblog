@@ -1,0 +1,36 @@
+---
+layout: post
+title: ! 'Rails 0.9.4.1: Cleaning up the mess'
+categories:
+- releases
+author: admin
+published: true
+date: 2005-01-18 14:44:38.000000000 +00:00
+---
+Seems like the 0.9.4 release required a public launch in order to find the last snags. No game, no pain, or something. The changes are:
+
+*Action Mailer*
+* Fixed sending of emails to use Tmail#from not the deprecated Tmail#from_address
+
+
+*Action Pack*
+* Fixed bug in page caching that prevented it from working at all 
+
+* Fixed a bug where cookies wouldn't be set if a symbol was used instead of a string as the key
+
+* Added assert_cookie_equal to assert the contents of a named cookie
+
+
+*Active Record*
+* Fixed that the belongs_to and has_one proxy would fail a test like 'if project.manager' -- this unfortunately also means that you can't call methods like project.manager.build unless there already is a manager on the project #492 [Tim Bates]
+
+* Fixed that the Ruby/MySQL adapter wouldn't connect if the password was empty #503 [Pelle]
+
+
+*Rails*
+
+* Added 5-second timeout to WordNet alternatives on creating reserved-word models #501 [Marcel Molina]
+
+* Fixed binding of caller #496 [Alexey]
+
+...you may need to use "gem install rails", and not just "gem update", to install the latest version.

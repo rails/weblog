@@ -1,0 +1,16 @@
+---
+layout: post
+title: Rails logo remixed by Olivier Hericord
+categories:
+- general
+author: admin
+published: true
+date: 2004-12-31 01:05:21.000000000 +00:00
+---
+Despite my initial resistance, Olivier Hericord pressed on and prevailed -- against my own odds -- to produce a remixed version of the new logo that was <a href="http://weblog.rubyonrails.com/archives/2004/12/29/variations-on-a-railed-theme/#comments">greeted</a> by the majority of the community as an improvement. And I concur. The remix signals less rigidness and more fun than the original -- two important properties to Rails development.
+
+<img src="http://web.rubyonrails.com/images/rails_logo_original_big.png" width="250" height="319" style="margin-right: 30px" /><img src="http://web.rubyonrails.com/images/rails_logo_remix_big.png" width="250" height="319" /><p align="center"><i>Original &nbsp;&nbsp; vs &nbsp;&nbsp; Remix</i></p>
+
+This process also proved that patches are not just for software. Once you <a href="http://weblog.rubyonrails.com/archives/2004/12/28/open-sourcing-the-rails-logo/">share the source</a>, improvements are bound to occur. That's another reason that I'm welcoming the remix. The community protested, the community acted, the community celebrated change, and now, hopefully, the community <i>moved on</i>.
+
+<i>(Just in case you're not quite ready for the last step: "Source for the remix":http://media.rubyonrails.com/logo/rails_logo_remix.ai in AI format)</i>

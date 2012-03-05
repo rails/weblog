@@ -1,0 +1,31 @@
+---
+layout: post
+title: In case you're having trouble installing gems...
+categories:
+- tools
+author: chad
+published: true
+date: 2007-02-06 19:54:00.000000000 +00:00
+---
+A significant number of Rails developers have reported problems installing gems with the updated RubyGems release.  If you're experiencing a problem that looks anything like this:
+
+
+  $ gem update sqlite3-ruby Updating installed gems… ERROR: While executing gem … (NoMethodError) undefined   
+    method `refresh’ for #<hash:0x14e0a4c>
+
+...you should remove your local source_cache file.  This is the file that locally caches any gem metadata from the gem server to avoid having to re-download it every time you execute a gem command.  
+
+To discover the location of this file on your system, run the following command:
+
+  $ gem env
+  RubyGems Environment:
+    - VERSION: 0.9.2 (0.9.2)
+    - INSTALLATION DIRECTORY: /usr/local/lib/ruby/gems/1.8
+    - GEM PATH:
+       - /usr/local/lib/ruby/gems/1.8
+    - REMOTE SOURCES:
+       - http://gems.rubyforge.org
+
+The source_cache file should be in the path labeled by GEM PATH.  Removing that file should clear up any related issues.
+
+This solution is a workaround pending a fix by the RubyGems team.

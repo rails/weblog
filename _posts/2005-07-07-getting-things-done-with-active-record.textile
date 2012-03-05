@@ -1,0 +1,14 @@
+---
+layout: post
+title: Getting Things Done with Active Record
+categories:
+- sightings
+author: admin
+published: true
+date: 2005-07-07 11:26:45.000000000 +01:00
+---
+Mike Clark has a great article on <a href="http://clarkware.com/cgi/blosxom/2005/07/07#GettingThingsDoneAR">how to dig deeper into Active Record</a> by using <code>acts_as_nested_set</code> and <code>find_by_sql</code>. On the notion of using SQL in an OO model, he writes:
+
+<blockquote>Some may think this breaks object purity. I think it's just productive. After all, I know there's a database under there, and SQL is incredibly powerful for querying relational data. Most of the time I'd rather not write SQL because I'm doing CRUD operations. In those cases, Active Record intervenes to boost my productivity. And when SQL is the best tool for the job, Active Record gets out of the way to let me be most productive.</blockquote>
+
+I couldn't agree more. SQL is not bad at all. Once you take out the repetition for the simple cases, you're left with a very powerful query language for the hard cases.

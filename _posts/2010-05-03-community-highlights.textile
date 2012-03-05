@@ -1,0 +1,76 @@
+---
+layout: post
+title: Community Highlights
+categories:
+- activism
+author: Gregg Pollack
+published: true
+date: 2010-05-03 16:10:00.000000000 +01:00
+---
+<img src="/assets/2008/10/10/BlueSky.png" />
+
+It's that time again, to summarize a few interesting Rails links to highlight some of the best of the community.  All of these were initially covered on the "Ruby5 Podcast":http://ruby5.envylabs.com, the twice weekly Ruby newscast.
+
+*Rails 3 Content*
+
+The next "Rails3 Bugmash":http://railsbridge.org/news_items/12 is taking place May 15th and 16th.  If you've never contributed to Rails, this is your chance to give back a little and do your part to make Rails 3 the best version ever.  
+
+To get a complete picture of routes in Rails 3, Rizwan Reza "covered it best":http://www.engineyard.com/blog/2010/the-lowdown-on-routes-in-rails-3/ in an article over on the Engine Yard blog.  If you dig the Engine Yard Rails 3 content, they recently created "Rails Dispatch":http://www.railsdispatch.com, where they have articles and screencasts published weekly. 
+
+Alex Maccaw recently used the Rails 3 ActiveModel abstraction to build an ActiveRecord-like in-memory database called "Supermodel":http://github.com/maccman/supermodel. You get all of the ActiveRecord goodness, such as validations, callbacks, and observers, but with none of that database headache.
+
+As you may already know, the "arel library":http://github.com/rails/arel from Rails 3 gives us a great new syntax for creating queries. Under the covers, arel converts your _where_ conditions into sql is by using something called a PredicateBuilder. Ernie Miller recently put out a plugin called "MetaWhere":http://metautonomo.us/2010/04/15/introducing-metawhere/ that takes advantage of these PredicateBuilders to give arel even more functionality.
+
+Lastly, if it's still not clear to you how awesome bundler is, go read "Yehuda's recent post":http://yehudakatz.com/2010/04/12/some-of-the-problems-bundler-solves/ on the topic.
+
+*Authorization*
+
+<img src="/assets/2009/9/1/camera.jpg" />
+
+Do you ever find the need to access _current_user_ in your models?  This is often required when you're logging model/table changes on a per user basis.  There are many hacks to accomplish this, but David Bock has a gem called "SentientUser":http://github.com/bokmann/sentient_user which does this a little cleaner.  
+
+Once your websites goes big and you start to worry about malicious user attacks, you may want to take a look at Arto Bendiken and Brendon Murphy's "Rack::Throttle Middleware":http://datagraph.rubyforge.org/rack-throttle/.  Throttle does just want you think it does, allowing you to limit the number of requests a user can ping your site (per second).  
+
+Lastly, Ryan Bates released version 1.1 of "CanCan":http://wiki.github.com/ryanb/cancan/upgrading-to-11, his authorization and permission library that allows you to restrict what your users can do throughout your application.  
+
+*Service Libraries*
+
+<img src="/assets/2008/10/10/libraries.png" />
+
+You may have heard that the Facbook API is now adopting OAuth2.  If you're ready to jump in, Michael Bleigh released the "OAuth2 gem":http://intridea.com/2010/4/22/oauth2-gem-just-in-time-for-facebook-graph just last week.  
+
+Rails makes a great RESTful backend for iPhone applications, and recently Anthony Moralez created "APN_on_rails":http://github.com/PRX/apn_on_rails which makes it super easy to do Apple Push Notifications.  
+
+There's no need to reinvent the wheel if your Rails application needs e-commerce, this is where the "Spree gem":http://spreecommerce.com/blog/2010/03/13/spree-0100-released/ comes in, which recently hit version 0.10.0, containing a bunch of new features.
+
+*Testing*
+
+<img src="/assets/2008/10/10/performance.png" />
+
+Does your Rails application have a monster testing library that takes forever to run?  Then it may be time to take a look at "Hydra":http://github.com/ngauthier/hydra by Nick Gauthier, a distributed testing framework which allows you to run your tests in parallel locally or across remote servers.  
+
+Some people think cucumber can be too verbose for integration tests (which clients may never read).  If you think cucumber is for vegetarians, then perhaps it's time to taste some "Steak":http://github.com/cavalle/steak by Luismi Cavalle.  Steak is a small library which helps you generate quick and clean acceptance/integration tests using RSpec.  
+
+Talking about RSpec, there are some new conventions out there to clean up your old RSpec code.  If you haven't started using "Let", then it may be time to look through a few of "Jon Larkowski's slides":http://pure-rspec-rubynation.heroku.com/.
+
+*Additional Useful Libraries*
+
+If you ever find yourself with odd memory issues then it's probably time to use "memprof.com":http://memprof.com/, a new web service by Joe Damato and Ruby Hero Aman Gupta.  Memprof allows you to collect memory usage information from a Ruby process and immediately upload and view it using an intuitive web interface.  
+
+Rails applications are often full of forms, and sometimes you even need to give your clients the ability to create different types of forms or surveys.  This is where the "Census gem":http://blog.envylabs.com/2010/04/census-rails-demographics-collection/ comes in, providing an admin interface for creating forms, and even the ability to search through the results.  
+
+To wrap things up, "delayed_job":http://opensoul.org/2010/4/3/delayed_job-2-0 recently hit 2.0, and you'll want to upgrade if you have an older version.  The new version has some performance improvements and adds support for non-ActiveRecord ORMs.
+
+*Additional Content*
+
+<img src="/assets/2009/10/22/media.png">
+
+To keep track of Ruby conferences check out "Ruby There":http://www.rubythere.com, a listing of all the upcoming conferences and even when the Call for Proposals are due.
+
+For more news and libraries check out the "Ruby5 podcast":http://ruby5.envylabs.com.  If you don't usually listen to audio, you can just subscribe to the "RSS feed":http://feeds.feedburner.com/Ruby5 which contains a summary of everything covered.  
+
+If you have any stories/libraries you'd like to spread the word about, feel free to email ruby5@envylabs.com and we'll at least get you covered on the podcast. Thanks!
+
+<small>Image Credit: <a href="http://www.flickr.com/photos/ecstaticist/2589723846/">Blue Sky on Rails</a> by <a href="http://www.flickr.com/photos/ecstaticist/2589723846/">ecstaticist</a>, <a href="http://www.flickr.com/photos/formication/2759753856/">Analog Solutions 606 Mod</a> by <a href="http://www.flickr.com/photos/formication/2759753856/">Formication</a>,  <a href="http://www.flickr.com/photos/onegoodbumblebee/839927986/">Rainbow</a> by <a href="http://www.flickr.com/photos/onegoodbumblebee/839927986/">One Good Bumblebee</a>. <a href="http://www.flickr.com/photos/muehlinghaus/241755891/">Orange County Security</a> by <a href="http://www.flickr.com/photos/muehlinghaus/">henning</a>, <a href="http://www.flickr.com/photos/tochis/1302364866/">remember</a> by <a href="http://www.flickr.com/photos/tochis/1302364866/">tochis</a>, <a href="http://www.flickr.com/photos/neeku_sh/2298055066/">Darwin Was Right About Media Players!</a> by <a href="http://www.flickr.com/photos/neeku_sh/">Neeku</a>, <a href="http://www.flickr.com/photos/redjar/136216608/">remote controls</a> by <a href="http://www.flickr.com/photos/redjar/">redjar</a>.</small>
+
+<small>This post has been translated into <a href="http://pc.de/pages/asnony-supolkі">Belorussian</a> provided by <a href="http://pc.de/">PC</a></small>

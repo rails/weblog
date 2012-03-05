@@ -1,0 +1,19 @@
+---
+layout: post
+title: Ruby Hero Awards 2011
+categories:
+- praise
+- activism
+author: Gregg Pollack
+published: true
+date: 2011-04-07 14:12:00.000000000 +01:00
+---
+<a href="http://rubyheroes.com" title="Ruby Hero Awards"><img src="/assets/2010/3/26/RubyHero_1.gif" alt="Ruby Heroes"></a>
+
+It's that time again to take a moment to think about those who have impacted the Ruby community this year but have not received the recognition they deserve.  We have given away <a href="http://www.rubyheroes.com/heroes" title="Previous Ruby Heroes">eighteen awards</a> in the past three years at Railsconf, and this year we are preparing to give away six more.
+
+h2. But we need your help.
+
+So, if you know someone who has contributed greatly this year please take a moment to show some gratitude by nominating them on "RubyHeroes.com":http://rubyheroes.com.  In two weeks the "Ruby Heroes from last year":http://rubyheroes.com/heroes will look at the nominations and decide who should receive the awards (this way there's no popularity contest).  However, your nominations do matter, so please "take a moment":http://rubyheroes.com and spread the gratitude.
+
+The winners will be announced live on stage at "Railsconf 2011":http://en.oreilly.com/rails2011.

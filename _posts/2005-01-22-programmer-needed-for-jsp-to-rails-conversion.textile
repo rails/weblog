@@ -1,0 +1,12 @@
+---
+layout: post
+title: Programmer needed for JSP to Rails conversion
+categories:
+- jobs
+author: admin
+published: true
+date: 2005-01-22 00:34:07.000000000 +00:00
+---
+Gately's would like to dump their <a href="http://www.gatelys.com/">JSP-powered shop</a> and upgrade to Rails. They're looking for Rails talent to help them do just that:
+
+<blockquote>We need a developer who is proficient in (and hates) JSP for a contract-to-hire position which would involve replacing a JSP app with a Rails app for a growing e-tailer in the Denver, CO area. Would prefer local talent, but would consider teleworkers from anywhere with the right skills. Please contact me (Solomon White, solo [at] gatelys [dotcom]) if you feel you might be a fit.</blockquote>

@@ -1,0 +1,76 @@
+---
+layout: post
+title: Capistrano 2.1
+categories:
+- releases
+author: jamis
+published: true
+date: 2007-10-14 18:03:00.000000000 +01:00
+---
+After a much larger delay than I would have liked, "Capistrano":http://www.capify.org 2.1 is now available! (Capistrano is a utility for executing commands on multiple remote machines in parallel, and is the tool of choice for many Rails developers for automating deployment.) There is a lot going on in this release, including some pretty exciting changes. As ever, install it via RubyGems with:
+
+<pre>  gem install capistrano</pre>
+
+Here's what's new, roughly in order of magnitude:
+
+*No default PTY.* Prior to 2.1, Capistrano would request a pseudo-tty for each command that it executed. This had the side-effect of causing the profile scripts for the user to _not_ be loaded. Well, no more! As of 2.1, Capistrano no longer requests a pty on each command, which means your .profile (or .bashrc, or whatever) will be properly loaded on each command! Note, however, that some have reported on some systems, when a pty is not allocated, some commands will go into non-interactive mode automatically. If you're not seeing commands prompt like they used to, like svn or passwd, you can return to the previous behavior by adding the following line to your capfile:
+
+<pre>  default_run_options[:pty] = true</pre>
+
+*Disable sh wrapping.* Some shared hosts do not allow the POSIX shell to be used to execute arbitrary commands, which is what Capistrano has done since 2.0. If you're on such a host, you can add the following line to your capfile:
+
+<pre>  default_run_options[:shell] = false</pre>
+
+Capistrano will then run the command directly, rather than wrapping it in an "sh -c" command. Note, though, that this means that your own user shell on the remote hosts _must_ be POSIX compatible, or you'll get cryptic errors.
+
+*Git SCM support.* Many thanks to Garry Dolley, Geoffrey Grosenbach, and Scott Chacon for their work on the new Git SCM module for Capistrano. If you're a user of Git, you can now do:
+
+<pre>  set :scm, :git</pre>
+
+*Accurev SCM support.* Thanks to Doug Barth, all you Accurev users can now enjoy Capistrano, too. Just do:
+
+<pre>  set :scm, :accurev</pre>
+
+*Rails' Plugin Support.* Capfile's generated via the "capify" utility will now include a line that will autoload all recipes from <notextile>vendor/plugins/*/recipes/*.rb</notextile>. If you want this feature and you've already got a Capfile (and you don't mind losing any changes you might have made to your Capfile), you can delete the Capfile and re-run "capify .". Or, you can just add the following line to your Capfile, before the line that loads 'config/deploy':
+
+<pre>  Dir['vendor/plugins/*/recipes/*.rb'].each { |plugin| load(plugin) }</pre>
+
+*Windows-safe reads.* Any time Capistrano needs to read a file's contents, it will now use the "b" flag, so that binary reads on Windows do not corrupt the file.
+
+*Cap shell and sudo.* The Capistrano shell now properly recognizes sudo commands and prompts for the password correctly.
+
+*Use `match' to check dependencies.* There is a new remote dependency method for deploy:check: "match". You can now look for arbitrary regular expressions in the output of various commands to see if things are set up correctly:
+
+<pre>  depend :remote, :match, "rake -V", /version 0\.7/</pre>
+
+*Namespaces#top.* Sometimes you'll find yourself wanting to execute a task from within another task, but the parent namespace of the target task is conflicting with a similarly-named namespace, and things are breaking. You can now use the "top" method to jump to the top of the namespace hierarchy:
+
+<pre>
+  namespace :apache do
+    namespace :deploy do
+      task :restart do
+        run "restart apache"
+        top.deploy.restart
+      end
+    end
+  end
+</pre>
+
+*Other changes.* There are lots of other, smaller bug fixes and changes, too:
+
+* Default to 0664 instead of 0660 on upload.
+* Fix deploy:pending to query SCM for the subsequent revision so that it does not include the last deployed change.
+* Prefer 'Last Changed Rev' over 'Revision' when querying latest revision via Subversion.
+* Explicitly require 'stringio' in copy_test.
+* When Subversion#query_revision fails, give a more sane error.
+* Don't run the upgrade:revisions task on non-release servers.
+* Use the --password switch for subversion by default, but add :scm_prefer_prompt variable for those who'd rather not send the password on the command-line.
+* Use sudo -p switch to set sudo password prompt to something predictable.
+* Allow independent configurations to require the same recipe file within the same Ruby process.
+* Allow auth-caching of subversion credentials to be enabled via :scm_auth_cache.
+* Don't let a task trigger itself when used as the source for an "on" hook.
+* Add version_dir, current_dir, and shared_dir variables for naming the directories used in deployment.
+* Use the :runner variable to determine who to sudo as for deploy:restart.
+* Change the "-h" output so that it does not say that "-q" is the default.
+
+Enjoy! And please report any bugs on the "Rails trac":http://dev.rubyonrails.org, with the component set to "Capistrano".

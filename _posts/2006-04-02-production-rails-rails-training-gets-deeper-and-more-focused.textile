@@ -1,0 +1,17 @@
+---
+layout: post
+title: ! 'Production Rails: Rails Training Gets Deeper and More Focused'
+categories: []
+author: chad
+published: true
+date: 2006-04-02 21:41:00.000000000 +01:00
+---
+As the art of Rails development matures,  so do the ways we teach and learn about it.  Following the release of Rails 1.1, the state of Rails training just took a small step forward along with it.
+
+Mike Clark "just announced":http://clarkware.com/cgi/blosxom/2006/04/02#AnnouncingProductionRails a new course from the perpetually-sold-out "Pragmatic Studio":http://www.pragmaticstudio.com on "Production Rails":http://pragmaticstudio.com/deploy/index.html deployment.
+
+Since the release of Rails, teams have been steadily forming around new products and projects in Rails.  While there have been a lot of great resources for learning how to do Rails _development_, this is the first in a sure-to-be-expanding market for training and documentation on how best to deploy and manage a production Rails application.  The course is being taught by "Rails Studio":http://pragmaticstudio.com/rails/index.html veteran and "Pragmatic Project Automation":http://pragmaticprogrammer.com/starter_kit/au/index.html author "Mike Clark":http://clarkware.com and Rails deployment expert (not to mention creator of Tomcat and Ant) "James Duncan Davidson":http://duncandavidson.com/about.
+
+The location and exact time haven't yet been decided, so "signing up to be notified":http://pragmaticstudio.com/deploy/register.html just _may_ have an impact.
+
+How do you think the training and documentation market for Rails will continue to evolve? What would _you_ like to see next?

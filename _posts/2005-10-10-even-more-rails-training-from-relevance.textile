@@ -1,0 +1,11 @@
+---
+layout: post
+title: Even more Rails training from Relevance
+categories: []
+author: admin
+published: true
+date: 2005-10-10 19:24:39.000000000 +01:00
+---
+In case the public, scheduled training programs doesn't fit your organization, consider <a href="http://www.relevancellc.com/main/rails">Relevance for on-site appointments</a> instead. Justin Gethland and team offers a wide range of packages. Including a 2-day Advanced Rails program. 
+
+Any other training offers out there we've missed?

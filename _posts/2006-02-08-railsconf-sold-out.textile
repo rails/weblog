@@ -1,0 +1,11 @@
+---
+layout: post
+title: RailsConf sold out!
+categories: []
+author: marcel
+published: true
+date: 2006-02-08 20:32:00.000000000 +00:00
+---
+We warned you it was going to happen, and lo, in less than a week, "RailsConf has SOLD OUT":http://railsconf.org/articles/2006/02/08/railsconf-is-sold-out. 
+
+All told, 400 people signed up. In October, RubyConf was capped at 200 and sold out as well. The year before that, we had about 70 people. Ruby and Rails are "so hot right now".

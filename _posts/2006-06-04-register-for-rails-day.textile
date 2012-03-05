@@ -1,0 +1,14 @@
+---
+layout: post
+title: Register for Rails Day
+categories:
+- sightings
+author: marcel
+published: true
+date: 2006-06-04 21:37:00.000000000 +01:00
+---
+Registration for Rails Day 2006 is "now open":http://contest.railsday2006.com/. 
+
+Over the last few days they've announced a lot more prizes, including five licenses to "TextMate":http://macromates.com, a few iPods, a boat load of books from the "Pragmatic Programmers":http://www.pragmaticprogrammer.com/ and even a Mac Mini. 
+
+Head on over and "signup your team":http://contest.railsday2006.com/.

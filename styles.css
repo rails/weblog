@@ -1,0 +1,246 @@
+/* @override http://weblog.rubyonrails.org/styles.css */
+
+/* Common Definitions */
+
+body {
+	background: #fff url(images/topbluefade.gif) repeat-x center top;
+	color: #333;
+	font-family: Georgia, Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.4em;
+	margin: 0px;
+	padding: 0px;
+}
+h1, h2, h2 a, h3, h4, h5, h6 {
+	color: #981a21;
+}
+h1 {
+	font-size: 1.5em;
+	line-height: 1.2em;
+	margin: 0;
+}
+h2 {
+	font-size: 1.25em;
+	line-height: 1.4em;
+	margin: 1em 0 0.5em 0;
+}
+h3 {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin: 0;
+}
+p, ul {
+	margin: 0 0 1em 0;
+}
+pre	{
+	background-color: #eee;
+	margin: 1em 0;
+	padding: 0.5em 1em;
+	font-size: 0.9375em;
+	overflow: auto;
+}
+code {
+	font-family: Courier New, Courier, mono;
+	font-size: 0.9375em;
+	color: #666;
+}
+a {
+	color: #369;
+}
+a:hover {
+	background-color: #f4dda6;
+	text-decoration: none;
+}
+
+/* Top Navigation */
+
+#navigation {
+	color: #ccc;
+	width: 760px;
+	margin: 15px auto 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+}
+#navigation a {
+	color: #000;
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: underline;
+}
+#navigation a:hover {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Layout */
+
+#wrapper {
+	margin: 0 auto 2em;
+	width: 760px;
+	overflow: hidden;
+}
+#sidebar {
+	background: url(images/rails.png) no-repeat left top;
+	margin: 2em 0 0;
+	padding: 131px 0px 0px 0px;
+	width: 170px;
+	float: left;
+}
+#content {
+	float: right;
+	width: 560px;
+}
+
+/* Sidebar */
+
+#sidebar .section {
+	font-size: 0.875em;
+	line-height: 1.4em;
+	margin: 0 0 1em 0;
+}
+#sidebar .section h3 {
+	font-weight: normal;
+	font-size: 1.0704em;
+}
+#search form {
+	overflow: hidden;
+}
+#search input[type=text] {
+	margin: 0px 0px 10px 0px;
+	padding: 2px;
+	font-size: 14px;
+	line-height: 14px;
+	height: 22px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	width: 120px;
+	float: left;
+}
+#search input[type=text]:focus {
+	outline: none;
+	border: 1px solid #999;
+}
+#search input[type=submit] {
+	margin: 0px 0px 10px 0px;
+	box-sizing: border-box;
+	width: 40px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 14px;
+	float: right;
+}
+#sidebar div.job a {
+	display: block;
+	margin: 0 0 1.5em 0;
+}
+#sidebar ul.list {
+	list-style: none;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+#sidebar ul.list li {
+	margin: 0 0 0.25em 0;
+}
+#sidebar ul.list li.icon {
+	padding: 0 0 0 20px;
+}
+#sidebar ul.list li.rss {
+	background: url(images/rss.png) no-repeat 0px 2px;
+}
+
+/* Post */
+.hentry {
+	margin: 2em 0 1em;
+}
+.entry-header {
+	margin: 0 0 1em 0;
+}
+.entry-title {
+	font-size: 1.5em;
+	line-height: 1.2em;
+	margin: 0;
+}
+.entry-title a {
+	text-decoration: none;
+}
+.entry-meta {
+	color: #a69e8a;
+	margin: 0.3em 0 1em;
+}
+.entry-footer {
+	border-top: 1px solid #a69e8a;
+	color: #a69e8a;
+	font-size: 0.875em;
+	margin: 1em 0;
+	padding: 0.5em 0 0;
+}
+.entry-footer a {
+	color: #a69e8a;
+}
+.pagination {
+	margin: 0 0 2em;
+	overflow: hidden;
+}
+.pagination .previous {
+	float: left;
+}
+.pagination .next {
+	float: right;
+}
+
+/* 404 Page */
+
+#missing {
+	margin: 3em auto;
+	width: 700px;
+}
+#missing h1 {
+	background: url(images/rails.png) no-repeat left top;
+	margin: 0 0 2em;
+	overflow: hidden;
+}
+#missing h1 img {
+	float: right;
+}
+#missing p {
+	font-size: 1.75em;
+	line-height: 1.2em;
+	text-align: center;
+}
+
+/* Footer */
+
+#footer {
+	color: #666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px auto;
+	padding: 0px 0px 44px 0px;
+	text-align: center;
+	width: 726px;
+}
+#footer p {
+	margin: 12px 0px;
+}
+#footer p a {
+	color: #000;
+}
+#footer p a:hover {
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+#sponsored_by {
+	margin: 17px 0px !important;
+}
+#sponsored_by a:hover {
+	background-color: transparent !important;
+}
+#sponsored_by a img {
+	vertical-align: -7px;
+}
+
+

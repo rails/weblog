@@ -1,0 +1,11 @@
+---
+layout: post
+title: ! 'Alonovo: Socially-responsible shopping on Rails'
+categories: []
+author: admin
+published: true
+date: 2005-08-30 11:52:08.000000000 +01:00
+---
+<a href="https://www.alonovo.com">Alonovo</a> launched a little while back. It's a market place that provides a way to do "socially-responsible shopping". That is, buying from companies that behaves according to how you think they should. So no sweat shopping and the likes. You set your values and are presented with offers that comes from compliant companies.
+
+Oh, and it's a Ruby on Rails production. Very nice.

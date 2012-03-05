@@ -1,0 +1,13 @@
+---
+layout: post
+title: Rails Rumble 2007
+categories:
+- general
+- sightings
+author: rick
+published: true
+date: 2007-08-15 01:37:00.000000000 +01:00
+---
+It's that time of the year again: time for another Rails coding competition.  In the spirit of the previous Rails Day contests, "Rails Rumble":http://railsrumble.com challenges teams of up to four to create the best application possible in just 48 hours.  This year's competition is a little bit differently this time around, so checkout the "rules":http://railsrumble.com/rules.  Judging  is now performed by the community, allowing anyone to signup and choose their favorites.  Also, your app will be provided a VPS to host the application through the end of October.  How cool is that?
+
+If you want to compete, "you need to organize quickly":http://railsrumble.com/register, the contest runs on September 8th and 9th.

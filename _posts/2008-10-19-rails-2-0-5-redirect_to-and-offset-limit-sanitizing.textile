@@ -1,0 +1,13 @@
+---
+layout: post
+title: ! 'Rails 2.0.5: Security fixes'
+categories:
+- releases
+author: David
+published: true
+date: 2008-10-19 22:08:00.000000000 +01:00
+---
+Time for another small security fix for Rails 2.0.x. The 2.0.5 release contains just two changes: "A backport of the offset/limit sanitization fix for Active Record":http://github.com/rails/rails/commit/213f31513e4cb640fa3ed45f387f221401023646 and a "fix against header-injection when using user-contributed strings in redirect_to":http://github.com/rails/rails/commit/7282ed863ca7e6f928bae9162c9a63a98775a19d (see "Response Splitting":http://weblog.rubyonrails.org/2008/10/19/response-splitting-risk for more information).
+
+As always, you can install with:<br/> <code>gem install rails --version 2.0.5</code>
+

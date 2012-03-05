@@ -1,0 +1,26 @@
+---
+layout: post
+title: Ajax on Rails
+categories:
+- sightings
+author: rick
+published: true
+date: 2007-01-25 08:17:00.000000000 +00:00
+---
+p(asset-left). !/assets/2007/1/25/9780596527440_cat.gif!
+
+"Scott Raymond":http://scottraymond.net/ latest book, "Ajax on Rails":http://www.oreilly.com/catalog/9780596527440/, has recently been published by O'Reilly.  He also wrote "What's New in Prototype 1.5?":http://www.xml.com/pub/a/2007/01/24/whats-new-in-prototype-15.html on XML.com regarding the latest changes for Prototype 1.5.
+
+* The book demonstrates how to use Ajax and Rails to build
+high-performance, scalable applications without having to write reams of
+difficult-to-maintain JavaScript code.
+* Provides a thorough, low-level understanding of what's under the hood,
+with a high-level understanding of how to use Ajax techniques
+effectively.
+* Includes a complete reference to Prototype 1.5 and script.aculo.us 1.6.1,
+which can be used even outside of the Rails platform. 
+* Three fully worked out applications--a quiz program, a photo gallery, 
+and a workgroup collaboration tool--show how everything fits together 
+in practice.
+
+-- taken from the book's "Full Description":http://www.oreilly.com/catalog/9780596527440

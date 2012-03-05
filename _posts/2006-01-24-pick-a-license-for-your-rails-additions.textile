@@ -1,0 +1,12 @@
+---
+layout: post
+title: Pick a license for your Rails additions
+categories:
+- general
+author: David
+published: true
+date: 2006-01-24 17:36:50.000000000 +00:00
+---
+Rails is released under <a href="http://dev.rubyonrails.org/browser/trunk/railties/MIT-LICENSE">MIT</a> and only includes packages that are either directly under MIT or were re-licensed specifically for Rails under MIT. But not all plugins, generators, engines, or other types of additions are as explicitly clear as to what license they're released under. It would be great if they were. 
+
+So, if you're the creator of a Rails addition of any kind, please do pick a license and include it with your software. I recommend <a href="http://dev.rubyonrails.org/browser/trunk/railties/MIT-LICENSE">MIT</a>.

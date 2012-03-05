@@ -1,0 +1,19 @@
+---
+layout: post
+title: Don't be so arrogant
+categories: []
+author: admin
+published: true
+date: 2005-10-28 22:11:41.000000000 +01:00
+---
+Some times you just need an outside opinion to achieve true clarity of vision. Thankfully, there's always such an angel available when <a href="http://www.loudthinking.com/arc/000531.html#comments">you need it the most</a>:
+
+<blockquote>Rails shows some promise but much, much more is needed. Sorry to say this but you need stored procedure support (I know that's a sensitive subject), less coupling with the data schema, data-aware tags in XML format and more people to knock out serious bugs.
+ 
+Don't be so arrogant.</blockquote>
+
+Thanks, Pearson. I don't know how I could have somehow missed these essential features for so long. I mean, how can we expect to be taken serious before we have data-aware tags in XML format? And what <i>is</i> up with all that coupling with the data schema?!
+
+Actually, I don't think we can get that 1.0 out the door now. With this renewed vision for the true frontiers for Rails, I think we need at least a few months in the shop yet. Of course, we'll use that time to get all those people to knock out our serious bugs.
+
+This is indeed all for the best.

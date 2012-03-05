@@ -1,0 +1,11 @@
+---
+layout: post
+title: Rails father named "best hacker"
+categories: []
+author: admin
+published: true
+date: 2005-08-05 06:28:00.000000000 +01:00
+---
+As most of you have probably "read on his weblog":http://www.loudthinking.com/, David Heinemeier Hansson have been named "best hacker" by Google and O'Reilly. 
+
+Congratulations, David!

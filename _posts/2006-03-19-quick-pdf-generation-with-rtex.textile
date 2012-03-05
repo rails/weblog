@@ -1,0 +1,22 @@
+---
+layout: post
+title: Quick PDF generation with RTex
+categories:
+- sightings
+- releases
+- tools
+author: marcel
+published: true
+date: 2006-03-19 23:02:00.000000000 +00:00
+---
+"Bruce Williams":http://codefluency.com/ of "Naviance":http://naviance.com/ recently "announced":http://codefluency.com/articles/2006/03/17/rails-rtex-plugin-generating-pdfs his "RTex":http://codefluency.com/pages/rtex plugin. It exposes your controller data to @rtex@ views that output "LaTeX":http://www.latex-project.org/ which is convereted to PDF.
+
+To install you can use the plugin script:
+
+@ruby script/plugin install rtex@
+
+Or grab it from svn:
+
+<tt><notextile>svn co http://codefluency.com/svn/codefluency/rails/plugins/rtex</notextile></tt>
+
+People have used "PDF::Writer":http://ruby-pdf.rubyforge.org/pdf-writer/ to generated ".rpdf views":http://rubyforge.org/projects/railspdfplugin/. Why go through LaTex to get to PDF rather than use PDF::Writer? Speed, says Bruce.

@@ -1,0 +1,32 @@
+---
+layout: post
+title: ! 'Rails 1.1.5: Mandatory security patch (and more)'
+categories:
+- releases
+author: David
+published: true
+date: 2006-08-09 17:30:00.000000000 +01:00
+---
+We're still hard at work on Rails 1.2, which features all the new dandy REST stuff and more, but a serious security concern has come to our attention that needed to be addressed sooner than the release of 1.2 would allow. So here's Rails 1.1.5!
+
+This is a MANDATORY upgrade for anyone not running on a very recent edge (which isn't affected by this). If you have a public Rails site, you MUST upgrade to Rails 1.1.5. The security issue is severe and you do not want to be caught unpatched.
+
+The issue is in fact of such a criticality that we're not going to dig into the specifics. No need to arm would-be assalients.
+
+So upgrade today, not tomorrow. We've made sure that Rails 1.1.5 is fully drop-in compatible with 1.1.4. It only includes a handful of bug fixes and no new features.
+
+For the third time: This is not like "sure, I should be flossing my teeth". This is "yes, I will wear my helmet as I try to go 100mph on a motorcycle through downtown in rush hour". It's not a suggestion, it's a prescription. So get to it!
+
+As always, the trick is to do "gem install rails" and then either changing config/environment.rb, if you're bound to gems, or do "rake rails:freeze:gems" if you're freezing gems in vendor.
+
+<strike>UPDATE: This problem affects 0.13, 0.14, 1.0, and 1.1.x. So here's a happy opportunity to upgrade if you still haven't.</strike>
+
+UPDATE 2: We've fixed the zlib buffer problems for people on Windows. Redownload the gem and everything should be dandy.
+
+UPDATE 3: Regarding security through obscurity, we'll release the full details of this issue once everyone has had a fair chance to upgrade their system. Source transparency is of little comfort if you just had your system compromised before you got a chance to apply the patch.
+
+UPDATE 4: This problem *does not* affect Rails 1.0 or earlier. The only versions affected are 1.1.0, 1.1.1, 1.1.2, and 1.1.4. See "security update":http://weblog.rubyonrails.org/2006/8/10/security-update-rails-1-0-not-affected for details.
+
+UPDATE 5: We've released "Rails 1.1.6 with additional fixes":http://weblog.rubyonrails.org/2006/8/10/rails-1-1-6-backports-and-full-disclosure to the problem and created backported patches for all affected versions.
+
+<small>P.S.: If you run a major Rails site and for some reason are completely unable to upgrade to 1.1.5, get in touch with the core team and we'll try to work with you on a solution.</small>

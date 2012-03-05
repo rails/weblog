@@ -1,0 +1,12 @@
+---
+layout: post
+title: Two UK companies looking for Rails programmers
+categories: []
+author: admin
+published: true
+date: 2005-07-19 09:46:20.000000000 +01:00
+---
+The population of professional Ruby on Rails developers is calling for growth:
+
+* "Revieworld":http://www.revieworld.com/software_developer_0505.html are looking for a Ruby on Rails developer to start in August. They're based in Waterloo.
+* "ReThink Recruitment":http://idmsimpson.backpackit.com/pub/166762 are looking for a number of Ruby on Rails developers for various sites. They're based in Leeds.

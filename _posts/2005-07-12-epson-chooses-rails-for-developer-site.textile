@@ -1,0 +1,14 @@
+---
+layout: post
+title: EPSON chooses Rails for developer site
+categories:
+- launches
+author: admin
+published: true
+date: 2005-07-12 11:18:48.000000000 +01:00
+---
+Jason Wong of ionami has <a href="http://www.jasonwong.org/articles/2005/07/12/and-now-the-world">announced</a> that they've just launched <a href="http://www.epsondevelopers.com/">epsondevelopers.com</a> for EPSON on a Rails platform:
+
+<blockquote>ionami has been working with EPSON for over 3 years. While we created the original EPSON Developers site in Java, they were surprisingly open to a switch. We sold them on maintainability, speed, and the lower overall cost. We took the opportunity to do a redesign, and move the original, public site to Rails for ease of management.</blockquote>
+
+That's great news! Landing EPSON with Rails development is definitely a great step in that elusive "corporate" direction. At the same time, ionami has announced they're going to do all future developments using Ruby on Rails. They're officially a "Rails Shop" now.

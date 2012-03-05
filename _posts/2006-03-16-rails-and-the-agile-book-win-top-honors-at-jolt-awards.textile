@@ -1,0 +1,14 @@
+---
+layout: post
+title: Rails and the Agile book win top honors at Jolt awards
+categories:
+- praise
+author: marcel
+published: true
+date: 2006-03-16 04:53:00.000000000 +00:00
+---
+Tonight at the Software Development Jolt Awards, Rails won the best web development tool award while the canonical Rails book, "Agile Web Development with Rails":http://pragmaticprogrammer.com/titles/rails/index.html, won for best technical book. They find themselves both in "fine company":http://www.sdmagazine.com/jolts/previous.htm.
+
+Both "DHH":http://www.loudthinking.com/arc/000573.html and "Dave Thomas":http://blogs.pragprog.com/cgi-bin/pragdave.cgi/Tech/Random/SecondJolt.html share their reactions.
+
+The full list of winners can be found "here":http://edgibbs.com/2006/03/15/jolt-award-winners-2006/.

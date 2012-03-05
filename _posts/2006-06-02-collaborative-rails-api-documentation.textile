@@ -1,0 +1,16 @@
+---
+layout: post
+title: Collaborative Rails API Documentation
+categories:
+- documentation
+author: chad
+published: true
+date: 2006-06-02 22:14:00.000000000 +01:00
+---
+With Rails in a constant state of evolution, it's important for its users to help each other stay in step with what's current.  To that end, "Conor Hunt":http://www.conorhunt.com/techblog/ has created "Rannotate":http://rannotate.rubyforge.org/, a system for collaboratively annotating RDoc-generated documentation.
+
+He's gone a step further and posted Rannotate instances for both "Rails":http://rails.outertrack.com/ and "Ruby":http://ruby.outertrack.com/.
+
+Read, post, learn, and teach.  At critical mass, Conor's service could provide a huge benefit to the community.  Coupled with "Kevin Clark's":http://glu.ttono.us Rails documentation crusade, things are looking better and better on the documentation front.  
+
+These guys deserve our appreciation and our support.  Now "go post some annotations":http://rails.outertrack.com!

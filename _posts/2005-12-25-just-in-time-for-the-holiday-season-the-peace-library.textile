@@ -1,0 +1,16 @@
+---
+layout: post
+title: Just in time for the holiday season, the Peace Library
+categories:
+- sightings
+- praise
+- launches
+author: marcel
+published: true
+date: 2005-12-25 19:04:00.000000000 +00:00
+---
+The "Peace Library":http://beta.peacelibrary.org/ is an online index of Conflict Transformation & Peacebuilding information featuring research papers, reports, and news related to the Sri Lanka peace process put together by the non-profit web media company "InfoShare":http://www.info-share.org/.
+
+It's in "beta" but already features "207 publications":http://beta.peacelibrary.org/publications/list wrapped in an attractive interface. Read more about them "here":http://beta.peacelibrary.org/publications/about.
+
+Yet another nice app riding the Rails.

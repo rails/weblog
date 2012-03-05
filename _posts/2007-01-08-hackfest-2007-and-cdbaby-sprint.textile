@@ -1,0 +1,27 @@
+---
+layout: post
+title: Hackfest 2007 and CD Baby sprint
+categories:
+- horizon
+- launches
+author: Jeremy Kemper
+published: true
+date: 2007-01-08 14:36:00.000000000 +00:00
+---
+Ah, Portland. The open-source motherland. Pacific springtime beauty. "RailsConf '07":http://conferences.oreillynet.com/rails/ nirvana.rb # => true and home of "CD Baby":http://cdbaby.com/, a little record store that digs Ruby and Rails.
+
+We're gearing up for a RailsConf hackfest at the "Jupiter hotel":http://jupiterhotel.com just down the street and figured, heck, let's start now! The top twenty Rails contributors between the new year and conference registration opening day will have a free conf pass and a room at the Jupiter specially reserved, CD Baby's treat.
+
+No kidding. Registration opens in a matter of weeks. *Sprint!*
+
+Rails contribution is measured by real Trac activity weighted in favor of well-tested, committed patches but also accounts for new tickets and even comments. We're joining forces with "Working With Rails":http://workingwithrails.com/ to "track Rails contributions":http://workingwithrails.com/contests/hackfest2007 from the new year onward. To be included, mark yourself as a core contributor and give your "Trac username":http://dev.rubyonrails.org/login in your "account profile":http://workingwithrails.com/my.
+
+Have a Rails itch you've longed to scratch?  Now's the time!  Happy hacking, and see you at RailsConf.
+
+*Update:* "Derek @ CD Baby's announcement":http://www.oreillynet.com/ruby/blog/2007/01/cd_baby_awards_free_railsconf.html with more details.
+
+*Update:* I announced contest close on the opening day of registration but Derek announced an earlier deadline on January 22nd. Sorry for the confusion! To draw a reasonable compromise, *the contest closes tonight, January 24th, at midnight PST*. (That's 2007-01-25 08:00:00 UTC.) After the contest closes, we'll continue scoring the backlog of patches submitted before the deadline then announce the winners this weekend.
+
+So far, 258 participants have opened 443 tickets, submitted 501 patches, and made 2976 changes. Congratulations! And the "leaderboard's still tight with 17 hours to go..":http://workingwithrails.com/contests/hackfest2007
+
+*Update:* the contest has closed. "The winners are..":http://weblog.rubyonrails.org/2007/1/29/hackfest-2007-winners

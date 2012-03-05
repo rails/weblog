@@ -1,0 +1,18 @@
+---
+layout: post
+title: Rails go web services with XML-RPC prototype
+categories:
+- horizon
+author: admin
+published: true
+date: 2005-01-12 12:19:59.000000000 +00:00
+---
+Lars Hoss wanted an XML-RPC interface to his Rails-based weblog, so he <a href="http://woeye.highteq.net/blog/details/77">hacked up</a> a quick prototype:
+
+!http://web.rubyonrails.com/pictures/xmlrpcprototype.png!
+
+Pretty neat! We're currently investigating a number of different schemes for how to officially support Web Services (SOAP/XML-RPC) "The Rails Way". Where getting good support from two of the commercial entities using Rails for their work. Announcements will follow.
+
+Oh yeah, and Lars is a Tapestry convert, by the way. On the experience with switching from Java/Tapestry to Ruby on Rails, he writes:
+
+<blockquote>Though I still like Tapestry very much, I prefer Rails for my private projects. Private free time is spare and Rails helps me to use it more efficient.</blockquote>

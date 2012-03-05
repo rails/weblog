@@ -1,0 +1,10 @@
+---
+layout: post
+title: HTTP Authentication with Action Pack
+categories:
+- documentation
+author: admin
+published: true
+date: 2005-04-06 06:37:32.000000000 +01:00
+---
+If form-based authentication is a bad fit for your application, you might consider using good old HTTP authentication. It's really easy too. The Teenage Mutant Ninja Hero Coders shows you how in <a href="http://blogs.23.nu/c0re/stories/7409/">Doing HTTP-Auth with Ruby on Rails</a>.

@@ -1,0 +1,22 @@
+---
+layout: post
+title: ! 'Rails RC5 (0.14.4): Next stop one-oh (really, this time!)'
+categories:
+- releases
+author: David
+published: true
+date: 2005-12-08 17:32:45.000000000 +00:00
+---
+It's been a month since we promised that RC4 would be the final countdown. And counting down we have. We've fixed a <i>ton</i> of major, minor, and aesthetic issues and now have a package that we would be very proud to call 1.0. No, it's not completely spotless. A project of this size with thousands of programmers using it for every application type under the moon will never be. But it's Pretty Damn Good. 
+
+So here it goes: Release candidate 5. This is the final, short pitstop before 1.0 materializes next week. Thus, you're more than well advised to upgrade and make sure we didn't leave anything heinous in there. This is the "speak now or forever hold your peace" part of the ceremony.
+
+If you already upgraded to 0.14.x, going to RC5 is completely effortless. Simply call upon the gems to do your bidding with: <code>gem install rails --include-dependencies</code>. And you'll be serving up your application with all the bugs squashed. On top of that, we've thrown in a new adapter for the Firebird database and added a beautiful new index.html that'll greet you on new applications:
+
+<div align="center"><img src="http://weblog.rubyonrails.org/files/welcome.gif" width="500" height="353" /></div>
+
+So upgrade, dammit! Now. And stand by as we finish setting up the fireworks planned for next week's release of the long-awaited 1.0. It's magical times, my friends, and the spellcasting is just getting started.
+
+The interesting changes are in:
+
+<ul><li><a href="http://api.rubyonrails.com/files/vendor/rails/railties/CHANGELOG.html">Rails 0.14.4</a></li><li><a href="http://api.rubyonrails.com/files/vendor/rails/actionpack/CHANGELOG.html">Action Pack 1.11.1</a></li><li><a href="http://api.rubyonrails.com/files/vendor/rails/activerecord/CHANGELOG.html">Active Record 1.13.1</a></li></ul>

@@ -1,0 +1,10 @@
+---
+layout: post
+title: Splitting off the research patches
+categories:
+- general
+author: admin
+published: true
+date: 2004-12-30 15:36:51.000000000 +00:00
+---
+I've introduced the new [RESEARCH] prefix to ticket summaries in addition to the existing [PATCH]. By applying the [RESEARCH] prefix, you're sharing a patch with the world that either needs additional testing, suggestions, or development before being ready for trunk inclusion. We have a new report as well to show the "research patches":http://dev.rubyonrails.com/report/4 of which there are currently five.

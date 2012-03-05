@@ -1,0 +1,25 @@
+---
+layout: post
+title: This Week in Rails (June 16, 2008)
+categories:
+- general
+author: Antonio Cangiano
+published: true
+date: 2008-06-16 22:40:00.000000000 +01:00
+---
+This is the first edition of This Week in Rails. As announced by Gregg Pollack "a few days ago":http://weblog.rubyonrails.org/2008/6/10/two-new-weekly-columns, this weekly column will cover highlights from the Rails community. My aim is to provide you with a status update as if you'd gone on holidays for a week. I will try to be consistent and publish once a week on Sunday or Monday. Being my first shot, I'll rely on your feedback to verify that I'm on the right track and that this is useful to you; so please feel free to express your opinion in the comment section below.
+
+With Rails 2.1 out, most developers are looking forward to upgrading their skills (and projects) to the latest release. If you're one of them, I strongly recommend that you check out the second edition of Carlos Brando's "Ruby on Rails 2.1 - What’s new":http://www.nomedojogo.com/2008/06/15/ruby-on-rails-21-whats-new-second-edition/ free e-book, which is available in both English and Portuguese, with an "Italian translation":http://github.com/carlopecchia/rails21-book/tree/master currently in the works as well. You can also read Rob Anderton's "excellent overview":http://www.thewebfellas.com/blog/2008/6/9/rails-2-1-now-with-better-integrated-caching of Rails 2.1's improved caching capabilities, as well as its built-in support for memcached.
+
+Last week, Phusion "announced":http://blog.phusion.nl/2008/06/09/phusion-passenger-20-rc-1-and-ruby-enterprise-edition-released/ the first release candidate of Passenger 2.0 (aka mod_rails). This release introduces support for Rack, opening the door to alternative web frameworks as well. In the same announcement, "Ruby Enterprise Edition":http://www.rubyenterpriseedition.com/ was formally released. Despite the "Enterprise" label, this is a fully Open Source version of Ruby whose main claim is a reduced memory footprint on Linux and Mac OS X. 
+
+Speaking of Enterprise, Dr Nic has released version 1.0.2 of his "Composite Primary Keys gem":http://compositekeys.rubyforge.org/. Starting "from version 1.0.0":http://drnicwilliams.com/2008/06/06/composite-primary-keys-goes-100-for-rails-21/ it finally catches up with Active Record 2.1. Erubis, the fast alternative to ERB, has rolled out support for Rails 2.1 as well, in their 2.6.1 version. A week later, version 2.6.2 was released and it includes support for Ruby 1.9 as well. You can install it by running
+@gem install erubis@ or by "downloading it":http://rubyforge.org/frs/?group_id=1320&release_id=22856 from RubyForge.
+
+Last week Ryan Bates put out another two Railscasts. The first is about "how to contribute to Rails using Git":http://railscasts.com/episodes/113 and is, needless to say, highly recommended. The "second one":http://railscasts.com/episodes/114 is in regards to substituting pagination with the effect of endless scrolling, like DZone does. As pointed out, there are plugins that do this, but Ryan's approach builds it from scratch and is definitely worth checking out.
+
+Other interesting articles were: a concise guide to "using the Thinking Sphinx":http://freelancing-gods.com/posts/a_concise_guide_to_using_thinking_sphinx plugin (along with the pre-requisite "Sphinx primer":http://freelancing-gods.com/posts/sphinx_a_primer), "Easy and Flexible Breadcrumbs for Rails":http://szeryf.wordpress.com/2008/06/13/easy-and-flexible-breadcrumbs-for-rails/ even though they are clearly "not everyone's cup of tea":http://jakescruggs.blogspot.com/2008/06/breadcrumbs-are-evil.html, and lastly "GemPlugins: A Brief Introduction to the Future of Rails Plugins":http://www.intridea.com/2008/6/11/gemplugins-a-brief-introduction-to-the-future-of-rails-plugins.
+
+In conclusion, two announcements were previously reported in this blog, but they are both worth repeating. The first is the release of "Capistrano 2.4":http://weblog.jamisbuck.org/2008/6/13/capistrano-2-4-0 and the second is that registration has opened up for "RailsConf Europe 2008":http://en.oreilly.com/railseurope2008/public/content/home. The conference will be held in Berlin, Germany from the 2nd to the 4th of September. By registering before July 15th, you can save up to 150 euros.
+
+That's it for this week. As you can see there is no shortage of material, given that we're such an active community. If you'd like to read more updates from the Ruby side of things, please head over to "This Week in Ruby":http://antoniocangiano.com/2008/06/16/this-week-in-ruby-june-16-2008/.

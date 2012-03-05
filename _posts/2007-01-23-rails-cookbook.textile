@@ -1,0 +1,21 @@
+---
+layout: post
+title: Rails Cookbook
+categories:
+- sightings
+- documentation
+author: rick
+published: true
+date: 2007-01-23 15:02:00.000000000 +00:00
+---
+p(asset-left). !/assets/2007/1/23/9780596527310_cat.gif!
+
+"Rob Orsini":http://blog.tupleshop.com released the new "Rails Cookbook":http://www.oreilly.com/catalog/9780596527310 from O'Reilly, just in time for Rails 1.2.  Just from looking at the "table of contents":http://www.oreilly.com/catalog/9780596527310/toc.html, it looks like there's a lot of good information packed in this book.
+
+bq. This book is packed with the solutions you need to be proficient
+developer with Rails, the leading framework for building the new
+generation of Web 2.0 applications. Recipes range from the basics,
+like installing Rails and setting up your development environment, to
+the latest techniques, such as developing RESTful web services. Each
+recipe includes a tested solution, plus a discussion of how and why
+it works.  -- from the book's "Full Description":http://www.oreilly.com/catalog/9780596527310

@@ -1,0 +1,78 @@
+---
+layout: post
+title: Capistrano 2.0 Preview 2
+categories: []
+author: jamis
+published: true
+date: 2007-05-11 04:47:00.000000000 +01:00
+---
+The upcoming Capistrano 2.0 release continues to evolve! Remote administration of single servers and server clusters has never been easier. With Capistrano, you can:
+
+* Deploy web applications with a single command
+* Keep software in sync across multiple machines
+* Install entire servers with just a few keystrokes
+* Impress the ladies with your leet sysadmin skills
+
+Ok, well, maybe not that last, unless she's a _really_ special lady. But the rest certainly apply.
+
+Capistrano 2.0 Preview Release 2 is now available (version 1.99.1). You can only grab it from the Rails beta gem server:
+
+<macro:code lang="text">gem install -s http://gems.rubyonrails.com capistrano</macro:code>
+
+NOTE that Capistrano 2.0 is not 100% backwards-compatible with Capistrano 1.x recipes. For more information on upgrading, check out "http://www.capify.org/upgrade":http://www.capify.org/upgrade.
+
+To install the preview release, you'll need to make sure you've already got the following gems installed, too, which Capistrano depends on (and which can be found in the main Rubygems repository):
+
+* net-ssh
+* net-sftp
+* highline
+
+Download it, install it, try it out. Kick the tires. Report what doesn't work. We're getting close to a general release!
+
+SO. Now that all of that is out of the way, let's talk about what's new in PR2. First, the bug fixes:
+
+* The "copy" deployment strategy now checks out the local copy to a temporary directory, rather than using the current working directory. This makes it possible to use with some picky SCM's that don't like checkouts being made into an existing checkout.
+* The "deploy:check" task was broken for some deployment strategies. It should work now for all of the pre-packaged strategies.
+* The "shell" task should actually work now.
+* The "desc" keyword will apply to the next defined task, regardless of which namespace the task is defined in.
+* Don't retry failed connections when an explicit :auth_methods list is given via :ssh_options.
+* Fixed a few minor documentation typos.
+
+Next, the new features:
+
+*Feature:* The "deploy:cold" task will run migrations before starting the app. If it is the first time you've deployed your app, chances are the database needs setting up, too!
+
+*Feature:* The old method of extending tasks (e.g., tasks named "before_deploy" and "after_deploy" extending the "deploy" task) is now discouraged (though not formally deprecated, yet). The new approach uses some new keywords:
+
+<macro:code lang="ruby">before :deploy, :my_custom_task
+after  "deploy:symlink", :do_this, :and_do_that
+</macro:code>
+
+More generally, you can attach tasks of your own creation to arbitrary "events", using the "on" keyword:
+
+<macro:code lang="ruby">on :before, :my_custom_task, :only => :deploy
+on :after, :do_this, :and_do_that, :only => "deploy:symlink"
+</macro:code>
+
+The :before event gets triggered before any event is invoked, and :after gets called immediately after the event finishes successfully. There are four other events currently supported by Capistrano:
+
+* :start is triggered when a task is invoked via the command-line
+* :finish is triggered when a task invoked via the command-line finishes successfully
+* :load is triggered after all recipes have loaded, but before any tasks are executed
+* :exit is triggered after all tasks have been executed
+
+You can even define your own events, and then trigger them using the "trigger" method.
+
+*Feature:* The "deploy:app" namespace has been axed. The tasks that it contained now live in the "deploy" namespace directly. Thus, "deploy:app:start" and "deploy:app:stop" are now "deploy:start" and "deploy:stop", respectively.
+
+*Feature:* If your "scm_command" is set to a custom value because your SCM lives in a non-standard location on the remote host, you previously ran into problems if your SCM command did not live at the same location on your local host. Now, if you need different settings for the scm_command depending on whether it is being invoked locally or remotely, you have the option of specifying either one separately:
+
+<macro:code lang="ruby">set :scm_command, "/opt/local/bin/svn"
+set :local_scm_command, "/usr/local/bin/svn"
+</macro:code>
+
+Note that if "scm_command" is set, "local_scm_command" will default to that value, but if "local_scm_command" is set, "scm_command" is unaffected.
+
+*Feature:* Servers are now uniquely identified by Capistrano based on their full connection information, including hostname, username, and port. (Before, servers were only unique based on the hostname.) This makes it possible to use Capistrano in a NAT'ed environment, where all of your servers are using the same hostname, with different port numbers.
+
+*Feature:* The "capify" command now understands the "-h" switch, which should make it behave a little more like people expect.

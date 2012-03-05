@@ -1,0 +1,48 @@
+---
+layout: post
+title: This Week in Rails 3.0
+categories:
+- edge
+author: Mike Gunderloy
+published: true
+date: 2009-02-05 11:38:00.000000000 +00:00
+---
+Now that Rails 2.3 has hit the release candidate phase, some of the development effort is turning to Rails 3.0. With that activity heating up, it's time to start keeping you all informed as to happenings on the 3.0 version of the Rails source. I'll still be posting separate "This Week in Edge Rails" information focused on Rails 2.3, so you can keep straight which changes are ready now and which still lie in the relatively distant future.
+
+h2. The Vision
+
+The Rails 3 vision is based on the "announcement":http://weblog.rubyonrails.org/2008/12/23/merb-gets-merged-into-rails-3 that was made in December: we're bringing in the key ideas from Merb to Rails, including:
+
+* A more modular Rails core, so you can run applications with less than the full Rails stack
+* Performance optimizations
+* Framework agnosticism with sensible defaults
+* A tested and documented API for extensions
+
+Rails 3 promises to substantially advance the state of the art in Ruby web frameworks, while still providing migration paths from Rails 2.x and Merb 1.x.
+
+h2. The Source Code
+
+The Rails 3.0 branch in the main Rails project on GitHub is the place to be to see what's going on: 
+
+<pre><code>
+git clone git://github.com/rails/rails.git
+git checkout 3-0-unstable
+</code></pre>
+
+As the branch name might tell you, this is still a fairly experimental place to be: you probably don't want to roll this out for production applications just yet. But it is tested code (and it's using continuous integration to stay that way), and it already includes substantial changes from Rails 2.x thanks to the efforts of Yehuda Katz, Joshua Peek, and others. The changes so far are focused on cleaning up and improving Rails internals, rather than on adding new features.
+
+h2. Action Dispatch
+
+Action Dispatch is a new Rails component which lives in Action Pack (along with Action Controller and Action View). Action Dispatch is responsible for all the processing involved with dispatching requests: request and response handling, HTTP status codes, file uploads, URL and parameter parsing, session storage, and so on.
+
+h2. Action View Reorganization
+
+There are substantial changes in the Action View internals. The overall goal was to clean up a bunch of special cases and extra hooks that had built up over the years, and to leave all callers into Action View using a single unified entry point. The code cleanup has been coupled with some rearrangement of the Action View source to make it easier to find bits of functionality. This was a substantial effort; if you're interested in a detailed look at the refactoring, you can read up on it at "Yehuda's blog":http://yehudakatz.com/
+
+h2. Callback Optimizations
+
+A new method of handling callbacks removes the need for iterating through the callback list at runtime, and provides a substantial speed improvement in this area of the code. Though this is a micro-optimization that may not have much effect by itself, the hope is that by carefully optimizing as many hot spots as possible we can get a visible overall speedup in page creation and delivery - which, after all, is the point of a web framework.
+
+h2. What's Next?
+
+Obviously, there's a long distance between where we are today and the Rails 3.0 vision. We're fortunate to have an excellent team of core programmers devoting substantial time to making that journey. The interim goal is still to have a beta version of Rails 3.0 out in time for RailsConf in May. You can help in the same ways as with earlier versions of Rails: download the source, start testing it with your applications, and submit your own ideas and patches to the "Rails Lighthouse":http://rails.lighthouseapp.com/projects/8994/. Rails has been a joint effort of thousands of developers over the years, and Rails 3.0 will be no different in that regard.

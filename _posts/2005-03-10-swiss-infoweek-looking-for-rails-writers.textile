@@ -1,0 +1,19 @@
+---
+layout: post
+title: Swiss InfoWeek looking for Rails writers
+categories:
+- sightings
+author: admin
+published: true
+date: 2005-03-10 11:53:41.000000000 +00:00
+---
+Editor Andreas Ahlenstorf would like to print an article on Rails in the Swiss IT magazine InfoWeek:
+
+<blockquote>I'm looking for somebody who would like to write an article about
+Ruby on Rails for the swiss IT magazine InfoWeek, best one of Rails'
+core developers :). The article must be written in german, so it
+would be helpful if it's somebody from Switzerland, Germany or even
+Austria. Do you know one person in your team who's predestinated to
+do that?</blockquote>
+
+Do you know Rails? And can write a readable German? Then get in <a href="mailto:rails-iw@sopic.com">contact with Andreas</a> right away and help him increase the awareness of Ruby on Rails in Switzerland.

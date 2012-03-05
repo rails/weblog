@@ -1,0 +1,10 @@
+---
+layout: post
+title: RailsBench available as gem
+categories:
+- tools
+author: David
+published: true
+date: 2006-12-26 18:07:00.000000000 +00:00
+---
+Stefan Kaes' "RailsBench benchmarking suite":http://railsbench.rubyforge.org/ is now "available as a gem":http://railsexpress.de/blog/articles/2006/12/26/railsbench-gem-version-available. This makes it even easier to get started benchmarking your application and find bottlenecks. Yay for ease of installation.

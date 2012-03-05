@@ -1,0 +1,32 @@
+---
+layout: post
+title: ! 'Rails 3.0: Beta release'
+categories: []
+author: David
+published: true
+date: 2010-02-05 03:33:00.000000000 +00:00
+---
+You thought we were never going to get to this day, didn't you? Ye of little faith. Because here is the first real, public release of Rails 3.0 in the form of a beta package that we've toiled long and hard over. 
+
+It's surely not perfect yet, but we were out of blockers on the list, so here we go. Please give it a run around the block, try to update some old applications, try to start some new ones, and report back all the issues you find.
+
+I'm really proud of this moment, actually. We've had more than 250 people help with the release and we've been through almost 4,000 commits since 2.3 to get here. Yet still the new version feels lighter, more agile, and easier to understand. It's a great day to be a Rails developer.
+
+There's plenty to get excited about here. A few of the headliner features are:
+
+* Brand new router with an emphasis on RESTful declarations
+* New Action Mailer API modelled after Action Controller (now without the agonizing pain of sending multipart messages!)
+* New Active Record chainable query language built on top of relational algebra
+* Unobtrusive JavaScript helpers with drivers for Prototype, jQuery, and more coming (end of inline JS)
+* Explicit dependency management with Bundler
+
+But please take a look at the <a href="http://guides.rails.info/3_0_release_notes.html">full release notes</a> and enjoy the latest!
+
+To install:
+
+<pre>
+gem install tzinfo builder memcache-client rack rack-test rack-mount erubis mail text-format thor bundler i18n
+gem install rails --pre
+</pre>
+
+<small><i>Notes: The first line is required because RubyGems currently can't mix prerelease and regular release gems (someone please fix that!).</small></i>

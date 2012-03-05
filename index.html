@@ -1,0 +1,8 @@
+---
+layout: default
+title: Riding Rails
+---
+{% for post in paginator.posts %}
+{% include post.html %}
+{% endfor %}
+{% include pagination.html %}

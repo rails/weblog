@@ -1,0 +1,14 @@
+---
+layout: post
+title: Really Getting Started in Rails
+categories:
+- documentation
+author: admin
+published: true
+date: 2005-01-30 19:42:41.000000000 +00:00
+---
+Amy Hoy is a <a href="http://www.infocookie.com/welcome/">designer, programmer, and writer</a> digging into Rails. She read Curt Hibbs' great introduction article on Rails at O'Reilly's OnLAMP, but decided she'd like to decorate it a bit with why's:
+
+<blockquote>The only thing is, like all tutorials, it doesn't always explain why. Why is that the syntax? What does that line mean, exactly? Why is the application designed so it fits together that way? Me, I like to know why&mdash;in reality, because of my designer brain, I have to know why to really grok it and retain it.</blockquote>
+
+That decoration turned into a whole article entilted "Really Getting Started in Rails":http://www.slash7.com/flashback/2005/01/oreilly_onlamp.html that works very well as a companion to Hibbs' original article. Great work, Amy!

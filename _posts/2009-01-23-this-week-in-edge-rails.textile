@@ -1,0 +1,26 @@
+---
+layout: post
+title: This Week in Edge Rails
+categories:
+- edge
+author: Mike Gunderloy
+published: true
+date: 2009-01-23 15:48:00.000000000 +00:00
+---
+h3. January 17, 2009 -January 23, 2009
+
+Edge Rails saw 28 commits this week. Here's a look at some of them. As always, you'll want to go back to the "GitHub commit list":http://github.com/rails/rails/commits/master if you want to look at every single change. As we near 2.3, many of the commits we're seeing are bug fixes rather than new features, and I'm generally not covering those here.
+
+h2. More Rack Middleware
+
+The Rack-ification of Rails continues, with more and more Rails code being refactored into Rack middleware. This week, parsers for XML, JSON, and YAML got moved into <code>ActionController::ParamsParser</code> middleware. In the long run, this sort of refactoring will make many of Rails services open to other Rack clients, without every framework needing to reinvent all of the same wheels. "commit":http://github.com/rails/rails/commit/ff0a2678c4bce9da348e1263915558795e3a3640
+
+h2. Deprecations
+
+If you were one of the people who got used to running <code>script/performance/request</code> to look at performance based on integration tests, you need to learn a new trick: that script has been removed from core Rails now. But don't worry if you depend on it. There's a new "request_profiler":http://github.com/rails/request_profiler/tree/master plugin that you can install to get the exact same functionality back.
+
+Also on the deprecation list is <code>ActionController::Base#session_enabled?</code>, which now returns a deprecation warning when you try to use it. But given that sessions are lazy-loaded now, to disable them all you need to do to disable them is to not use them in the first place. "commit":http://github.com/rails/rails/commit/9cefd5ea0c21595d73762b5d60a760a3ed9fe8bf
+
+h2. Local Caching for All!
+
+Last week, we saw an improvement to caching performance when using <code>MemCacheStore</code>, keeping a local request cache to avoid redundant reads. This week, that work was refactored so that it can be used with any remote store. "commit":http://github.com/rails/rails/commit/b08c96887538cf53670bb882e79996582375e6c9

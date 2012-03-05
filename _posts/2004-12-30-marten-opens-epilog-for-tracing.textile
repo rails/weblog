@@ -1,0 +1,12 @@
+---
+layout: post
+title: Marten opens Epilog for Trac'ing
+categories:
+- horizon
+author: admin
+published: true
+date: 2004-12-30 19:51:31.000000000 +00:00
+---
+Alongside EliteJournal, Epilog is the other major weblog application development going on with Rails. Marten is set to release a new version running off the 0.9.x series of Rails in "...a week, two at most", but you can already Trac along as Marten just set up shop at "dev-epilog.standardbehaviour.com":http://dev-epilog.standardbehaviour.com/.
+
+For a small taste of what's to come, <a href="http://www.markijbema.nl/blog/">Mark IJbema</a> is blogging using the in-development version of Epilog. Note the small promising details like human times in the form of "just after midnight". Promising stuff!

@@ -1,0 +1,26 @@
+---
+layout: post
+title: Bruce Perens develops model security for Active Record
+categories: []
+author: admin
+published: true
+date: 2005-10-14 12:50:16.000000000 +01:00
+---
+Bruce Perens is working on <a href="http://perens.com/FreeSoftware/ModelSecurity">model security</a> for Active Record sponsored by <a href="http://sourcelabs.com/">Sourcelabs</a>:
+
+<blockquote>I've developed ModelSecurity, a new Ruby on Rails facility that helps
+developers implement a security defense in depth by implementing
+access control within the data model.
+
+If you are like most developers, you think about security when you
+program controllers and views. But a bug in your controller or view can
+compromise the security of your application, unless your data model has
+also been secured.
+
+The economical, flexible, and extremely readable means of specifying
+access controls provided by ModelSecurity makes it easier for the
+developer to think about security, and makes security assumptions that
+might otherwise live in one developers head concrete and communicable
+to others.</blockquote>
+
+Please check it out and give Bruce a hand with testing.

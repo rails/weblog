@@ -1,0 +1,13 @@
+---
+layout: post
+title: ! 'Rails 3.0: Third beta release'
+categories: []
+author: David
+published: true
+date: 2010-04-13 19:35:00.000000000 +01:00
+---
+We're marching towards the release candidates with hurried steps, but along the way we stopped by for another beta. This one spins out a few overdue extractions into plugins (see "http://github.com/rails/verification":http://github.com/rails/verification and "http://github.com/rails/dynamic_form":http://github.com/rails/dynamic_form), fixes a security issue with cookies, crosses a few t's and dots a few i's. Upgrading from beta 2 is recommended.
+
+As always, you can install the latest beta with <code>gem install rails --pre</code>.
+
+We'll see you again soon for the release candidate.

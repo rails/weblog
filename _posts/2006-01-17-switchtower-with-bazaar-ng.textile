@@ -1,0 +1,13 @@
+---
+layout: post
+title: SwitchTower with Bazaar-NG
+categories:
+- sightings
+- tools
+author: jamis
+published: true
+date: 2006-01-17 23:05:00.000000000 +00:00
+---
+Damien Merenne has just announced a "Bazaar-NG SCM module for SwitchTower":http://www.cosinux.org/blogs/dam/articles/2006/01/17/bazaar-ng-and-switchtower. All you bzr users now have one less reason to _not_ use SwitchTower.
+
+Damien has given permission for this module to be included in the next SwitchTower release, too. If you've got a pet SCM that you'd like to see supported by SwitchTower, just take a look at Damien's code to see how little it really takes to implement a new SCM module. Then, implement it and submit it as a patch to http://dev.rubyonrails.org/newticket.

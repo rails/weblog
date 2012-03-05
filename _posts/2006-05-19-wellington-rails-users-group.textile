@@ -1,0 +1,12 @@
+---
+layout: post
+title: Wellington Rails User's Group
+categories:
+- general
+author: michael
+published: true
+date: 2006-05-19 22:46:00.000000000 +01:00
+---
+Tomek Piatek and others have started Well Railed, the Rails User's Group in Wellington, NZ. The first meeting will be on the 30th May at 6:30-ish at "Hell Pizza in Bond Street":http://www.zoomin.co.nz/nz/wellington/te+aro/bond+street/14/-syn+bar+hell+pizza/. So come along for some pizza and beers to meet the local rails crowd.   
+
+You can follow group discussions on-line on Google "Groups page":http://groups.google.com/group/WellRailed.  

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Browse your Subversion Repositories
+categories:
+- releases
+author: rick
+published: true
+date: 2006-06-07 16:05:00.000000000 +01:00
+---
+"Bounty Source":https://www.bountysource.com provides the Open Source community with free hosting and tools including a task manager, a CMS, and a Subversion Code Repository.  They've been gracious enough to release the "Subversion Browser":https://bssvnbrowser.bountysource.com/ as a Rails plugin.  
+
+I've posted a "technique":http://rails.techno-weenie.net/tip/2006/5/31/adding_authentication_to_bssvnbrowser on "Rails Weenie":http://rails.techno-weenie.net on using your application's authentication scheme on the plugin, so that your _secret sauce_ is not available to the whole world.

@@ -1,0 +1,71 @@
+---
+layout: post
+title: 2 Weeks in Rails (October 10, 2008)
+categories:
+- general
+author: Gregg Pollack
+published: true
+date: 2008-10-10 15:05:00.000000000 +01:00
+---
+<img src="/assets/2008/10/10/BlueSky.png" />
+
+Welcome to yet another edition of this Week in Rails where we summarize some of the most interesting stories of the past two weeks.  If you'd rather listen to these stories with additional detail check out the "Rails Envy Podcast":http://www.railsenvy.com/podcast episode "#49":http://www.railsenvy.com/2008/10/1/rails-envy-podcast-episode-049-10-01-2008 and "#50":http://www.railsenvy.com/2008/10/8/rails-envy-podcast-episode-050-10-08-2008
+
+Michael Koziarski recently "removed country_select from edge rails":http://www.koziarski.net/archives/2008/9/24/countries-and-controversies.  Apparently Rails was using the ISO 3166 Long Names standard list of countries, but some people don't think this list is politically correct.  For instance it lists "Taiwan" as "Taiwan, province of China".  Rather then change this one and have to deal with other debatable country names, country_select has been moved to a plugin, so you can fork your own friendlier list of countries.
+
+Rails built in REST support is great, but if you’ve really spent time making your API usable, you’ve probably found that you had to make tweaks to what gets rendered to the page when a user wants xml or json.  Chris Heald wrote up "one solution on his blog":http://www.coffeepowered.net/2008/09/27/powerful-easy-dry-multi-format-rest-apis/ this week, which shows you how to use xml builder to produce xml which gets translated for your xml, json, and maybe even yaml output formats.
+
+If you ever find yourself needing to add role-based authorization to your Rails app, you should check out a "blog post":http://metautonomo.us/2008/09/30/easy-role-based-authorization/ this week by Ernie Miller.  He gives a unique  implementation worth taking a look at.
+
+
+*Hosting, Performance, and Tuning*
+
+<img src="/assets/2008/10/10/performance.png" />
+
+If you use Slicehost as your ISP for websites, Mark Reynolds wrote up a "script":http://blog.fiveruns.com/2008/9/24/rails-automation-at-slicehost that will install and fully configure your slice to get up and running with Rails, Mysql, and Thin.
+
+We all should probably be load testing our applications more then we do, but this isn't something that's done easily.  Luckily our favorite Ruby Hero, Ilya Grigorik recently "wrote up a tutorial":http://www.igvita.com/2008/09/30/load-testing-with-log-replay/ which serves as a great guide to accurately benchmarking our Rails apps.
+
+If you’re looking for additional tools to help fine tune your Ruby code, Dan Mayer wrote up a "great overview":http://devver.net/blog/2008/10/ruby-tools-roundup/ of just about everything available.
+
+*Databases*
+
+Alexander Lang recents wrote up a blog post entitled "A CouchDB primer for an ActiveRecord mindset":http://upstream-berlin.com/2008/09/25/a-couchdb-primer-for-an-activerecord-mindset/. He gives a simplified introduction to Couch db, goes over a few Ruby libraries that interface with it, and lastly introduces his new Ruby library called CouchPotato.  
+
+A few weeks back Rama McIntosh published a "really useful script":http://myutil.com/2008/8/31/rake-task-transfer-rails-database-mysql-to-postgres on his blog if you ever need to convert your application from one database to another using ActiveRecord.
+
+*Library News*
+
+<img src="/assets/2008/10/10/libraries.png" />
+
+Is your rails app pre-Rails 2.1 and you're envious of those readable *named_scope* methods?  Ken Collins has "back-ported named_scope":http://github.com/metaskills/named_scope/tree/master to Rails 1.2.6 and 2.0.4 so you can take advantage of using this method.
+
+If you're using RSpec to test your Rails app, you may be interested to know that the RSpec Story Runner (where you do your integration tests) is going to be replaced by a "Cucumber":http://blog.davidchelimsky.net/2008/9/22/cucumber.  Although it's typically not a good thing to be replaced by a Cucumber, this particular one is a library written by Aslak Hellesoy which should bring some increased organization and additional benefits to your integration tests.  If you want to get a head start on consuming the cucumber, then check out "Aslak's blog post":http://github.com/aslakhellesoy/cucumber/wikis/migration-from-rspec-stories.
+
+Talking about Testing, "Shoulda 2.0":http://giantrobots.thoughtbot.com/2008/9/30/shoulda-2-0 was recently released witch includes a few improvements and bugfixes.  If you'd like an overview of everything Shoulda has to offer, Kyle Banker wrote up a great "shoulda cheat sheet":http://kylebanker.com/blog/2008/09/shoulda-testing-cheat-sheet/ you should take a look at.
+
+Noel Rappin, the same guy who brought you Rails iui, recently released "TankEngine":http://www.pathf.com/blogs/2008/09/tankengine-new-plugin-for-rails-iphone-development/, a new rails plugin for targeting the iPhone and Mobile Safari.  It uses a jQuery based javascript layer and it’s much more flexible and has better helpers then the original Rails iui.
+
+Marc-Andre Cournoyer recently released "Thin 1.0":http://macournoyer.wordpress.com/2008/09/30/thin-10/, the ultra fast Web Server.  There’s quite a few people that have "moved to thin":http://code.macournoyer.com/thin/users/ from mongrel in their production environments.
+
+"Tog 0.2.1":http://www.toghq.com/ was recently released, which is a collection of plugins that together form a social networking app.  What's great about Tog is that you can pick out just one plugin, like messaging, blogs, or CMS and bring that part into your existing Rails app.  
+
+"Workling 0.3":http://playtype.net/past/2008/10/2/workling_version_03_released/ was released last week, which serves as a great way to deal with background tasks in your Rails app, no matter what messaging queue service you're using.
+
+The Weather Channel provides a great API to pull down the current weather and forecasts around the world.  Jared Pace recently created a Gem called "WeatherMan":http://codewordstudios.com/posts/2-introducing-weatherman-a-ruby-gem which allows you to take full advantage of this data.
+
+Jan De Poorter has recently revived the "RailsXLS plugin":http://workswithruby.com/2008/10/railsxls-revived which uses a java bridge and jakarata to let you use ruby to create excel spreadsheets.
+
+*Event News*
+
+<img src="/assets/2008/10/10/events.png" />
+
+The "Rails Rumble":http://app.railsrumble.com/ is taking place October 18th and 19th. It’s a 48 hour contest where you get one weekend to design, develop, and deploy the best web app you can, using Rails.
+
+If you didn't make it out to the WindyCityRails conference, Josh Symonds wrote up a "nice overview":http://www.pathf.com/blogs/2008/09/tips-tricks-from-windy-city-rails/.
+
+If you live in the Great Lakes Area, you should check out the "Great Lakes Ruby Bash":http://greatlakesrubybash.org/, taking place October 11th in Ann Arbor, Michigan. 
+
+"Scotland on Rails":http://scotlandonrails.com/ is being held in Edinburgh March 26 through 28th. Tickets aren’t available yet but the call for proposals are open if you’d like to speak.
+
+<small>Image Credit: <a href="http://www.flickr.com/photos/ecstaticist/2589723846/">Blue Sky on Rails</a> by <a href="http://www.flickr.com/photos/ecstaticist/2589723846/">ecstaticist</a>, <a href="http://www.flickr.com/photos/formication/2759753856/">Analog Solutions 606 Mod</a> by <a href="http://www.flickr.com/photos/formication/2759753856/">Formication</a>, <a href="http://www.flickr.com/photos/paulwatson/245553627/">RailsConf Europe 2006</a> by <a href="http://www.flickr.com/photos/paulwatson/245553627/">Paul Watson</a>, <a href="http://www.flickr.com/photos/onegoodbumblebee/839927986/">Rainbow</a> by <a href="http://www.flickr.com/photos/onegoodbumblebee/839927986/">One Good Bumblebee</a>.</small>

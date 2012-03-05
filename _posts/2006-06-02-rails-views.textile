@@ -1,0 +1,12 @@
+---
+layout: post
+title: Rails Views
+categories:
+- documentation
+author: chad
+published: true
+date: 2006-06-02 04:50:00.000000000 +01:00
+---
+"Bruce Williams":http://codefluency.com has started a new article series he calls "Rails Views":http://codefluency.com/articles/2006/05/27/introducing-rails-views.  Bruce is a long-time Rubyist and Rails early adopter and is the UI lead on development of a very large and complex Rails system.  If it's Rails and UI-related, Bruce is the man.  
+
+Now he's chosen to share some of his Rails UI wisdom with the rest of us.  If you're doing complex user interface work in Rails, "check it out":http://codefluency.com/articles/tag/railsviews.

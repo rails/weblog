@@ -1,0 +1,12 @@
+---
+layout: post
+title: Going from ColdFusion to Ruby on Rails
+categories:
+- praise
+author: admin
+published: true
+date: 2005-06-30 04:13:40.000000000 +01:00
+---
+Michael Buffington from Adaptive Path <a href="http://www.michaelbuffington.com/archives/2005/06/first_rails_app.html#more">talks about his experience</a> going from ColdFusion to Ruby on Rails. Here's a choice bit:
+
+<blockquote>I'd say it took me less than 10 hours to build <a href="http://www.wordphoto.org/">wordPhoto.org</a>, which includes image uploads, thumbnail generation, email notifiers, a user login system, extensive data validation, clean urls, and various Ajax tidbits. That's super impressive.</blockquote>

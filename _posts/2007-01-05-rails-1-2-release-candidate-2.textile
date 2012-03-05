@@ -1,0 +1,16 @@
+---
+layout: post
+title: ! 'Rails 1.2: Release Candidate 2'
+categories:
+- releases
+author: David
+published: true
+date: 2007-01-05 04:12:00.000000000 +00:00
+---
+This is it. We're a mere two shakes of a lamb's tail from releasing the final version of Rails 1.2. But before we light the fireworks and pop the champagne, we'll just do one itsy, bitsy, tiny test run. Like wearing protection glasses in downtown Copenhagen on New Year's. You know, just for precautions.
+
+So please do give it a good run. We're looking for STOP THE BOAT and HOLD THE PRESSES kind of issues for this one. Nothing else will stop it (but please do report every thing you find any way).
+
+For a reminder on how to install and what's new, see the "release notes for Release Candidate 1":http://weblog.rubyonrails.org/2006/11/23/rails-1-2-release-candidate-1. We also did a series of highlights for "Active Record":http://weblog.rubyonrails.org/2006/11/26/1-2-new-in-activerecord, "Action Pack":http://weblog.rubyonrails.org/2006/11/26/1-2-new-in-actionpack, and "Active Support":http://weblog.rubyonrails.org/2006/11/26/1-2-new-in-activesupport. Read those and hold your breath in anticipation. Unless a surge of heinous issues appear, we're expecting the final version to land some times next week.
+
+Yay, hurray!
