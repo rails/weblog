@@ -5,37 +5,38 @@ body {
 	color: #333;
 	font-family: Georgia, Lucida Grande, Arial, Helvetica, sans-serif;
 	font-size: 16px;
-	line-height: 1.4em;
+	line-height: 1.25em;
 	margin: 0px;
 	padding: 0px;
 }
-h1, h2, h2 a, h3, h4, h5, h6 {
+h1, h2, h2 a {
 	color: #981a21;
 }
 h1 {
-	font-size: 1.5em;
+	font-size: 1.125em;
 	line-height: 1.2em;
 	margin: 0;
 }
 h2 {
-	font-size: 1.25em;
+	font-size: 1em;
 	line-height: 1.4em;
 	margin: 1em 0 0.25em 0;
 }
 h3 {
 	font-size: 1em;
 	line-height: 1.4em;
-	margin: 0;
+	margin: 0.5em 0 0;
 }
 h4 {
 	font-size: 1em;
 	font-weight: normal;
 	margin: 1.25em 0 0.25em;
 }
-p, ul {
-	margin: 0.5em 0 0.5em 0;
+p {
+	margin: 0 0 1em 0;
 }
 ul {
+	margin: 0.5em 0 1em 0;
 	padding: 0 0 0 1.75em;
 }
 ul li {
@@ -91,19 +92,20 @@ a > img {
 
 #wrapper {
 	margin: 0 auto 2em;
-	width: 760px;
+	width: 706px;
 	overflow: hidden;
 }
 #sidebar {
 	background: url(images/rails.png) no-repeat left top;
-	margin: 2em 0 0;
+	margin: 40px 0 0;
 	padding: 131px 0px 0px 0px;
-	width: 170px;
+	width: 150px;
 	float: left;
 }
 #content {
 	float: right;
-	width: 560px;
+	width: 500px;
+	margin: 19px 0 0 0;
 }
 
 /* Sidebar */
@@ -114,8 +116,9 @@ a > img {
 	margin: 0 0 1em 0;
 }
 #sidebar .section h3 {
+	color: #981a21;
 	font-weight: normal;
-	font-size: 1.0704em;
+	font-size: 1em;
 }
 #search form {
 	overflow: hidden;
@@ -127,7 +130,7 @@ a > img {
 	line-height: 14px;
 	height: 22px;
 	border: 1px solid #ccc;
-	width: 120px;
+	width: 140px;
 	float: left;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -158,32 +161,26 @@ a > img {
 
 /* Post */
 .hentry {
-	margin: 2em 0 1em;
+	margin: 1.5em 0;
 }
 .entry-header {
-	margin: 0 0 1em 0;
+	margin: 0 0 0.5em 0;
 }
 .entry-title {
-	font-size: 1.5em;
+	font-size: 1.125em;
 	line-height: 1.2em;
 	margin: 0;
 }
-.entry-title a {
-	text-decoration: none;
-}
 .entry-meta {
 	color: #a69e8a;
-	margin: 0.3em 0 1em;
+	font-size: 0.875em;
+	margin: 0;
 }
 .entry-footer {
-	border-top: 1px solid #a69e8a;
 	color: #a69e8a;
-	font-size: 0.875em;
-	margin: 1em 0;
-	padding: 0.5em 0 0;
-}
-.entry-footer a {
-	color: #a69e8a;
+	font-size: 1em;
+	margin: 0.5em 0 2em;
+	padding: 0;
 }
 .pagination {
 	margin: 0 0 2em;
