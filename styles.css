@@ -35,12 +35,12 @@ h4 {
 p {
 	margin: 0 0 1em 0;
 }
-ul {
+ul, ol {
 	margin: 0.5em 0 1em 0;
 	padding: 0 0 0 1.75em;
 }
-ul li {
-	margin: 0 0 0.25em 0;
+li {
+	margin: 0 0 0.5em 0;
 }
 pre	{
 	background-color: #eee;
