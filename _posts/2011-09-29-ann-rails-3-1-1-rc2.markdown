@@ -66,8 +66,7 @@ could probably look at an older html email with an older asset. [Santiago Pastor
 
   [Jon Leighton]
 
-* Fix using select() with a habtm association, e.g. Person.friends.select(:name). GH #3030 and
-  #2923.
+* Fix using select() with a habtm association, e.g. Person.friends.select(:name). GH #3030 and #2923.
 
   [Hendy Tanata]
 
