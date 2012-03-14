@@ -54,6 +54,9 @@ code {
 	font-size: 0.9375em;
 	color: #666;
 }
+blockquote {
+	margin: 1em, 1.75em;
+}
 a {
 	color: #369;
 }
