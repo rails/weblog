@@ -10,7 +10,7 @@ We're exploring a new way to deal with mass-assignment protection in Rails. Or a
 
 ### Strong parameters
 
-This new approach is an extraction of the [slice pattern][https://gist.github.com/1975644] and we're calling the plugin for it [strong_parameters][https://github.com/rails/strong_parameters] (already available [as a gem][http://rubygems.org/gems/strong_parameters] as well). The basic idea is to move mass-assignment protection out of the model and into the controller where it belongs. 
+This new approach is an extraction of the [slice pattern][1] and we're calling the plugin for it [strong_parameters][2] (already available [as a gem][3] as well). The basic idea is to move mass-assignment protection out of the model and into the controller where it belongs. 
 
 The whole point of the controller is to control the flow between user and application, including authentication, authorization, and as part of that access control. We should never have put mass-assignment protection into the model, and many people stopped doing so long ago with a move to the slice pattern or a variation there of. It's time to extract that pattern and bring it to the people.
 
@@ -47,4 +47,10 @@ We're still fiddling with the API, but it's good enough to use now and I've repl
 
 We're still working on a tidy way to deal with nested parameters, but there's a design ready for implementation, so it shouldn't be far off. In addition, Yehuda is going to work on form signing that'll alleviate the need to manually declare the permitted parameters in the standard HTML form case (you'll still need to use manually permit parameters for APIs and other clients).
 
-But this is good enough to be useful now. The plugin is currently only fully compatible with rails/3-2-stable rev 275ee0dc7b and forward as well as rails/master rev b49a7ddce1 and forward because of a testing issue with wrapped parameters (if you're not using wrapped parameters for your json API, you can use the plugin with any version of Rails 3.2).
+But this is good enough to be useful now. The plugin is currently only fully compatible with rails/3-2-stable rev [275ee0dc7b][4] and forward as well as rails/master rev [b49a7ddce1][5] and forward because of a testing issue with wrapped parameters (if you're not using wrapped parameters for your json API, you can use the plugin with any version of Rails 3.2).
+
+[1]: https://gist.github.com/1975644
+[2]: https://github.com/rails/strong_parameters
+[3]: http://rubygems.org/gems/strong_parameters
+[4]: https://github.com/rails/rails/commit/275ee0dc7b
+[5]: https://github.com/rails/rails/commit/b49a7ddce1
