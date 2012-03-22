@@ -3,14 +3,10 @@ exclude:
   - Gemfile.lock
   - README.md
   - CNAME
-paginate: 10
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: rdiscount
 category_dir: ""
 category_title_prefix: ""
-pagination:
-  previous: "&larr; Previous"
-  next: "Next &rarr;"
 disqus:
   shortname: "ridingrails"
   developer: false
