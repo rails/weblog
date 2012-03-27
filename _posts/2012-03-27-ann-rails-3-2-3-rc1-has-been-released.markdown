@@ -4,7 +4,7 @@ title: "[ANN] Rails 3.2.3.rc1 has been released!"
 categories: []
 author: spastorino
 published: true
-date: 2012-03-27 22:00:00.000000000 +00:00
+date: 2012-03-27 17:15:00.000000000 +00:00
 ---
 Rails 3.2.3.rc1 has been released.
 
