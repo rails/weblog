@@ -87,14 +87,14 @@ If you find something please open an issue on github and let me know through ema
 
 ### SHA-1
 
-* SHA-1 (actionmailer-3.2.3.rc1.gem) = 
-* SHA-1 (actionpack-3.2.3.rc1.gem) = 
-* SHA-1 (activemodel-3.2.3.rc1.gem) = 
-* SHA-1 (activerecord-3.2.3.rc1.gem) = 
-* SHA-1 (activeresource-3.2.3.rc1.gem) = 
-* SHA-1 (activesupport-3.2.3.rc1.gem) = 
-* SHA-1 (rails-3.2.3.rc1.gem) = 
-* SHA-1 (railties-3.2.3.rc1.gem) = 
+* SHA-1 (actionmailer-3.2.3.rc1.gem) = 6e945a152d2159918f05dcf4ef72e87d4b75c2bb
+* SHA-1 (actionpack-3.2.3.rc1.gem) = 1c5153c4b4865207193d7e8af9a09b493683bc55
+* SHA-1 (activemodel-3.2.3.rc1.gem) = eae6bb4cc275e167eb28b35cd8b0a46466dd3c88
+* SHA-1 (activerecord-3.2.3.rc1.gem) = 8a2709c7517d9d91911ad3fbfe82af19422b5e24
+* SHA-1 (activeresource-3.2.3.rc1.gem) = 770a7120f8148f6391a717c03f08cdb76dcd64ac
+* SHA-1 (activesupport-3.2.3.rc1.gem) = 1e89864fc28c7b8cca67eb93696f1b2ecf556b81
+* SHA-1 (rails-3.2.3.rc1.gem) = b1dec2b8c59c78111479e3dc36c106e54fe11f1a
+* SHA-1 (railties-3.2.3.rc1.gem) = 9fbbb616cd868d1070bf04adeda50c373550c349
 
 You can find an exhaustive list of changes on
 [github](https://github.com/rails/rails/compare/v3.2.2...v3.2.3.rc1).
