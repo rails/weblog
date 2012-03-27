@@ -14,7 +14,7 @@ This release changes the default value of *config.active_record.whitelist_attrib
 
 We've also adjusted the dependencies on rack-cache and mail to address the recent security vulnerabilities with those libraries. If you are running a vulnerable version of mail or rack-cache you should update both gems to a safe version. We also fixed a couple of regressions in the render method.
 
-If there are no release blockers, then I will be releasing the final version on March 29th.
+If there are no release blockers, then I will be releasing the final version on March 30th.
 If you find something please open an issue on github and let me know through email (santiago _at_ wyeworks.com), tweet ([spastorino](http://twitter.com/spastorino)) or cc me on the github issue.
 
 [1]: http://guides.rubyonrails.org/security.html#mass-assignment
