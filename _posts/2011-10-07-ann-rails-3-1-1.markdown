@@ -13,12 +13,12 @@ Rails 3.1.1 has been released. **This release requires at least sass-rails 3.1.4
 
 ## CHANGES
 
-*ActionMailer*
+*Action Mailer*
 
 * No changes
 
 
-*ActionPack*
+*Action Pack*
 
 * stylesheet_link_tag('/stylesheets/application') and similar helpers doesn't
 throw Sprockets::FileOutsidePaths exception anymore [Santiago Pastorino]
@@ -122,7 +122,7 @@ could probably look at an older html email with an older asset. [Santiago Pastor
 * Fix assert_select_email to work on multipart and non-multipart emails as the method stopped working correctly in Rails 3.x due to changes in the new mail gem.
 
 
-*ActiveModel*
+*Active Model*
 
 * Remove hard dependency on bcrypt-ruby to avoid make ActiveModel dependent on a binary library.
   You must add the gem explicitly to your Gemfile if you want use ActiveModel::SecurePassword:
@@ -132,7 +132,7 @@ could probably look at an older html email with an older asset. [Santiago Pastor
   See GH #2687. [Guillermo Iguaran]
 
 
-*ActiveRecord*
+*Active Record*
 
 * Add deprecation for the preload_associations method. Fixes #3022.
 
@@ -187,12 +187,12 @@ could probably look at an older html email with an older asset. [Santiago Pastor
 * Use the LIMIT word with the methods #last and #first. Fixes GH #2783 [Damien Mathieu]
 
 
-*ActiveResource*
+*Active Resource*
 
 * No changes
 
 
-*ActiveSupport*
+*Active Support*
 
 * ruby193: String#prepend is also unsafe [Akira Matsuda]
 

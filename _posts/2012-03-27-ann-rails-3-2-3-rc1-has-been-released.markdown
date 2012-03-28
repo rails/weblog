@@ -21,12 +21,12 @@ If you find something please open an issue on github and let me know through ema
 
 ### CHANGES since 3.2.2
 
-*ActionMailer*
+*Action Mailer*
 
 *   Upgrade mail version to 2.4.3 *ML*
 
 
-*ActionPack*
+*Action Pack*
 
 *   Do not include the authenticity token in forms where remote: true as ajax forms use the meta-tag value *DHH*
 
@@ -39,7 +39,7 @@ If you find something please open an issue on github and let me know through ema
 
 *   ActionController::SessionManagement is deprecated. *Santiago Pastorino*
 
-*   Since the router holds references to many parts of the system like engines, controllers and the application itself, inspecting the route set can actually be really slow, therefore we default alias inspect to to_s. *José Valim* 
+*   Since the router holds references to many parts of the system like engines, controllers and the application itself, inspecting the route set can actually be really slow, therefore we default alias inspect to to_s. *José Valim*
 
 *   Add a new line after the textarea opening tag. Closes #393 *rafaelfranca*
 
@@ -48,12 +48,12 @@ If you find something please open an issue on github and let me know through ema
 *   Fixes layout rendering regression from 3.2.2. *José Valim*
 
 
-*ActiveModel*
+*Active Model*
 
 * No changes
 
 
-*ActiveRecord*
+*Active Record*
 
 *   Added find_or_create_by_{attribute}! dynamic method. *Andrew White*
 
@@ -70,12 +70,12 @@ If you find something please open an issue on github and let me know through ema
 *   Fix #5069 - Protect foreign key from mass assignment through association builder. *byroot*
 
 
-*ActiveResource*
+*Active Resource*
 
 * No changes
 
 
-*ActiveSupport*
+*Active Support*
 
 * No changes
 

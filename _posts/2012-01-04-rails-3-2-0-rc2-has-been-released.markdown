@@ -22,12 +22,12 @@ Extract your vendor/plugins to their own gems and bundle them in your Gemfile. I
 
 ## Changes since RC1
 
-*ActionMailer*
+*Action Mailer*
 
 * No changes
 
 
-*ActionPack*
+*Action Pack*
 
 *   Add font_path helper method **Santiago Pastorino**
 
@@ -36,22 +36,22 @@ Extract your vendor/plugins to their own gems and bundle them in your Gemfile. I
 *   Add :gzip option to `caches_page`. The default option can be configured globally using `page_cache_compression` **Andrey Sitnik**
 
 
-*ActiveModel*
+*Active Model*
 
 * No changes
 
 
-*ActiveRecord*
+*Active Record*
 
 * No changes
 
 
-*ActiveResource*
+*Active Resource*
 
 * No changes
 
 
-*ActiveSupport*
+*Active Support*
 
 *   ActiveSupport::Base64 is deprecated in favor of ::Base64. **Sergey Nartimov**
 

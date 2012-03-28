@@ -13,12 +13,12 @@ Rails 3.1.1.rc1 has been released. Please give it a try, it's our chance to fix 
 
 ## CHANGES
 
-*ActionMailer*
+*Action Mailer*
 
 * No changes
 
 
-*ActionPack*
+*Action Pack*
 
 * Allow asset tag helper methods to accept :digest => false option in order to completely avoid the digest generation.
 Useful for linking assets from static html files or from emails when the user
@@ -46,7 +46,7 @@ could probably look at an older html email with an older asset. [Santiago Pastor
 * Fix assert_select_email to work on multipart and non-multipart emails as the method stopped working correctly in Rails 3.x due to changes in the new mail gem.
 
 
-*ActiveModel*
+*Active Model*
 
 * Remove hard dependency on bcrypt-ruby to avoid make ActiveModel dependent on a binary library.
   You must add the gem explicitly to your Gemfile if you want use ActiveModel::SecurePassword:
@@ -56,7 +56,7 @@ could probably look at an older html email with an older asset. [Santiago Pastor
   See GH #2687. [Guillermo Iguaran]
 
 
-*ActiveRecord*
+*Active Record*
 
 * LRU cache in mysql and sqlite are now per-process caches.
 
@@ -90,12 +90,12 @@ could probably look at an older html email with an older asset. [Santiago Pastor
 * Use the LIMIT word with the methods #last and #first. Fixes GH #2783 [Damien Mathieu]
 
 
-*ActiveResource*
+*Active Resource*
 
 * No changes
 
 
-*ActiveSupport*
+*Active Support*
 
 * Fixed performance issue where TimeZone lookups would require tzinfo each time [Tim Lucas]
 
