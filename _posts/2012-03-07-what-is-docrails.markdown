@@ -80,7 +80,7 @@ you are touching. Often the change needs grepping the project tree to find
 instances of what the pull request is about, to update examples, revise
 explanations affected by your change, or writing new documentation.
 
-Tidbit: run ack -a to have guides included in the search.
+Tidbit: run `ack -a` to have guides included in the search.
 
 ## I made a doc fix, when is it going to be online?
 
