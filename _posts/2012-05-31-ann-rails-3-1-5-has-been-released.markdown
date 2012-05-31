@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Rails version 3.0.13 has been released!
+title: Rails version 3.1.5 has been released!
 categories: []
 author: tenderlove
 published: true
 ---
 
-Good news everyone!  Rails version 3.0.13 has been released.
+Good news everyone!  Rails version 3.1.5 has been released.
 
 This release of Rails contains two important security fixes:
 
@@ -18,14 +18,14 @@ these issues, please see the annoumcenents on the [rubyonrails-security mailing 
 
 Other changes for this release can be found in each component's CHANGELOG:
 
-  * [Action Mailer](https://github.com/rails/rails/blob/3-0-stable/actionmailer/CHANGELOG)
-  * [Action Pack](https://github.com/rails/rails/blob/3-0-stable/actionpack/CHANGELOG)
-  * [Active Model](https://github.com/rails/rails/blob/3-0-stable/activemodel/CHANGELOG)
-  * [Active Record](https://github.com/rails/rails/blob/3-0-stable/activerecord/CHANGELOG)
-  * [Active Support](https://github.com/rails/rails/blob/3-0-stable/activesupport/CHANGELOG)
-  * [Railties](https://github.com/rails/rails/blob/3-0-stable/railties/CHANGELOG)
+  * [Action Mailer](https://github.com/rails/rails/blob/3-1-stable/actionmailer/CHANGELOG)
+  * [Action Pack](https://github.com/rails/rails/blob/3-1-stable/actionpack/CHANGELOG)
+  * [Active Model](https://github.com/rails/rails/blob/3-1-stable/activemodel/CHANGELOG)
+  * [Active Record](https://github.com/rails/rails/blob/3-1-stable/activerecord/CHANGELOG)
+  * [Active Support](https://github.com/rails/rails/blob/3-1-stable/activesupport/CHANGELOG)
+  * [Railties](https://github.com/rails/rails/blob/3-1-stable/railties/CHANGELOG)
 
-All changes can be found [here](https://github.com/rails/rails/compare/v3.0.12...v3.0.13).
+All changes can be found [here](https://github.com/rails/rails/compare/v3.1.4...v3.1.5).
 
 I want to give a special thanks to Ben Murphy for responsibly reporting the two
 security issues that are fixed in this release.  Thank you very much!
