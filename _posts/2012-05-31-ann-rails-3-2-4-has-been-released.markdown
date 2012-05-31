@@ -18,12 +18,12 @@ these issues, please see the annoumcenents on the [rubyonrails-security mailing 
 
 Other changes for this release can be found in each component's CHANGELOG:
 
-  * [Action Mailer](https://github.com/rails/rails/blob/3-2-stable/actionmailer/CHANGELOG)
-  * [Action Pack](https://github.com/rails/rails/blob/3-2-stable/actionpack/CHANGELOG)
-  * [Active Model](https://github.com/rails/rails/blob/3-2-stable/activemodel/CHANGELOG)
-  * [Active Record](https://github.com/rails/rails/blob/3-2-stable/activerecord/CHANGELOG)
-  * [Active Support](https://github.com/rails/rails/blob/3-2-stable/activesupport/CHANGELOG)
-  * [Railties](https://github.com/rails/rails/blob/3-2-stable/railties/CHANGELOG)
+  * [Action Mailer](https://github.com/rails/rails/blob/3-2-stable/actionmailer/CHANGELOG.md)
+  * [Action Pack](https://github.com/rails/rails/blob/3-2-stable/actionpack/CHANGELOG.md)
+  * [Active Model](https://github.com/rails/rails/blob/3-2-stable/activemodel/CHANGELOG.md)
+  * [Active Record](https://github.com/rails/rails/blob/3-2-stable/activerecord/CHANGELOG.md)
+  * [Active Support](https://github.com/rails/rails/blob/3-2-stable/activesupport/CHANGELOG.md)
+  * [Railties](https://github.com/rails/rails/blob/3-2-stable/railties/CHANGELOG.md)
 
 All changes can be found [here](https://github.com/rails/rails/compare/v3.2.3...v3.2.4).
 
