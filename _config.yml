@@ -2,7 +2,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - CNAME
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: rdiscount
 category_dir: ""
