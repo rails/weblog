@@ -25,7 +25,7 @@ Other changes for this release can be found in each component's CHANGELOG:
   * [Active Support](https://github.com/rails/rails/blob/3-1-stable/activesupport/CHANGELOG)
   * [Railties](https://github.com/rails/rails/blob/3-1-stable/railties/CHANGELOG)
 
-All changes can be found [here](https://github.com/rails/rails/compare/v3.1.5...v3.2.6).
+All changes can be found [here](https://github.com/rails/rails/compare/v3.1.5...v3.1.6).
 
 <3<3<3
 
