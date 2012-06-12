@@ -29,5 +29,3 @@ All changes can be found [here](https://github.com/rails/rails/compare/v3.1.5...
 
 <3<3<3
 
-
-
