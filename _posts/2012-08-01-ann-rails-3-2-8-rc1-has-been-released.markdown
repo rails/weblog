@@ -91,6 +91,6 @@ We have decided to stop introducing API deprecations in all point releases going
 * MD5 (railties-3.2.8.rc1.gem) = b615346580471aa6dcf338826824f78d0aec8512
 
 You can find an exhaustive list of changes on
-[github](https://github.com/rails/rails/compare/v3.2.7…v3.2.8.rc1).
+[github](https://github.com/rails/rails/compare/v3.2.7...v3.2.8.rc1).
 
 Thanks to everyone!
