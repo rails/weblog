@@ -61,8 +61,6 @@ We have decided to stop introducing API deprecations in all point releases going
 
     *Rafael Mendonça França*
 
-*   update_columns added. *Sebastián Martínez*
-
 
 *ActiveResource*
 
