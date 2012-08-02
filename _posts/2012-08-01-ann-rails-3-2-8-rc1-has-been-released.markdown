@@ -79,14 +79,14 @@ We have decided to stop introducing API deprecations in all point releases going
 
 ## SHA-1
 
-* MD5 (actionmailer-3.2.8.rc1.gem) = 2e12c71925f8f7f5f05e3225f80e9359db8b0401
-* MD5 (actionpack-3.2.8.rc1.gem) = d6947496fb560393d7eeb18fbb77e7ee2dff2a37
-* MD5 (activemodel-3.2.8.rc1.gem) = 4be43d52aa3af70f154101b605ac80c45f0b68ff
-* MD5 (activerecord-3.2.8.rc1.gem) = 84bc989af7f1bd2e9320fa39d80ca783e3499e94
-* MD5 (activeresource-3.2.8.rc1.gem) = 0ba8e537711adabd81fec69f4762a32c5ceb381c
-* MD5 (activesupport-3.2.8.rc1.gem) = 74c2445d8d2541e04e10a969d2ce14419ee3bb9d
-* MD5 (rails-3.2.8.rc1.gem) = 470bc8d4402b44e9f5f82f0610d31e6e6945b897
-* MD5 (railties-3.2.8.rc1.gem) = b615346580471aa6dcf338826824f78d0aec8512
+* 2e12c71925f8f7f5f05e3225f80e9359db8b0401 actionmailer-3.2.8.rc1.gem
+* d6947496fb560393d7eeb18fbb77e7ee2dff2a37 actionpack-3.2.8.rc1.gem
+* 4be43d52aa3af70f154101b605ac80c45f0b68ff activemodel-3.2.8.rc1.gem
+* 84bc989af7f1bd2e9320fa39d80ca783e3499e94 activerecord-3.2.8.rc1.gem
+* 0ba8e537711adabd81fec69f4762a32c5ceb381c activeresource-3.2.8.rc1.gem
+* 74c2445d8d2541e04e10a969d2ce14419ee3bb9d activesupport-3.2.8.rc1.gem
+* 470bc8d4402b44e9f5f82f0610d31e6e6945b897 rails-3.2.8.rc1.gem
+* b615346580471aa6dcf338826824f78d0aec8512 railties-3.2.8.rc1.gem
 
 You can find an exhaustive list of changes on
 [github](https://github.com/rails/rails/compare/v3.2.7...v3.2.8.rc1).
