@@ -23,12 +23,12 @@ We have decided to stop introducing API deprecations in all point releases going
 
 ## CHANGES since 3.2.7
 
-*ActionMailer*
+*Action Mailer*
 
 * No changes
 
 
-*ActionPack*
+*Action Pack*
 
 *   html_escape should escape single quotes. *Santiago Pastorino* 
 
@@ -41,12 +41,12 @@ We have decided to stop introducing API deprecations in all point releases going
 *   Reverted the deprecation of `button_to_function` and `link_to_function` helpers. *Rafael Mendonça França*
 
 
-*ActiveModel*
+*Active Model*
 
 * No changes
 
 
-*ActiveRecord*
+*Active Record*
 
 *   Do not set RAILS_ENV to "development" when using `db:test:prepare` and related rake tasks.
     This was causing the truncation of the development database data when using RSpec.
@@ -76,12 +76,12 @@ We have decided to stop introducing API deprecations in all point releases going
     *Rafael Mendonça França*
 
 
-*ActiveResource*
+*Active Resource*
 
 * No changes
 
 
-*ActiveSupport*
+*Active Support*
 
 *   Fix ActiveSupport integration with Mocha > 0.12.1. *Mike Gunderloy*
 

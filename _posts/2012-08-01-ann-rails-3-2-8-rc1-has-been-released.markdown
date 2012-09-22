@@ -18,12 +18,12 @@ We have decided to stop introducing API deprecations in all point releases going
 
 ## CHANGES since 3.2.7
 
-*ActionMailer*
+*Action Mailer*
 
 * No changes
 
 
-*ActionPack*
+*Action Pack*
 
 *   Reverted the deprecation of `:confirm`. *Rafael Mendonça França*
 
@@ -34,12 +34,12 @@ We have decided to stop introducing API deprecations in all point releases going
 *   Reverted the deprecation of `button_to_function` and `link_to_function` helpers. *Rafael Mendonça França*
 
 
-*ActiveModel*
+*Active Model*
 
 * No changes
 
 
-*ActiveRecord*
+*Active Record*
 
 *   Removes the deprecation of `update_attribute`. *fxn*
 
@@ -62,12 +62,12 @@ We have decided to stop introducing API deprecations in all point releases going
     *Rafael Mendonça França*
 
 
-*ActiveResource*
+*Active Resource*
 
 * No changes
 
 
-*ActiveSupport*
+*Active Support*
 
 *   Reverted the deprecation of ActiveSupport::JSON::Variable. *Rafael Mendonça França*
 
