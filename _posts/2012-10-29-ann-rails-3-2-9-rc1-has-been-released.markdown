@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails 3.2.8.rc2 has been released!
+title: Rails 3.2.9.rc1 has been released!
 categories: []
 author: spastorino
 published: true
