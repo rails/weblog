@@ -83,14 +83,14 @@ let me know :).
 
 ## SHA-1
 
-* 24af6eff6b7c647d04eee9585184ba89f0746d40  actionmailer-3.2.9.rc1.gem
-* c34ea8f12308c9f6fc4d6b31ce8caa2a562b210a  actionpack-3.2.9.rc1.gem
-* 8b3171fdde905c76a541286192e6cef211d83a70  activemodel-3.2.9.rc1.gem
-* 0752e47880da4bb9be2b0309bce5a444a9271420  activerecord-3.2.9.rc1.gem
-* d8c1eeedbf3bc33d1560700cc70cb1752cdc811a  activeresource-3.2.9.rc1.gem
-* 8ad917f70cc3b0a04864c8aa705a0e4997736872  activesupport-3.2.9.rc1.gem
-* 6fdc627a032f1f3ded7830e044298e20fd3fc6ce  rails-3.2.9.rc1.gem
-* 444da0c3f2a1e3200d2a613973062c2d3e4ad7d0  railties-3.2.9.rc1.gem
+* 3aaf1d1e6057177988b646b86650c5cb5bf0e16e  actionmailer-3.2.9.rc2.gem
+* c2ff861876ed951a33c01caacf2c17301319c7b1  actionpack-3.2.9.rc2.gem
+* 642da29371a877fda18fc69c51daa882429d609a  activemodel-3.2.9.rc2.gem
+* f695caa3cac3b1d3f316bfd7d8f0ec69d61211ae  activerecord-3.2.9.rc2.gem
+* baec057af0cf2a6146b000282b86cf6eb87989e2  activeresource-3.2.9.rc2.gem
+* b15f9f13de730343448f35ed3b2f26af1ddd76e9  activesupport-3.2.9.rc2.gem
+* 40b5e77a5123545b4e4b6c2e993a30cdb3a38bae  rails-3.2.9.rc2.gem
+* 7921cbcd52302d31188537fb62fa5c75c2be5b2d  railties-3.2.9.rc2.gem
 
 You can find a list of changes between v3.2.9.rc1 and v3.2.9.rc2 [here](https://github.com/rails/rails/compare/v3.2.9.rc1...v3.2.9.rc2)
 and an exhaustive list of changes since v3.2.8 [here](https://github.com/rails/rails/compare/v3.2.8...v3.2.9.rc2).
