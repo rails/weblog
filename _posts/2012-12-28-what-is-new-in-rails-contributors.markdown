@@ -22,7 +22,7 @@ A new version of the website has just been published, changes are:
 
 * More mappings: the application knows about [more mappings and false positives](https://github.com/fxn/rails-contributors/blob/master/app/models/names_manager.rb).
 
-* New page for releases: There is a [new shiny page for releases](http://contributors.rubyonrails.org/releases) where you can see the who contributed what in any of them. The breakdown is approximate for old releases, since all we have from Subversion is the Git history. Commits are classified with `git rev-list`.
+* New page for releases: There is a [new shiny page for releases](http://contributors.rubyonrails.org/releases) where you can see who contributed what in any of them. The breakdown is approximate for old releases, since all we have from Subversion is the Git history. Commits are classified with `git rev-list`.
 
 * Better Unicode handling: Some names with non-ASCII characters came up from Git using different UTF8 byte representations. The application applies now NFC normalization thoroughly to address that.
 
