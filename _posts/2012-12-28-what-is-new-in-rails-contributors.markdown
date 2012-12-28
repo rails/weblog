@@ -30,6 +30,6 @@ A new version of the website has just been published, changes are:
 
 * Credit for Rails core in Subversion commits: Rails used Subversion in about its first four years. Subversion does not distinguish author and committer, you only have the committer. If the application determines that the author is not the committer using its heuristics, the committer now gets also credited. This is fair with what happens nowadays, where the committer gets credited by his work on a pull request via the merge commit.
 
-* Internal changes: A lot of work has no external visibility indeed, you know. We migrated from [grit](https://github.com/mojombo/grit) to [rugged](https://github.com/libgit2/rugged), and there significant refactors and speedups.
+* Internal changes: A lot of work has no external visibility indeed, you know. We migrated from [grit](https://github.com/mojombo/grit) to [rugged](https://github.com/libgit2/rugged), and there were significant refactors and speedups.
 
 Enjoy!
