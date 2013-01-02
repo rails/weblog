@@ -8,7 +8,7 @@ published: true
 
 Rails versions 3.2.10, 3.1.9, and 3.0.18 have been released.  These releases contain an important security fix.  It is recommended that **all users upgrade immediately**.
 
-The security identifier is CVE-2012-5664, and you can read about the issue [here](add link).
+The security identifier is CVE-2012-5664, and you can read about the issue [here](https://groups.google.com/group/rubyonrails-security/browse_thread/thread/c2353369fea8c53).
 
 For other change in each particular release, please see the CHANGELOG corresponding to that version.  For all commits in each release, please follow the links below:
 
