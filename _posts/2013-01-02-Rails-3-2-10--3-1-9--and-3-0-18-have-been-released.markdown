@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [ANN] Rails 3.2.10, 3.1.9, and 3.0.18 have been released!
+title: '[ANN] Rails 3.2.10, 3.1.9, and 3.0.18 have been released!'
 category: releases
 author: tenderlove
 published: true
