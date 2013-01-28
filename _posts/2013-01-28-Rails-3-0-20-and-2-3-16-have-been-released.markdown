@@ -8,7 +8,7 @@ published: true
 
 Hi everybody.
 
-I'd like to announce that 3.0.20, and 2.3.15 have been released.  These releases contain one **extremely critical security fix** so please update **IMMEDIATELY**.
+I'd like to announce that 3.0.20, and 2.3.16 have been released.  These releases contain one **extremely critical security fix** so please update **IMMEDIATELY**.
 
 You can read about the security fix by following this link:
 
