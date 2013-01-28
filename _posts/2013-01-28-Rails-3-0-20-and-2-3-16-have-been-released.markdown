@@ -8,76 +8,47 @@ published: true
 
 Hi everybody.
 
-I'd like to announce that 3.2.11, 3.1.10, 3.0.19, and 2.3.15 have been released.  These releases contain two **extremely critical security fixes** so please update **IMMEDIATELY**.
+I'd like to announce that 3.0.20, and 2.3.15 have been released.  These releases contain one **extremely critical security fix** so please update **IMMEDIATELY**.
 
-You can read about the security fixes by following these links:
+You can read about the security fix by following this link:
 
-* [CVE-2013-0155](https://groups.google.com/group/rubyonrails-security/browse_thread/thread/b75585bae4326af2)
-* [CVE-2013-0156](https://groups.google.com/group/rubyonrails-security/browse_thread/thread/eb56e482f9d21934)
+* [CVE-2013-0333](https://groups.google.com/forum/?fromgroups=#!topic/rubyonrails-security/1h2DR63ViGo)
 
-In order to ease upgrading, the only major changes in each gem are the security fixes.  To see the detailed changes for each version, follow the links below:
+In order to ease upgrading, the only major changes in each gem is the security fix.  To see the detailed changes for each version, follow the links below:
 
-* [Changes in 3.2.11](https://github.com/rails/rails/compare/v3.2.10...v3.2.11)
-* [Changes in 3.1.10](https://github.com/rails/rails/compare/v3.1.9...v3.1.10)
-* [Changes in 3.0.19](https://github.com/rails/rails/compare/v3.0.18...v3.0.19)
-* [Changes in 2.3.15](https://github.com/rails/rails/compare/v2.3.14...v2.3.15)
+* [Changes in 3.0.20](https://github.com/rails/rails/compare/v3.0.19...v3.0.20)
+* [Changes in 2.3.16](https://github.com/rails/rails/compare/v2.3.15...v2.3.16)
 
 Thanks to the people who responsibly reported these security issues.
 
+Please note that per our [maintenance policy](https://groups.google.com/forum/?fromgroups=#!topic/rubyonrails-security/G4TTUDDYbNA) this will be the last release for the 3.0.x series.
+
 Here are the SHA-1 checksums for each gem:
 
-### 3.2.11
+### 3.0.20
 
 ```
-[aaron@higgins dist]$ shasum *3.2.11*
-933cd2821b30cdff4a2e0b5cc63f4d2c6b29affe  actionmailer-3.2.11.gem
-54731c51b55bf0215392971b982139775c0bfa2b  actionpack-3.2.11.gem
-5ccde66568d8051405c01063f1afaed13bd01082  activemodel-3.2.11.gem
-f360c17968486479b0a4207e7eccbe379186a9d2  activerecord-3.2.11.gem
-c61ff513be8a8aef898d2e5c4c9508d60727c556  activeresource-3.2.11.gem
-41a4e8c382594283026d977554c1e18233198ca8  activesupport-3.2.11.gem
-8fa6d19a0daea910e39a0911b2240c2a7b630fb1  rails-3.2.11.gem
-ffaec7c3e5211283108cf5afab8e79be76090a0d  railties-3.2.11.gem
+[aaron@higgins dist]$ shasum *3.0.20*
+c5b1a446d921dbd512a2d418c50f144b4540a657  actionmailer-3.0.20.gem
+79ec243f6ec301b0a73ad45f89d4ea2335f90346  actionpack-3.0.20.gem
+80c7d881ed64ed7a66f4d82b12c2b98b43f6fbde  activemodel-3.0.20.gem
+d8fc6e02bf46f9b5f86c3a954932d67da211302b  activerecord-3.0.20.gem
+e465e7d582c6d72c487d132e5fac3c3af4626353  activeresource-3.0.20.gem
+5bc7b2f1ad70a2781c4a41a2f4eaa75b999750e4  activesupport-3.0.20.gem
+ba9fb9dba41ce047feef11b4179cd9c3f81b2857  rails-3.0.20.gem
+42b0025e4cb483d491a809b9d9deb6fd182c2a57  railties-3.0.20.gem
 ```
 
-### 3.1.10
+### 2.3.16
 
 ```
-[aaron@higgins dist]$ shasum *3.1.10*
-e3dce983ebd0ee8970c5ddab46b05ac432c8b029  actionmailer-3.1.10.gem
-84e536e732255e5dfd3d8053c10ed98dcb45ac80  actionpack-3.1.10.gem
-db1a3ac836d988dc1fc7c64d29ded7a277047419  activemodel-3.1.10.gem
-ea3ad8514265516033009d97efc1fe7b3d2b09ed  activerecord-3.1.10.gem
-0843646278b42d9ca796e157295851fd9938fe96  activeresource-3.1.10.gem
-b55ef7f66de0bb79fcfa480e8df3696bffbff7f8  activesupport-3.1.10.gem
-4ed7d159191faa1a469cd9efdf9e6a4cdc907195  rails-3.1.10.gem
-f288986df0fabd2035569199ea3d5f1f46a56db7  railties-3.1.10.gem
-```
-
-### 3.0.19
-
-```
-[aaron@higgins dist]$ shasum *3.0.19*
-f8376f907b2230ac75882e1a3cfa8d5cdd6df800  actionmailer-3.0.19.gem
-68b319d86530a5d4291e13d6ab5f357a1e52c05b  actionpack-3.0.19.gem
-f0fb577ea7446ff229752bc799ca86dd53aa9cda  activemodel-3.0.19.gem
-c12324d78b22697d426148010901f79b366c0502  activerecord-3.0.19.gem
-8dbc7c8c80f5baeec823966aa225b23f4c2a799c  activeresource-3.0.19.gem
-b525b778f82f844a56ff993211825b9811bf82bd  activesupport-3.0.19.gem
-c2beb0711d28a07cb2747c83962c7d453951e2d6  rails-3.0.19.gem
-de286ada16b3fc76129767dc612926e0b4f71dda  railties-3.0.19.gem
-```
-
-### 2.3.15
-
-```
-[aaron@higgins dist]$ shasum *2.3.15*
-5ce45c70851dd534a72814620a6e57b42d360b88  actionmailer-2.3.15.gem
-fa174c40f17fa5db952ba3a7c95a4ab0b5467594  actionpack-2.3.15.gem
-e7391c92c82f974be7e65765819824e87bdb3cfd  activerecord-2.3.15.gem
-4644b7a27993f7860d9e176f51dfa52d8f029ec9  activeresource-2.3.15.gem
-64843e3676c20a49060605546dfcdddaef2ea1a8  activesupport-2.3.15.gem
-c8c0c49c63ca0f9acc3e0967b38d92b1c0b115af  rails-2.3.15.gem
+[aaron@higgins dist]$ shasum *2.3.16*
+ab1a47a08d42352d9e8c276d28e6ed6990c23556  actionmailer-2.3.16.gem
+f81ac75eb9edbb363a6d7bbe175a208e97ea3d4f  actionpack-2.3.16.gem
+4ce36062f1f0b326b16e42b9fde5f1ab0610bffc  activerecord-2.3.16.gem
+3698787f9ab8432f0c10268e22fbfcf682fa79cc  activeresource-2.3.16.gem
+90490f62db73c4be9ed69d96592afa0b98e79738  activesupport-2.3.16.gem
+239253159f9793e2372c83dcf9d0bd7bff343f7d  rails-2.3.16.gem
 ```
 
 <3<3<3
