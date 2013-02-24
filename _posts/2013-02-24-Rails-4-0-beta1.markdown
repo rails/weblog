@@ -26,7 +26,7 @@ Active Record has received a ton of love as well to make everything related to s
 
 Given all the fun we've had with security issues, we have some great updates there as well:
 
-* Session store is now encrypted by default (formerly just signed)
+* Session store is now encrypted by default (formerly just signed).
 * <a href="https://github.com/rails/strong_parameters">Strong Parameters</a> take over from attr_protected (now a <a href="https://github.com/rails/protected_attributes">plugin</a>) to guard against foreign parameters.
 * Security headers like X-Frame-Options, X-XSS-Protection, X-Content-Type-Options are on by default with solid values.
 * XML Parameter parsing has been sent to a <a href="https://github.com/rails/actionpack-xml_parser">plugin</a>.
