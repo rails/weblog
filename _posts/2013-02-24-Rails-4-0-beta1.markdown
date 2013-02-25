@@ -4,9 +4,9 @@ title: 'Rails 4.0: Beta 1 released!'
 category: releases
 author: dhh
 published: false
-date: 2013-02-24 19:00:00 +00:00
+date: 2013-02-25 15:00:00 +00:00
 ---
-Hot on the heels of the first production version of Ruby 2.0 comes the first beta version of Rails 4.0. The two form a great pair and are already running in production on a number of applications, including <a href="http://basecamp.com/breeze">Basecamp Breeze</a>. In fact, Ruby 2.0 is the preferred Ruby to use with Rails 4.0 (although you need to install the pre-release bundler with gem install bundler --pre to use that combo for now).
+Hot on the heels of the first production version of Ruby 2.0 comes the first beta version of Rails 4.0. The two form a great pair and are already running in production on a number of applications, including <a href="http://basecamp.com/breeze">Basecamp Breeze</a>. In fact, Ruby 2.0 is the preferred Ruby to use with Rails 4.0.
 
 The purpose of this beta is to get as many people as possible to try to upgrade from Rails 3.2 and earlier and to get an adventurous few to start new applications directly on Rails 4.0. That's the only way we're going to suss out all the issues and ensure that we can launch a solid final release. So please help us with that if you can!
 
