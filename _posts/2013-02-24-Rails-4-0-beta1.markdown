@@ -3,8 +3,8 @@ layout: post
 title: 'Rails 4.0: Beta 1 released!'
 category: releases
 author: dhh
-published: false
-date: 2013-02-25 15:00:00 +00:00
+published: true
+date: 2013-02-25 18:00:00 -06:00
 ---
 Hot on the heels of the first production version of Ruby 2.0 comes the first beta version of Rails 4.0. The two form a great pair and are already running in production on a number of applications, including <a href="http://basecamp.com/breeze">Basecamp Breeze</a>. In fact, Ruby 2.0 is the preferred Ruby to use with Rails 4.0.
 
@@ -35,6 +35,6 @@ On top of these new features and fixes, we have hundreds more of all sorts. Ever
 
 <a href="https://github.com/rails/activeresource">Active Resource</a>, <a href="https://github.com/rails/rails-observers">Active Record Observers</a>, and Action Pack <a href="https://github.com/rails/actionpack-page_caching">page</a> and <a href="https://github.com/rails/actionpack-action_caching">action caching</a> are all examples of things that are no longer in core, but lives on in plugins.
 
-We encourage you to peruse the CHANGELOGs for all the Rails frameworks and delight over the hundreds of improvements we've made to Rails 4.0: <a href="https://github.com/rails/rails/blob/master/actionpack/CHANGELOG.md">Action Pack</a>, <a href="https://github.com/rails/rails/tree/master/activemodel">Active Model</a>, <a href="https://github.com/rails/rails/tree/master/activerecord">Active Record</a>, <a href="https://github.com/rails/rails/tree/master/activesupport">Active Support</a>, <a href="https://github.com/rails/rails/blob/master/railties/CHANGELOG.md">Rails</a>.
+We encourage you to peruse the CHANGELOGs for all the Rails frameworks and delight over the hundreds of improvements we've made to Rails 4.0: <a href="https://github.com/rails/rails/blob/v4.0.0.beta1/actionpack/CHANGELOG.md">Action Pack</a>, <a href="https://github.com/rails/rails/blob/v4.0.0.beta1/activemodel/CHANGELOG.md">Active Model</a>, <a href="https://github.com/rails/rails/blob/v4.0.0.beta1/activerecord/CHANGELOG.md">Active Record</a>, <a href="https://github.com/rails/rails/blob/v4.0.0.beta1/activesupport/CHANGELOG.md">Active Support</a>, <a href="https://github.com/rails/rails/blob/v4.0.0.beta1/railties/CHANGELOG.md">Rails</a>.
 
 Now let's all work together to ensure the release is final and enjoy the bad-ass combination of Ruby on Rails 24! (Or 42?). Please report all the issues you find on the <a href="https://github.com/rails/rails/issues?state=open">Rails issue tracker</a>. We're still working on the <a href="http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#upgrading-from-rails-3-2-to-rails-4-0">upgrade guide from 3.2 to 4.0</a>, but that's a good place to start for help on how to do it.
