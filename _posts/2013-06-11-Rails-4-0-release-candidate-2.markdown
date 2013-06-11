@@ -10,6 +10,6 @@ We're almost at the end of the road for Rails 4.0.0. This is intended to be the 
 
 As last time, please give this release candidate an honest try. This is the version we're going to ship on June 25th unless people find and report blocking issues. Please report all the issues you find on the <a href="https://github.com/rails/rails/issues?state=open">Rails issue tracker</a>. 
 
-As always, install the release with `gem install rails --version 4.0.0.rc2 --no-ri --no-rdoc` or depend on the <a href="https://github.com/rails/rails/tree/v4.0.0.rc1">v4.0.0.rc2 tag</a>. You can also follow the <a href="https://github.com/rails/rails/tree/4-0-0">4-0-0 branch</a>. 4-0-0-stable is now targeting 4.0.1 and master is targeting 4.1.
+As always, install the release with `gem install rails --version 4.0.0.rc2 --no-ri --no-rdoc` or depend on the <a href="https://github.com/rails/rails/tree/v4.0.0.rc2">v4.0.0.rc2 tag</a>. You can also follow the <a href="https://github.com/rails/rails/tree/4-0-0">4-0-0 branch</a>. 4-0-0-stable is now targeting 4.0.1 and master is targeting 4.1.
 
 Go West, friends!
