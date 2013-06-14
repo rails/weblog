@@ -11,7 +11,7 @@ date: 2013-06-14 18:10:00 +01:00
 
 docrails is a branch of Ruby on Rails thought for quick doc fixes that get cross-merged with master regularly, please have a look at [_What is docrails?_](http://weblog.rubyonrails.org/2012/3/7/what-is-docrails/) for more on docrails.
 
-When Pratik Naik created docrails back in 2005, he offered commit bit to anyone interested ([this is the original announcement](https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/kvgiFB3zwhc)). Let me express my admiration for this idea. You know, in open source the commit bit is seen as the precious treasure only given to a few, and Pratik goes and puts this upside down to encourage contributions to the documentation. Genius!
+When Pratik Naik created docrails back in 2005, he offered commit bit to anyone interested ([this is the original announcement](https://groups.google.com/d/msg/rubyonrails-core/kvgiFB3zwhc/if29QQ1G53EJ)). Let me express my admiration for this idea. You know, in open source the commit bit is seen as the precious treasure only given to a few, and Pratik goes and puts this upside down to encourage contributions to the documentation. Genius!
 
 And it went even further. GitHub was very kind to flip a private backend flag for docrails that enabled public write access, you didn't even have to ask for commit bit, you could clone and push without asking for permission.
 
