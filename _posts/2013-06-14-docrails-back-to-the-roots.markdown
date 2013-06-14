@@ -15,7 +15,7 @@ When Pratik Naik created docrails back in 2008, he offered commit bit to anyone 
 
 And it went even further. GitHub was very kind to flip a private backend flag for docrails that enabled public write access, you didn't even have to ask for commit bit, you could clone and push without asking for permission.
 
-The idea proved to work, trust people and you'll get trust back. Tons of people, including yours truly, have been able to contribute and improve the API and the guides with a workflow that is trivial compared to the friction of pull requests. Is about the same effort for Rails committers, patches have to be equally reviewed, but much less for contributors.
+The idea proved to work, trust people and you'll get trust back. Tons of people, including yours truly, have been able to contribute and improve the API and the guides with a workflow that is trivial compared to the friction of pull requests. Is about the same effort for Rails committers, patches have to be equally reviewed, but much less for contributors, which is fantastic.
 
 ## Back to the roots
 
