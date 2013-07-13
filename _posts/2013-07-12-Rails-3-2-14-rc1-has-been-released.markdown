@@ -312,13 +312,13 @@ GitHub](https://github.com/rails/rails/compare/v3.2.13...v3.2.14.rc1).
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-1 hashes:
 
-* f118d513140f7d4737b6895056318986cd1dab7b  actionmailer-3.2.14.rc1.gem
-* 9cb7bf10eb7eb14319fd676503609867f010cf2c  actionpack-3.2.14.rc1.gem
-* 4242e301d2ed795bea6db80bf3ed641056496c4c  activemodel-3.2.14.rc1.gem
-* d408ad0c9be96ebd6d6f82b2c58f6f24784743b8  activerecord-3.2.14.rc1.gem
-* 4ecced48cfb16605b10a8e548c864c1fab7001ae  activeresource-3.2.14.rc1.gem
-* ab2ca77bed40007cb21f96497385b3b05c7bb13b  activesupport-3.2.14.rc1.gem
-* 1260b904d139c2b41e21da2024de61a62d4eca15  rails-3.2.14.rc1.gem
-* 92ec3850eb85c1e2d8faf3b8a89d3bb2ca8fb715  railties-3.2.14.rc1.gem
+* 1b8d20d39c9c5bb2fa56c835fe564bfcf6f55c66  actionmailer-3.2.14.rc1.gem
+* ccf1df0c3daa92e5e72ec11f3399167e16d2a48f  actionpack-3.2.14.rc1.gem
+* 263cbf1ce202095f92648171c6be92eca85837e0  activemodel-3.2.14.rc1.gem
+* 51de13da5e9c9c9ccdd7f7bd4c2bfb3e1dd3dbb1  activerecord-3.2.14.rc1.gem
+* da709adcc9f56364e0d697ea10e4acc9af48068a  activeresource-3.2.14.rc1.gem
+* e45cd0115705514d00b1be917f06092af389fe5d  activesupport-3.2.14.rc1.gem
+* 9fd0569cdee1ca0ab7b170f1c40c6c48304ec29e  rails-3.2.14.rc1.gem
+* a2d485229708af4cdbbdaef72ef6f756fb1b1341  railties-3.2.14.rc1.gem
 
 Thank you everyone!
