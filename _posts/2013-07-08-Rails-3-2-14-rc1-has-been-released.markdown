@@ -118,6 +118,12 @@ No changes.
 
 *Active Record*
 
+*   Do not shallow the original exception in `exec_cache` on PostgreSQL adapter.
+
+    Fixes #11260.
+
+    *Rafael Mendonça França*
+
 *   Fix `ActiveRecord::Store` incorrectly tracking changes of its attributes.
     Fixes #10373.
 
@@ -249,6 +255,12 @@ No changes.
 
 *Active Support*
 
+*   Make `Time.at_with_coercion` retain the second fraction and return local time.
+
+    Fixes #11350
+
+    *Neer Friedman*, *Andrew White*
+
 *   Fix `ActiveSupport::TaggedLogging` incorrectly providing program name the same as log message
     even when block is not provided.
 
@@ -300,14 +312,13 @@ GitHub](https://github.com/rails/rails/compare/v3.2.13...v3.2.14.rc1).
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-1 hashes:
 
-TODO: Add real sha1
-* 6a33c2d10abb5512499addb675df658e179f2e79  actionmailer-3.2.13.rc1.gem
-* 11d8303470698c5b0ac68f187a15093c07383c89  actionpack-3.2.13.rc1.gem
-* a72dafd8b1e3372cc4dda9015b93bf5509b25baa  activemodel-3.2.13.rc1.gem
-* 3c6463ab11658b5ab0fe6a4ad06eb52968ef4492  activerecord-3.2.13.rc1.gem
-* 06cec200b95dc1f64614cd03432e9ab06742a865  activeresource-3.2.13.rc1.gem
-* 5ff59cacae5295baf30a6fb8fb656037f22af3c2  activesupport-3.2.13.rc1.gem
-* facf4549445922d9dc2a836283ae928fa52df4f8  rails-3.2.13.rc1.gem
-* 55e44f621efbf531d9ccade6d27259f7dabae167  railties-3.2.13.rc1.gem
+* f118d513140f7d4737b6895056318986cd1dab7b  actionmailer-3.2.14.rc1.gem
+* 9cb7bf10eb7eb14319fd676503609867f010cf2c  actionpack-3.2.14.rc1.gem
+* 4242e301d2ed795bea6db80bf3ed641056496c4c  activemodel-3.2.14.rc1.gem
+* d408ad0c9be96ebd6d6f82b2c58f6f24784743b8  activerecord-3.2.14.rc1.gem
+* 4ecced48cfb16605b10a8e548c864c1fab7001ae  activeresource-3.2.14.rc1.gem
+* ab2ca77bed40007cb21f96497385b3b05c7bb13b  activesupport-3.2.14.rc1.gem
+* 1260b904d139c2b41e21da2024de61a62d4eca15  rails-3.2.14.rc1.gem
+* 92ec3850eb85c1e2d8faf3b8a89d3bb2ca8fb715  railties-3.2.14.rc1.gem
 
 Thank you everyone!
