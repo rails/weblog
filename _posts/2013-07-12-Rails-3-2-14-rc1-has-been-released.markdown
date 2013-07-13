@@ -3,7 +3,7 @@ layout: post
 title: '[ANN] Rails 3.2.14.rc1 has been released!'
 category: releases
 author: rafaelfranca
-published: false
+published: true
 ---
 
 Hi everyone,
