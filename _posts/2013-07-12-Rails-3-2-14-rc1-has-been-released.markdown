@@ -12,7 +12,7 @@ I am happy to announce that Rails 3.2.14.rc1 has been released. If no regression
 are found I will release 3.2.14 final final this Thursday, on July
 11, 2013. If you find one, please [Open an Issue on
 GitHub](https://github.com/rails/rails/issues/new) and mention me on it,
-`so that I can fix it before the final release.
+so that I can fix it before the final release.
 
 ## CHANGES since 3.2.13
 
