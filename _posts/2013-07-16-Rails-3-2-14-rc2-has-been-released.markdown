@@ -9,7 +9,7 @@ published: true
 Hi everyone,
 
 One regression was found on the 3.2.14.rc1 release. So, following the script
-We are realising a new release candidate, Rails 3.2.14.rc2.
+We are releasing a new release candidate, Rails 3.2.14.rc2.
 
 If no regressions are found we will release 3.2.14 final final this Friday, on July
 19, 2013. If you find one, please [open an Issue on
