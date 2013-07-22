@@ -331,4 +331,4 @@ please use these SHA-1 hashes:
 * 4e99050427fb47ff515051e78eedf328c9ec5676  railties-3.2.14.gem
 
 Thank you for every contributor who helped with this release and specially to everyone
-who tries the release candidates. Without you this release would not be possible.
+who tried the release candidates.
