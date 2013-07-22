@@ -330,5 +330,5 @@ please use these SHA-1 hashes:
 * a5d44cf4c65798e925d998f416804cd23c914001  rails-3.2.14.gem
 * 4e99050427fb47ff515051e78eedf328c9ec5676  railties-3.2.14.gem
 
-Thank you for every contributor who helped with this release and specially to everyone
-who tried the release candidates.
+I'd like to thank you all, every contributor who helped with this release,
+especially everyone who tried the release candidates.
