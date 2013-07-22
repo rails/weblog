@@ -11,10 +11,11 @@ Hi everyone,
 I am happy to announce that Rails 3.2.14 has been released. This is a bug fix release and
 includes more than 150 commits.
 
-I also want to announce that the next 3.2.x release, 3.2.15 will be the last bug fix release
-of this family. After it we will only release security fixes. So, if you have issues on 3.2.x
+I also want to announce that the next 3.2.x release, 3.2.15, will be the **last bug fix release
+of this family**. After it we will only release security fixes. So, if you have issues on 3.2.x
 that you think should be included on 3.2.15, let us know thought the
-[GitHub issues page](https://github.com/rails/rails/issues).
+[GitHub issues page](https://github.com/rails/rails/issues) and in 3 months we'll evaluate if it
+is time to release.
 
 ## CHANGES since 3.2.13
 
