@@ -8,10 +8,10 @@ published: true
 
 Hi everyone,
 
-I am happy to announce that Rails 4.0.1.rcq has been released. This is a bug fix release and
+I am happy to announce that Rails 4.0.1.rc1 has been released. This is a bug fix release and
 includes more than 450 commits.
 
-This release includes an important change on how Active Record handles subsequents `order` calls.
+This release comes up with an important change on how Active Record handles subsequents `order` calls.
 In Rails 4.0.0 when you do something like this:
 
 ```ruby
@@ -31,8 +31,8 @@ this:
 SELECT * FROM users ORDER BY name asc, created_at desc
 ```
 
-We choose to revert the behavior because it added a major backward incompatibility because it make
-harder to have a upgrade path without major changes in the application code. So we took the most
+We chose to revert the behavior because it added a major backward incompatibility that make
+harder to have an upgrade path without major changes in the application code. So we took the most
 conservative path of reverting it to be consistent with the idea of having a smoother upgrade path
 to Rails 4.
 
@@ -71,5 +71,4 @@ please use these SHA-1 hashes:
 * a5d44cf4c65798e925d998f416804cd23c914001  rails-3.2.14.gem
 * 4e99050427fb47ff515051e78eedf328c9ec5676  railties-3.2.14.gem
 
-I'd like to thank you all, every contributor who helped with this release,
-especially everyone who tried the release candidates.
+I'd like to thank you all, every contributor who helped with this release.
