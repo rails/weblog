@@ -11,32 +11,32 @@ Hi everyone,
 I am happy to announce that Rails 4.0.1.rc1 has been released. This is a bug fix release and
 includes more than 450 commits.
 
-This release comes up with an important change on how Active Record handles subsequents `order` calls.
+This release comes up with an important change on how Active Record handles subsequent `order` calls.
 In Rails 4.0.0 when you do something like this:
 
 ```ruby
 User.order("name asc").order("created_at desc")
 ```
 
-The later called `order` is prepended in the old clause resulting on this SQL:
+The later called `order` will be prepended in the ORDER BY clause resulting on this SQL:
 
 ```sql
 SELECT * FROM users ORDER BY created_at desc, name asc
 ```
 
-In Rails 4.0.1 the old behavior of Rails 3 was restored and the orders clauses are appended like
-this:
+In Rails 4.0.1 the behavior of Rails 3 has been restored and the generated ORDER BY clause
+looks like this:
 
 ```sql
 SELECT * FROM users ORDER BY name asc, created_at desc
 ```
 
-We chose to revert the behavior because it added a major backward incompatibility that make
+We chose to revert the behavior because it added a major backward incompatibility that made
 harder to have an upgrade path without major changes in the application code. So we took the most
 conservative path of reverting it to be consistent with the idea of having a smoother upgrade path
 to Rails 4.
 
-Also, this release also add some performance improvements to make Rails 4 even faster.
+Also, this release adds some performance improvements to make Rails 4 even faster.
 
 ## CHANGES since 4.0.0
 
