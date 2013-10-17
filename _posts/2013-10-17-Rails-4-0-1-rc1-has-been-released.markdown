@@ -38,7 +38,7 @@ to Rails 4.
 
 Also, this release adds some performance improvements to make Rails 4 even faster.
 
-If no regressions are found we will release 4.0.1 final final this Tuesday, on October 22, 2013.
+If no regressions are found we will release 4.0.1 final this Tuesday, on October 22, 2013.
 If you find one, please open an Issue on GitHub and mention me (@rafaelfranca) on it,
 so that we can fix it before the final release.
 
