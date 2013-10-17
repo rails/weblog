@@ -38,24 +38,25 @@ to Rails 4.
 
 Also, this release adds some performance improvements to make Rails 4 even faster.
 
+If no regressions are found we will release 4.0.1 final final this Tuesday, on October 22, 2013.
+If you find one, please open an Issue on GitHub and mention me (@rafaelfranca) on it,
+so that we can fix it before the final release.
+
 ## CHANGES since 4.0.0
 
-*Action Mailer*
+To view the changes for each gem, please read the changelogs on GitHub:
 
-*Action Pack*
-
-*Active Model*
-
-*Active Record*
-
-*Active Support*
-
-*Railties*
+* [Action Mailer CHANGELOG](https://github.com/rails/rails/blob/v4.0.1.rc1/actionmailer/CHANGELOG.md)
+* [Action Pack CHANGELOG](https://github.com/rails/rails/blob/v4.0.1.rc1/actionpack/CHANGELOG.md)
+* [Active Model CHANGELOG](https://github.com/rails/rails/blob/v4.0.1.rc1/activemodel/CHANGELOG.md)
+* [Active Record CHANGELOG](https://github.com/rails/rails/blob/v4.0.1.rc1/activerecord/CHANGELOG.md)
+* [Active Support CHANGELOG](https://github.com/rails/rails/blob/v4.0.1.rc1/activesupport/CHANGELOG.md)
+* [Railties CHANGELOG](https://github.com/rails/rails/blob/v4.0.1.rc1/railties/CHANGELOG.md)
 
 *Full listing*
 
 To see the full list of changes, [check out all the commits on
-GitHub](https://github.com/rails/rails/compare/v4.0.0...v4.0.0.rc1).
+GitHub](https://github.com/rails/rails/compare/v4.0.0...v4.0.1.rc1).
 
 ## SHA-1
 
