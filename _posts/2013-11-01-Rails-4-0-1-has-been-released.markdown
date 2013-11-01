@@ -18,7 +18,7 @@ In Rails 4.0.0 when you do something like this:
 User.order("name asc").order("created_at desc")
 ```
 
-The later called `order` will be prepended in the ORDER BY clause resulting on this SQL:
+The latter called `order` will be prepended in the ORDER BY clause resulting on this SQL:
 
 ```sql
 SELECT * FROM users ORDER BY created_at desc, name asc
