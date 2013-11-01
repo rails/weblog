@@ -3,7 +3,7 @@ layout: post
 title: '[ANN] Rails 4.0.1 has been released!'
 category: releases
 author: rafaelfranca
-published: false
+published: true
 ---
 
 Hi everyone,
