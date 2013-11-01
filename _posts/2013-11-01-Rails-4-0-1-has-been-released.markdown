@@ -64,12 +64,12 @@ GitHub](https://github.com/rails/rails/compare/v4.0.0...v4.0.1).
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-1 hashes:
 
-* 482e0c05fb25ae9a8d261f301054fc182e7b4447  actionmailer-4.0.1.rc1.gem
-* 4da9135cfc94be9fa2f25697247bacc5dad5a7ae  actionpack-4.0.1.rc1.gem
-* 205ac4e9fa0be619f636d2947005796be6b8ad9a  activemodel-4.0.1.rc1.gem
-* e2f1268614c91b9d9d4ca3dfecf2db5c59c10141  activerecord-4.0.1.rc1.gem
-* 349fc20340fde7d36a755a2e739187659b082648  activesupport-4.0.1.rc1.gem
-* 43b6b57d3c5eaeb2ac0bdea17e9c68a301293930  rails-4.0.1.rc1.gem
-* f17137d25df9f10d6c1a3d31563c70cc82ad1525  railties-4.0.1.rc1.gem
+* 92f805d392ec81f646428d94d7f47798af89d0ae  actionmailer-4.0.1.gem
+* 2d39b5377d5974389838adc715e6722b957a01f4  actionpack-4.0.1.gem
+* 942a1e7181d46fea1161ed20eab3fe838c4b4679  activemodel-4.0.1.gem
+* 4287fda13001e5977df7920f0dc9a54bd7cb1d8b  activerecord-4.0.1.gem
+* bc643f9804f66316f67be6f7590fa9684f95b599  activesupport-4.0.1.gem
+* 9c8235b7984b9b261d6c5b66f69c69fd3ea0b930  rails-4.0.1.gem
+* 7c44d8595ee83ea0a2bc1fe69e91e8e59fb78fe8  railties-4.0.1.gem
 
 I'd like to thank you all, every contributor who helped with this release.
