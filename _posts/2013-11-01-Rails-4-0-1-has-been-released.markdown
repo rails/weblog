@@ -37,7 +37,7 @@ the older behavior a bug since it behaves differently from all the others scope 
 are chained. So we took the most conservative path of reverting it to be consistent with the idea
 of having a smoother upgrade path to Rails 4.
 
-For those who want the old behavior you can use the [`.reorder`](http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-reorder)
+For those who want the old behavior you can use [`.reorder`](http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-reorder)
 or [`.unscope`](http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html#method-i-unscope)
 to remove the ORDER BY clause and generate another one.
 
