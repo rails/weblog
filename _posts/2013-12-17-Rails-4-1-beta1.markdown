@@ -16,6 +16,6 @@ This new release also follows our new policy of targeting a minor release every 
 
 So there are already a laundry list of things lined up for 4.2, but that's alright. We can target for that to land in another six months or so.
 
-Yves and Godfrey have done such a splendid job putting together the <a href="https://github.com/rails/rails/blob/master/guides/source/4_1_release_notes.md">release notes for 4.1 as a guide</a> and <a href="http://coherence.io/blog/2013/12/17/whats-new-in-rails-4-1.html">Godfrey's feature walk-through</a>, so I won't repeat them here. But you're definitely in for a treat.
+Yves and Godfrey have done such a splendid job putting together the <a href="http://edgeguides.rubyonrails.org/4_1_release_notes.html">release notes for 4.1 as a guide</a> and <a href="http://coherence.io/blog/2013/12/17/whats-new-in-rails-4-1.html">Godfrey's feature walk-through</a>, so I won't repeat them here. But you're definitely in for a treat.
 
 As always, please report any issues as a bug report on Github. If all goes well, we'll try to have the final release out before the end of the year!
