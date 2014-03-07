@@ -18,10 +18,10 @@ What if you're not a student? You can still help out by discussing ideas on the 
 
 We're looking forward to working with this year's students, and expecting some outstanding contributions to Rails as a result!
 
-[mentoring organization]: http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2014
+[mentoring organization]: http://www.google-melange.com/gsoc/org/list/public/google/gsoc2014
 [project ideas]: https://github.com/rails/gsoc2014/wiki/Ideas
 [GSoc site]: http://www.google-melange.com/gsoc/homepage/google/gsoc2014
 [mailing list]: https://groups.google.com/d/forum/rubyonrails-gsoc
-[apply to be a mentor]: http://www.google-melange.com/gsoc/accepted_orgs/google/gsoc2014
+[apply to be a mentor]: http://www.google-melange.com/gsoc/profile/register/org_member/google/gsoc2014
 [me]: mailto:guilleiguaran@gmail.com
 [Google Student Guide]: http://en.flossmanuals.net/GSoCStudentGuide/
