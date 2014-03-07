@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rails 3.2.17, 4.0.3 and 4.1.0.beta2 have been released!
-categories:
+categories: releases
 author: rafaelfranca
 published: true
 date: 2014-02-18 16:17:03 -03:00
