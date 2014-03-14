@@ -12,7 +12,7 @@ Hi everyone,
 I am happy to announce that Rails 4.0.4 has been released. This is a bug fix release and
 includes more than 290 commits.
 
-This release is also know as "Regression Not Found" release, since no regressions are found
+This release is also known as "Regression Not Found" release, since no regressions are found
 after 4.0.4.rc1.
 
 ## CHANGES since 4.0.3
