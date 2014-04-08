@@ -18,10 +18,10 @@ Rails 4.1.0 might carry a minor version bump, but there's nothing minor about th
 
 Finally, we've committed to moving production passwords out of your application repository with two changes. The first is **secrets.yml**, which gives you one place and one convenient interface to access secrets that have been set either via ENV variables or deployment scripts. By default it's used for the secret token guarding cookie integrity, but you can use it for whatever else you need in your app. Second is that we've added support for database URLs in database.yml, and that we by default will be referring to ENV-backed URLs in the generated files. Hurray security!
 
-Now that's just a quick look in the goodie bag. If you want the play-by-play, you can have a look through <a href="https://github.com/rails/rails/compare/4-0-stable...4-1-0">the 5,200 commits we've done between 4-0-stable and 4-1-0</a>. That's right, five thousand. Witness the firepower of this armed and fully operational community!
+Now that's just a quick look in the goodie bag. If you want the play-by-play, you can have a look through <a href="https://github.com/rails/rails/compare/4-0-stable...v4.1.0">the 5,200 commits we've done between 4-0-stable and v4.1.0</a>. That's right, five thousand. Witness the firepower of this armed and fully operational community!
 
 You can also digest the changes, and see some real code, by diving into Yves' and Godfrey's splendid work on the <a href="http://edgeguides.rubyonrails.org/4_1_release_notes.html">release notes for 4.1 as a guide</a> and the <a href="http://coherence.io/blog/2013/12/17/whats-new-in-rails-4-1.html">feature walk-through</a>.
 
-The gems are now on RubyGems, so `gem install rails` will get you the latest. Or you can use the 4-1-0 tag.
+The gems are now on RubyGems, so `gem install rails` will get you the latest. Or you can use the v4.1.0 tag.
 
 Enjoy and we hope to see you at <a href="http://railsconf.com">RailsConf</a> in two weeks!
