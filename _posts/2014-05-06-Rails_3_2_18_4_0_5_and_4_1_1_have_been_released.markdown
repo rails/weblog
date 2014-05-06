@@ -17,7 +17,7 @@ included commits directly related to each security issue.
 
 The security fixes is:
 
-* [CVE-2014-0130]()
+* [CVE-2014-0130](https://groups.google.com/d/msg/rubyonrails-security/NkKc7vTW70o/NxW_PDBSG3AJ)
 
 The commits for 3.2.18 can be found [here](https://github.com/rails/rails/compare/v3.2.17...v3.2.18),
 the commits for 4.0.5 can be found [here](https://github.com/rails/rails/compare/v4.0.4...v4.0.5),
@@ -27,41 +27,41 @@ Here are the checksums for 3.2.18:
 
 ```
 $ shasum *3.2.18*
-f935f62c77648ceeea622c745fb675c00bae1762  actionmailer-3.2.17.gem
-c97fc5302175bf85047598303ff5955e62b6ec94  actionpack-3.2.17.gem
-73bfa7ba3cf5db06d7dd904d01a364794c26d74b  activemodel-3.2.17.gem
-23c0dc657f6eee4c399e7fa3194670a7fb53d0b7  activerecord-3.2.17.gem
-0408aec45047c3a487d157cca6776fab482a257e  activeresource-3.2.17.gem
-f82805677b48a63678a10516bb190b9018621295  activesupport-3.2.17.gem
-dd3dad311e390b57683c9e5367e5b86d468603d9  rails-3.2.17.gem
-b1ce101f057562972852841de94f39dd54662ebd  railties-3.2.17.gem
+971d49dac1d0d2576e9bd01b9a96c393098a96c5  actionmailer-3.2.18.gem
+4c99239a646f8c662559f9fc4924c20a0f29eae7  actionpack-3.2.18.gem
+51f280b8c606a3c7cd503933cabff7b0c6172d1b  activemodel-3.2.18.gem
+b99c31493ddaf0af4c0007b526dd5213222c2bd9  activerecord-3.2.18.gem
+a9d35d1c837047ee328d0f16f420cd2c60a612c9  activeresource-3.2.18.gem
+1526e35aaa02ffb526f5cda77425fecdfd449f56  activesupport-3.2.18.gem
+8ad5bf5ab760112100e29d8515d7c5181f8dbae0  rails-3.2.18.gem
+97e6e478dbebff9cf31c301381b8527f2a523ee5  railties-3.2.18.gem
 ```
 
 Here are the checksums for 4.0.5:
 
 ```
 $ shasum *4.0.5*
-23a518945d69748894089be0c0248ac37a53a43a  actionmailer-4.0.3.gem
-ea6ed1a6217025114781a82b1a47764b5f208efc  actionpack-4.0.3.gem
-f7eebfc01692e433d154b711d7d46dfdb6c952b3  activemodel-4.0.3.gem
-2f2d4e466869590a0c05df027b53440fc031a519  activerecord-4.0.3.gem
-201700ba04716383dfd170e9fea05dda9f991cba  activesupport-4.0.3.gem
-a26d1ecd1d61c18672e29668018dc89c37d371c1  rails-4.0.3.gem
-984b1f914e64301f058b3ae49802b1d20f4d29ff  railties-4.0.3.gem
+80be4d61b42fc532d87ba8816f521b7413a52ce2  actionmailer-4.0.5.gem
+b830f763f6b621cb066002eef02f8ada4826baa2  actionpack-4.0.5.gem
+b1aefc15e8b506a53975705840e0445065e14822  activemodel-4.0.5.gem
+f263e52056be02628308ccb1980903f3f5fb7668  activerecord-4.0.5.gem
+3fba584240a62ad0267f77abbcbd849f138f724b  activesupport-4.0.5.gem
+166a8ee2064d34fefcda0a383672e83818e5961f  rails-4.0.5.gem
+fefa3c5e348b05027f4181e5e6d39f14599f1724  railties-4.0.5.gem
 ```
 
 Here are the checksums for 4.1.1:
 
 ```
 $ shasum *4.1.1*
-b75b973e6bbbd547067e5c3b95948fa124110f65  actionmailer-4.1.0.beta2.gem
-7450f3c6e4e8fecd570e738935999de60fb5419d  actionpack-4.1.0.beta2.gem
-4c26f942e171f370bbe3bd48432709aabeae4b0e  actionview-4.1.0.beta2.gem
-f2296128d08078c7d56e56e679ef0fefef256ed1  activemodel-4.1.0.beta2.gem
-46ba3ebac34c19b060c7168365e3dedbc80f0332  activerecord-4.1.0.beta2.gem
-46e048380d4c6d371d723676fad42c8710c6b4c1  activesupport-4.1.0.beta2.gem
-e97fc5cd39c8480e9f2f94a4499c8553dd744aa0  rails-4.1.0.beta2.gem
-0ad46ba736bfdf4b970199d8739974ef3c3c0cab  railties-4.1.0.beta2.gem
+796ec07e257a98f31eeea38def505cbf3f1e2747  actionmailer-4.1.1.gem
+25e4ad2bc143df849941ba54bb47b1d2dca55c2c  actionpack-4.1.1.gem
+61a9662e06b32f29d89278105e87c230377a6dfd  actionview-4.1.1.gem
+672d510e216019776b66f1e07e7faf4ac5bb21f5  activemodel-4.1.1.gem
+63100443a3416cdde474cca56967bd55029ac507  activerecord-4.1.1.gem
+937c7faa903e678e55536c18ee1ea9bafe08b8af  activesupport-4.1.1.gem
+558547922545bf8f7c1c2d3bc845b2a66f9d826a  rails-4.1.1.gem
+c5c5763e164eb9fb5e3a93fc25df436c379b0d54  railties-4.1.1.gem
 ```
 
 Happy Tuesday! <3<3<3<3
