@@ -11,11 +11,11 @@ Hi everyone!
 
 Rails 3.2.18, 4.0.5 and 4.1.1 have been released!
 
-These three releases contain important security fix, so please upgrade as soon
+These three releases contain important security fixes, so please upgrade as soon
 as possible! In order to make upgrading as smooth as possible, we've only
 included commits directly related to each security issue.
 
-The security fixes is:
+The security fix is:
 
 * [CVE-2014-0130](https://groups.google.com/d/msg/rubyonrails-security/NkKc7vTW70o/NxW_PDBSG3AJ)
 
