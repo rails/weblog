@@ -92,7 +92,7 @@ process. There were many great proposals and we're really excited to be able to 
 <3 <3 <3 <3 <3
 
 P.S. If you enjoyed this post, you should also check out GSoC's sister project – the [Rails Girls Summer of Code]
-initiative, where another seven awesome teams will be working [some equally impressive projects] in our
+initiative, where another <del>seven</del> (Update: [15]!) awesome teams will be working on [some equally impressive projects] in our
 ecosystem. Did I mention how incredibly excited I am about this summer?
 
 [list of projects]: http://www.google-melange.com/gsoc/projects/list/google/gsoc2014
@@ -108,3 +108,4 @@ ecosystem. Did I mention how incredibly excited I am about this summer?
 [run in randomized order]: https://github.com/rails/gsoc2014/wiki/Ideas#make-the-rails-test-suite-run-in-a-random-order
 [Rails Girls Summer of Code]: http://railsgirlssummerofcode.org/
 [some equally impressive projects]: http://railsgirlssummerofcode.org/blog/2014-05-07-meet-the-first-seven-teams-rgsoc-2014/
+[15]: http://railsgirlssummerofcode.org/blog/almost-final-team-list/
