@@ -9,10 +9,10 @@ date: 2014-05-27 13:17:03 -03:00
 
 Hi everyone,
 
-I am happy to announce that Rails 4.1.2.rc1. This is the first bug fix release for
-the 4.1 serie. Also, we are releasing a new bug fix release for the 4.0 serie, 4.0.6.rc1.
+I am happy to announce that Rails 4.1.2.rc1 is the first bug fix release for the 4.1 series.
+Also, we are releasing a new bug fix release for the 4.0 series, as 4.0.6.rc1.
 
-If no regressions are found we will release the final this Friday, on May 30, 2014.
+If no regressions are found expect the final release this Friday, on May 30, 2014.
 If you find one, please open an Issue on GitHub and mention me (@rafaelfranca) on it,
 so that we can fix it before the final release.
 
