@@ -16,8 +16,8 @@ application make sure you are using `protected_attributes` 1.0.8 to get it worki
 versions.
 
 If no new regressions are found expect the final release this Thursday, on Jun 19, 2014.
-If you find one, please open an Issue on GitHub and mention me (@rafaelfranca) on it,
-so that we can fix it before the final release.
+If you find one, please open an [issue on GitHub](https://github.com/rails/rails/issues/new)
+and mention me (@rafaelfranca) on it, so that we can fix it before the final release.
 
 ## CHANGES since 4.0.5
 
