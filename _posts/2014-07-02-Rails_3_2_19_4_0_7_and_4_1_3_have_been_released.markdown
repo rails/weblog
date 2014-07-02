@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rails 3.2.19, 4.0.7 and 4.1.3 have been released!
+title: [Sec ANN] Rails 3.2.19, 4.0.7 and 4.1.3 have been released!
 categories: releases
 author: rafaelfranca
 published: true
