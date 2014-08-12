@@ -1,8 +1,8 @@
           <div id="search" class="section"><section>
-            <h3>Search</h3>
+            <h3 id="search_box">Search</h3>
             <form action="http://www.google.com/search" method="get">
               <input type="hidden" name="q" value="site:weblog.rubyonrails.org">
-              <input type="text" name="q" value="">
+              <input type="text" aria-labelledby="search_box" name="q" value="">
             </form>
           </section></div>
           <div id="job" class="section"><section>
@@ -12,7 +12,7 @@
           <div id="podcasts" class="section"><section>
             <h3>Podcast</h3>
             <ul class="list">
-              <li><a href="http://ruby5.envylabs.com/">Ruby5 Podcast</a></li>
+              <li><a href="http://ruby5.envylabs.com/" title="Ruby5 - The latest news in the Ruby and Rails community">Ruby5 Podcast</a></li>
             </ul>
           </section></div>
           <div id="categories" class="section"><section>
@@ -26,9 +26,9 @@
           <div id="syndication" class="section"><section>
             <h3>Syndicate</h3>
             <ul class="list">
-              <li class="rss icon"><a href="http://weblog.rubyonrails.org/feed/atom.xml" title="Articles feed">Articles</a></li>
+              <li class="rss icon"><a href="http://weblog.rubyonrails.org/feed/atom.xml" title="XML feed file">Articles</a></li>
             </ul>
           </section></div>
           <div id="follow" class="section"><section>
-            <p><a href="http://twitter.com/rails" class="twitter-follow-button" data-show-count="false">Follow @rails</a></p>
+            <p><a href="http://twitter.com/rails" class="twitter-follow-button" title="follow @rails on Twitter" data-show-count="false">Follow @rails</a></p>
           </section></div>
