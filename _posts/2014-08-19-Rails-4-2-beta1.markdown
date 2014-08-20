@@ -22,7 +22,7 @@ Special thanks go out to Cristian Bica and Abdelkader Boudih for their outstandi
 Aaron Patterson is always hunting for performance bounties in Rails, and with an improvement project called <a href="http://tenderlovemaking.com/2014/02/19/adequaterecord-pro-like-activerecord.html">Adequate Record</a> for Active Record, he's come up good. A lot of common queries are now no less than twice as fast in Rails 4.2! This is a great step forward for performance. While computers are constantly getting cheaper and performance is improving, nobody ever said "hey, get that free speed out of my framework". So there you go: Some free speed, buddy!
 
 
-Web Console
+## Web Console
 Out of the wonderful Google Summer of Code for Rails campaign comes <a href="https://github.com/rails/web-console">Web Console</a>. It's an IRB console available in the browser. In development mode, you can go to /console and do your work right there. 
 
 Now that's neat, but what's insanely useful is that this console is automatically available on all exception pages! So when something is bust, you'll now instantly be able to inspect the state of affairs. It even allows you to jump between the different points in the backtrace, and you'll be able to inspect things right at that point.
