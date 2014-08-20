@@ -34,10 +34,10 @@ It's a wonderful improvement to the debugging workflow. Thanks to [Genadi Samoko
 Some quick highlights from the rest of all the wonder that is Rails 4.2:
 
 * Template digests are now automatically included when calculating etags for caching. So caches are bust when the template changes.
-* `respond_with` has moved out and into its own proper home with the responders gem.
+* `respond_with` has moved out and into its own proper home with the [responders][responders] gem.
 * Support for real foreign keys! `add_foreign_key`/`remove_foreign_key` are now available in migrations.
 * A ton of bug fixes and minor improvements to Active Record.
-* Added `config.x.whatever.you_want = true` for custom configuration of your app in `config/environments/*``, `config/application.rb`, and initializers.
+* Added `config.x.whatever.you_want = true` for custom configuration of your app in `config/environments/*`, `config/application.rb`, and initializers.
 * Added `Rails::Application.config_for(:some_yaml)` to load YAML configurations store in `config/` easily.
 
 We're working on a set of [preliminary release notes][release-notes] too.
@@ -80,3 +80,4 @@ Already, [476 people have contributed][contributors] to this new release of Rail
 [rafaelfranca]: https://github.com/rafaelfranca
 [issues]: https://github.com/rails/rails/issues
 [contributors]: http://contributors.rubyonrails.org/edge/contributors
+[responders]: https://github.com/plataformatec/responders
