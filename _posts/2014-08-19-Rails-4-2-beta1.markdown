@@ -9,7 +9,7 @@ date: 2014-08-19 19:30:00 -08:00
 We're putting the final touches on the first major new release of Rails in its second decade of life. While most software would be in a retirement home after a decade of operation, Rails has never been more fit, and this release is packed with goodies that'll make your work even easier, your apps even faster, and the whole experience even better.
 
 ## Active Job, ActionMailer #deliver_later
-The headline feature for Rails 4.2 is the brand new Active Job framework, and its integrations. Active Job is an adapter layer on top of queuing systems like Resque, Delayed Job, Sidekiq, and more. You can write your jobs to Active Job, and it'll run on all these queues with no changes.
+The headline feature for Rails 4.2 is the brand new Active Job framework, and its integrations. Active Job is an adapter layer on top of queuing systems like Resque, Delayed Job, Sidekiq, and more. You can write your jobs to Active Job, and they'll run on all these queues with no changes.
 
 With an always-configured queue in place (though the default is just an inline runner), we can build on top of that where it makes sense. And the first place it makes sense is to send Action Mailer emails asynchronously. So we're introducing the #deliver_later method, which will do just that: Add your email to be sent as a job to a queue, so you don't bog down the controller or model. Voila!
 
