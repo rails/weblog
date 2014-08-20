@@ -56,6 +56,6 @@ The release target for Rails 5.0 is currently spring/summer of 2015. So there's 
 ## Please help us make Rails 4.2 solid!
 We rely on the feedback from everyone in the community to flush out bugs and upgrade issues ahead of a big release like this. So please give Rails 4.2 a try on your app, and if you're starting a new app today, you should probably use the beta1 for that, if you're just the least bit savvy with Rails.
 
-Issues can be recorded on the <a href="https://github.com/rails/rails/ISSU">Github issues tracker</a>.
+Issues can be recorded on the <a href="https://github.com/rails/rails/issues">Github issues tracker</a>.
 
 Already, <a href="http://contributors.rubyonrails.org/edge/contributors">476 people have contributed</a> to this new release of Rails. Please do become one of them!
