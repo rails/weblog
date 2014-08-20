@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rails 4.1.2 beta1: Active Job, Deliver Later, Adequate Record, Web Console'
+title: 'Rails 4.2.0 beta1: Active Job, Deliver Later, Adequate Record, Web Console'
 category: releases
 author: dhh
 published: true
