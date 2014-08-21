@@ -46,9 +46,9 @@ We're working on a set of [preliminary release notes][release-notes] too.
 ## Maintenance consequences and Rails 5.0!
 As per our [maintenance policy][maintenance-policy], the release of Rails 4.2 will mean that bug fixes will only apply to 4-2-stable, regular security issues to 4.2.x, 4.1.x, and severe security issues to 4.2.x, 4.1.x, and 3.2.x. In addition to these already stated commitments, the honorable [Rafael França][rafaelfranca] has agreed to also apply bug fixes to 4-1-stable. So everyone still on 4.1 and unable to move quickly can thank Rafael!
 
-Rails 4.2 will also mark the last big release in the 4.2.x series. After release, we're going to work towards the big Rails 5.0! This means rails/master will have that target as soon as the release candidates for 4.2 start, and 4-2-stable is created.
+Rails 4.2 will also mark the last big release in the 4.x series. After release, we're going to work towards the big Rails 5.0! This means rails/master will have that target as soon as the release candidates for 4.2 start, and 4-2-stable is created.
 
-Rails 5.0 is in most likelihood going to target Ruby 2.2. There's a bunch of optimizations coming in Ruby 2.2 that are going to be very nice, but most importantly for Rails, symbols are going to be garbage collected. This means we can shed a lot of weight related to juggling strings when we accept input from the outside world. It also mean that we can convert fully to keyword arguments and all the other good stuff from the latest Ruby.
+Rails 5.0 is in most likelihood going to target Ruby 2.2. There's a bunch of optimizations coming in Ruby 2.2 that are going to be very nice, but most importantly for Rails, symbols are going to be garbage collected. This means we can shed a lot of weight related to juggling strings when we accept input from the outside world. It also means that we can convert fully to keyword arguments and all the other good stuff from the latest Ruby.
 
 The release target for Rails 5.0 is currently spring/summer of 2015. So there's a while yet, but we're putting this out there for people to know, so gem maintainers and other Ruby implementations can know where we're going.
 
