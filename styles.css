@@ -71,7 +71,6 @@ a > img {
 /* Top Navigation */
 
 #navigation {
-	color: #ccc;
 	width: 760px;
 	margin: 15px auto 10px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -175,12 +174,12 @@ a > img {
 	margin: 0;
 }
 .entry-meta {
-	color: #a69e8a;
+	color: #413E38;
 	font-size: 0.875em;
 	margin: 0;
 }
 .entry-footer {
-	color: #a69e8a;
+	color: #413E38;
 	font-size: 1em;
 	margin: 0.5em 0 2em;
 	padding: 0;
