@@ -11,10 +11,9 @@ Hi everyone,
 
 I am happy to announce that Rails 4.1.6 and 4.0.10 have been released.
 
-I'm also announcing that the next 4.0 bug fix release will be the last one. We are planning to
-release 4.0.11 in the beginning of December, so if you have open issues on 4.0 and want to get them
-fixed before upgrading to 4.1 or 4.2 make sure they are reported and there is someone working on
-them.
+We are planning to produce one more bug fix release in the 4.0 series, targeted for early December.
+At that point, the 4.0 series will be retired. It will not receive further updates for either bug
+fixes or security issues. All users are urged to migrate to 4.1 as soon as possible.
 
 ## CHANGES since 4.0.9
 
