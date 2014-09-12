@@ -4,7 +4,7 @@ title: '[ANN] Rails 4.1.6 and 4.0.10 have been released!'
 category: releases
 author: rafaelfranca
 published: true
-date: 2014-09-12 15:01:03 -03:00
+date: 2014-09-12 15:40:03 -03:00
 ---
 
 Hi everyone,
@@ -12,8 +12,9 @@ Hi everyone,
 I am happy to announce that Rails 4.1.6 and 4.0.10 have been released.
 
 We are planning to produce one more bug fix release in the 4.0 series, targeted for early December.
-At that point, the 4.0 series will be retired. It will not receive further updates for either bug
-fixes or security issues. All users are urged to migrate to 4.1 as soon as possible.
+In keeping with our maintenance policy, after the upcoming release of 4.2.0, the 4.0 series will be
+retired. It will not receive further updates for either bug fixes or security issues. All users are
+urged to migrate to 4.1 as soon as possible.
 
 ## CHANGES since 4.0.9
 
