@@ -36,7 +36,7 @@ MyJob.enqueue(*args)
 # In 4.2.0.beta2:
 MyJob.perform_later(*args)
 
-# The ways hobs are scheduled has changed.
+# The ways jobs are scheduled has changed.
 #
 # In 4.2.0.beta1:
 MyJob.enqueue_at(Date.tomorrow.noon, record)
