@@ -14,14 +14,14 @@ Today the Rails team is happy to announce that we have released Rails
 
 Thanks to all the early adopters who have participated in the first round of
 beta testing, we have identified a number of bugs, regressions and other
-imperfection in the codebase. These problems have since been fixed and included
+imperfections in the codebase. These problems have since been fixed and included
 in this release.
 
 ## Breaking Changes
 
 In addition to bug fixes, some of the new APIs have also been refined after
 further testing in real-world applications. This resulted in the following list
-of breaking changes that are not backwards-compatiable with 4.2.0.beta1:
+of breaking changes that are not backwards-compatible with 4.2.0.beta1:
 
 ### Active Job
 
