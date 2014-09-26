@@ -86,19 +86,19 @@ security issues with the old default behavior. If you need to render a file,
 please change your code to use the explicit form (`render file: "foo/bar"`)
 instead.
 
-## Web Console 2.0.0.beta4
-
-Along with the Rails 4.2.0.beta2 release we also released web-console 2.0.0.beta4 which
-includes a security fix.
-
-If you are already using web-console in development we recommend you to upgrade to this new
-version of the gem.
-
 ## Full list of changes
 
 As always, you can browse the Rails source code repository on GitHub to view the
 [full list of changes](https://github.com/rails/rails/compare/v4.2.0.beta1...v4.2.0.beta2)
 that were included in this release.
+
+## Web Console 2.0.0.beta4
+
+Along with the Rails 4.2.0.beta2 release we also released Web Console 2.0.0.beta4 which
+includes a security fix.
+
+If you are already using Web Console in development we recommend you to upgrade to this new
+version of the gem.
 
 ## Acknowledgement
 
