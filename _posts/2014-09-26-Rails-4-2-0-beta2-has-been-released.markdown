@@ -55,7 +55,7 @@ MyJob.set(queue: :low_priority).perform_later(record)
 The Action Mailer API has also undergone some changes:
 
 ```
-# Two new methods +#del iver_now+ and +#deliver_now!+ were introduced for
+# Two new methods +#deliver_now+ and +#deliver_now!+ were introduced for
 # clarity. +#deliver+ and +#deliver!+ have been deprecated and applications are
 # encouraged to use the +#deliver_*+ instead.
 #
