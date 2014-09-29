@@ -10,7 +10,7 @@ date: 2014-09-26 11:00:00 -08:00
 Happy Friday everyone!
 
 Today the Rails team is happy to announce that we have released Rails
-4.2.0.beta2.
+[4.2.0.beta2](http://rubygems.org/gems/rails/versions/4.2.0.beta2).
 
 Thanks to all the early adopters who have participated in the first round of
 beta testing, we have identified a number of bugs, regressions and other
