@@ -100,6 +100,12 @@ includes a security fix.
 If you are already using Web Console in development we recommend you to upgrade to this new
 version of the gem.
 
+## Active Job vulnerability
+
+In this release we also fixed an Active Job bug that allowed String arguments to
+be deserialized as if they were Global IDs, an object injection security
+vulnerability.
+
 ## Acknowledgement
 
 The Rails team would like to thank the 66 people who contributed patches to make
