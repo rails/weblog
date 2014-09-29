@@ -17,11 +17,29 @@ beta testing, we have identified a number of bugs, regressions and other
 imperfections in the codebase. These problems have since been fixed and included
 in this release.
 
+## Security Issues
+
+This release also includes two security patches.
+
+### Web Console 2.0.0.beta4
+
+Along with the Rails 4.2.0.beta2 release we also released Web Console [2.0.0.beta4](https://rubygems.org/gems/web-console/versions/2.0.0.beta4)
+which includes a security fix.
+
+If you are already using Web Console in development we recommend you to upgrade
+to this new version of the gem.
+
+### Active Job vulnerability
+
+We also fixed an Active Job bug that allowed String arguments to be deserialized
+as if they were Global IDs, an object injection security vulnerability.
+
 ## Breaking Changes
 
-In addition to bug fixes, some of the new APIs have also been refined after
-further testing in real-world applications. This resulted in the following list
-of breaking changes that are not backwards-compatible with 4.2.0.beta1:
+In addition to the security and bug fixes, some of the new APIs have also been
+refined after further testing in real-world applications. This resulted in the
+following list of breaking changes that are not backwards-compatible with
+4.2.0.beta1:
 
 ### Active Job
 
@@ -91,20 +109,6 @@ instead.
 As always, you can browse the Rails source code repository on GitHub to view the
 [full list of changes](https://github.com/rails/rails/compare/v4.2.0.beta1...v4.2.0.beta2)
 that were included in this release.
-
-## Web Console 2.0.0.beta4
-
-Along with the Rails 4.2.0.beta2 release we also released Web Console 2.0.0.beta4 which
-includes a security fix.
-
-If you are already using Web Console in development we recommend you to upgrade to this new
-version of the gem.
-
-## Active Job vulnerability
-
-In this release we also fixed an Active Job bug that allowed String arguments to
-be deserialized as if they were Global IDs, an object injection security
-vulnerability.
 
 ## Acknowledgement
 
