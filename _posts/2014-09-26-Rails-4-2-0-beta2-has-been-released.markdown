@@ -4,10 +4,10 @@ title: '[ANN] Rails 4.2.0.beta2 has been released!'
 category: releases
 author: chancancode
 published: true
-date: 2014-09-26 11:00:00 -08:00
+date: 2014-09-29 11:00:00 -08:00
 ---
 
-Happy Friday everyone!
+Happy Monday everyone!
 
 Today the Rails team is happy to announce that we have released Rails
 [4.2.0.beta2](http://rubygems.org/gems/rails/versions/4.2.0.beta2).
