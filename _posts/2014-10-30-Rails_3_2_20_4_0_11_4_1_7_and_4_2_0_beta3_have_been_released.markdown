@@ -9,7 +9,7 @@ date: 2014-10-30 11:16:55 -07:00
 
 Hello everyone!!! It's that time again.
 
-I would like to announce that Rails 3.2.20, 4.0.11, 4.1.7, and 4.2.0.beta3 have been released.  These releases contain a security fix where the existence of arbitrary files on the file system can be leaked, but the contents of the file **will not** be leaked.  The issue generally only impacts people who are using Rails to serve static assets, and will generally not impact people who use a proxy to serve static assets.  You can read more about the issue [here (CVE-2014-7818)](https://groups.google.com/forum/#!topic/rubyonrails-security/dCp7duBiQgo).  A release of sprockets has also been made to help with this issue.  You can read about it [here (CVE-2014-7819)](https://groups.google.com/forum/#!topic/rubyonrails-security/wQBeGXqGs3E).
+I would like to announce that Rails 3.2.20, 4.0.11, 4.1.7, and 4.2.0.beta3 have been released.  These releases contain a security fix where the existence of arbitrary files on the file system can be leaked, but the contents of the file **will not** be leaked.  The issue generally only impacts people who are using Rails to serve static assets, and will generally not impact people who use a proxy to serve static assets.  You can read more about the issue [here (CVE-2014-7818)](https://groups.google.com/forum/#!topic/rubyonrails-security/dCp7duBiQgo).  A release of sprockets has also been made to help with this issue.  You can read about it [here (CVE-2014-7819)](https://groups.google.com/forum/#!topic/rubyonrails-security/doAVp0YaTqY).
 
 For ease of upgrading, the only changes in these releases are the security fixes.
 
