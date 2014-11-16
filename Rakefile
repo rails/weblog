@@ -3,7 +3,7 @@ task :new_page do
 
   abort "rake new_page POSTNAME=\"whatever\"" unless name
 
-  slug = name.gsub(/[^\w\d]/, '_')
+  slug = name.gsub(/[^\w\d]/, '-').gsub(/--/, '-')
   now = Time.now
   date = now.strftime("%Y-%m-%d")
   File.open("_posts/#{date}-#{slug}.markdown", 'w') do |f|
