@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rails 3.2.21, 4.0.12, and 4.1.8 have been released
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2014-11-17 07:44:42 -08:00

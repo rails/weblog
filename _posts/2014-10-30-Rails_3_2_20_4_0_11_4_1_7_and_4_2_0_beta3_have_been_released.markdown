@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rails 3.2.20, 4.0.11, 4.1.7, and 4.2.0.beta3 have been released
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2014-10-30 11:16:55 -07:00
