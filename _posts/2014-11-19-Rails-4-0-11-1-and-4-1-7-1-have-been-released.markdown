@@ -4,7 +4,7 @@ title: Rails 4.0.11.1 and 4.1.7.1 have been released
 categories: releases
 author: rafaelfranca
 published: true
-date: 2014-11-19 16:16:18 -02:00
+date: 2014-11-19 17:16:18 -02:00
 ---
 Hi everyone!
 
