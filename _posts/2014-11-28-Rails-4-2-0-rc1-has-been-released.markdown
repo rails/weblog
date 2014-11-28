@@ -11,12 +11,12 @@ Happy Black Friday everyone!
 
 The Rails team is very excited to announce that [the first Release Candidate of Rails 4.2.0][gem]
 has been released today. For an overview of all the major changes, please refer
-to the [release notes](release-notes).
+to the [release notes][release-notes].
 
 We would like to thank everyone who have assisted our team in testing the beta
 and smoothing out all the rough edges. During the beta period, we have logged
 [over 1500 commits by over 60 contributors][commits] and [over 100 tickets and pull requests][tickets]
-on Github.
+on GitHub.
 
 In particular, thanks to contributors who have assisted in testing the release
 in their Real World™ applications, we have identified and addressed a number of
@@ -31,7 +31,7 @@ gems and plugins.
 
 Thank you all again, this release would not be possible without your help!
 
-### One More Thing™
+## One More Thing™
 
 The release of the first RC for the 4.2.0 series also marks the [beginning of Rails 5 development][beginning].
 The [4-2-stable][4-2-stable] branch has been created today and all changes on
@@ -47,4 +47,4 @@ the master branch will be targeted for Rails 5.0 and backported according to our
 [beginning]: https://github.com/rails/rails/commit/f25ad07f5ade46eb978fa82658463232d0247c65
 [4-2-stable]: https://github.com/rails/rails/tree/4-2-stable
 [maintenance-policy]: http://edgeguides.rubyonrails.org/maintenance_policy.html
-[rails-5]: http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/
+[rails-5]: http://weblog.rubyonrails.org/2014/8/19/Rails-4-2-beta1/#maintenance-consequences-and-rails-5-0
