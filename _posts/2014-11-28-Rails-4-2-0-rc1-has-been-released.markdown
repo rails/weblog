@@ -31,3 +31,4 @@ Thank you all again, this release would not be possible without your help!
 [gem]: http://rubygems.org/gems/rails/versions/4.2.0.rc1
 [commits]: https://github.com/rails/rails/compare/v4.2.0.beta1...v4.2.0.rc1
 [tickets]: https://github.com/rails/rails/issues?q=milestone%3A4.2.0
+[tracker]: https://github.com/rails/rails/issues
