@@ -31,9 +31,20 @@ gems and plugins.
 
 Thank you all again, this release would not be possible without your help!
 
+### One More Thing™
+
+The release of the first RC for the 4.2.0 series also marks the [beginning of Rails 5 development][beginning].
+The [4-2-stable][4-2-stable] branch has been created today and all changes on
+the master branch will be targeted for Rails 5.0 and backported according to our
+[maintenance policy][maintenance-policy]. Read more about the [grand plans for Rails 5][rails-5]!
+
 [gem]: http://rubygems.org/gems/rails/versions/4.2.0.rc1
 [commits]: https://github.com/rails/rails/compare/v4.2.0.beta1...v4.2.0.rc1
 [tickets]: https://github.com/rails/rails/issues?q=milestone%3A4.2.0
 [tracker]: https://github.com/rails/rails/issues
 [release-notes]: http://edgeguides.rubyonrails.org/4_2_release_notes.html
 [upgrade-guide]: http://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html
+[beginning]: https://github.com/rails/rails/commit/f25ad07f5ade46eb978fa82658463232d0247c65
+[4-2-stable]: https://github.com/rails/rails/tree/4-2-stable
+[maintenance-policy]: http://edgeguides.rubyonrails.org/maintenance_policy.html
+[rails-5]: http://weblog.rubyonrails.org/2014/8/20/Rails-4-2-beta1/
