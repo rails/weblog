@@ -42,8 +42,8 @@ Some quick highlights from the rest of all the wonder that is Rails 4.2:
 
 We're working on a set of [preliminary release notes][release-notes] too.
 
+<h2 id="maintenance-consequences-and-rails-5-0">Maintenance consequences and Rails 5.0!</h2>
 
-## Maintenance consequences and Rails 5.0!
 As per our [maintenance policy][maintenance-policy], the release of Rails 4.2 will mean that bug fixes will only apply to 4-2-stable, regular security issues to 4.2.x, 4.1.x, and severe security issues to 4.2.x, 4.1.x, and 3.2.x. In addition to these already stated commitments, the honorable [Rafael França][rafaelfranca] has agreed to also apply bug fixes to 4-1-stable. So everyone still on 4.1 and unable to move quickly can thank Rafael!
 
 Rails 4.2 will also mark the last big release in the 4.x series. After release, we're going to work towards the big Rails 5.0! This means rails/master will have that target as soon as the release candidates for 4.2 start, and 4-2-stable is created.
