@@ -27,5 +27,6 @@ If no other major issues are found, we expect to release the final version of
 4.2.0 very soon, just in time for Christmas!
 
 [gem]: http://rubygems.org/gems/rails/versions/4.2.0.rc2
+[release-notes]: http://edgeguides.rubyonrails.org/4_2_release_notes.html
 [commits]: https://github.com/rails/rails/compare/v4.2.0.rc1...v4.2.0.rc2
 [tracker]: https://github.com/rails/rails/issues
