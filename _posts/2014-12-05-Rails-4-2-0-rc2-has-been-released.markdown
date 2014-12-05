@@ -16,7 +16,7 @@ to the [release notes][release-notes].
 The RC2 release includes some patches for a few minor issues that was reported
 in the last week. It also includes some improvements to the documentation and
 some enhancements that decreases the verbosity of the Active Job logs. You can
-refer to [the diff on Github][commits] for a full list of chances.
+refer to [the diff on Github][commits] for a full list of changes.
 
 We would like to thank you again for assisting our team in testing the release
 candidates. Please continue to report any issues you discovered to our
