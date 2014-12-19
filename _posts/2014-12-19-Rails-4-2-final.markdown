@@ -8,7 +8,7 @@ date: 2014-12-19 13:00:00 -08:00
 ---
 We come bearing gifts! It's Rails 4.2, and the final version is ready just in time for Christmas. It's full of great toys, useful gizmos, and polished edges, curtesy of a fantastic community of merry elves who've been coding away with jolly glee for months.
 
-This is probably also the most well-tested new major release of Rails in a long time. Through four betas and four release candidates, tons of people have helped ensure that regressions and bugs have been caught. Since the first beta, we have some 1600+ commits of spit and polish applied. So you have good reason to be excited!
+This is probably also the most well-tested new major release of Rails in a long time. Through four betas and three release candidates, tons of people have helped ensure that regressions and bugs have been caught. Since the first beta, we have some 1600+ commits of spit and polish applied. So you have good reason to be excited!
 
 To recap, here's a walkthrough of the major new goodies:
 
@@ -33,7 +33,7 @@ It's a wonderful improvement to the debugging workflow. Thanks to [Genadi Samoko
 
 
 ## Foreign Keys
-Rails has long has a tumultuous relationship with foreign keys, but the drama days are now over. If you want to have foreign keys, you can have foreign keys, and Rails will still smile as it takes your order. The migration DSL gets [add_foreign_key][add-foreign-key] and [remove_foreign_key][remove-foreign-key] and the standard schema.rb dumper will support maintaing these declarations. Foreign key support starts out as an exclusive to the MySQL and PostgreSQL adapters.
+Rails has long had a tumultuous relationship with foreign keys, but the drama days are now over. If you want to have foreign keys, you can have foreign keys, and Rails will still smile as it takes your order. The migration DSL gets [add_foreign_key][add-foreign-key] and [remove_foreign_key][remove-foreign-key] and the standard schema.rb dumper will support maintaing these declarations. Foreign key support starts out as an exclusive to the MySQL and PostgreSQL adapters.
 
 
 ## And so much more...
@@ -60,9 +60,9 @@ It continues to be a pleasure and an honor to be involved with the amazing Ruby 
 [resque]: https://github.com/resque/resque
 [dj]: https://github.com/collectiveidea/delayed_job
 [sidekiq]: https://github.com/mperham/sidekiq
-[more-aj-adapters]: http://edgeapi.rubyonrails.org/classes/ActiveJob/QueueAdapters.html
-[aj-inline-runner]: http://edgeapi.rubyonrails.org/classes/ActiveJob/QueueAdapters/InlineAdapter.html
-[deliver-later]: http://edgeapi.rubyonrails.org/classes/ActionMailer/MessageDelivery.html#method-i-deliver_later
+[more-aj-adapters]: http://api.rubyonrails.org/classes/ActiveJob/QueueAdapters.html
+[aj-inline-runner]: http://api.rubyonrails.org/classes/ActiveJob/QueueAdapters/InlineAdapter.html
+[deliver-later]: http://api.rubyonrails.org/classes/ActionMailer/MessageDelivery.html#method-i-deliver_later
 [globalid]: https://github.com/rails/globalid
 [cristianbica]: https://github.com/cristianbica
 [seuros]: https://github.com/seuros
@@ -72,9 +72,9 @@ It continues to be a pleasure and an honor to be involved with the amazing Ruby 
 [web-console]: https://github.com/rails/web-console
 [gsamokovarov]: https://github.com/gsamokovarov
 [ryandao]: https://github.com/ryandao
-[release-notes]: http://edgeguides.rubyonrails.org/4_2_release_notes.html
+[release-notes]: http://guides.rubyonrails.org/4_2_release_notes.html
 [maintenance-policy]: http://guides.rubyonrails.org/maintenance_policy.html
 [rafaelfranca]: https://github.com/rafaelfranca
-[contributors]: http://contributors.rubyonrails.org/edge/contributors
-[add-foreign-key]: http://edgeapi.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_foreign_key
-[remove-foreign-key]: http://edgeapi.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-remove_foreign_key
+[contributors]: http://contributors.rubyonrails.org/releases/4-2-0/contributors
+[add-foreign-key]: http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_foreign_key
+[remove-foreign-key]: http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-remove_foreign_key
