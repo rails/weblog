@@ -6,7 +6,7 @@ author: dhh
 published: true
 date: 2014-12-19 13:00:00 -08:00
 ---
-We come bearing gifts! It's Rails 4.2, and the final version is ready just in time for Christmas. It's full of great toys, useful gizmos, and polished edges, curtesy of a fantastic community of merry elves who've been coding away with jolly glee for months.
+We come bearing gifts! It's Rails 4.2, and the final version is ready just in time for Christmas. It's full of great toys, useful gizmos, and polished edges, courtesy of a fantastic community of merry elves who've been coding away with jolly glee for months.
 
 This is probably also the most well-tested new major release of Rails in a long time. Through four betas and three release candidates, tons of people have helped ensure that regressions and bugs have been caught. Since the first beta, we have some 1600+ commits of spit and polish applied. So you have good reason to be excited!
 
