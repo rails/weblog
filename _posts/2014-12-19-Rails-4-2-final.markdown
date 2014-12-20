@@ -33,7 +33,7 @@ It's a wonderful improvement to the debugging workflow. Thanks to [Genadi Samoko
 
 
 ## Foreign Keys
-Rails has long had a tumultuous relationship with foreign keys, but the drama days are now over. If you want to have foreign keys, you can have foreign keys, and Rails will still smile as it takes your order. The migration DSL gets [add_foreign_key][add-foreign-key] and [remove_foreign_key][remove-foreign-key] and the standard schema.rb dumper will support maintaing these declarations. Foreign key support starts out as an exclusive to the MySQL and PostgreSQL adapters.
+Rails has long had a tumultuous relationship with foreign keys, but the drama days are now over. If you want to have foreign keys, you can have foreign keys, and Rails will still smile as it takes your order. The migration DSL gets [add\_foreign\_key][add-foreign-key] and [remove\_foreign\_key][remove-foreign-key] and the standard schema.rb dumper will support maintaing these declarations. Foreign key support starts out as an exclusive to the MySQL and PostgreSQL adapters.
 
 
 ## And so much more...
