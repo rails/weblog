@@ -1,7 +1,7 @@
 ---
 layout: post
 title: [ANN] Rails 4.1.9.rc1 and 4.0.13.rc1 have been released!
-categories: released
+categories: release
 author: rafaelfranca
 published: true
 date: 2015-01-01 21:56:06 -03:00
