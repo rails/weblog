@@ -10,7 +10,7 @@ task :new_page do
     f.write <<-eoblog
 ---
 layout: post
-title: #{name}
+title: '#{name}'
 categories:
 author: Your Name
 published: true
