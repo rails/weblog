@@ -10,3 +10,5 @@ category_title_prefix: ""
 disqus:
   shortname: "ridingrails"
   developer: false
+gems:
+  - jemoji
