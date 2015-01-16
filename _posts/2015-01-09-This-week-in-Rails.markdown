@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This week in Rails"
+title: "This week in Rails: a new beginning"
 categories: news
 author: chancancode
 published: true

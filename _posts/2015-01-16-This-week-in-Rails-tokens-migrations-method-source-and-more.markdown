@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This week in Rails"
+title: "This week in Rails: tokens migrations, method_source and more"
 categories: news
 author: kaspth
 published: true
