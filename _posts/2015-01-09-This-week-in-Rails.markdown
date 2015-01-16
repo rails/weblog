@@ -88,7 +88,7 @@ Watch out library authors! Sean Griffin put a lot of effort into improving Arel 
 
 That's all for _This week in Rails_. As always, there are more changes than we have room to cover here, but feel free to [check them out](https://github.com/rails/rails) yourself!
 
-P.S. If you enjoyed this newsletter, why not [share it with your friends](http://rails-weekly.goodbits.io)? :) If you wish to be part of this project please don't hesitate to contact [Godfrey](godfrey@brewhouse.io) – there're a lot of ways you could help make this newsletter more awesome!
+P.S. If you enjoyed this newsletter, why not [share it with your friends](http://rails-weekly.goodbits.io)? :) If you wish to be part of this project please don't hesitate to contact [Godfrey](mailto:godfrey@brewhouse.io) – there're a lot of ways you could help make this newsletter more awesome!
 
 [first-issue]: http://us3.campaign-archive1.com/?u=2721e27ce456363785acc5405&id=d1b48a0b9d
 [subscribe]: http://rails-weekly.goodbits.io
