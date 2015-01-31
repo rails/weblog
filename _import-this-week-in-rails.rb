@@ -18,7 +18,7 @@ if url.nil?
   _import-this-week-in-rails.rb PUBLIC_PAGE_URL
 
 Example:
-  _import-this-week-in-rails.rb http://us3.campaign-archive2.com/?u=2721e27ce456363785acc5405&id=5aed0d5741
+  _import-this-week-in-rails.rb https://rails-weekly.ongoodbits.com/2015/01/30/relation-or-file-fixtures-kwargs-and-more
 "
   exit -1
 end
@@ -26,12 +26,12 @@ end
 require 'open-uri'
 require 'reverse_markdown'
 
-mailchimp_html = open(url).read
+html = open(url + "?body=1").read
 
-title = Nokogiri.parse(mailchimp_html).xpath("//meta[@property='og:title']/@content").map(&:value).join
+title = Nokogiri.parse(html).css("title").text
 raise "Failed to extract title" if title.empty?
 
-newsletter_html = Nokogiri.parse(mailchimp_html).at_css("table.body")
+newsletter_html = Nokogiri.parse(html).at_css("table.body")
 raise "Failed to extract newsletter content" if newsletter_html.nil?
 
 tags = %w(h1 h2 h3 h4 p)
