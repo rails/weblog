@@ -21,7 +21,7 @@ Let's start with a big thank you for all the people who helped this week to make
 
 ### [Added #or to ActiveRecord::Relation](https://github.com/rails/rails/pull/16052)
 
-A long waited feature is added to ActiveRecord and from now on you can combine two ActiveRecord relation with the `or` operator.
+A long waited feature is added to Active Record and from now on you can combine two Active Record relations with the `or` operator.
 
 ### [ActiveSupport::Testing::FileFixtures](https://github.com/rails/rails/pull/18658)
 
@@ -30,6 +30,10 @@ With this addition to `ActiveSupport::Testing` there is no need to write custom 
 ### [Use kwargs in the test's HTTP methods](https://github.com/rails/rails/pull/18323)
 
 Support for keyword arguments is added to the HTTP methods of the controller tests. An example of the new syntax:
+
+```ruby
+post :create, params: { y: x }, format: :json
+```
 
 ## Improved
 
@@ -49,13 +53,13 @@ The `*_via_redirect` methods are deprecated but do not fear, you can use `follow
 
 ## Fixed
 
-### [Fixed http basic authentication nil issue](https://github.com/rails/rails/pull/18666)
+### [Fixed HTTP basic authentication nil issue](https://github.com/rails/rails/pull/18666)
 
 When `request.authorization` returned `nil`, Rails raised a `NoMethodError`, but this is fixed now.
 
 ### [AR::Relation#group accepts SQL reserved keywords](https://github.com/rails/rails/pull/18722)
 
-This patch allows you to group by SQL reserved keywords with the `group` method of ActiveRecord.
+This patch allows you to group by SQL reserved keywords with the `group` method of Active Record.
 
 ## One More Thing™
 
