@@ -26,15 +26,17 @@ end
 require 'open-uri'
 require 'reverse_markdown'
 
-html = open(url + "?body=1").read
+slug = url.split('/').last
 
-title = Nokogiri.parse(html).css("title").text
+parsed = Nokogiri.parse( open(url + "?body=1").read )
+
+title = parsed.css("title").text
 raise "Failed to extract title" if title.empty?
 
-newsletter_html = Nokogiri.parse(html).at_css("table.body")
+newsletter_html = parsed.at_css("table.body")
 raise "Failed to extract newsletter content" if newsletter_html.nil?
 
-tags = %w(h1 h2 h3 h4 p)
+tags = %w(h1 h2 h3 h4 p pre)
 xpath_query = tags.map { |tag| "//#{tag}" }.join ' | '
 simple_newsletter_html = newsletter_html.xpath(xpath_query).to_html
 md = ReverseMarkdown.convert(simple_newsletter_html, unknown_tags: :bypass)
@@ -45,11 +47,21 @@ md.gsub!(/^.*Goodbits.*$/, '')
 
 date = Time.now
 
+begin
+  author = newsletter_html
+    .xpath("//table[@class='row'][2] //a[contains(@href, 'twitter.com/') or contains(@href, 'github.com/') and not(contains(@href, 'rails'))]")
+    .first['href']
+    .split('/')
+    .last
+rescue
+  author = 'chancancode'
+end
+
 meta = %|---
 layout: post
 title: "#{title}"
 categories: news
-author: chancancode
+author: #{author}
 published: true
 date: #{date.to_s}
 ---
@@ -57,7 +69,7 @@ date: #{date.to_s}
 |
 
 post_content = meta + md
-post_path = "_posts/#{date.strftime('%Y-%m-%d')}-#{title.gsub(/[^A-Za-z0-9 ]/, '').gsub(/\s+/, '-')}.markdown"
+post_path = "_posts/#{date.strftime('%Y-%m-%d')}-this-week-in-rails-#{slug}.markdown"
 
 File.open(post_path, 'w') do |f|
   f.write post_content
