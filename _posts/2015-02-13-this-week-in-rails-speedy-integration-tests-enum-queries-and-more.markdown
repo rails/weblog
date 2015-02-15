@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This week in Rails"
+title: "This week in Rails: Speedy Integration Tests, Enum Queries and more!"
 categories: news
 author: kaspth
 published: true
