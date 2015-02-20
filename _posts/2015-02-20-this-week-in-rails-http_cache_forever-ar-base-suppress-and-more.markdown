@@ -53,7 +53,9 @@ The helpers `div_for` and `content_tag_for` will be gone in Rails 5. Grab the [r
 
 ### [Removed ActiveModel::Errors getters/setters](https://github.com/rails/rails/pull/18634)
 
-If you ever used `person.errors.get(:name)` ~~or `person.errors[:name]`~~ to read an error message, you should now switch to ~~`person.errors.messages[:name]`~~ (**Update**: you [should be using `person.errors[:name]`](https://github.com/rails/rails/commit/f55bfe726045594c78438841cdccd5843522deab) after all! Use `person.errors.add(:name, ...)` to append.). `add_on_empty` and `add_on_blank` are [gone too](https://github.com/rails/rails/pull/18996).
+If you ever used `person.errors.get(:name)` <del>or `person.errors[:name]`</del> to read an error message, you should now <del>switch to `person.errors.messages[:name]`</del>. `add_on_empty` and `add_on_blank` are [gone too](https://github.com/rails/rails/pull/18996).
+
+**Update**: you [should be using `person.errors[:name]`](https://github.com/rails/rails/commit/f55bfe726045594c78438841cdccd5843522deab) after all! Use `person.errors.add(:name, ...)` to append.
 
 ## Wrapping up
 
