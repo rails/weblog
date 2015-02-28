@@ -23,7 +23,7 @@ Interview with Rails Core team members about early days of their Rails contribut
 
 ### [Default belongs_to validation](https://github.com/rails/rails/pull/18937)
 
-`belongs_to` relations will now trigger a validation error by default if the association is not present.  
+`belongs_to` relations will now trigger a validation error by default if the association is not present.
 If you wish, you can turn this off with the `optional: true` option per association.
 
 ### [Move the validate! method to ActiveModel::Validations](https://github.com/rails/rails/pull/19018)
@@ -44,7 +44,7 @@ Collections automatically use a `read_multi` for partials starting with a cache 
 
 ### [Fixed ActiveModel.model_name.to_json](https://github.com/rails/rails/pull/19055)
 
-Previously, calling `User.model_name.to_json` would result in an infinite recursion, because `.model_name` inherited `.as_json` from Object.  
+Previously, calling `User.model_name.to_json` would result in an infinite recursion, because `.model_name` inherited `.as_json` from Object.
 This commit delegates `as_json` to the correct handler to fix that.
 
 ### [Fixed mysql's schema.rb dumper](https://github.com/rails/rails/pull/19066)
@@ -55,7 +55,7 @@ MySQL doesn't have a `boolean` datatype, it uses a `tinyint` with a `limit` opti
 
 ### [skip_action_callback is deprecated](https://github.com/rails/rails/pull/19060)
 
-In future `skip_before_action`, `skip_after_action``skip_around_action` will raise an `ArgumentError` if the callback doesn't exist, so using `skip_action_callback`, which calls all three methods will probably fail, therefore it became deprecated.
+In future `skip_before_action`, `skip_after_action` and `skip_around_action` will raise an `ArgumentError` if the callback doesn't exist, so using `skip_action_callback`, which calls all three methods will probably fail, therefore it became deprecated.
 
 ## One More Thing™
 
