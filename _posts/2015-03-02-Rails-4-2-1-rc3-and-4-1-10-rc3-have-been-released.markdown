@@ -56,7 +56,7 @@ GitHub](https://github.com/rails/rails/compare/v4.2.0...v4.2.1.rc3).
 ## SHA-1
 
 If you'd like to verify that your gem is the same as the one I've uploaded,
-please use these SHA-1 hashes.
+please use these SHA-256 hashes.
 
 Here are the checksums for 4.1.10.rc3:
 
