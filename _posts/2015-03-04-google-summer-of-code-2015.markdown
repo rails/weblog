@@ -5,7 +5,7 @@ categories:
 - activism
 author: febuiles
 published: true
-date: 2015-03-07 15:00:00 +00:00
+date: 2015-03-04 20:43:00 +00:00
 ---
 We're happy to announce that Ruby on Rails will once again be part of Google's Summer of Code
 (GSoC) in 2015. The GSoC is a global program where students can contribute to open source projects
