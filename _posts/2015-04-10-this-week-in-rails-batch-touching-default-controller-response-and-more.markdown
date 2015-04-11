@@ -23,7 +23,7 @@ A lot of bug fixing and a couple great improvements going on the Rails environme
 
 YAY! I bet many projects have been looking forward to this improvement. After a couple discussions and [experiments](https://github.com/rails/rails/pull/18824) touching is finally limited to the fewest possible number of queries.
 
-### [Controller actions default to head :ok if no template exists](https://github.com/rails/rails/pull/19377)
+### [Controller actions default to head :no_content if no template exists](https://github.com/rails/rails/pull/19377)
 
 After all these years DHH is still [pushing](https://github.com/rails/rails/issues/19036) for better defaults on Rails. Next major version will assume everything went fine if a controller action has no template. I can't see why not.
 
