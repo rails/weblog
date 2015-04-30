@@ -44,14 +44,13 @@ Javascript and then minified in your staging environment). With source maps you 
 tools your browser provides to do things like reading the CoffeeScript source or setting breakpoints
 on it.
 
-## Refactoring Active Support and Action View
+## Refactoring Active Support and Active Support
 
 **Student:** [Islam Wazery](https://github.com/wazery)    
 **Mentors:** [Kir Shatrov](https://github.com/kirs) and [Carlos Antonio da Silva](https://github.com/carlosantoniodasilva)
 
-Islam is adding some of the things we should already have in Rails, liked named arguments
- for Action View helpers (goodbye counting commas!), or removing the Active Support dependency on
- Action Pack. He will also be investigating how to improve some of our core abstractions like
+Islam is adding some of the things we should already have in Rails, liked adding named arguments
+ for Action View helpers (goodbye counting commas!). He will also be researching how to improve some of our core abstractions like
  [ActionController::Parameters](http://edgeapi.rubyonrails.org/classes/ActionController/Parameters.html)
  and
  [ActionView::OutputBuffer](http://tenderlovemaking.com/2014/06/04/yagni-methods-slow-us-down.html)
