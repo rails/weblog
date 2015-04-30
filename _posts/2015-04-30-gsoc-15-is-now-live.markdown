@@ -16,7 +16,7 @@ the people behind them.
 ## Performance Enhancements for the Asset Pipeline
 
 **Student:** [Martha de Luque]()    
-**Mentors:** [Guillermo Iguaran](https://github.com/guilleiguaran) and [Joshua Peek](https://github.com/josh)
+**Mentors:** [Guillermo Iguaran](https://github.com/guilleiguaran) and [Rafael França](https://github.com/rafaelfranca)
 
 Martha will be profiling, benchmarking and updating parts of our asset compilation process to
 improve our asset [re]generation speed. The initial scope of this project covers CoffeeScript, Sass and
@@ -36,7 +36,7 @@ on existing third-party monitors (e.g. `inotify` or `FSEvent`).
 ## Asset Pipeline Support for Source Maps
 
 **Student:** [Andrei Istratii](https://github.com/Andreis13)    
-**Mentors:** [Arthur Nogueira Neves](https://github.com/arthurnn) and [Rafael Mendonça França](https://github.com/rafaelfranca)
+**Mentors:** [Arthur Nogueira Neves](https://github.com/arthurnn) and [Josh Peek](https://github.com/josh)
 
 The goal of Andrei's project is to give you good inspecting and debugging capabilities in environments
 where your code goes through various transformations (e.g. your CoffeeScript file being compiled to
