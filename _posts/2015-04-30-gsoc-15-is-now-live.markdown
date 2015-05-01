@@ -44,7 +44,7 @@ Javascript and then minified in your staging environment). With source maps you 
 tools your browser provides to do things like reading the CoffeeScript source or setting breakpoints
 on it.
 
-## Refactoring Active Support and Active Support
+## Refactoring Action View and Active Support
 
 **Student:** [Islam Wazery](https://github.com/wazery)    
 **Mentors:** [Kir Shatrov](https://github.com/kirs) and [Carlos Antonio da Silva](https://github.com/carlosantoniodasilva)
