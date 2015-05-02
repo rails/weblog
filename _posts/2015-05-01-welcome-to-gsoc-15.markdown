@@ -99,7 +99,8 @@ RubyBench would be the next step for this project.
 * * *
 
 **Fun Fact**: 5 of the 14 mentors we have this year participated as GSoC students in previous years. Today they're all
-  core members or active contributors.
+  active contributors, and [Guillermo Iguaran](https://github.com/guilleiguaran) even became a member of the Rails core
+  team later on!
 
 We hope to keep you up on important updates during the summer, but if you're interested in staying
 up to date (or maybe lending a hand?) please make sure to subscribe to our [mailing list](ml).
