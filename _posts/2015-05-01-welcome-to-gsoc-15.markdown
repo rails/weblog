@@ -11,7 +11,7 @@ redirect_from:
 ---
 
 Google has announced the list of [accepted projects][melange] for this year's [Google Summer of
-Code][gsoc] (GSoC). Rails has been granted 8 slots, here's a brief introduction to the projects and
+Code][gsoc](GSoC). Rails has been granted 8 slots, here's a brief introduction to the projects and
 the people behind them.
 
 ## Performance Enhancements for the Asset Pipeline
@@ -27,7 +27,7 @@ benefits in these four months.
 ## Evented File System Monitoring
 
 **Student:** [Puneet Agarwal](https://github.com/puneet24)<br>
-**Mentors:** [Xavier Noria](https://github.com/puneet24) and [Matthew Draper](https://github.com/matthewd)
+**Mentors:** [Xavier Noria](https://github.com/fxn) and [Matthew Draper](https://github.com/matthewd)
 
 [FileUpdateChecker](http://api.rubyonrails.org/classes/ActiveSupport/FileUpdateChecker.html), the
 system we use for detecting changes in files (mostly for reloading purposes) has served us well over the years, but we're done with
