@@ -63,7 +63,7 @@ Islam is adding some of the things we should already have in Rails, liked adding
 **Mentor**: [Genadi Samokovarov](https://github.com/gsamokovarov)
 
 Following up on the work of previous GSoC projects, Hiroyuki will be creating browser extensions for
-the Rails web console. Like the the Source Maps project, this one will give you a better live
+the Rails web console. Like the Source Maps project, this one will give you a better live
 debugging experience using standard tools that everyone has available already.
 
 ## Test Failure Prediction
