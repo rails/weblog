@@ -14,7 +14,7 @@ the people behind them.
 
 ## Performance Enhancements for the Asset Pipeline
 
-**Student:** Martha de Luque
+**Student:** Martha de Luque<br>
 **Mentors:** [Guillermo Iguaran](https://github.com/guilleiguaran) and [Rafael França](https://github.com/rafaelfranca)
 
 Martha will be profiling, benchmarking and updating parts of our asset compilation process to
@@ -24,7 +24,7 @@ benefits in these four months.
 
 ## Evented File System Monitoring
 
-**Student:** [Puneet Agarwal](https://github.com/puneet24)
+**Student:** [Puneet Agarwal](https://github.com/puneet24)<br>
 **Mentors:** [Xavier Noria](https://github.com/puneet24) and [Matthew Draper](https://github.com/matthewd)
 
 [FileUpdateChecker](http://api.rubyonrails.org/classes/ActiveSupport/FileUpdateChecker.html), the
@@ -34,7 +34,7 @@ on existing third-party monitors (e.g. `inotify` or `FSEvent`).
 
 ## Asset Pipeline Support for Source Maps
 
-**Student:** [Andrei Istratii](https://github.com/Andreis13)
+**Student:** [Andrei Istratii](https://github.com/Andreis13)<br>
 **Mentors:** [Arthur Nogueira Neves](https://github.com/arthurnn) and [Josh Peek](https://github.com/josh)
 
 The goal of Andrei's project is to give you good inspecting and debugging capabilities in environments
@@ -45,7 +45,7 @@ on it.
 
 ## Refactoring Action View and Active Support
 
-**Student:** [Islam Wazery](https://github.com/wazery)
+**Student:** [Islam Wazery](https://github.com/wazery)<br>
 **Mentors:** [Kir Shatrov](https://github.com/kirs) and [Carlos Antonio da Silva](https://github.com/carlosantoniodasilva)
 
 Islam is adding some of the things we should already have in Rails, liked adding named arguments
@@ -57,7 +57,7 @@ Islam is adding some of the things we should already have in Rails, liked adding
 
 ## Web Console Browser Extensions
 
-**Student:** [Hiroyuki Sano](https://github.com/sh19910711)
+**Student:** [Hiroyuki Sano](https://github.com/sh19910711)<br>
 **Mentor**: [Genadi Samokovarov](https://github.com/gsamokovarov)
 
 Following up on the work of previous GSoC projects, Hiroyuki will be creating browser extensions for
@@ -66,8 +66,8 @@ debugging experience using standard tools that everyone has available already.
 
 ## Test Failure Prediction
 
-**Student:** [Genki Sugimoto](https://github.com/Genki-S)
-**Mentors:** [Robin Dupret](https://github.com/robin850), [Josh Kalderimis](https://github.com/joshk)
+**Student:** [Genki Sugimoto](https://github.com/Genki-S)<br>
+**Mentors:** [Robin Dupret](https://github.com/robin850) and [Josh Kalderimis](https://github.com/joshk)
 
 [Aaron Patterson](https://github.com/tenderlove) has touched upon some interesting ideas on
 [predicting test
@@ -78,7 +78,7 @@ part of the Rails testing ecosystem.
 
 ## Refactoring Cookies
 
-**Student:** [Siddharth Bhatore](https://github.com/sbhatore)
+**Student:** [Siddharth Bhatore](https://github.com/sbhatore)<br>
 **Mentors:** [Kasper Timm Hansen](https://github.com/kaspth) and [Prem Sichanugrist](https://github.com/sikachu)
 
 Rails cookie handling is pretty basic, and although it works in most use cases, we can improve
@@ -87,7 +87,7 @@ cookie jar, allowing us to have better control and security over our systems.
 
 ## Improving RubyBench.org
 
-**Student:** [Kasif Gilbert](https://github.com/klgilbert)
+**Student:** [Kasif Gilbert](https://github.com/klgilbert)<br>
 **Mentors:** [Sam Saffron](https://github.com/SamSaffron)
 
 In case you're not familiar with it, [RubyBench](http://rubybench.org/) is an amazing effort to keep
@@ -105,11 +105,12 @@ RubyBench would be the next step for this project.
 We hope to keep you up on important updates during the summer, but if you're interested in staying
 up to date (or maybe lending a hand?) please make sure to subscribe to our [mailing list](ml).
 
-Finally, we want to thank José Valim/The Pragmatic Programmers, Pat Shaughnessy/No Starch Press and
-O'Reilly for donating copies of [Crafting Rails
+Finally, we want to thank [José Valim](https://github.com/josevalim)/[The Pragmatic Programmers](https://pragprog.com/),
+[Pat Shaughnessy](http://patshaughnessy.net/)/[No Starch Press](http://www.nostarch.com/) and
+[O'Reilly](http://www.oreilly.com/) for donating copies of [Crafting Rails
 Applications](https://pragprog.com/book/jvrails/crafting-rails-applications), [Ruby Under the
-Microscope](http://patshaughnessy.net/ruby-under-a-microscope) and discounts on
-[O'Reilly products](http://www.oreilly.com/).
+Microscope](http://patshaughnessy.net/ruby-under-a-microscope) and offering discounts on
+[O'Reilly products](http://www.oreilly.com/) to our students.
 
 PS: In case you missed it, Ruby and SciRuby will also be part of this year's GSoC! You can learn
 more in the [Ruby GSoC][rubygsoc-ml] and [SciRuby
