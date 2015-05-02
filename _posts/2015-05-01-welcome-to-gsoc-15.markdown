@@ -15,7 +15,7 @@ the people behind them.
 
 ## Performance Enhancements for the Asset Pipeline
 
-**Student:** [Martha de Luque]()
+**Student:** Martha de Luque
 **Mentors:** [Guillermo Iguaran](https://github.com/guilleiguaran) and [Rafael França](https://github.com/rafaelfranca)
 
 Martha will be profiling, benchmarking and updating parts of our asset compilation process to
