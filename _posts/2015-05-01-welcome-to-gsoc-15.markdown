@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Google Summer of Code 2015 is now live
+title: Welcome to Google Summer of Code 2015!
 categories:
 - activism
 author: febuiles
 published: true
-date: 2015-04-30 15:00:00 +00:00
+date: 2015-05-31 18:00:00 -07:00
 ---
 **TODO** Confirm Josh K. participation and remove **TODO** tags.
 
@@ -15,7 +15,7 @@ the people behind them.
 
 ## Performance Enhancements for the Asset Pipeline
 
-**Student:** [Martha de Luque]()    
+**Student:** [Martha de Luque]()
 **Mentors:** [Guillermo Iguaran](https://github.com/guilleiguaran) and [Rafael França](https://github.com/rafaelfranca)
 
 Martha will be profiling, benchmarking and updating parts of our asset compilation process to
@@ -25,7 +25,7 @@ benefits in these four months.
 
 ## Evented File System Monitoring
 
-**Student:** [Puneet Agarwal](https://github.com/puneet24)    
+**Student:** [Puneet Agarwal](https://github.com/puneet24)
 **Mentors:** [Xavier Noria](https://github.com/puneet24) and [Matthew Draper](https://github.com/matthewd)
 
 [FileUpdateChecker](http://api.rubyonrails.org/classes/ActiveSupport/FileUpdateChecker.html), the
@@ -35,7 +35,7 @@ on existing third-party monitors (e.g. `inotify` or `FSEvent`).
 
 ## Asset Pipeline Support for Source Maps
 
-**Student:** [Andrei Istratii](https://github.com/Andreis13)    
+**Student:** [Andrei Istratii](https://github.com/Andreis13)
 **Mentors:** [Arthur Nogueira Neves](https://github.com/arthurnn) and [Josh Peek](https://github.com/josh)
 
 The goal of Andrei's project is to give you good inspecting and debugging capabilities in environments
@@ -46,7 +46,7 @@ on it.
 
 ## Refactoring Action View and Active Support
 
-**Student:** [Islam Wazery](https://github.com/wazery)    
+**Student:** [Islam Wazery](https://github.com/wazery)
 **Mentors:** [Kir Shatrov](https://github.com/kirs) and [Carlos Antonio da Silva](https://github.com/carlosantoniodasilva)
 
 Islam is adding some of the things we should already have in Rails, liked adding named arguments
@@ -58,7 +58,7 @@ Islam is adding some of the things we should already have in Rails, liked adding
 
 ## Web Console Browser Extensions
 
-**Student:** [Hiroyuki Sano](https://github.com/sh19910711)    
+**Student:** [Hiroyuki Sano](https://github.com/sh19910711)
 **Mentor**: [Genadi Samokovarov](https://github.com/gsamokovarov)
 
 Following up on the work of previous GSoC projects, Hiroyuki will be creating browser extensions for
@@ -67,7 +67,7 @@ debugging experience using standard tools that everyone has available already.
 
 ## Test Failure Prediction
 
-**Student:** [Genki Sugimoto](https://github.com/Genki-S)    
+**Student:** [Genki Sugimoto](https://github.com/Genki-S)
 **Mentors:** [Robin Dupret](https://github.com/robin850), **TODO** Confirm: "and maybe Josh K from travis CI"
 
 [Aaron Patterson](https://github.com/tenderlove) has touched upon some interesting ideas on
@@ -79,7 +79,7 @@ part of the Rails testing ecosystem.
 
 ## Refactoring Cookies
 
-**Student:** [Siddharth Bhatore](https://github.com/sbhatore)    
+**Student:** [Siddharth Bhatore](https://github.com/sbhatore)
 **Mentors:** [Kasper Timm Hansen](https://github.com/kaspth) and [Prem Sichanugrist](https://github.com/sikachu)
 
 Rails cookie handling is pretty basic, and although it works in most use cases, we can improve
@@ -88,7 +88,7 @@ cookie jar, allowing us to have better control and security over our systems.
 
 ## Improving RubyBench.org
 
-**Student:** [Kasif Gilbert](https://github.com/klgilbert)    
+**Student:** [Kasif Gilbert](https://github.com/klgilbert)
 **Mentors:** [Sam Saffron](https://github.com/SamSaffron)
 
 In case you're not familiar with it, [RubyBench](http://rubybench.org/) is an amazing effort to keep
