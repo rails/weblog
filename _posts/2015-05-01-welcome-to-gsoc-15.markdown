@@ -29,7 +29,7 @@ benefits in these four months.
 **Student:** [Puneet Agarwal](https://github.com/puneet24)<br>
 **Mentors:** [Xavier Noria](https://github.com/fxn) and [Matthew Draper](https://github.com/matthewd)
 
-[FileUpdateChecker](http://api.rubyonrails.org/classes/ActiveSupport/FileUpdateChecker.html), the
+[ActiveSupport::FileUpdateChecker](http://api.rubyonrails.org/classes/ActiveSupport/FileUpdateChecker.html), the
 system we use for detecting changes in files (mostly for reloading purposes) has served us well over the years, but we're done with
 polling. Puneet will be replacing our current design with a event-based approach that relies
 on existing third-party monitors (e.g. `inotify` or `FSEvent`).
