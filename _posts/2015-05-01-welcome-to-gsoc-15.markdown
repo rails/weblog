@@ -7,7 +7,6 @@ author: febuiles
 published: true
 date: 2015-05-31 18:00:00 -07:00
 ---
-**TODO** Confirm Josh K. participation and remove **TODO** tags.
 
 Google has announced the list of [accepted projects][melange] for this year's [Google Summer of
 Code][gsoc] (GSoC). Rails has been granted 8 slots, here's a brief introduction to the projects and
@@ -68,7 +67,7 @@ debugging experience using standard tools that everyone has available already.
 ## Test Failure Prediction
 
 **Student:** [Genki Sugimoto](https://github.com/Genki-S)
-**Mentors:** [Robin Dupret](https://github.com/robin850), **TODO** Confirm: "and maybe Josh K from travis CI"
+**Mentors:** [Robin Dupret](https://github.com/robin850), [Josh Kalderimis](https://github.com/joshk)
 
 [Aaron Patterson](https://github.com/tenderlove) has touched upon some interesting ideas on
 [predicting test
@@ -99,8 +98,8 @@ RubyBench would be the next step for this project.
 
 * * *
 
-**Fun Fact**: 5 of the 13 mentors we have this year participated as GSoC students in previous years. Today they're all
-  core members or active contributors. **TODO** Confirm math, update if Josh K. is added.
+**Fun Fact**: 5 of the 14 mentors we have this year participated as GSoC students in previous years. Today they're all
+  core members or active contributors.
 
 We hope to keep you up on important updates during the summer, but if you're interested in staying
 up to date (or maybe lending a hand?) please make sure to subscribe to our [mailing list](ml).
