@@ -6,6 +6,8 @@ categories:
 author: febuiles
 published: true
 date: 2015-05-01 18:00:00 -07:00
+redirect_from:
+- /2015/6/1/welcome-to-gsoc-15/
 ---
 
 Google has announced the list of [accepted projects][melange] for this year's [Google Summer of
