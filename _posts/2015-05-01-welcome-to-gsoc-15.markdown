@@ -5,7 +5,7 @@ categories:
 - activism
 author: febuiles
 published: true
-date: 2015-05-01 18:00:00 -07:00
+date: 2015-05-31 18:00:00 -07:00
 ---
 
 Google has announced the list of [accepted projects][melange] for this year's [Google Summer of
