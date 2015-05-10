@@ -37,7 +37,7 @@ on existing third-party monitors (e.g. `inotify` or `FSEvent`).
 ## Asset Pipeline Support for Source Maps
 
 **Student:** [Andrei Istratii](https://github.com/Andreis13)<br>
-**Mentors:** [Rafael França](https://github.com/rafaelfranca) and [Arthur Nogueira Neves](https://github.com/arthurnn) 
+**Mentors:** [Rafael França](https://github.com/rafaelfranca) and [Arthur Nogueira Neves](https://github.com/arthurnn)
 
 The goal of Andrei's project is to give you good inspecting and debugging capabilities in environments
 where your code goes through various transformations (e.g. your CoffeeScript file being compiled to
@@ -101,8 +101,7 @@ RubyBench would be the next step for this project.
 * * *
 
 **Fun Fact**: 4 of the 14 mentors we have this year participated as GSoC students in previous years. Today they're all
-  active contributors, and [Josh Peek](https://github.com/josh) even became a member of the Rails core
-  team later on!
+  active contributors around the Ruby/Rails ecosystem!
 
 We hope to keep you up on important updates during the summer, but if you're interested in staying
 up to date (or maybe lending a hand?) please make sure to subscribe to our [mailing list](ml).
