@@ -11,9 +11,9 @@ date: 2015-05-15 14:17:09 -0700
 
 Hey everyone, *cough* this is *cough* [Kasper](https://twitter.com/kaspth).
 
-I've been *cough* sick most of the week and am *cough*ing my way through this.
+I've been *cough* sick most of the week and am *cough*-ing my way through this.
 
-Feel free to insert *cough*s through the rest of this, as long as you remember not to snooze on a *sneeze* or two too.
+Feel free to insert *cough*'s through the rest of this, as long as you remember not to snooze on a *sneeze* or two too.
 
 Alright, *cough* 'em up.
 
