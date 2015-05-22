@@ -7,8 +7,6 @@ published: true
 date: 2015-05-15 14:17:09 -0700
 ---
 
-####
-
 Hey everyone, *cough* this is *cough* [Kasper](https://twitter.com/kaspth).
 
 I've been *cough* sick most of the week and am *cough*-ing my way through this.
