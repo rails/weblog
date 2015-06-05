@@ -7,7 +7,7 @@ published: true
 date: 2015-05-30 00:02:36 -0700
 ---
 
-#### 
+####
 
 Hello everyone!
 
@@ -15,7 +15,7 @@ This is [Vipul](https://twitter.com/vipulnsward) , happily reporting from a Simm
 
 ## Featured
 
-### [This week's Rails Contributors](http://contributors.rubyonrails.org/contributors/in-time-window/20150515-20150522)
+### [This week's Rails Contributors](http://contributors.rubyonrails.org/contributors/in-time-window/20150522-20150528)
 
 43 people helped make Rails even awesome this week. Checkout the pulse [page](https://github.com/rails/rails/pulse) for more details.
 
@@ -25,7 +25,7 @@ This is [Vipul](https://twitter.com/vipulnsward) , happily reporting from a Simm
 
 `Enumerable#pluck` has just landed on master, providing similar functionality as Active Record's `#pluck`.
 
-This allows for something like  
+This allows for something like
 `[{ name: "David" }, { name: "Rafael" }, { name: "Aaron" }].pluck(:name)` to get everyone's names. Pretty handy!
 
 ## Improved
