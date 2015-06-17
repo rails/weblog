@@ -35,7 +35,7 @@ and the commits for 4.2.2 can be found [here](https://github.com/rails/rails/com
 
 ### Web Console
 
-We are also releasing Web Console 2.1.3 that contains the fix for the follow issue:
+We are also releasing Web Console 2.1.3 that contains the fix for the following issue:
 
 * [CVE-2015-3224](https://groups.google.com/d/msg/rubyonrails-security/lzmz9_ijUFw/HBMPi4zp5NAJ)
 
@@ -44,7 +44,7 @@ The commits can be found [here](https://github.com/rails/web-console/compare/v2.
 ### jquery-ujs and jquery-rails
 
 We are also releasing jquery-ujs 1.0.4 and jquery-rails 3.1.3 and 4.0.4 that includes fix for the
-follow issue:
+following issue:
 
 * [CVE-2015-1840](https://groups.google.com/d/msg/rubyonrails-security/XIZPbobuwaY/fqnzzpuOlA4J)
 
