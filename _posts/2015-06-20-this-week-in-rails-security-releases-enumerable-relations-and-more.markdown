@@ -47,7 +47,7 @@ The way to go now is to explicitly pass the status first then pass the options h
 
 ## That's a wrap
 
-That's all for This week in Rails. As always, there are many more changes than we have room to cover here, but feel free to [check them out yourself](https://github.com/rails/rails/compare/master@%7B2015-06-06%7D...@%7B2015-06-12%7D)!
+That's all for This week in Rails. As always, there are many more changes than we have room to cover here, but feel free to [check them out yourself](https://github.com/rails/rails/compare/master@%7B2015-06-13%7D...@%7B2015-06-20%7D)!
 
 Have you been thinking about writing for us, but you're scared of putting yourself out there? Don't worry, you can help our editors improve their writing with thoughtful critique and general grammar policing.
 
