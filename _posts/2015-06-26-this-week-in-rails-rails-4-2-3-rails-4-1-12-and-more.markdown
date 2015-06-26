@@ -2,7 +2,7 @@
 layout: post
 title: "This week in Rails: Rails 4.2.3, Rails 4.1.12 and more!"
 categories: news
-author: chancancode
+author: claudiob
 published: true
 date: 2015-06-26 16:27:25 -0700
 ---
