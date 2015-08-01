@@ -31,7 +31,7 @@ This pull requests adds an `--api` option in order to generate plugins that can 
 
 ### [Performance improvements](https://github.com/rails/rails/pull/21057)
 
-By reducing the number of object allocations, this giant patch helped reduce memory usage _and_ also brings you some significant seed improvements (as a benchmark, [codetriage.com](http://codetriage.com) ran about 10% faster).
+By reducing the number of object allocations, this giant patch helped reduce memory usage _and_ also brings you some significant seed improvement (as a benchmark, [codetriage.com](http://codetriage.com) ran about 10% faster).
 
 ## Fixed
 
