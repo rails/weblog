@@ -7,8 +7,6 @@ published: true
 date: 2015-08-21 16:18:10 -0700
 ---
 
-![**Good News Everyone**](http://f.cl.ly/items/03151i2j0W1Q233L1503/Good_News_Derek_Ross.png)
-
 Good News Everyone, _This Week In Rails_ has been acquired by BuzzFeed!
 
 Just kidding. This is [Godfrey](https://twitter.com/chancancode) here. It's been a while since I get to write one of these myself and I'm very happy to be back. Without further ado, let's dive right into it!
