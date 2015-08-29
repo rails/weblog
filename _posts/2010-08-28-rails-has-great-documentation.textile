@@ -35,7 +35,7 @@ There's also a few good free screencasts over on <a href="http://teachmetocode.c
 
 *Keeping on the Edge*
 
-If you find yourself wondering how to keep up with all of the newest features / libraries for Rails 3, both the <a href="http://ruby5.envylabs.com">Ruby5 Podcast</a> and the <a href="http://rubyshow.com">Ruby Show</a> are going strong.  Don't listen to audio? It doesn't matter, just subscribe to the <a href="http://feeds.feedburner.com/Ruby5">Ruby5 RSS feed</a> and get links with descriptions to all the newest libraries, tutorials, and more.  You might also want to checkout Peter Cooper's new <a href="http://rubyweekly.com/">Ruby Weekly</a>, a Ruby email newsletter</a>.
+If you find yourself wondering how to keep up with all of the newest features / libraries for Rails 3, both the <a href="http://ruby5.codeschool.com">Ruby5 Podcast</a> and the <a href="http://rubyshow.com">Ruby Show</a> are going strong.  Don't listen to audio? It doesn't matter, just subscribe to the <a href="http://feeds.feedburner.com/Ruby5">Ruby5 RSS feed</a> and get links with descriptions to all the newest libraries, tutorials, and more.  You might also want to checkout Peter Cooper's new <a href="http://rubyweekly.com/">Ruby Weekly</a>, a Ruby email newsletter</a>.
 
 *Need to upgrade a big app to Rails 3?*
 

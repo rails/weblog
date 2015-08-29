@@ -52,7 +52,7 @@ Building or creating an object through a `has_one` association that contains con
     class Blog
       has_author :commit_author, :class_name => 'Author', :conditions => {:name => "Luciano Panaro"}
     end
-    
+
     @blog.build_commit_author
     # => #<Author name: "Luciano Panaro" ... >
 
@@ -71,6 +71,6 @@ Josh Peek has [relocated global exception handling](http://github.com/rails/rail
 And finally, Yehuda Katz and Carl Lerche began work on a [Rails::Application](http://github.com/rails/rails/commit/4129449594ad3d8ff2f8fb4836104f25406a104f) object to better encapsulate some of the application start up and configuration details. Also, a good bit of [initialization](http://github.com/rails/rails/commit/992c2db76cd6cd6aa9a6ba3711a6ea1ad8910062) has now gone on to move into this new object.
 
 
-Remember, if you prefer to have a shorter audio summary of some of this content and more, you should check out the <a href="http://ruby5.envylabs.com/">Ruby5 podcast</a> over at Envy Labs; it's released every Tuesday and Friday with the latest news in the Ruby and Rails community.
+Remember, if you prefer to have a shorter audio summary of some of this content and more, you should check out the <a href="http://ruby5.codeschool.com/">Ruby5 podcast</a> over at Envy Labs; it's released every Tuesday and Friday with the latest news in the Ruby and Rails community.
 
 <small>Photo: <a href="http://www.flickr.com/photos/briantaylor/357204888">Clock Tower</a> by Brian Taylor</small>
