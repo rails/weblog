@@ -17,8 +17,8 @@ Andrei has added support for several types of [Source
 Maps](https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map) to
 Sprockets 4. With Source Maps users can see a readable version of their code inside Developer
 Tools (Javascript, CSS, etc.) after it's been minified or compiled. Check out Andrei's
-[sprockets](https://github.com/Andreis13/sprockets-rails/commits/master) and
-[sass-rails](https://github.com/Andreis13/sass-rails/commits/master) repositories to find out more about
+[sprockets](https://github.com/rails/sprockets/commits?author=Andreis13) and
+[sass-rails](https://github.com/rails/sass-rails/commits?author=Andreis13) contributions to find out more about
 the project status.
 
 ## Test Failure Prediction ([Genki Sugimoto](https://github.com/genki-s))
