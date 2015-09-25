@@ -5,7 +5,7 @@ categories:
 - activism
 author: Federico Builes
 published: true
-date: 2015-09-24 15:00:00 -07:00
+date: 2015-09-25 15:00:00 -07:00
 ---
 
 This year marked our fourth participation in [Google's Summer of
