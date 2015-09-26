@@ -67,6 +67,6 @@ We want to thank all the students and mentors involved in this year's Summer of 
 a good experience for everyone. We also want to thank Google for supporting the projects, and [José
 Valim](http://plataformatec.com.br/crafting-rails-applications), [Pat
 Shaughnessy](http://patshaughnessy.net/ruby-under-a-microscope) and [O'Reilly
-Media](http://www.oreilly.com/) for helping out with learnign resources for our students.
+Media](http://www.oreilly.com/) for helping out with learning resources for our students.
 
 See you next year!
