@@ -40,7 +40,7 @@ To view the changes for each gem, please read the changelogs on GitHub:
 * [Action Pack CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/actionpack/CHANGELOG.md)
 * [Action View CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/actionview/CHANGELOG.md)
 * [Active Model CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/activemodel/CHANGELOG.md)
-* [Active Record CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.r2/activerecord/CHANGELOG.md)
+* [Active Record CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/activerecord/CHANGELOG.md)
 * [Active Support CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/activesupport/CHANGELOG.md)
 * [Active Job CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/activejob/CHANGELOG.md)
 * [Railties CHANGELOG](https://github.com/rails/rails/blob/v4.2.5.rc2/railties/CHANGELOG.md)
