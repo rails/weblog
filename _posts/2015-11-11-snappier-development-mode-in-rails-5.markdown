@@ -9,8 +9,8 @@ date: 2015-11-11 07:52:49 +0100
 
 In Rails 5 development mode is going to be a tad snappier for large code bases.
 
-As you know, when a request comes in Rails reloads[\*] applications in
-development mode[\*\*] if something has changed. The way this has done has
+As you know, when a request comes in Rails reloads[<sup>1</sup>](#note-1) applications in
+development mode[<sup>2</sup>](#note-2) if something has changed. The way this is done has
 evolved over the years.
 
 For a long time Rails simply reloaded unconditionally in every request.
@@ -57,8 +57,10 @@ maintainers](https://github.com/guard/listen/graphs/contributors), thanks to
 [listen](https://github.com/guard/listen) this was infinitely easier to
 implement in a portable way.
 
-[\*] For a technical explanation of what "reloading" means please check the
+* * *
+
+<a name="note-1"></a><sup>1</sup> For a technical explanation of what "reloading" means please check the
 [Autoloading and Reloading Constants](http://guides.rubyonrails.org/autoloading_and_reloading_constants.html) guide.
 
-[\*\*] Technically when `config.cache_classes` is false.
+<a name="note-2"></a><sup>2</sup> Technically when `config.cache_classes` is false.
 
