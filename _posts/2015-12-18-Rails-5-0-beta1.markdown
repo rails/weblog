@@ -31,6 +31,7 @@ Why are some commands living in `bin/rails` and some commands living in `bin/rak
 
 ## A few other highlights
 
+* [New Attributes API][attributes-api] by [Sean Griffin][sean].
 * The test runner now reports failures inline, so you don't have to complete the suite to see what went wrong.
 * ApplicationRecord has been born as a default parent class of all models created by the generators.
 * ActiveRecord::Relation#in_batches makes it much easier to deal with record work in batches at a time to lessen memory overloads.
@@ -72,6 +73,7 @@ Your dynamic release manager duo for Rails 5.0 is [Eileen M. Uchitelle][eileen] 
 [jsonapi]: https://github.com/cerebris/jsonapi-resources
 [turbolinks-v5]: https://github.com/basecamp/turbolinks/tree/v5
 [actioncable]: https://github.com/rails/rails/tree/master/actioncable
+[attributes-api]: https://github.com/rails/rails/blob/8c752c7ac739d5a86d4136ab1e9d0142c4041e58/activerecord/lib/active_record/attributes.rb
 [pratiknaik]: https://github.com/lifo
 [javanmakhmali]: https://github.com/javan
 [santiagopastorino]: https://github.com/spastorino
