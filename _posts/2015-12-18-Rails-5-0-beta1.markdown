@@ -15,7 +15,7 @@ What's really lovely about Action Cable is that you get access to your entire Ac
 
 In development, Action Cable runs in-process with the rest of your app. To do this, we've switched the default development server from Webrick to Puma. In production, you may well want to run Action Cable servers in their own processes. That's how we run it at Basecamp at scale.
 
-Special thanks to [Pratik Naik][pratiknaik] and [Javan Makhmali][javanmakhmail] for their formative work.
+Special thanks to [Pratik Naik][pratiknaik] and [Javan Makhmali][javanmakhmali] for their formative work.
 
 ## API mode
 Rails is not only a great choice when you want to build a full-stack application that uses server-side rendering of HTML templates, but also a great companion for the new crop of client-side JavaScript or native applications that just needs the backend to speak JSON. We've made this even clearer now with the new --api mode. If you create a new Rails application using `rails new backend --api`, you'll get a slimmed down skeleton and configuration that assumes you'll be working with JSON, not HTML.
@@ -73,7 +73,7 @@ Your dynamic release manager duo for Rails 5.0 is [Eileen M. Uchitelle][eileen] 
 [turbolinks-v5]: https://github.com/basecamp/turbolinks/tree/v5
 [actioncable]: https://github.com/rails/rails/tree/master/actioncable
 [pratiknaik]: https://github.com/lifo
-[javanmakhmail]: https://github.com/javan
+[javanmakhmali]: https://github.com/javan
 [santiagopastorino]: https://github.com/spastorino
 [jorgebejar]: https://github.com/jmbejar
 [kasper]: https://github.com/kaspth
