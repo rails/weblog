@@ -31,7 +31,8 @@ Why are some commands living in bin/rails and some commands living in bin/rake? 
 
 ## A few other highlights
 
-* ApplicationRecord has been born as a default parent class of all models created by the generators
+* The test runner now reports failures inline, so you don't have to complete the suite to see what went wrong.
+* ApplicationRecord has been born as a default parent class of all models created by the generators.
 * ActiveRecord::Relation#in_batches makes it much easier to deal with record work in batches at the time to lessen memory overloads.
 * Post.where('id = 1').or(Post.where('id = 2')) gives you exactly what you'd think!
 * No more accidentally halting Active Record callbacks because the last statement is false. Now you throw(:abort) explicitly!
