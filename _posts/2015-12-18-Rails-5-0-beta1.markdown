@@ -51,7 +51,7 @@ Note too that we're cooking Turbolinks 5 – the one with native iOS and Android
 
 ## Maintenance consequences
 
-As per our [maintenance policy][maintenance-policy], the release of Rails 5.0 will mean that bug fixes will only apply to 5.0.x, regular security issues to 5.0.x and 4.2.x, and severe security issues also to 5.0.x and 4.2.x (but when 5.1 drops, to 5.1.x, 5.0.x, and 4.2.x). This means 4.1.x and below will essentially be unsupported! Ruby 2.2+ is now also the only supported version of Ruby for Rails.
+As per our [maintenance policy][maintenance-policy], the release of Rails 5.0 will mean that bug fixes will only apply to 5.0.x, regular security issues to 5.0.x and 4.2.x, and severe security issues also to 5.0.x and 4.2.x (but when 5.1 drops, to 5.1.x, 5.0.x, and 4.2.x). This means 4.1.x and below will essentially be unsupported! Ruby 2.2.2+ is now also the only supported version of Ruby for Rails.
 
 ## Please help us make Rails 5.0 solid!
 We rely on the feedback from everyone in the community to flush out bugs and upgrade issues ahead of a big release like this. So please give Rails 5.0 a try on your app, and if you're starting a new app today, you should probably use the beta1 for that, if you're just the least bit savvy with Rails.
