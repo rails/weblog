@@ -25,7 +25,7 @@ There's still more work to be done on this feature, but we're off to a great sta
 Thanks in particular to [Santiago Pastorino][santiagopastorino] and [Jorge Bejar][jorgebejar] for making this happen.
 
 ## One Rails command to rule them all
-Why are some commands living in `bin/rails` and some commands living in `bin/rake`? That's a common question, especially for beginners, and we never had a good answer (just lots of technical excuses). So now we've committed to making bin/rails the one master command to rule them all. All your rake commands are available through here as a gateway, but we'll eventually port many of them over. So your fingers will now have to get used to `rails db:migrate` instead of `rake db:migrate`. That should only take a few months!
+Why are some commands living in `bin/rails` and some commands living in `bin/rake`? That's a common question, especially for beginners, and we never had a good answer (just lots of technical excuses). So now we've committed to making bin/rails the one master command to rule them all. All your rake commands are available through here as a gateway, but we'll eventually port many of them over. So your fingers will now have to get used to `bin/rails db:migrate` instead of `bin/rake db:migrate`. That should only take a few months!
 
 [Kasper Timm Hansen][kasper] has been herding this project.
 
