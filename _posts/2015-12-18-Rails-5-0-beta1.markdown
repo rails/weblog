@@ -47,6 +47,8 @@ You should really checkout the CHANGELOGs, though. There's just so much new and 
 * [Active Job CHANGELOG](https://github.com/rails/rails/blob/v5.0.0.beta1/activejob/CHANGELOG.md)
 * [Railties CHANGELOG](https://github.com/rails/rails/blob/v5.0.0.beta1/railties/CHANGELOG.md)
 
+Note too that we're cooking Turbolinks 5 – the one with native iOS and Android wrapper implementations! – for concurrent release with Rails 5. You can follow along on [basecamp/turbolinks/v5][turbolinks-v5].
+
 ## Maintenance consequences
 
 As per our [maintenance policy][maintenance-policy], the release of Rails 5.0 will mean that bug fixes will only apply to 5-0-stable, regular security issues to 5.0.x, 4.2.x, and severe security issues to 5.0.x, 4.2.x, and 4.1.x. Ruby 2.2+ is now also the only supported version of Ruby for Rails.
@@ -65,6 +67,7 @@ Your dynamic release manager duo for Rails 5.0 is [Eileen M. Uchitelle][eileen] 
 [jbuilder]: https://github.com/rails/jbuilder
 [ams]: https://github.com/rails-api/active_model_serializers
 [jsonapi]: https://github.com/cerebris/jsonapi-resources
+[turbolinks-v5]: https://github.com/basecamp/turbolinks/tree/v5
 [pratiknaik]: https://github.com/lifo
 [javanmakhmail]: https://github.com/javan
 [santiagopastorino]: https://github.com/spastorino
