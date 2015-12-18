@@ -9,7 +9,7 @@ date: 2015-12-18 21:00:00 +01:00
 Rails 5.0! Can you believe it? We only just celebrated [the tenth anniversary of Rails 1.0][rails-1-0] a few days ago. Time flies when you're having fun with good friends, and we've never had more fun or better friends in the Rails community, so no wonder it's going swoosh! Now this is just the first beta release, but Rails 5.0.0.beta1 is already running [Basecamp 3][basecamp] in production.
 
 ## Action Cable
-The big new thing in Rails 5.0 is a brand-new framework for handling WebSockets called Action Cable. It's a completely integrated solution that includes an EventMachine-powered connection loop, a thread-backed channels layer for server-side processing, and a JavaScript layer for client-side interaction. It's incredibly easy to use, and makes designing live features like chat, notifications, and presence so much easier. It's what's powering all those features of [Basecamp 3][basecamp], if you want to see it in action.
+The big new thing in Rails 5.0 is a brand-new framework for handling WebSockets called [Action Cable][actioncable]. It's a completely integrated solution that includes an EventMachine-powered connection loop, a thread-backed channels layer for server-side processing, and a JavaScript layer for client-side interaction. It's incredibly easy to use, and makes designing live features like chat, notifications, and presence so much easier. It's what's powering all those features of [Basecamp 3][basecamp], if you want to see it in action.
 
 What's really lovely about Action Cable is that you get access to your entire Active Record and PORO domain model in your WebSockets work. We even added a brand-new `ActionController::Renderer` system that makes it trivial to render your templates outside of controllers, when you want to reuse server-side templates for WebSocket responses.
 
@@ -71,6 +71,7 @@ Your dynamic release manager duo for Rails 5.0 is [Eileen M. Uchitelle][eileen] 
 [ams]: https://github.com/rails-api/active_model_serializers
 [jsonapi]: https://github.com/cerebris/jsonapi-resources
 [turbolinks-v5]: https://github.com/basecamp/turbolinks/tree/v5
+[actioncable]: https://github.com/rails/rails/tree/master/actioncable
 [pratiknaik]: https://github.com/lifo
 [javanmakhmail]: https://github.com/javan
 [santiagopastorino]: https://github.com/spastorino
