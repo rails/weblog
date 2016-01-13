@@ -5,17 +5,15 @@
 {% include head.html %}
 {% include google.html %}
   </head>
-  <body>
-{% include navigation.html %}
+  <body class="index">
     <div id="wrapper">
+      {% include navigation.html %}
+
       <div id="content" class="section"><section>
 <!-- Begin Content -->
 {{ content }}
 <!-- End Content -->
       </section></div>
-      <div id="sidebar" class="aside"><aside>
-{% include sidebar.html %}
-      </aside></div>
     </div>
 {% include footer.html %}
 {% include disqus.html %}
