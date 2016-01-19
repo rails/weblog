@@ -1,32 +1,30 @@
 /* Common Definitions */
 
 body {
-	background: #fff url(images/topbluefade.gif) repeat-x center top;
-	color: #333;
-	font-family: Georgia, Lucida Grande, Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.25em;
-	margin: 0px;
-	padding: 0px;
+	font-family: Georgia, serif;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: #000;
 }
-h1, h2, h2 a {
-	color: #981a21;
-}
-h1 {
-	font-size: 1.125em;
-	line-height: 1.2em;
-	margin: 0;
-}
+
+a { color: #cc0000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
 h2 {
-	font-size: 1em;
-	line-height: 1.4em;
-	margin: 1em 0 0.25em 0;
+  font-size: 1.4rem;
+  color: black;
+  margin-bottom: 0.75rem;
 }
+
 h3 {
-	font-size: 1em;
-	line-height: 1.4em;
-	margin: 0.5em 0 0;
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin: 0.5rem 0 0;
 }
+
 h4 {
 	font-size: 1em;
 	font-weight: normal;
@@ -57,44 +55,27 @@ code {
 blockquote {
 	margin: 1em, 1.75em;
 }
-a {
-	color: #369;
-}
-a:hover {
-	background-color: #f4dda6;
-	text-decoration: none;
-}
 a > img {
 	border: none;
 }
 
 /* Top Navigation */
 
-#navigation {
-	width: 760px;
-	margin: 15px auto 10px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	line-height: 12px;
-	text-align: center;
+nav {
+	width: 700px;
+	margin: 3rem auto 1rem;
+	overflow: hidden;
 }
-#navigation a {
-	color: #000;
-	font-weight: bold;
-	font-size: 11px;
-	text-decoration: underline;
-}
-#navigation a:hover {
-	background-color: #000;
-	color: #fff;
-	text-decoration: none;
-}
+nav ul { margin: 1rem 0 0; padding: 0; float: right; font-size: 14px; }
+nav ul li { display: inline; list-style-type: none; margin-left: 30px; }
+nav ul li.first { margin-left: 5px; }
+nav ul li a { font-weight: bold; border-bottom: 2px solid #ff9999; }
+nav ul li a:hover { color: #000; border-bottom: 2px solid #cc0000; text-decoration: none; }
 
 /* Layout */
-
 #wrapper {
 	margin: 0 auto 2em;
-	width: 706px;
+	width: 960px;
 	overflow: hidden;
 }
 #sidebar {
@@ -105,9 +86,8 @@ a > img {
 	float: left;
 }
 #content {
-	float: right;
-	width: 500px;
-	margin: 19px 0 0 0;
+	width: 700px;
+	margin: 19px auto 0;
 }
 
 /* Sidebar */
@@ -163,19 +143,24 @@ a > img {
 
 /* Post */
 .hentry {
-	margin: 1.5em 0;
+	margin: 2rem 0;
 }
 .entry-header {
 	margin: 0 0 0.5em 0;
 }
 .entry-title {
-	font-size: 1.125em;
-	line-height: 1.2em;
-	margin: 0;
+	font-weight: normal;
+  line-height: 2.5rem;
+  font-size: 2.2rem;
+  color: black;
+  margin-bottom: 0.75rem;
 }
+
+.entry-title a { color: black; }
+
 .entry-meta {
-	color: #413E38;
-	font-size: 0.875em;
+	color: #777;
+	font-size: 1rem;
 	margin: 0;
 }
 .entry-footer {
