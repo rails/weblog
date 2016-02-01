@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 5.0.0.beta1.1, 4.2.5.1, 4.1.14.1, 3.2.22.1, and rails-html-sanitizer 1.0.3 have been released!'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2016-01-25 11:52:43 -08:00
