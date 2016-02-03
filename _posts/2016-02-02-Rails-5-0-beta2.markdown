@@ -8,7 +8,7 @@ date: 2016-02-02 17:00:00 +01:00
 ---
 Progress waits for nobody: The second beta release of Rails 5 is out, and it's packed with a six weeks worth of fixes and upgrades. 
 
-The big news is that Action Cable no longer depends on Celluloid, Redis, or even EventMachine! We've doubled down on concurrent-ruby, added a PostgreSQL alternative adapter to Redis for pubsub, and added a non-EventMachine Redis adapter too. So if you were freaking out over the new dependencies in beta1, you can breathe easy again. The Rails community has, as per-usual, stepped up and Made It Better. Special thanks to Jon Moss and Matthew Draper for their work on this!
+The big news is that Action Cable no longer depends on Celluloid, Redis, or even EventMachine! We've doubled down on concurrent-ruby, added a PostgreSQL alternative adapter to Redis for pubsub, and added a non-EventMachine Redis adapter too. So if you were freaking out over the new dependencies in beta1, you can breathe easy again. The Rails community has, as per-usual, stepped up and Made It Better. Special thanks to Mike Perham, Jon Moss, and Matthew Draper for their work on this!
 
 Beyond that, there's literally [25 pages of commits on GitHub](https://github.com/rails/rails/commits/v5.0.0.beta2?page=25) detailing the work done since the beta1 release on December 18. It's a good stroll through the work it takes to go from beta to beta.
 
