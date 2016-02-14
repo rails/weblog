@@ -23,12 +23,17 @@ Example:
   exit -1
 end
 
+require 'uri'
 require 'open-uri'
 require 'reverse_markdown'
 
-slug = url.split('/').last
+uri = URI.parse(url)
+path_parts = uri.path.split("/")
+slug = path_parts.last
+date = Date.new(*path_parts[1..3].map(&:to_i))
 
-parsed = Nokogiri.parse( open(url + "?body=1").read )
+uri.query = 'body=1'
+parsed = Nokogiri.parse(uri.open.read)
 
 title = parsed.css("title").text
 raise "Failed to extract title" if title.empty?
@@ -44,8 +49,6 @@ raise "Failed to convert newsletter content to markdown" if md.empty?
 
 # remove goodbits ad ("Try Goodbits for free!")
 md.gsub!(/^.*Goodbits.*$/, '')
-
-date = Time.now
 
 begin
   author = newsletter_html
