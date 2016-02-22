@@ -7,7 +7,7 @@ published: true
 date: 2016-02-20
 ---
 
-Hello, this is [Godfrey](https://twitter.com/chancancode) and [Prathamesh](https://twitter.com/_cha1tanya) brining you the latest developments from [Rails](https://github.com/rails/rails)!
+Hello, this is [Godfrey](https://twitter.com/chancancode) and [Prathamesh](https://twitter.com/_cha1tanya) bringing you the latest developments from [Rails](https://github.com/rails/rails)!
 
 ## Featured
 
