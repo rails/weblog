@@ -5,8 +5,6 @@ exclude:
   - CNAME
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
-redcarpet:
-  extensions: ["no_intra_emphasis"]
 category_dir: ""
 category_title_prefix: ""
 disqus:
