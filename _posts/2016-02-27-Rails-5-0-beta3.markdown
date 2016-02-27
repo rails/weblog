@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rails 5.0.0.beta3: More fixes, closing in on RC1'
+title: 'Rails 5.0.0.beta3: More fixes, RC1 is soon'
 category: releases
 author: dhh
 published: true
