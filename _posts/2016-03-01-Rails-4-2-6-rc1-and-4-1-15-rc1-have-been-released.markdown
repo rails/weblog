@@ -4,7 +4,7 @@ title: '[ANN] Rails 4.2.6.rc1 and 4.1.15.rc1 have been released!'
 categories: releases
 author: rafaelfranca
 published: true
-date: 2015-03-01 18:10:00 -03:00
+date: 2016-03-01 18:10:00 -03:00
 ---
 
 Hi everyone,
