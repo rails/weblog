@@ -17,9 +17,9 @@ is recommended that users upgrade as soon as possible:
 These releases also contains bug fixes for the previous security releases. The released versions
 can be found in the usual locations, and you can find a list of changes on GitHub:
 
-* [Changes in 4.2.5.1](https://github.com/rails/rails/compare/v4.2.5.1...v4.2.5.2)
-* [Changes in 4.1.14.1](https://github.com/rails/rails/compare/v4.1.14.1...v4.1.14.2)
-* [Changes in 3.2.22.1](https://github.com/rails/rails/compare/v3.2.22.1...v3.2.22.2)
+* [Changes in 4.2.5.2](https://github.com/rails/rails/compare/v4.2.5.1...v4.2.5.2)
+* [Changes in 4.1.14.2](https://github.com/rails/rails/compare/v4.1.14.1...v4.1.14.2)
+* [Changes in 3.2.22.2](https://github.com/rails/rails/compare/v3.2.22.1...v3.2.22.2)
 
 We've done our best to minimize any impact to your applications, but if you run in to any issues, please
 [file a ticket](https://github.com/rails/rails/issues/) and we'll do our best to help!
