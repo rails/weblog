@@ -4,7 +4,7 @@ title: '[ANN] Rails 4.2.6 and 4.1.15 have been released!'
 categories: releases
 author: rafaelfranca
 published: true
-date: 2016-03-11 18:10:00 -03:00
+date: 2016-03-11 11:55:00 -03:00
 ---
 
 Hi everyone,
