@@ -9,7 +9,7 @@ date: 2016-03-18
 
 Straight from the mail room, it's this week in Rails!
 
-We made sure to squeeze our lone chimp with a typewriter extremely talented editor [Kasper](https://twitter.com/kaspth) for just a few more keystrokes this week.
+We made sure to squeeze our ~~lone chimp with a typewriter~~ extremely talented editor [Kasper](https://twitter.com/kaspth) for just a few more keystrokes this week.
 
 The result is not a novel, but it's pretty damn close to legible.
 
