@@ -21,7 +21,7 @@ Strong ETag is now available in addition to weak ETag. It implies that the respo
 
 ### [Action Cable protocol negotiation](https://github.com/rails/rails/pull/24224)
 
-Action Cable will gracefully disconnects clients and disables the monitor if the protocol has changed. This allows clients to gradually move to the newest version.
+Action Cable will gracefully disconnect clients and disable the monitor if the protocol has changed. This allows clients to gradually move to the newest version.
 
 ## Improved
 
