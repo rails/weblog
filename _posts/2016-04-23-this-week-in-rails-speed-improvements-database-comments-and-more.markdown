@@ -7,8 +7,6 @@ published: true
 date: 2016-04-23
 ---
 
-#### 
-
 Hello everyone! [Prathamesh](https://twitter.com/_cha1tanya) here bringing you This Week in Rails. Let's get started.
 
 ## Featured
@@ -33,7 +31,7 @@ It is possible to specify comments for tables, columns, and indexes in the datab
 
 Creating a join table with `create_join_table` helper used to always create the columns with integer type. But now if you want to have `uuid` columns or any other type, it's possible!
 
-## Fixed 
+## Fixed
 
 ### [Do not attempt to return connection with open transaction to pool](https://github.com/rails/rails/pull/24610)
 
@@ -43,9 +41,8 @@ This fixed issues with intermittent test failures related to the Active Record c
 
 Rails recently [improved performance](https://github.com/rails/rails/commit/42dd2336b31a8d98776d039a2b9fd7f834156a78) for inserting schema information using `multi-row-insert`. But some SQLite versions do not support the `multi-row-insert` feature which resulted into errors. Now Rails will gracefully handle this situation without an error.
 
-## Wrapping Up 
+## Wrapping Up
 
 That's all for This Week in Rails. There were many more improvements than we have room to cover here, so don't hesitate to jump in and [check them out yourself](https://github.com/rails/rails/compare/master@%7B2016-04-16%7D...@%7B2016-04-22%7D)!
 
 See you next week!
-
