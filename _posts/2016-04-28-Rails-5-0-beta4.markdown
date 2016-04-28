@@ -9,7 +9,7 @@ date: 2016-04-28
 
 We're happy to announce Rails 5 Beta 4 release. We're down to [4 open issues](https://github.com/rails/rails/milestones/5.0.0) on the issue tracker for Rails 5.0.0.RC1.
 
-We continue to work torwards RC1. Between beta3 and bet4 Rails got over [1,000 commits](https://github.com/rails/rails/compare/v5.0.0.beta3...v5.0.0.beta4)!
+We continue to work torwards RC1. Between beta3 and beta4 Rails got over [1,000 commits](https://github.com/rails/rails/compare/v5.0.0.beta3...v5.0.0.beta4)!
 
 To view the changes for each gem, please read the changelogs on GitHub:
 
