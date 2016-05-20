@@ -53,9 +53,9 @@ One of the first Rails 5.1 features brings the framework appropriately forward. 
 
 Rails has long had `Time#all_day` to really expand the horizon of past times. Now Date gets to go `all_day` too.
 
-Though personally, dating for a whole day sounds pretty extreme, but kids these days ¯\_(ツ)\_/¯
+Though personally, dating for a whole day sounds pretty extreme, but kids these days ¯\\_(ツ)\_/¯
 
-## Wrapping Up 
+## Wrapping Up
 
 That concludes our report for this week. There were plenty of other things going on, so feel free to jump in and [check them out yourself](https://github.com/rails/rails/compare/master@%7B2016-05-14%7D...@%7B2016-05-20%7D)!
 
