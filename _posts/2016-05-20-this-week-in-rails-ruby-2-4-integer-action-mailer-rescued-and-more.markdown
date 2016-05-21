@@ -11,7 +11,7 @@ Shhh, stay quiet! Rails 5.0 lurks just around the corner and it's a mean beast.&
 
 Rails' maintainers, computer scient(-ish)sts, spliced commit DNA merged long ago in hopes of creating a better web framework. The result is Jurrails Park.&nbsp;
 
-Here's [Kasper](%5Bhttps://twitter.com/kaspth%5D(https://twitter.com/kaspth)) alongside self-volunteering co-editor [Jeff Goldblum](%5Bhttps://www.youtube.com/watch?v=lpuS7_NPv6U%5D(https://www.youtube.com/watch?v=lpuS7_NPv6U)), saying:&nbsp;
+Here's [Kasper](https://twitter.com/kaspth) alongside self-volunteering co-editor [Jeff Goldblum](https://www.youtube.com/watch?v=lpuS7_NPv6U), saying:&nbsp;
 
 _They were so preoccupied with whether or not they could, they didn't stop to think if they should._
 
@@ -25,7 +25,7 @@ Contributors! Contributors! Contributors!
 
 ### [Fixnum + Bignum = Integer](https://github.com/rails/rails/pull/25056)
 
-The next version of Ruby, 2.4,&nbsp; [unifies Fixnum and Bignum into Integer](%5Bhttps://bugs.ruby-lang.org/issues/12005%5D(https://bugs.ruby-lang.org/issues/12005)). Have no fear, Rails is already ready with both forward compatibility, backward compatibility and all around compatible compatibility. Int' no Fix' too Big', folks.
+The next version of Ruby, 2.4,&nbsp; [unifies Fixnum and Bignum into Integer](https://bugs.ruby-lang.org/issues/12005). Have no fear, Rails is already ready with both forward compatibility, backward compatibility and all around compatible compatibility. Int' no Fix' too Big', folks.
 
 ### [Action Mailer: rescue\_from and more](https://github.com/rails/rails/pull/25018)
 
@@ -33,7 +33,7 @@ Action Mailer can now rescue itself from exceptions with **rescue\_from**.&nbsp;
 
 This lets the mailer handle errors from the delivering job when run with Active Job.&nbsp;
 
-Third, the exhaustively documented pull request changes how **rescue\_from** handles Exception causes. [Read more](%5Bhttps://github.com/rails/rails/pull/25018%5D(https://github.com/rails/rails/pull/25018)).
+Third, the exhaustively documented pull request changes how **rescue\_from** handles Exception causes. [Read more](https://github.com/rails/rails/pull/25018).
 
 ## Fixed
 
