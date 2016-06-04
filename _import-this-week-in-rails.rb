@@ -38,8 +38,11 @@ parsed = Nokogiri.parse(uri.open.read)
 title = parsed.css("title").text
 raise "Failed to extract title" if title.empty?
 
-newsletter_html = parsed.at_css("table.body")
+newsletter_html = parsed.at_css("table.outer")
 raise "Failed to extract newsletter content" if newsletter_html.nil?
+
+newsletter_html.css("p.h2").each { |tag| tag.name = "h2" }
+newsletter_html.css("p.h5").each { |tag| tag.name = "h3" }
 
 tags = %w(h1 h2 h3 h4 p pre)
 xpath_query = tags.map { |tag| "//#{tag}" }.join ' | '
