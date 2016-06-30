@@ -49,7 +49,7 @@ You should really checkout the CHANGELOGs, though. There's just so much new and 
 
 Rails 5.0 also ships with [Turbolinks 5][turbolinks-v5] – the one with native iOS and Android wrapper implementations! If you've dismissed Turbolinks in the past, I urge you to checkout Sam Stephenson's RailsConf presentation: [Turbolinks 5: I Can't Believe It's Not Native!][turbolinks-presentation].
 
-There's even more detail in [the full Rails 5.0 release notes][release-notes] and Claudio did a [nice little slide deck][claudio-slides] walking through some of his favorite improvements (and removals!). And I did a brand-new [let's build a blog in Rails 5][rails5-video] video to demonstrate the basics.
+There's even more detail in [the full Rails 5.0 release notes][release-notes] and Claudio B. did a [nice little slide deck][claudio-slides] walking through some of his favorite improvements (and removals!). And I did a brand-new [let's build a blog in Rails 5][rails5-video] video to demonstrate the basics.
 
 Your dynamic release manager duo for Rails 5.0 was [Eileen M. Uchitelle][eileen] and [Sean Griffin][sean]. And the undisputed PR merge champ was [Rafael França][rafaelfranca]!
 
