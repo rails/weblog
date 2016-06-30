@@ -6,7 +6,7 @@ author: dhh
 published: true
 date: 2016-06-30 10:00:00 -06:00
 ---
-After six months of polish, four betas, and two release candidates, Rails 5.0 is finally done! It's taken hundreds of contributors and thousands of commits to get here, but what a destination: Rails 5.0 is without a doubt the best, most complete version of Rails yet. It's incredible that this community is still going so strong after so long. Thanks to everyone who helped get us here.
+After six months of polish, four betas, and two release candidates, Rails 5.0 is finally done! It's taken hundreds of [contributors][contributors] and thousands of commits to get here, but what a destination: Rails 5.0 is without a doubt the best, most complete version of Rails yet. It's incredible that this community is still going so strong after so long. Thanks to everyone who helped get us here.
 
 The two star features of Rails 5.0 are as follows:
 
@@ -73,10 +73,10 @@ Note: As per our [maintenance policy][maintenance-policy], the release of Rails 
 [rafaelfranca]: https://github.com/rafaelfranca
 [maintenance-policy]: http://guides.rubyonrails.org/maintenance_policy.html
 [issues]: https://github.com/rails/rails/issues
-[contributors]: http://contributors.rubyonrails.org/edge/contributors
+[contributors]: http://contributors.rubyonrails.org/releases/5-0-0/contributors
 [claudio-slides]: https://speakerdeck.com/claudiob/rails-5-awesome-features-and-breaking-changes
 [turbolinks-presentation]: https://www.youtube.com/watch?v=SWEts0rlezA
-[release-notes]: http://edgeguides.rubyonrails.org/5_0_release_notes.html
+[release-notes]: http://guides.rubyonrails.org/5_0_release_notes.html
 [ac-renderer]: http://blog.bigbinary.com/2016/01/08/rendering-views-outside-of-controllers-in-rails-5.html
 [puma]: http://puma.io
 [rails5-video]: https://www.youtube.com/watch?v=OaDhY_y8WTo
