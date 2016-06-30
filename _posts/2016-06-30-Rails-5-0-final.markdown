@@ -53,7 +53,7 @@ There's even more detail in [the full Rails 5.0 release notes][release-notes] an
 
 Your dynamic release manager duo for Rails 5.0 was [Eileen M. Uchitelle][eileen] and [Sean Griffin][sean]. And the undisputed PR merge champ was [Rafael França][rafaelfranca]!
 
-Note: As per our [maintenance policy][maintenance-policy], the release of Rails 5.0 will mean that bug fixes will only apply to 5.0.x, regular security issues to 5.0.x and 4.2.x, and severe security issues also to 5.0.x and 4.2.x (but when 5.1 drops, to 5.1.x, 5.0.x, and 4.2.x). This means 4.1.x and below will essentially be unsupported! Ruby 2.2.2+ is now also the only supported version of Ruby for Rails.
+Note: As per our [maintenance policy][maintenance-policy], the release of Rails 5.0 will mean that bug fixes will only apply to 5.0.x, regular security issues to 5.0.x and 4.2.x, and severe security issues also to 5.0.x and 4.2.x (but when 5.1 drops, to 5.1.x, 5.0.x, and 4.2.x). This means 4.1.x and below will essentially be unsupported! Ruby 2.2.2+ is now also the only supported version of Rails 5.0+.
 
 [rails-1-0]: http://weblog.rubyonrails.org/2005/12/13/rails-1-0-party-like-its-one-oh-oh/
 [basecamp]: https://basecamp.com
