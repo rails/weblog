@@ -4,7 +4,7 @@ title: '[ANN] Rails 4.2.7 and 4.1.16 have been released!'
 categories: releases
 author: rafaelfranca
 published: true
-date: 2016-07-13 00:30:00 -03:00
+date: 2016-07-13 00:32:00 -03:00
 ---
 
 Hi everyone,
