@@ -25,21 +25,21 @@ Check the blog post for links to all the CHANGELOGs. As [Rails 5 was released](h
 
 ### [Add support for limits in batch processing](https://github.com/rails/rails/commit/451437c6f57e66cc7586ec966e530493927098c7)
 
-Active Record's batch processing methods now support _limit_, so you can write statements like _Post.limit(10\_000).find\_each{​|post| …}​_.
+Active Record's batch processing methods now support `limit`, so you can write statements like `Post.limit(10_000).find_each { ​|post| … }​`.
 
 ## Fixed
 
-### [Fix AR::to\_param to maximize content](https://github.com/rails/rails/pull/23636)
+### [Fix AR::to_param to maximize content](https://github.com/rails/rails/pull/23636)
 
-The documentation states that AR::to\_param should truncate values longer than 20 characters by words. This commit enforces this behavior, using as many characters as possible to maximize the information included in the URL.
+The documentation states that `AR::to_param` should truncate values longer than 20 characters by words. This commit enforces this behavior, using as many characters as possible to maximize the information included in the URL.
 
 ### [AS::Duration to serialize empty values correctly](https://github.com/rails/rails/pull/25656)
 
-ActiveSupport::Duration::ISO8601Serializer will not fail when asked to serialize zero-length durations such as _ActiveSupport::Duration.parse(0.minutes.iso8601)_.
+`ActiveSupport::Duration::ISO8601Serializer` will not fail when asked to serialize zero-length durations such as `ActiveSupport::Duration.parse(0.minutes.iso8601)`.
 
 ### [AS::TimeZone#strptime to raise the correct error](https://github.com/rails/rails/pull/25793)
 
-Trying to parse an invalid date such as in _strptime('1999-12-31', '%Y/%m/%d')_ will now raise _ArgumentError_ rather than the confusing _NoMethodError: undefined method empty?_.
+Trying to parse an invalid date such as in `strptime('1999-12-31', '%Y/%m/%d')` will now raise `ArgumentError` rather than the confusing `NoMethodError: undefined method empty?`.
 
 ### [Check `request.path_parameters` encoding when they're set in env](https://github.com/rails/rails/pull/25816)
 
