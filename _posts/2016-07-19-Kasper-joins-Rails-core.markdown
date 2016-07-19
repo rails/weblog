@@ -4,7 +4,7 @@ title: 'Kasper joins Rails core'
 category: praise
 author: dhh
 published: true
-date: 2016-07-19 8:00:00 -08:00
+date: 2016-07-19 8:00:00 -07:00
 ---
 
 It's a privilege to welcome <a href="https://github.com/kaspth">Kasper Timm Hansen</a> to the <a href="http://rubyonrails.org/community/#core">Rails core team</a>, and I'm not just saying that because he's a fellow Dane, though it helps 🇩🇰! Kasper started contributing to Rails during the 2014 Summer of Code program where he worked on the <a href="https://github.com/rails/rails/pull/11218">new Loofah-backed sanitizer</a>. It was a big job and Kasper aced it.
