@@ -2,7 +2,7 @@
 layout: post
 title: 'Kasper joins Rails core'
 category: praise
-author: david
+author: dhh
 published: true
 date: 2016-07-19 8:00:00 -08:00
 ---
