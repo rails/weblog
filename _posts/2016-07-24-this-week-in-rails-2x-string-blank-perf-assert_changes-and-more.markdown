@@ -2,7 +2,7 @@
 layout: post
 title: "🚀 This Week in Rails: 2x String#blank? perf, assert_changes and more! 🚀"
 categories: news
-author: chancancode
+author: vipulnsward
 published: true
 date: 2016-07-24
 ---
