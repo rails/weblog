@@ -12,7 +12,7 @@ Rails 5.0.0.1, 4.2.7.1, and 3.2.22.3 have been released!
 These release contain important security fixes, so please upgrade when you can.
 
 Versions 5.0.0.1, 4.2.7.1, and 3.2.22.3 contain a fix for [CVE-2016-6316](https://groups.google.com/forum/#!topic/ruby-security-ann/8B2iV2tPRSE) which you can read about [here](https://groups.google.com/forum/#!topic/ruby-security-ann/8B2iV2tPRSE).
-Version 4.2.7.2 also contains [CVE-2016-6317](https://groups.google.com/forum/#!topic/ruby-security-ann/WccgKSKiPZA) which you can read about [here](https://groups.google.com/forum/#!topic/ruby-security-ann/WccgKSKiPZA).
+Version 4.2.7.1 also contains [CVE-2016-6317](https://groups.google.com/forum/#!topic/ruby-security-ann/WccgKSKiPZA) which you can read about [here](https://groups.google.com/forum/#!topic/ruby-security-ann/WccgKSKiPZA).
 
 To ease upgrading, these releases contain only security fixes.
 
