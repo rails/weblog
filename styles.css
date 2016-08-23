@@ -11,7 +11,7 @@ body {
 }
 
 a { color: #cc0000; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { padding-bottom: 2px; border-bottom: 2px solid #cc0000; }
 
 h2 {
   font-size: 1.4rem;
@@ -69,8 +69,9 @@ nav {
 nav ul { margin: 1rem 0 0; padding: 0; float: right; font-size: 14px; }
 nav ul li { display: inline; list-style-type: none; margin-left: 30px; }
 nav ul li.first { margin-left: 5px; }
-nav ul li a { font-weight: bold; border-bottom: 2px solid #ff9999; }
-nav ul li a:hover { color: #000; border-bottom: 2px solid #cc0000; text-decoration: none; }
+nav ul li a { padding-bottom: 1px; font-weight: bold; border-bottom: 2px solid #cc0000; }
+nav ul li a:hover { padding-bottom: 1px ;color: #000; border-bottom: 2px solid #000; text-decoration: none; }
+a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
 
 /* Layout */
 #wrapper {
@@ -152,11 +153,11 @@ nav ul li a:hover { color: #000; border-bottom: 2px solid #cc0000; text-decorati
 	font-weight: normal;
   line-height: 2.5rem;
   font-size: 2.2rem;
-  color: black;
   margin-bottom: 0;
 }
 
 .entry-title a { color: black; }
+.entry-title a:hover { color: black; border-bottom: 3px solid #000; padding-bottom: 0px; }
 
 .entry-meta {
 	color: #777;
