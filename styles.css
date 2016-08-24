@@ -11,7 +11,7 @@ body {
 }
 
 a { color: #cc0000; text-decoration: none; }
-a:hover { padding-bottom: 2px; border-bottom: 2px solid #cc0000; }
+a:hover { text-decoration: underline; }
 
 h2 {
   font-size: 1.4rem;
@@ -157,7 +157,6 @@ a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
 }
 
 .entry-title a { color: black; }
-.entry-title a:hover { border-bottom: 3px solid #000; padding-bottom: 0px; }
 
 .entry-meta {
 	color: #777;
