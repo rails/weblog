@@ -23,7 +23,7 @@ This pull request avoids triggering those deprecation warnings with a feature de
 
 ### [Remove json gem dependency](https://github.com/rails/rails/pull/26729)
 
-Related to the unification of the integer classes: native extensions that references the `rb\_cFixum` and `rb\_cBignum` C constants need to be updated as well.
+Related to the unification of the integer classes: native extensions that references the `rb_cFixum` and `rb_cBignum` C constants need to be updated as well.
 
 The popular json gem is one of those native extensions. Fortunately, all modern versions of Ruby bundles the json library. If your are targeting Ruby 1.9 and above, you could simply [remove the json gem as a dependency](https://github.com/rdoc/rdoc/pull/412).
 
@@ -31,9 +31,9 @@ The popular json gem is one of those native extensions. Fortunately, all modern 
 
 ### [Avoid bumping the class serial](https://github.com/rails/rails/pull/26684)
 
-Back in May, a [regression](https://github.com/rails/rails/issues/25068) was reported that Rails 5 invalidated Ruby's `class\_serial` on each request. This internal counter is used to invalidate the class-level [method caches](https://tenderlovemaking.com/2015/12/23/inline-caching-in-mri.html).
+Back in May, a [regression](https://github.com/rails/rails/issues/25068) was reported that Rails 5 invalidated Ruby's `class_serial` on each request. This internal counter is used to invalidate the class-level [method caches](https://tenderlovemaking.com/2015/12/23/inline-caching-in-mri.html).
 
-The issue was tracked down to the use of `instance\_exec`. While [there is hope](https://github.com/rspec/rspec-core/issues/2194#issuecomment-200597089) that this restriction could be relaxed inside Ruby itself, this patch at least temporarily fixes the problem on Rails' side.
+The issue was tracked down to the use of `instance_exec`. While [there is hope](https://github.com/rspec/rspec-core/issues/2194#issuecomment-200597089) that this restriction could be relaxed inside Ruby itself, this patch at least temporarily fixes the problem on Rails' side.
 
 ### [Speed up Time.zone.now](https://github.com/rails/rails/pull/26359)
 
@@ -47,7 +47,7 @@ Have you tried rendering a partial while injecting local variables called "class
 
 This pull requests avoids the error by skipping over invalid local
 variable names, while still allowing them to be accessed via
-`local\_assigns`.
+`local_assigns`.
 
 You can read more about this issue, as well as the story behind this pull request in [Peter's blog post](http://www.peterschilling.org/blackhole/babys-first-rails-commit/).
 
