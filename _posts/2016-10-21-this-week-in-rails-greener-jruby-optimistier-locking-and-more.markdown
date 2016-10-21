@@ -39,7 +39,7 @@ Since Rails 5 you've been able to render templates outside of your controller ac
 
 ### [Publicize process in controller tests](https://github.com/rails/rails/pull/26793)
 
-In your _ActionDispatch::IntegrationTest_ controller tests you can use the _get_ etc. request shorthands which would just pipe through to a private `process` method.
+In your `ActionDispatch::IntegrationTest` controller tests you can use the `get` etc. request shorthands which would just pipe through to a private `process` method.
 
 Now that method is public so you can better see the documentation on it.
 
