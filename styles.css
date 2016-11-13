@@ -88,78 +88,11 @@ a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
   overflow: hidden;
 }
 
-#sidebar {
-  background: url(images/rails.png) no-repeat left top;
-  margin: 40px 0 0;
-  padding: 131px 0px 0px 0px;
-  width: 150px;
-  float: left;
-}
-
 #content {
   width: 700px;
   margin: 19px auto 0;
 }
 
-/* Sidebar */
-
-#sidebar .section {
-  font-size: 0.875em;
-  line-height: 1.4em;
-  margin: 0 0 1em 0;
-}
-
-#sidebar .section h3 {
-  color: #981a21;
-  font-weight: normal;
-  font-size: 1em;
-}
-
-#search form {
-  overflow: hidden;
-}
-
-#search input[type=text] {
-  margin: 0px 0px 10px 0px;
-  padding: 2px;
-  font-size: 14px;
-  line-height: 14px;
-  height: 22px;
-  border: 1px solid #ccc;
-  width: 140px;
-  float: left;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#search input[type=text]:focus {
-  outline: none;
-  border: 1px solid #999;
-}
-
-#sidebar div.job a {
-  display: block;
-  margin: 0 0 1.5em 0;
-}
-
-#sidebar ul.list {
-  list-style: none;
-  margin: 0 0 1.5em 0;
-  padding: 0;
-}
-
-#sidebar ul.list li {
-  margin: 0 0 0.25em 0;
-}
-
-#sidebar ul.list li.icon {
-  padding: 0 0 0 20px;
-}
-
-#sidebar ul.list li.rss {
-  background: url(images/rss.png) no-repeat 0px 2px;
-}
 
 /* Post */
 .hentry {
