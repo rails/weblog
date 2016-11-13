@@ -7,9 +7,6 @@ permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
-disqus:
-  shortname: "ridingrails"
-  developer: false
 gems:
   - jemoji
   - jekyll-redirect-from
