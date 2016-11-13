@@ -1,9 +1,0 @@
----
-layout: post
-title: FCGI replacement in the making for Rails
-categories: []
-author: admin
-published: true
-date: 2005-09-19 07:20:05.000000000 +01:00
----
-Zed A. Shaw is working on a SCGI implementation in pure Ruby that'll hopefully make for a more pleasant experience than FCGI once ready. He just <a href="http://comments.gmane.org/gmane.comp.lang.ruby.rails/22321">announced</a> the v0.3 of the <a href="http://www.zedshaw.com/projects/scgi_rails/">SCGI Rails Runner</a> and I'd encourage everyone to go have a look. It may not yet be ready to dethrone FCGI, but with enough exposure, it'll hopefully soon be a viable alternative.
