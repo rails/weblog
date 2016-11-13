@@ -138,29 +138,6 @@ a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
   float: right;
 }
 
-/* 404 Page */
-
-#missing {
-  margin: 3em auto;
-  width: 700px;
-}
-
-#missing h1 {
-  background: url(images/rails.png) no-repeat left top;
-  margin: 0 0 2em;
-  overflow: hidden;
-}
-
-#missing h1 img {
-  float: right;
-}
-
-#missing p {
-  font-size: 1.75em;
-  line-height: 1.2em;
-  text-align: center;
-}
-
 
 /* Tweets */
 
