@@ -161,44 +161,6 @@ a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
   text-align: center;
 }
 
-/* Footer */
-
-#footer {
-  color: #666;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  margin: 0px auto;
-  padding: 0px 0px 44px 0px;
-  text-align: center;
-  width: 726px;
-}
-
-#footer p {
-  margin: 12px 0px;
-}
-
-#footer p a {
-  color: #000;
-}
-
-#footer p a:hover {
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-}
-
-#sponsored_by {
-  margin: 17px 0px !important;
-}
-
-#sponsored_by a:hover {
-  background-color: transparent !important;
-}
-
-#sponsored_by a img {
-  vertical-align: -7px;
-}
-
 
 /* Tweets */
 
