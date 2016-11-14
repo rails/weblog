@@ -66,6 +66,7 @@ a > img {
   border: none;
 }
 
+
 /* Top Navigation */
 
 nav {
@@ -81,6 +82,7 @@ nav ul li a { padding-bottom: 1px; font-weight: bold; border-bottom: 2px solid #
 nav ul li a:hover { padding-bottom: 1px ;color: #000; border-bottom: 2px solid #000; text-decoration: none; }
 a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
 
+
 /* Layout */
 #wrapper {
   margin: 0 auto 2em;
@@ -88,78 +90,11 @@ a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
   overflow: hidden;
 }
 
-#sidebar {
-  background: url(images/rails.png) no-repeat left top;
-  margin: 40px 0 0;
-  padding: 131px 0px 0px 0px;
-  width: 150px;
-  float: left;
-}
-
 #content {
   width: 700px;
   margin: 19px auto 0;
 }
 
-/* Sidebar */
-
-#sidebar .section {
-  font-size: 0.875em;
-  line-height: 1.4em;
-  margin: 0 0 1em 0;
-}
-
-#sidebar .section h3 {
-  color: #981a21;
-  font-weight: normal;
-  font-size: 1em;
-}
-
-#search form {
-  overflow: hidden;
-}
-
-#search input[type=text] {
-  margin: 0px 0px 10px 0px;
-  padding: 2px;
-  font-size: 14px;
-  line-height: 14px;
-  height: 22px;
-  border: 1px solid #ccc;
-  width: 140px;
-  float: left;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-#search input[type=text]:focus {
-  outline: none;
-  border: 1px solid #999;
-}
-
-#sidebar div.job a {
-  display: block;
-  margin: 0 0 1.5em 0;
-}
-
-#sidebar ul.list {
-  list-style: none;
-  margin: 0 0 1.5em 0;
-  padding: 0;
-}
-
-#sidebar ul.list li {
-  margin: 0 0 0.25em 0;
-}
-
-#sidebar ul.list li.icon {
-  padding: 0 0 0 20px;
-}
-
-#sidebar ul.list li.rss {
-  background: url(images/rss.png) no-repeat 0px 2px;
-}
 
 /* Post */
 .hentry {
@@ -190,80 +125,6 @@ a#rails-logo:hover { border-bottom: none; opacity: 0.7; }
   font-size: 1em;
   margin: 0.5em 0 2em;
   padding: 0;
-}
-
-.pagination {
-  margin: 0 0 2em;
-  overflow: hidden;
-}
-
-.pagination .previous {
-  float: left;
-}
-
-.pagination .next {
-  float: right;
-}
-
-/* 404 Page */
-
-#missing {
-  margin: 3em auto;
-  width: 700px;
-}
-
-#missing h1 {
-  background: url(images/rails.png) no-repeat left top;
-  margin: 0 0 2em;
-  overflow: hidden;
-}
-
-#missing h1 img {
-  float: right;
-}
-
-#missing p {
-  font-size: 1.75em;
-  line-height: 1.2em;
-  text-align: center;
-}
-
-/* Footer */
-
-#footer {
-  color: #666;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  margin: 0px auto;
-  padding: 0px 0px 44px 0px;
-  text-align: center;
-  width: 726px;
-}
-
-#footer p {
-  margin: 12px 0px;
-}
-
-#footer p a {
-  color: #000;
-}
-
-#footer p a:hover {
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-}
-
-#sponsored_by {
-  margin: 17px 0px !important;
-}
-
-#sponsored_by a:hover {
-  background-color: transparent !important;
-}
-
-#sponsored_by a img {
-  vertical-align: -7px;
 }
 
 

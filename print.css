@@ -50,22 +50,6 @@ pre {
 .hentry {
 	margin: 0 0 2em 0;
 }
-#navigation, #sidebar, #content .pagination, #comments {
+nav > ul {
 	display: none;
-}
-#footer {
-	font-size: 9pt;
-	line-height: 12px;
-	width: 600px;
-	margin: 0 auto;
-	text-align: center;
-}
-#sponsored_by {
-	margin: 17px 0px !important;
-}
-#sponsored_by a:hover {
-	background-color: transparent !important;
-}
-#sponsored_by a img {
-	vertical-align: -7px;
 }
