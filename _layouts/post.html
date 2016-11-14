@@ -8,14 +8,14 @@
   <body>
     <div id="wrapper">
       {% include navigation.html %}
-      <div id="content" class="section"><section>
+      <main>
 <!-- Begin Content -->
-        <div class="hentry article"><article>
-          <div class="entry-header header"><header>
-            <h2 class="entry-title">
+        <article>
+          <header>
+            <h2>
               <a href="{{ page.url }}" rel="bookmark">{{ page.title | escape }}</a>
             </h2>
-            <p class="entry-meta">
+            <p>
               Posted by <span class="vcard"><span class="fn">{{ page.author }}</span></span>,
               <span class="published" title="{{ page.date | date_to_xml_schema }}">{{ page.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
               {% if page.categories.size > 0 %}
@@ -30,15 +30,15 @@
               </span>
               {% endif %}
             </p>
-          </header></div>
-          <div class="entry-content section"><section>
+          </header>
+          <section>
 <!-- Begin Post -->
 {{ content }}
 <!-- End Post -->
-          </section></div>
-        </article></div>
+          </section>
+        </article>
 <!-- End Content -->
-      </section></div>
+      </main>
     </div>
   </body>
 </html>

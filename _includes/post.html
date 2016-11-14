@@ -1,6 +1,6 @@
-        <div class="hentry article"><article>
-          <div class="entry-header header"><header>
-            <h2 class="entry-title">
+        <article>
+          <header>
+            <h2>
               <a href="{{ post.url }}" rel="bookmark">{{ post.title | escape }}</a>
             </h2>
             <p class="entry-meta">
@@ -18,10 +18,10 @@
                 </span>
               {% endif %}
             </p>
-          </header></div>
-          <div class="entry-content section"><section>
+          </header>
+          <section>
 <!-- Begin Post -->
 {{ post.content }}
 <!-- End Post -->
-          </section></div>
-        </article></div>
+          </section>
+        </article>
