@@ -10,3 +10,4 @@ category_title_prefix: ""
 gems:
   - jemoji
   - jekyll-redirect-from
+  - jekyll-seo-tag
