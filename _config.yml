@@ -12,3 +12,8 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://avatars.githubusercontent.com/u/4223
