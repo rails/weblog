@@ -35,7 +35,7 @@ Adds foreign key support for SQLite `3.6.19` (or greater) in create statements.
 
 ### [Improve the `AS::NumericWithFormat#to_s` memory allocation](https://github.com/rails/rails/pull/27736)
 
-Thanks to some good profiling, `ActiveSupport::NumericWithFormat#to_s` should behave better and not allocate to many objects. 🔎
+Thanks to some good profiling, `ActiveSupport::NumericWithFormat#to_s` should behave better and not allocate too many objects. 🔎
 
 ## Fixed
 
