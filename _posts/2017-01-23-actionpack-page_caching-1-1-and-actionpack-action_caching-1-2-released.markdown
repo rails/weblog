@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "actionpack-page_caching 1.1 and actionpack-action_caching 1.2 release"
+title: "New Action Pack caching gems released"
 categories: news
 author: pixeltrix
 published: true
@@ -21,7 +21,7 @@ I'm happy to announce that new versions of the caching gems extracted from Rails
 
 To see the full list of changes, [check out all the commits on GitHub][1].
 
-### SHA-1
+**SHA-1**
 
 If you'd like to verify that your gem is the same as the one I've uploaded, please use this SHA-1 hash.
 
@@ -40,7 +40,7 @@ b9626f7afeb1d69267d1fd6b7255a30be7c33d29  actionpack-page_caching-1.1.0.gem
 
 To see the full list of changes, [check out all the commits on GitHub][2].
 
-### SHA-1
+**SHA-1**
 
 If you'd like to verify that your gem is the same as the one I've uploaded, please use this SHA-1 hash.
 
