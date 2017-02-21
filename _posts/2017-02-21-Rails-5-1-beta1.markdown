@@ -86,14 +86,15 @@ Thanks to [Kasper Timm Hansen][kasper] for this one too!
 
 In addition to the highlight reel, we have hundreds of other fixes and improvements across all the frameworks. Please peruse the CHANGELOGs to acquaint yourself with all the goodies:
 
-* [Action Mailer CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/actionmailer/CHANGELOG.md)
-* [Action Pack CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/actionpack/CHANGELOG.md)
-* [Action View CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/actionview/CHANGELOG.md)
-* [Active Model CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/activemodel/CHANGELOG.md)
-* [Active Record CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/activerecord/CHANGELOG.md)
-* [Active Support CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/activesupport/CHANGELOG.md)
-* [Active Job CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/activejob/CHANGELOG.md)
-* [Railties CHANGELOG](https://github.com/rails/rails/blob/v5.0.0/railties/CHANGELOG.md)
+* [Action Cable CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/actioncable/CHANGELOG.md)
+* [Action Mailer CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/actionmailer/CHANGELOG.md)
+* [Action Pack CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/actionpack/CHANGELOG.md)
+* [Action View CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/actionview/CHANGELOG.md)
+* [Active Model CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/activemodel/CHANGELOG.md)
+* [Active Record CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/activerecord/CHANGELOG.md)
+* [Active Support CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/activesupport/CHANGELOG.md)
+* [Active Job CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/activejob/CHANGELOG.md)
+* [Railties CHANGELOG](https://github.com/rails/rails/blob/v5.1.0.beta1/railties/CHANGELOG.md)
 
 Your release manager for Rails 5.1 is [Rafael França][rafaelfranca]. He'll be chaperoning us through the betas, release candidates, and onto the final release in advance of [RailsConf 2017](http://railsconf.com/).
 
