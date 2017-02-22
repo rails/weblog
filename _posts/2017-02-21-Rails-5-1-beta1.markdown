@@ -4,7 +4,7 @@ title: 'Rails 5.1.0.beta1: Loving JavaScript, System Tests, Encrypted Secrets, a
 category: releases
 author: dhh
 published: true
-date: 2017-02-21 20:00:00 +01:00
+date: 2017-02-22 16:00:00 +01:00
 ---
 Rails 5.0 was released just some eight months ago, and now, [some 3500 commits later](https://github.com/rails/rails/compare/v5.0.0...master/), we're already close to the next big release. And what release this version 5.1 is lining up to be! We've made great strides on long-term promises and key ergonomics while also spring cleaning a bunch of deprecated code. 
 
@@ -19,14 +19,14 @@ JavaScript and Ruby share a deep philosophical bond over language design, if not
 
 The improvements in Rails 5.1 focus on three major parts:
 
-1. **Manage JavaScript dependencies from NPM via Yarn.** Think of [Yarn](https://yarnpkg.com/en/) like Bundler for JavaScript (it even has Yehuda Katz involved!). This makes it easy to depend on libraries like React or anything else from NPM. Everything you depend on via Yarn is then made available to be required in the asset pipeline, just like vendored dependencies would have been. Just use the binstub bin/yarn to add dependencies.
+1. **Manage JavaScript dependencies from NPM via Yarn.** Think of [Yarn](https://yarnpkg.com/en/) like Bundler for JavaScript (it even has [Yehuda Katz](https://github.com/wycats) involved!). This makes it easy to depend on libraries like React or anything else from NPM. Everything you depend on via Yarn is then made available to be required in the asset pipeline, just like vendored dependencies would have been. Just use the binstub bin/yarn to add dependencies.
 
-2. **Optionally compile JavaScript with Webpack.** While there are a million different module bundlers/compilers for JavaScript, [Webpack](https://webpack.github.io/) is quickly emerging as the preeminent choice. We've made it easy to use Webpack with Rails through the new [Webpacker](https://github.com/rails/webpacker) gem that you can configure automatically on new projects with --webpack. This is fully compatible with the asset pipeline, which you can continue to use for images, fonts, sounds, whatever. You can even have some JavaScript on the asset pipeline and some done via Webpack. It's all managed via Yarn that's on by default.
+2. **Optionally compile JavaScript with Webpack.** While there are a million different module bundlers/compilers for JavaScript, [Webpack](https://webpack.github.io/) is quickly emerging as the preeminent choice. We've made it easy to use Webpack with Rails through the new [Webpacker](https://github.com/rails/webpacker) gem that you can configure automatically on new projects with `--webpack`. This is fully compatible with the asset pipeline, which you can continue to use for images, fonts, sounds, whatever. You can even have some JavaScript on the asset pipeline and some done via Webpack. It's all managed via Yarn that's on by default.
 
-3. **Drop jQuery as a default dependency.** We used to require jQuery in order to provide features like data-remote, data-confirm, and the other parts of Rails UJS. This dependency is no longer necessary as we've rewritten rails-ujs to use vanilla JavaScript. You're of course still free to use jQuery, but you no longer have to.
+3. **Drop jQuery as a default dependency.** We used to require jQuery in order to provide features like data-remote, data-confirm, and the other parts of Rails UJS. This dependency is no longer necessary as we've [rewritten rails-ujs to use vanilla JavaScript](https://github.com/rails/rails-ujs). You're of course still free to use jQuery, but you no longer have to.
 
 
-Thanks to [Liceth Ovalles](https://github.com/Liceth) for her work on Yarn integration and [Guillermo Iguaran](https://github.com/guilleiguaran) for his work on rails-ujs, Yarn, and Webpack!
+Thanks to [Liceth Ovalles](https://github.com/Liceth) for her work on Yarn integration, [Dangyi Liu](https://github.com/liudangyi) for his work on rails-ujs, and [Guillermo Iguaran](https://github.com/guilleiguaran) for chaperoning the whole thing!
 
 
 ## System tests
@@ -44,11 +44,11 @@ Thanks to [Eileen M. Uchitelle](https://github.com/eileencodes) for her work ext
 
 ## Encrypted secrets
 
-If you're checking production passwords, api keys, and other secrets undisgused into your revision control system, you're doing it wrong. That's not safe and you should stop it! Now that's an easy prescription, but without a coherent answer to what you should do instead, it's also not that helpful.
+If you're checking production passwords, api keys, and other secrets undisguised into your revision control system, you're doing it wrong. That's not safe and you should stop it! Now that's an easy prescription, but without a coherent answer to what you should do instead, it's also not that helpful.
 
 People have long been loading up the ENV to store these secrets or used a variety of other solutions. There are all sorts of trade-offs and drawbacks to the ENV-model, not least of which that you _still_ need to store those secrets for real somewhere else.
 
-Inspired by [Ara T. Howard](https://github.com/ahoward)'s [sekrets gem](https://github.com/ahoward/sekrets), we've [built encrypted secrets management into Rails 5.1](https://github.com/rails/rails/pull/28038). You can setup a new encrypted secrets file with bin/rails secrets:setup. That'll generate a master key you'll store outside of the repository, but allow you to commit the actual production secrets to your revision control. They're then decrypted in production either through an injected key file or through RAILS_MASTER_KEY in the ENV.
+Inspired by [Ara T. Howard](https://github.com/ahoward)'s [sekrets gem](https://github.com/ahoward/sekrets), we've [built encrypted secrets management into Rails 5.1](https://github.com/rails/rails/pull/28038). You can setup a new encrypted secrets file with `bin/rails secrets:setup`. That'll generate a master key you'll store outside of the repository, but allow you to commit the actual production secrets to your revision control. They're then decrypted in production either through an injected key file or through RAILS_MASTER_KEY in the ENV.
 
 Thank you to [Kasper Timm Hansen][kasper] for the work on this and Ara for the inspiration!
 
