@@ -35,7 +35,7 @@ In my [2014 keynote at RailsConf](https://www.youtube.com/watch?v=9LfmrkyP81M), 
 
 But integration tests do not help you test the entire system, if that system relies on JavaScript. And most major web systems today rely at least to some extent on JavaScript. That's where system tests driven by a real browser come in.
 
-There's long been an answer for system tests like this in Ruby called [Capybara](http://teamcapybara.github.io/capybara/). It's just been kind of a journey to configure properly for Rails. So now we've [baked them straight into the framework](https://github.com/rails/rails/blob/master/actionpack/lib/action_dispatch/system_test_case.rb#L11)! You get a lovely wrapping of Capybara that's preconfigured for Chrome and enhanced to provide failure screenshots as part of Action Dispatch.
+There's long been an answer for system tests like this in Ruby called [Capybara](http://teamcapybara.github.io/capybara/). It's just been kind of a journey to configure properly for Rails. So now we've [baked them straight into the framework](https://github.com/rails/rails/blob/658b5244356feba2b262e87d8b333c5a46999a5d/actionpack/lib/action_dispatch/system_test_case.rb#L11)! You get a lovely wrapping of Capybara that's preconfigured for Chrome and enhanced to provide failure screenshots as part of Action Dispatch.
 
 These tests are not without trade-offs. It's of course still slower to run through a whole browser setup than just test a model with a stubed out database. But it also tests so much more. You'd do well to familiarize yourself with system tests and have them as part of your testing answer.
 
@@ -55,11 +55,11 @@ Thank you to [Kasper Timm Hansen][kasper] for the work on this and Ara for the i
 
 ## Parameterized mailers
 
-Action Mailer is modeled on Action Controller. It shares underpinnings through Action Dispatch, but it's long been disadvantaged from its controller cousin in the way it can share logic between actions. 
+Action Mailer is modeled on Action Controller. It shares underpinnings through Abstract Controller, but it's long been disadvantaged from its controller cousin in the way it can share logic between actions. 
 
 In Action Controller, it's common to use before_action and similar callbacks to extract logic that applies to multiple actions. This is doable because the params hash is available before the action is invoked. But in Action Mailer, we've been using regular method signatures with explicit arguments, so those arguments haven't been available to filters that run before the actions.
 
-With [Parameterized Mailers](https://github.com/rails/rails/blob/master/actionmailer/lib/action_mailer/parameterized.rb#L2), we now give you the option of calling mailers with parameters that, like in controllers, are available before the action is invoked. This combines with the default to/from/reply_to headers to dramatically DRY-up some mailer actions.
+With [Parameterized Mailers](https://github.com/rails/rails/blob/2dadf73891431ff16709ae41ccb552a56ce34c32/actionmailer/lib/action_mailer/parameterized.rb), we now give you the option of calling mailers with parameters that, like in controllers, are available before the action is invoked. This combines with the default to/from/reply_to headers to dramatically DRY-up some mailer actions.
 
 It's completely backwards compatible and you can convert just the mailers that stand to gain the most from extraction first.
 
