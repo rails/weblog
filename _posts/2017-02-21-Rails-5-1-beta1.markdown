@@ -6,7 +6,7 @@ author: dhh
 published: true
 date: 2017-02-22 16:00:00 +01:00
 ---
-Rails 5.0 was released just some eight months ago, and now, [some 3500 commits later](https://github.com/rails/rails/compare/v5.0.0...master/), we're already close to the next big release. And what release this version 5.1 is lining up to be! We've made great strides on long-term promises and key ergonomics while also spring cleaning a bunch of deprecated code. 
+Rails 5.0 was released just some eight months ago, and now, [some 3500 commits later](https://github.com/rails/rails/compare/v5.0.0...master/), we're already close to the next big release. And what release this version 5.1 is lining up to be! We've made great strides on long-term promises and key ergonomics while also spring cleaning a bunch of deprecated code.
 
 Let me walk you through the highlight reel:
 
@@ -19,7 +19,7 @@ JavaScript and Ruby share a deep philosophical bond over language design, if not
 
 The improvements in Rails 5.1 focus on three major parts:
 
-1. **Manage JavaScript dependencies from NPM via Yarn.** Think of [Yarn](https://yarnpkg.com/en/) like Bundler for JavaScript (it even has [Yehuda Katz](https://github.com/wycats) involved!). This makes it easy to depend on libraries like React or anything else from NPM. Everything you depend on via Yarn is then made available to be required in the asset pipeline, just like vendored dependencies would have been. Just use the binstub bin/yarn to add dependencies.
+1. **Manage JavaScript dependencies from NPM via Yarn.** Think of [Yarn](https://yarnpkg.com/en/) like Bundler for JavaScript (it even has [Yehuda Katz](https://github.com/wycats) involved!). This makes it easy to depend on libraries like React or anything else from NPM. Everything you depend on via Yarn is then made available to be required in the asset pipeline, just like vendored dependencies would have been. Just use the binstub `bin/yarn` to add dependencies.
 
 2. **Optionally compile JavaScript with Webpack.** While there are a million different module bundlers/compilers for JavaScript, [Webpack](https://webpack.github.io/) is quickly emerging as the preeminent choice. We've made it easy to use Webpack with Rails through the new [Webpacker](https://github.com/rails/webpacker) gem that you can configure automatically on new projects with `--webpack`. This is fully compatible with the asset pipeline, which you can continue to use for images, fonts, sounds, whatever. You can even have some JavaScript on the asset pipeline and some done via Webpack. It's all managed via Yarn that's on by default.
 
@@ -31,20 +31,20 @@ Thanks to [Liceth Ovalles](https://github.com/Liceth) for her work on Yarn integ
 
 ## System tests
 
-In my [2014 keynote at RailsConf](https://www.youtube.com/watch?v=9LfmrkyP81M), I spoke at length about how an overfocus on unit tests (and TDD) has lead us astray. While unit tests are part of a complete testing solution, they're not the most important one. Integration tests that verify behavior all the way from controllers through models and views should play a much bigger part. Rails already has a great answer for these baked in.
+In my [2014 keynote at RailsConf](https://www.youtube.com/watch?v=9LfmrkyP81M), I spoke at length about how an over focus on unit tests (and TDD) has lead us astray. While unit tests are part of a complete testing solution, they're not the most important one. Integration tests that verify behavior all the way from controllers through models and views should play a much bigger part. Rails already has a great answer for these baked in.
 
 But integration tests do not help you test the entire system, if that system relies on JavaScript. And most major web systems today rely at least to some extent on JavaScript. That's where system tests driven by a real browser come in.
 
 There's long been an answer for system tests like this in Ruby called [Capybara](http://teamcapybara.github.io/capybara/). It's just been kind of a journey to configure properly for Rails. So now we've [baked them straight into the framework](https://github.com/rails/rails/blob/658b5244356feba2b262e87d8b333c5a46999a5d/actionpack/lib/action_dispatch/system_test_case.rb#L11)! You get a lovely wrapping of Capybara that's preconfigured for Chrome and enhanced to provide failure screenshots as part of Action Dispatch.
 
-These tests are not without trade-offs. It's of course still slower to run through a whole browser setup than just test a model with a stubed out database. But it also tests so much more. You'd do well to familiarize yourself with system tests and have them as part of your testing answer.
+These tests are not without trade-offs. It's of course still slower to run through a whole browser setup than just test a model with a stubbed out database. But it also tests so much more. You'd do well to familiarize yourself with system tests and have them as part of your testing answer.
 
 Thanks to [Eileen M. Uchitelle](https://github.com/eileencodes) for her work extracting this from [Basecamp](https://basecamp.com)!
 
 
 ## Encrypted secrets
 
-If you're checking production passwords, api keys, and other secrets undisguised into your revision control system, you're doing it wrong. That's not safe and you should stop it! Now that's an easy prescription, but without a coherent answer to what you should do instead, it's also not that helpful.
+If you're checking production passwords, API keys, and other secrets undisguised into your revision control system, you're doing it wrong. That's not safe and you should stop it! Now that's an easy prescription, but without a coherent answer to what you should do instead, it's also not that helpful.
 
 People have long been loading up the ENV to store these secrets or used a variety of other solutions. There are all sorts of trade-offs and drawbacks to the ENV-model, not least of which that you _still_ need to store those secrets for real somewhere else.
 
@@ -55,7 +55,7 @@ Thank you to [Kasper Timm Hansen][kasper] for the work on this and Ara for the i
 
 ## Parameterized mailers
 
-Action Mailer is modeled on Action Controller. It shares underpinnings through Abstract Controller, but it's long been disadvantaged from its controller cousin in the way it can share logic between actions. 
+Action Mailer is modeled on Action Controller. It shares underpinnings through Abstract Controller, but it's long been disadvantaged from its controller cousin in the way it can share logic between actions.
 
 In Action Controller, it's common to use before_action and similar callbacks to extract logic that applies to multiple actions. This is doable because the params hash is available before the action is invoked. But in Action Mailer, we've been using regular method signatures with explicit arguments, so those arguments haven't been available to filters that run before the actions.
 
