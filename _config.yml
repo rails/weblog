@@ -9,9 +9,12 @@ markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
 gems:
-  - jemoji
+  - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jemoji
+feed:
+  path: feed/atom.xml
 defaults:
   - scope:
       path: ""
