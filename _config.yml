@@ -12,6 +12,7 @@ gems:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jemoji
 feed:
   path: feed/atom.xml
