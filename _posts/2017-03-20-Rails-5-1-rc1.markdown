@@ -10,7 +10,7 @@ date: 2017-03-20 15:00 -04:00
 We're happy to announce Rails 5.1.0.rc1 has been released. With the help of the community we polished the Rails 5.1
 release with more than [380 commits](https://github.com/rails/rails/compare/v5.1.0.beta1...v5.1.0.rc1).
 
-Notably, Stephen Touset helped us up the encryption used for encrypted secrets, so you'll want to run [this script](https://gist.github.com/kaspth/bc37989c2f39a5642112f28b1d93f343)
+Notably, [Stephen Touset](https://github.com/stouset) helped us up the encryption used for encrypted secrets, so you'll want to run [this script](https://gist.github.com/kaspth/bc37989c2f39a5642112f28b1d93f343)
 to upgrade your app if you're already dabbling with the feature. Thanks Stephen!
 
 While we are working to close the last issues, you can check [the Rails 5.1 releases notes](http://edgeguides.rubyonrails.org/5_1_release_notes.html),
