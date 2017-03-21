@@ -8,7 +8,7 @@ date: 2017-03-20 15:00 -04:00
 ---
 
 We're happy to announce Rails 5.1.0.rc1 has been released. With the help of the community we polished the Rails 5.1
-release with more than [380 commits](https://github.com/rails/rails/compare/v5.1.0.beta1...5.1.0.rc1).
+release with more than [380 commits](https://github.com/rails/rails/compare/v5.1.0.beta1...v5.1.0.rc1).
 
 While we are working to close the last issues, you can check [the Rails 5.1 releases notes](http://edgeguides.rubyonrails.org/5_1_release_notes.html),
 or the awesome summary of new features present in [the 5.1.0.beta1 blog post](http://weblog.rubyonrails.org/2017/2/23/Rails-5-1-beta1/).
