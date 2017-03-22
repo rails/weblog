@@ -25,5 +25,6 @@ Good luck! ✌️
 [gsoc]: https://summerofcode.withgoogle.com/
 [gsoc-faq]: https://developers.google.com/open-source/gsoc/faq
 [ideas]: https://github.com/railsgsoc/ideas/wiki/2017-Ideas
+[wiki]: https://github.com/railsgsoc/ideas/wiki
 [mailing-list]: https://groups.google.com/forum/#!forum/rubyonrails-gsoc
 [timeline]: https://developers.google.com/open-source/gsoc/timeline
