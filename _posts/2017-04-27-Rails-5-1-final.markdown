@@ -96,6 +96,8 @@ In addition to the highlight reel, we have hundreds of other fixes and improveme
 * [Active Job CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/activejob/CHANGELOG.md)
 * [Railties CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/railties/CHANGELOG.md)
 
+We have a great summary of the high-level changes in the [release notes](http://guides.rubyonrails.org/5_1_release_notes.html).
+
 Your release manager for Rails 5.1 was [Rafael França][rafaelfranca].
 
 As per our [maintenance policy][maintenance-policy], the release of Rails 5.1 means that bug fixes will only apply to 5.1.x, regular security issues to 5.1.x and 5.0.x, and severe security issues to 5.1.x, 5.0.x, and 4.2.x. This means 4.x and below will essentially be unsupported!
