@@ -6,7 +6,7 @@ author: dhh
 published: true
 date: 2017-04-27 09:00:00 -09:00
 ---
-In celebration of the 12th [RailsConf](http://railsconf.com) in Phoenix, Austin this week, we're proud to announce that Rails 5.1 is ready in its final form! We've spent [over 4,100 commits since Rails 5.0](https://github.com/rails/rails/compare/v5.0.0...5-1-stable/) making everything EASIER, SIMPLER, and, uhhh, FUNNER? (That's a RailsConf joke).
+In celebration of the 12th [RailsConf](http://railsconf.com) in Phoenix, Arizona this week, we're proud to announce that Rails 5.1 is ready in its final form! We've spent [over 4,100 commits since Rails 5.0](https://github.com/rails/rails/compare/v5.0.0...5-1-stable/) making everything EASIER, SIMPLER, and, uhhh, FUNNER? (That's a RailsConf joke).
 
 The highlight reel hasn't really changed since the first beta, but here's a repeat:
 
