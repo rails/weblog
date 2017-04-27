@@ -4,9 +4,9 @@ title: 'Rails 5.1: Loving JavaScript, System Tests, Encrypted Secrets, and more'
 category: releases
 author: dhh
 published: true
-date: 2017-04-27 09:00:00 -09:00
+date: 2017-04-27 14:05:00 -07:00
 ---
-In celebration of the 12th [RailsConf](http://railsconf.com) in Phoenix, Arizona this week, we're proud to announce that Rails 5.1 is ready in its final form! We've spent [over 4,100 commits since Rails 5.0](https://github.com/rails/rails/compare/v5.0.0...5-1-stable/) making everything EASIER, SIMPLER, and, uhhh, FUNNER? (That's a RailsConf joke).
+In celebration of the 12th [RailsConf](http://railsconf.com) in Phoenix, Arizona this week, we're proud to announce that Rails 5.1 is ready in its final form! We've spent [over 4,100 commits since Rails 5.0](https://github.com/rails/rails/compare/v5.0.0...v5.1.0) making everything EASIER, SIMPLER, and, uhhh, FUNNER? (That's a RailsConf joke).
 
 The highlight reel hasn't really changed since the first beta, but here's a repeat:
 
@@ -86,15 +86,15 @@ Thanks to [Kasper Timm Hansen][kasper] for this one too!
 
 In addition to the highlight reel, we have hundreds of other fixes and improvements across all the frameworks. Please peruse the CHANGELOGs to acquaint yourself with all the goodies:
 
-* [Action Cable CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/actioncable/CHANGELOG.md)
-* [Action Mailer CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/actionmailer/CHANGELOG.md)
-* [Action Pack CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/actionpack/CHANGELOG.md)
-* [Action View CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/actionview/CHANGELOG.md)
-* [Active Model CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/activemodel/CHANGELOG.md)
-* [Active Record CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/activerecord/CHANGELOG.md)
-* [Active Support CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/activesupport/CHANGELOG.md)
-* [Active Job CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/activejob/CHANGELOG.md)
-* [Railties CHANGELOG](https://github.com/rails/rails/blob/5-1-stable/railties/CHANGELOG.md)
+* [Action Cable CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/actioncable/CHANGELOG.md)
+* [Action Mailer CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/actionmailer/CHANGELOG.md)
+* [Action Pack CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/actionpack/CHANGELOG.md)
+* [Action View CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/actionview/CHANGELOG.md)
+* [Active Model CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/activemodel/CHANGELOG.md)
+* [Active Record CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/activerecord/CHANGELOG.md)
+* [Active Support CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/activesupport/CHANGELOG.md)
+* [Active Job CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/activejob/CHANGELOG.md)
+* [Railties CHANGELOG](https://github.com/rails/rails/blob/v5.1.0/railties/CHANGELOG.md)
 
 We have a great summary of the high-level changes in the [release notes](http://guides.rubyonrails.org/5_1_release_notes.html).
 
