@@ -25,54 +25,87 @@ end
 
 require 'uri'
 require 'open-uri'
+require 'json'
+require 'nokogiri'
 require 'reverse_markdown'
 
-uri = URI.parse(url)
+class GoodbitsEmail
+  attr_accessor :email
+
+  def initialize(raw_email)
+    @email = JSON.parse(raw_email, symbolize_names: true)[:newsletter_email]
+  end
+
+  def title
+    email[:subject].strip
+  end
+
+  # Author is mentioned in the first text block of the email
+  def author
+    intro_html = Nokogiri::HTML(content_blocks_for("Text")[0][:variables][:html_text])
+    begin
+      intro_html
+        .xpath("//a[contains(@href, 'twitter.com/') or contains(@href, 'github.com/') and not(contains(@href, 'rails'))]")
+        .first['href']
+        .split('/')
+        .last
+    rescue
+      'chancancode'
+    end
+  end
+
+  def markdown_render
+    md =[]
+    email[:content_blocks].each do |cb|
+      next if ["Header", "Footer"].include?(cb[:component_name])
+
+      case cb[:component_name]
+      when "Text"
+        md << html_to_md(cb[:variables][:html_text])
+      when "Subheading"
+        md << "## #{cb[:variables][:subheading]}\n"
+      when "Image"
+        md << "![](#{cb[:image_url]})\n" if cb[:image_url] != nil
+      when "Article"
+        md << "### [#{cb[:variables][:title]}](#{cb[:variables][:link_to]})\n"
+        md << html_to_md(cb[:variables][:html_description])
+      end
+
+    end
+    md.join("\n")
+  end
+
+  private
+  def html_to_md(html)
+    ReverseMarkdown.convert(html, unknown_tags: :bypass)
+  end
+
+  def content_blocks_for(component_name)
+    email[:content_blocks].select {|cb|
+      cb[:component_name] == component_name
+    }
+  end
+end
+
+uri = URI.parse(url + ".json")
 path_parts = uri.path.split("/")
-slug = path_parts.last
+slug = path_parts.last.gsub(".json", "")
 date = Date.new(*path_parts[1..3].map(&:to_i))
 
-uri.query = 'body=1'
-parsed = Nokogiri.parse(uri.open.read)
-
-title = parsed.css("title").text
-raise "Failed to extract title" if title.empty?
-
-newsletter_html = parsed.at_css("table.outer")
-raise "Failed to extract newsletter content" if newsletter_html.nil?
-
-newsletter_html.css("p.h2").each { |tag| tag.name = "h2" }
-newsletter_html.css("p.h5").each { |tag| tag.name = "h3" }
-
-tags = %w(h1 h2 h3 h4 p pre)
-xpath_query = tags.map { |tag| "//#{tag}" }.join ' | '
-simple_newsletter_html = newsletter_html.xpath(xpath_query).to_html
-md = ReverseMarkdown.convert(simple_newsletter_html, unknown_tags: :bypass)
-raise "Failed to convert newsletter content to markdown" if md.empty?
-
-# remove goodbits ad ("Try Goodbits for free!")
-md.gsub!(/^.*Goodbits.*$/, '')
-
-begin
-  author = newsletter_html
-    .xpath("//table[@class='row'][2] //a[contains(@href, 'twitter.com/') or contains(@href, 'github.com/') and not(contains(@href, 'rails'))]")
-    .first['href']
-    .split('/')
-    .last
-rescue
-  author = 'chancancode'
-end
+goodbits_email = GoodbitsEmail.new(uri.open.read)
 
 meta = %|---
 layout: post
-title: "#{title}"
+title: "#{goodbits_email.title}"
 categories: news
-author: #{author}
+author: #{goodbits_email.author}
 published: true
 date: #{date.to_s}
 ---
 
 |
+
+md = goodbits_email.markdown_render
 
 post_content = meta + md
 post_path = "_posts/#{date.strftime('%Y-%m-%d')}-this-week-in-rails-#{slug}.markdown"
