@@ -2,7 +2,7 @@
 layout: post
 title: "This Week in Rails: 5.1.0.rc1, GSoC and more!"
 categories: news
-author: chancancode
+author: repinel
 published: true
 date: 2017-03-24
 ---
