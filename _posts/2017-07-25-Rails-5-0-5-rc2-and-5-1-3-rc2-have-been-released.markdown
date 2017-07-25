@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 5.0.5.rc2 and 5.1.3.rc2 have been released'
-categories:
+categories: releases
 author: kaspth
 published: true
 date: 2017-07-25 22:26:35 +02:00
