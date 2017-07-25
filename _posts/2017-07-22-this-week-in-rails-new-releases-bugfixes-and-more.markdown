@@ -15,7 +15,7 @@ Two new release candidates has been released this week, if there are no regressi
 
 ### [This Week's Rails contributors!](http://contributors.rubyonrails.org/contributors/in-time-window/20170715-20170722)
 
-28 people helped to make Rails better this week. If you want to be one of them, checkout the [issues](https://github.com/rails/issues) list, help is always welcomed!  
+28 people helped to make Rails better this week. If you want to be one of them, checkout the [issues](https://github.com/rails/rails/issues) list, help is always welcomed!  
   
 
 
