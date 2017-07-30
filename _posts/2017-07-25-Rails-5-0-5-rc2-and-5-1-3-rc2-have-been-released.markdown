@@ -13,7 +13,7 @@ I am happy to announce that Rails 5.0.5.rc2 and 5.1.3.rc2 have been released.
 
 If no regressions are found, expect the final release on Monday, July 31, 2017.
 If you find one, please open an [issue on GitHub](https://github.com/rails/rails/issues/new)
-and mention me (@github_user}) on it, so that we can fix it before the final release.
+and mention me (@kaspth) on it, so that we can fix it before the final release.
 
 ## CHANGES since 5.0.4
 
