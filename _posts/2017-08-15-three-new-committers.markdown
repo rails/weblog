@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Three new committers: George, Javan, Ryuta'
-categories: announcements
+categories: news
 author: dhh
 published: true
 date: 2017-08-15 15:45:00 -08:00
