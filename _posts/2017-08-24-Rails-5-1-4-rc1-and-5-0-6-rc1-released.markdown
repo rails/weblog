@@ -62,6 +62,16 @@ Here are the checksums for 5.0.6.rc1:
 
 ```
 $ shasum -a 256 *-5.0.6.rc1.gem
+0490ac6c4621756871839ad584f0a0349a72a9ccdeac0f72dafd3539638ba5ef  actioncable-5.0.6.rc1.gem
+fc7697724d884307bf2ea307c028902f71f96304b9a882418e6ec94d10202cd9  actionmailer-5.0.6.rc1.gem
+b0f1f4479f61ada80b3dbe3e9ccaa0db390119918e5da632dda3c8398e6e4f5f  actionpack-5.0.6.rc1.gem
+673d06523edf733163ad668fe3cd64bd1c7fb97244c952241d1e00ee6835101b  actionview-5.0.6.rc1.gem
+ac6521d4df459db19fc0f2740d0e0c0a6f3102252c8124ecb25e8d33335d6cf4  activejob-5.0.6.rc1.gem
+0824cd58f175a3c825dce9d42d73254d25af25d824ae1c5c3465f12bb0812f72  activemodel-5.0.6.rc1.gem
+7972a8a76c711b8fc01ab52d95c4f16a73e9683e4d745a17d61ab91051df856c  activerecord-5.0.6.rc1.gem
+40f0c77de7e54b6a3581272ce5b6409ae0c61b5bfad3239db46807d8342ce8a3  activesupport-5.0.6.rc1.gem
+7873311d5340bffbabeb33cb9d3ce2c97056bc2bebad3abfcba6f5b38b209075  rails-5.0.6.rc1.gem
+3fd4b347f19fb4ff2ec7cee4c9a45aba31d1e287583943269bc9d09bef61ca93  railties-5.0.6.rc1.gem
 ```
 
 Here are the checksums for 5.1.4.rc1:
