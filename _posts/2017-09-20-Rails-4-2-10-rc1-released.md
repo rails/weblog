@@ -1,3 +1,12 @@
+---
+layout: post
+title: 'Rails 4.2.10.rc1 released'
+categories: releases
+author: eileencodes
+published: true
+date: 2017-09-20 16:01:10 -04:00
+---
+
 Hi everyone,
 
 I am happy to announce that Rails 4.2.10.rc1 has been released!
