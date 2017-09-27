@@ -55,5 +55,6 @@ e80776a73ba5cc32fefb372f11db289153b954c91db378ad689ad1896f515a82  activejob-4.2.
 275b14e515eb8c924bafa734417ec053a57f177ae9d3369f753d6f4437922268  activesupport-4.2.10.gem
 141067e1dd4ec59d7a49e54936b68d8e44d8616515625dcf0387405a276d6b97  rails-4.2.10.gem
 3709315c522a2729bb7dcf97c05acc2d47b61521cac450ee03143321b1abde6a  railties-4.2.10.gem
+```
 
 As always, huge thanks to the many contributors who helped with this release.
