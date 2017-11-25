@@ -36,8 +36,8 @@ dramatically between these two changes.
 
 
 We’ve also embraced the cherry of HTTP2 with [early hints](https://github.com/rails/rails/pull/30744) through the work
-of Aaron Patterson and Eileen Uchitelle.  This means we can automatically instruct the webserver to send required style
-sheet and JavaScript assets early.  Which means faster full page delivery, as who wouldn’t want that?
+of Aaron Patterson and Eileen Uchitelle. This means we can automatically instruct the webserver to send required style
+sheet and JavaScript assets early. Which means faster full page delivery, as who wouldn’t want that?
 
 
 In the performance topic, Rails now ships with [Bootsnap](https://github.com/Shopify/bootsnap), created by our friends
@@ -62,7 +62,7 @@ keys, and files.
 
 Since Rails 5.1, we’ve also made great strides with [Webpacker](https://github.com/rails/webpacker). So Rails 5.2 is
 meant to pair beautifully with the new Webpacker 3.0 release. Rails has fully embraced modern JavaScript with a
-pre-configured build pipeline run by Webpack.  We keep strengthening that relationship.
+pre-configured build pipeline run by Webpack. We keep strengthening that relationship.
 
 
 And of course there’s about five bajillion other fixes, improvements, and tweaks in this new, big release of Rails. It’s
