@@ -40,7 +40,7 @@ of Aaron Patterson and Eileen Uchitelle. This means we can automatically instruc
 sheet and JavaScript assets early. Which means faster full page delivery, as who wouldn’t want that?
 
 
-In the performance topic, Rails now ships with [Bootsnap](https://github.com/Shopify/bootsnap), created by our friends
+On the topic of performance, Rails now ships with [Bootsnap](https://github.com/Shopify/bootsnap) in the default Gemfile, created by our friends
 at Shopify. It generally reduces application boot times by over 50%.
 
 
@@ -65,9 +65,9 @@ meant to pair beautifully with the new Webpacker 3.0 release. Rails has fully em
 pre-configured build pipeline run by Webpack. We keep strengthening that relationship.
 
 
-And of course there’s about five bajillion other fixes, improvements, and tweaks in this new, big release of Rails. It’s
+And of course there’s about [five bajillion other fixes, improvements, and tweaks][https://github.com/rails/rails/compare/v5.1.4...master/] in this new, big release of Rails. It’s
 been lovingly tendered over the past seven months or so since Rails 5.1. We’re so happy to share all this with you, and
-as always thank the many, many contributors for their continued effort to make Rails the wonderful framework that it is.
+as always thank the [many, many contributors][http://contributors.rubyonrails.org/edge/contributors] for their continued effort to make Rails the wonderful framework that it is.
 
 This is the first beta release of Rails 5.2. We are still putting the final touches on everything, but you are strongly
 encouraged to give it a spin! Please try to both upgrade existing apps and start new apps on it. We need your help for a
@@ -75,4 +75,4 @@ solid release. Note that Basecamp is already running the latest in production, s
 issues, it’s already in respectable shape.
 
 Note also that this is likely to be the last “minor” (pretty major for a minor, if you ask me!) release of the 5-series.
-Our next target will be Rails 6.0.
+Our next target will be Rails 6.0!
