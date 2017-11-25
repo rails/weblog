@@ -22,7 +22,7 @@ used in production, it was born from production. There’s that Extraction Desig
 
 Speaking of extractions, Jeremy Daer has untangled the long jungle twine of hacks we were using at Basecamp to employ
 Redis for general partial, fragment, and other Rails caching jobs. There’s a sparkling new [Redis Cache Store](https://github.com/rails/rails/pull/31134)
-that incorporate all those years of veteran hacks into a cohesive unit that anyone can use.
+that incorporates all those years of veteran hacks into a cohesive unit that anyone can use.
 
 This new Redis Cache Store supports Redis::Distributed, for Memcached-like sharding across Redises. It’s fault tolerant,
 so will treat failures like misses, rather than kill the request with an exception. It even supports distributed mgets
@@ -65,9 +65,9 @@ meant to pair beautifully with the new Webpacker 3.0 release. Rails has fully em
 pre-configured build pipeline run by Webpack. We keep strengthening that relationship.
 
 
-And of course there’s about [five bajillion other fixes, improvements, and tweaks][https://github.com/rails/rails/compare/v5.1.4...master/] in this new, big release of Rails. It’s
+And of course there’s about [five bajillion other fixes, improvements, and tweaks](https://github.com/rails/rails/compare/v5.1.4...master/) in this new, big release of Rails. It’s
 been lovingly tendered over the past seven months or so since Rails 5.1. We’re so happy to share all this with you, and
-as always thank the [many, many contributors][http://contributors.rubyonrails.org/edge/contributors] for their continued effort to make Rails the wonderful framework that it is.
+as always thank the [many, many contributors](http://contributors.rubyonrails.org/edge/contributors) for their continued effort to make Rails the wonderful framework that it is.
 
 This is the first beta release of Rails 5.2. We are still putting the final touches on everything, but you are strongly
 encouraged to give it a spin! Please try to both upgrade existing apps and start new apps on it. We need your help for a
