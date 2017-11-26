@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rails 5.2: Active Storage, Redis Cache Store, HTTP2 Early Hints, Credentials'
+title: 'Rails 5.2: Active Storage, Redis Cache Store, HTTP/2 Early Hints, Credentials'
 categories: releases
 author: dhh
 published: true
@@ -13,8 +13,8 @@ With the new [Active Storage](https://github.com/rails/rails/blob/d3893ec38ec612
 framework in Rails 5.2, we’ve solved for the modern approach of uploading files straight to the cloud. Out of the box,
 there’s support for Amazon’s S3, Google’s Cloud Storage, and Microsoft Azure Cloud File Storage.
 
-If you’re dealing with images, you can create variants on-the-fly. If you’re dealing with videos or PDFs, you can create
-previews on-the-fly. And regardless of the type, you can analyze uploads for metadata extraction asynchronously.
+If you’re dealing with images, you can create variants on the fly. If you’re dealing with videos or PDFs, you can create
+previews on the fly. And regardless of the type, you can analyze uploads for metadata extraction asynchronously.
 
 Active Storage was extracted from Basecamp 3 by George Claghorn and yours truly. So not only is the framework already
 used in production, it was born from production. There’s that Extraction Design guarantee stamp alright!
@@ -25,22 +25,22 @@ Redis for general partial, fragment, and other Rails caching jobs. There’s a s
 that incorporates all those years of veteran hacks into a cohesive unit that anyone can use.
 
 This new Redis Cache Store supports Redis::Distributed, for Memcached-like sharding across Redises. It’s fault tolerant,
-so will treat failures like misses, rather than kill the request with an exception. It even supports distributed mgets
+so will treat failures like misses, rather than kill the request with an exception. It even supports distributed MGETs
 for that full partial collection caching goodness.
 
 This comes together with a massive leap forward for cache efficiency with [key recycling](https://github.com/rails/rails/pull/29092)
 and [compression](https://github.com/rails/rails/pull/31147) both available by default. For Basecamp, it meant improving
-the cache life time by two orders of magnitude! We went from having caches trashed in as little as a day to having
+the cache lifetime by two orders of magnitude! We went from having caches trashed in as little as a day to having
 caches last for months. If you’re using partial caching and the nesting doll strategy, your cache lifetime will improve
 dramatically between these two changes.
 
 
-We’ve also embraced the cherry of HTTP2 with [early hints](https://github.com/rails/rails/pull/30744) through the work
-of Aaron Patterson and Eileen Uchitelle. This means we can automatically instruct the webserver to send required style
+We’ve also embraced the cherry of HTTP/2 with [early hints](https://github.com/rails/rails/pull/30744) through the work
+of Aaron Patterson and Eileen Uchitelle. This means we can automatically instruct the web server to send required style
 sheet and JavaScript assets early. Which means faster full page delivery, as who wouldn’t want that?
 
 
-On the topic of performance, Rails now ships with [Bootsnap](https://github.com/Shopify/bootsnap) in the default Gemfile, created by our friends
+On the topic of performance, Rails now ships with [Bootsnap](https://github.com/Shopify/bootsnap) in the default `Gemfile`, created by our friends
 at Shopify. It generally reduces application boot times by over 50%.
 
 
@@ -53,7 +53,7 @@ concept called Credentials. Credentials, like AWS access keys and other forms of
 use case for secrets, so why not just call a spade a spade. So spade it is!
 
 Credentials are always encrypted. This means they’re safe to check into revision control, as long as you keep the key
-out of it. That means atomic deploys, no need to mess with a flurry of ENV variables, and other benefits of having all
+out of it. That means atomic deploys, no need to mess with a flurry of environment variables, and other benefits of having all
 credentials that the app needs in one place, safe and secure.
 
 In addition, we’ve opened up the API underlying Credentials, so you can easily deal with other encrypted configurations,
@@ -65,8 +65,8 @@ meant to pair beautifully with the new Webpacker 3.0 release. Rails has fully em
 pre-configured build pipeline run by Webpack. We keep strengthening that relationship.
 
 
-And of course there’s about [five bajillion other fixes, improvements, and tweaks](https://github.com/rails/rails/compare/v5.1.4...master/) in this new, big release of Rails. It’s
-been lovingly tendered over the past seven months or so since Rails 5.1. We’re so happy to share all this with you, and
+And of course there’s about [five bajillion other fixes, improvements, and tweaks](https://github.com/rails/rails/compare/v5.1.4...master/) in this new, big release of Rails. It's
+been lovingly tendered over the past seven months or so since Rails 5.1. We're so happy to share all this with you, and
 as always thank the [many, many contributors](http://contributors.rubyonrails.org/edge/contributors) for their continued effort to make Rails the wonderful framework that it is.
 
 This is the first beta release of Rails 5.2. We are still putting the final touches on everything, but you are strongly
