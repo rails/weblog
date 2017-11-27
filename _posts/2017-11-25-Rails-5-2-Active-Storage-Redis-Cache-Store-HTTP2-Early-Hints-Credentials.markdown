@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Rails 5.2: Active Storage, Redis Cache Store, HTTP/2 Early Hints, Credentials'
+title: 'Rails 5.2: Active Storage, Redis Cache Store, HTTP/2 Early Hints, CSP, Credentials'
 categories: releases
 author: dhh
 published: true
-date: 2017-11-25 12:54:12 -05:00
+date: 2017-11-27 15:50:00 -05:00
 ---
 It’s been too hard to deal with file uploads in Rails for too long. Sure, there’s been a lot of fine plugins available,
 but it was overdue that we incorporated something right into the framework. So now we have!
