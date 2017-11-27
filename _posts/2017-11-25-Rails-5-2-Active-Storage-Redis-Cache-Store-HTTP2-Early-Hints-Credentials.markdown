@@ -59,6 +59,7 @@ credentials that the app needs in one place, safe and secure.
 In addition, we’ve opened up the API underlying Credentials, so you can easily deal with other encrypted configurations,
 keys, and files.
 
+Rails has always been in the forefront of making your web applications more secure, leading the way with built-in CSRF and XSS protection and we've enhanced that further in Rails 5.2 with [the addition of a new DSL](https://github.com/rails/rails/pull/31162) that allows you to configure a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) for your application. You can configure a global default policy and then override it on a per-resource basis and even use lambdas to inject per-request values into the header such as account subdomains in a multi-tenant application.
 
 Since Rails 5.1, we’ve also made great strides with [Webpacker](https://github.com/rails/webpacker). So Rails 5.2 is
 meant to pair beautifully with the new Webpacker 3.0 release. Rails has fully embraced modern JavaScript with a
