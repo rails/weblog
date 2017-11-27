@@ -49,7 +49,7 @@ These secrets were like the old secrets but, uhm, more secret, because, you know
 you want secrets that weren’t really secret? Well, you don’t.
 
 In Rails 5.2, we’ve rectified the mess by deprecating the two different kinds of secrets and introduced a new shared
-concept called Credentials. Credentials, like AWS access keys and other forms of logins and passwords, were the dominant
+concept called [Credentials](https://github.com/rails/rails/pull/30067). Credentials, like AWS access keys and other forms of logins and passwords, were the dominant
 use case for secrets, so why not just call a spade a spade. So spade it is!
 
 Credentials are always encrypted. This means they’re safe to check into revision control, as long as you keep the key
