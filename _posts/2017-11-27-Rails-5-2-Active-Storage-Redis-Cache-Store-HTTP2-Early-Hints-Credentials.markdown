@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rails 5.2: Active Storage, Redis Cache Store, HTTP/2 Early Hints, CSP, Credentials'
+title: 'Rails 5.2.0 beta: Active Storage, Redis Cache Store, HTTP/2 Early Hints, CSP, Credentials'
 categories: releases
 author: dhh
 published: true
