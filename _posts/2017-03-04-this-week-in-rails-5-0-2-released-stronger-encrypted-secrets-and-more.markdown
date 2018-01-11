@@ -9,7 +9,7 @@ date: 2017-03-04
 
 Hello!   
   
-It's [Claudio](http://railsconf.com/program#session-125) from sunny Los Angeles bringing you the latest news from the world of Ruby on Rails. So many improvements this week so… let’s get to it!
+It's [Claudio](http://railsconf.com/2017/program#session-125) from sunny Los Angeles bringing you the latest news from the world of Ruby on Rails. So many improvements this week so… let’s get to it!
 
 ## Featured
 

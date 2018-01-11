@@ -71,7 +71,7 @@ Your dynamic release manager duo for Rails 5.0 is [Eileen M. Uchitelle][eileen] 
 [jbuilder]: https://github.com/rails/jbuilder
 [ams]: https://github.com/rails-api/active_model_serializers
 [jsonapi]: https://github.com/cerebris/jsonapi-resources
-[turbolinks-v5]: https://github.com/basecamp/turbolinks/tree/v5
+[turbolinks-v5]: https://github.com/turbolinks/turbolinks/tree/v5.0.0
 [actioncable]: https://github.com/rails/rails/tree/master/actioncable
 [attributes-api]: https://github.com/rails/rails/blob/8c752c7ac739d5a86d4136ab1e9d0142c4041e58/activerecord/lib/active_record/attributes.rb
 [pratiknaik]: https://github.com/lifo
