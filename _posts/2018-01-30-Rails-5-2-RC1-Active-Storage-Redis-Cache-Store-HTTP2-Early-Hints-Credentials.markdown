@@ -21,7 +21,7 @@ But since this is a release candidate, we'll already now move `rails/master` to 
 
 Thanks again to everyone who continue to pour their love and support into Ruby on Rails!
 
-## Recap of the highlights of Rails 5.2 from the beta announncement
+## Recap of the highlights of Rails 5.2 from the beta announcement
 
 It’s been too hard to deal with file uploads in Rails for too long. Sure, there’s been a lot of fine plugins available,
 but it was overdue that we incorporated something right into the framework. So now we have!
