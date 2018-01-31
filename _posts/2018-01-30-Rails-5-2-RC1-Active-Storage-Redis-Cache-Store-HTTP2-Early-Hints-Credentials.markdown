@@ -7,7 +7,7 @@ published: true
 date: 2018-01-30 16:00:00 -09:00
 ---
 It's been two months since the [first beta release of Rails 5.2](http://weblog.rubyonrails.org/2017/11/27/Rails-5-2-Active-Storage-Redis-Cache-Store-HTTP2-Early-Hints-Credentials/), 
-and we've spent the time since to improve, polish, and tweak the release in all sorts of lovely ways.
+and we've spent the time since to improve, polish, and tweak the release in all sorts of lovely ways for this first release candidate.
 
 Our headline feature, the new [Active Storage](https://github.com/rails/rails/blob/d3893ec38ec61282c2598b01a298124356d6b35a/activestorage/README.md)
 framework, has been expanded with [deeper content-type identification](https://github.com/rails/rails/commit/c2ba530c43244b5b60fd629f61cd8b44c43ecda9), as well as a ton of other improvements.
@@ -15,13 +15,13 @@ It also had a few extra months of battle-testing in production at both Basecamp 
 
 During the beta, we've also managed to squeeze in a few additional improvements. Like [super-fast fixture loading](https://github.com/rails/rails/pull/31422), [custom error handling on Active Job discarding](https://github.com/rails/rails/pull/30622), and [call-site logging for Active Record queries in development](https://github.com/rails/rails/pull/26815). The wheels never stop turning!
 
-So we're getting close. [Basecamp](https://basecamp.com) and lots of other shops have already been running the Rails 5.2 beta in production for months. 
+So we're getting close. Basecamp and lots of other shops have already been running the Rails 5.2 beta in production for months. 
 Our target for either the next release candidate or final, depending on the severity of issues that may pop up, is before the end of February.
 But since this is a release candidate, we'll already now move rails/master to rails/5-2-0-stable, and thus free up rails/master to target Rails 6.0 development.
 
 Thanks again to everyone who continue to pour their love and support into Ruby on Rails!
 
-### Recap of the highlights of Rails 5.2 from the beta announncement
+## Recap of the highlights of Rails 5.2 from the beta announncement
 
 It’s been too hard to deal with file uploads in Rails for too long. Sure, there’s been a lot of fine plugins available,
 but it was overdue that we incorporated something right into the framework. So now we have!
