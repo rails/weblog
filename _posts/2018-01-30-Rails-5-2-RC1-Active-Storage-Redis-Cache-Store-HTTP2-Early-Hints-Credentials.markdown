@@ -17,7 +17,7 @@ During the beta, we've also managed to squeeze in a few additional improvements.
 
 So we're getting close. Basecamp and lots of other shops have already been running the Rails 5.2 beta in production for months. 
 Our target for either the next release candidate or final, depending on the severity of issues that may pop up, is before the end of February.
-But since this is a release candidate, we'll already now move `rails/master` to `rails/5-2-0-stable`, and thus free up `rails/master` to target Rails 6.0 development.
+But since this is a release candidate, we'll already now move `rails/master` to `rails/5-2-stable`, and thus free up `rails/master` to target Rails 6.0 development.
 
 Thanks again to everyone who continue to pour their love and support into Ruby on Rails!
 
