@@ -8,7 +8,7 @@ permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
-gems:
+plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
