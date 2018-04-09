@@ -14,7 +14,7 @@ You can read in even more detail about everything that's [new in Rails 5.2 in th
 
 Note that [rails/master](https://github.com/rails/rails) development is now targeting Rails 6.0.
 
-Many thanks to Rails core, Rails contributors, and everyone else who've helped with code, documentation, bug reports, and whatever else to get Rails 5.2.0 out the door. It's amazing to have [over 500 code contributors](http://contributors.rubyonrails.org/edge/contributors) with fingerprints on this release.
+Many thanks to Rails core, Rails contributors, and everyone else who've helped with code, documentation, bug reports, and whatever else to get Rails 5.2.0 out the door. It's amazing to have [over 400 code contributors](http://contributors.rubyonrails.org/releases/5-2-0/contributors) with fingerprints on this release.
 
 ## Feature highlights
 
