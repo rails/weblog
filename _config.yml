@@ -1,4 +1,5 @@
 title: Riding Rails
+url: https://weblog.rubyonrails.org
 exclude:
   - Gemfile
   - Gemfile.lock
