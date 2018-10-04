@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducting Action Text for Rails 6"
+title: "Introducing Action Text for Rails 6"
 categories: news
 author: dhh
 published: true
