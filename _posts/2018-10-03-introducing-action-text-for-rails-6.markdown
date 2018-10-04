@@ -4,7 +4,7 @@ title: "Introducing Action Text for Rails 6"
 categories: news
 author: dhh
 published: true
-date: 2018-10-30
+date: 2018-10-03
 ---
 
 [Action Text](https://github.com/rails/actiontext) is a brand new framework coming to Rails 6 that's going to make creating, editing, and displaying rich text content in your applications super easy. It's an integration between [the Trix editor](https://trix-editor.org), Active Storage-backed file and image processing, and a text-processing flow that ties it all together. With Action Text, you really shouldn't ever have to impoverish your users with a vanilla textarea ever again!
