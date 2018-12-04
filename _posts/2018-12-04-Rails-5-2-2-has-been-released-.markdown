@@ -26,9 +26,9 @@ To view the changes for each gem, please read the changelogs on GitHub:
 * [Active Support CHANGELOG](https://github.com/rails/rails/blob/v5.2.2/activesupport/CHANGELOG.md)
 * [Railties CHANGELOG](https://github.com/rails/rails/blob/v5.2.2/railties/CHANGELOG.md)
 
-  To see a summary of changes, please read the release on GitHub:
+To see a summary of changes, please read the release on GitHub:
 
- [5.2.2 CHANGELOG](https://github.com/rails/rails/releases/tag/v5.2.2)
+[5.2.2 CHANGELOG](https://github.com/rails/rails/releases/tag/v5.2.2)
 
 *Full listing*
 
