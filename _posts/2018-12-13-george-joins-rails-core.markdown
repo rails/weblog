@@ -11,4 +11,4 @@ We couldn't be happier to welcome [George Claghorn](https://github.com/georgecla
 
 His [work on Rails](https://contributors.rubyonrails.org/contributors/george-claghorn/commits) has not just included bringing these exciting new frameworks into the Rails work, but also continuing to lead maintenance and process community feedback and improvements.
 
-George is Rails core member #15 and our first deaf person on the team ❤️🎉👏
+George is our first deaf person on the team ❤️🎉👏
