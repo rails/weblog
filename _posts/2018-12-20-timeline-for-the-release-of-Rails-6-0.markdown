@@ -11,11 +11,11 @@ We've made enough progress towards the vision for Rails 6.0 that it makes sense 
 
 So. This is the timeline as we currently hope to see it:
 
-* *January 15: Beta 1*. We'll merge the two new frameworks, Action Mailbox and Action Text, for this release.
-* *February 1: Beta 2*. We'll make sure any other major improvements are included by then.
-* *March 1: Release Candidate 1*. We go feature complete by here. 
-* *April 1: Release Candidate 2*. This should really be ready to ship, only new blockers will hold us back.
-* *April 30: Final release*. Ship and celebrate the release of Rails 6.0 at RailsConf 2019!
+* **January 15: Beta 1**. We'll merge the two new frameworks, Action Mailbox and Action Text, for this release.
+* **February 1: Beta 2**. We'll make sure any other major improvements are included by then.
+* **March 1: Release Candidate 1**. We go feature complete by here. 
+* **April 1: Release Candidate 2**. This should really be ready to ship, only new blockers will hold us back.
+* **April 30: Final release**. Ship and celebrate the release of Rails 6.0 at RailsConf 2019!
 
 It always looks so nice and neat when laid out like that, right? Like some serious engineers did some serious engineering to figure this out. And not just a bunch of software writers plotting down their hopes and dreams. But yeah, it's really the engineering part we went for (no it wasn't).
 
@@ -23,5 +23,6 @@ Worth noting: Rails 6.0 will require Ruby 2.5+! So you can get ready by making s
 
 As always, please help us make this a reality by running rails/master for new apps and existing ones, if you sport that High Adventure gene (aka no risk of getting fired if you hit a bug). Basecamp 3 is already running rails/master in production, so you know the main branch is at least in pretty good working order!
 
-To Rails Six Oh And Beyond!
+Our release manager for Rails 6.0 will be Rafael França with backup from Kasper Timm Hansen 🙏
 
+To Rails Six Oh And Beyond! 🚀🚂
