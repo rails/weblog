@@ -24,4 +24,6 @@ Finally, you should pay attention to [Xavier Noria's new Zeitwork code loader fo
 
 We are still roughly on track with [our published timeline for the final Rails 6.0 release](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/), so consult that plan for your migration planning, but please do help us already by testing your application on beta1! I'd also encourage anyone with a moderate level of Rails experience to start any new app using beta1, rather than the Rails 5.2.x series. Basecamp is already running Rails 6.0.0.beta1 in production, and both Shopify and GitHub and surely others will follow close thereafter. This isn't some rickety-shack release.
 
+This release, and all releases leading up to Rails 6.0 final, was shepherded by release manager Rafael França with support by Kasper Timm Hansen.  
+
 Thanks again to everyone who keeps working on making Rails better! It's incredible that we're still able to keep this intense rate of improvement going after all these years. Rails has never been in fitter shape to help the broadest number of web developers build excellent apps in a way they love. Let joy be sparked!
