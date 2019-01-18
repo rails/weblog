@@ -4,7 +4,7 @@ title: 'Rails 6.0.0 beta1: Action Mailbox, Action Text, Multiple DBs, Parallel T
 categories: releases
 author: dhh
 published: true
-date: 2018-01-18 12:00:00 -08:00
+date: 2019-01-18 12:00:00 -08:00
 ---
 The first beta release of Rails 6 is here! It's absolutely packed with amazing new stuff that we're so excited to share. There are two major new frameworks – Action Mailbox and Action Text – and two important scalable-by-default upgrades in great multiple database support and parallel testing.
 
