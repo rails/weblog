@@ -54,19 +54,19 @@ config.autoloader = :classic
 
 after the line that loads the defaults.
 
-## Usage
+## State of the API
 
 While a first API for Zeitwerk mode is converging, this is still a bit exploratory right now. Please, if you are reading this in a future version of Rails make sure to check the current documentation.
 
-### Autoload paths
+## Autoload paths
 
 The configuration point for autoload paths remains `config.autoload_paths`, and if you push by hand to `ActiveSupport::Dependencies.autoload_paths` during application initialization, that will also work.
 
-### require_dependency
+## require_dependency
 
 All known use cases of `require_dependency` have been eliminated. In principle, you should just delete all these calls in the code base. See also the next section about STIs.
 
-### STIs
+## STIs
 
 Active Record needs to have STI hierarchies fully loaded in order to generate correct SQL. Preloading in Zeitwerk was designed for this use case:
 
@@ -84,7 +84,7 @@ By preloading the leaves of the tree, autoloading will take care of the entire h
 
 These files are going to be preloaded on boot, and on each reload.
 
-### Rails.autoloaders
+## Rails.autoloaders
 
 In Zeitwerk mode, `Rails.autoloaders` is an enumerable that has two Zeitwerk instances called `main`, and `once`. The former is the one managing your application, and the latter manages engines loaded as gems, as well as anything in the somewhat unknown `config.autoload_once_paths` (whose future is not bright). Rails reloads with `main`, and `once` is there just for autoloading and eager loading, but no need to reload.
 
@@ -97,7 +97,7 @@ Rails.autoloaders.once
 
 but since `Rails.autoloaders` is an enumerable, there won't be too many use case for direct access, probably.
 
-### Inspecting autoloders activity
+## Inspecting autoloders activity
 
 If you want to see the autoloaders working, you can throw
 
@@ -115,7 +115,7 @@ Zeitwerk::Loader.default_logger = method(:puts)
 
 at the top of `config/application.rb`, before `Bundle.require`.
 
-### Backwards incompatibility
+## Backwards incompatibility
 
 * For files below the standard `concerns` directories (like `app/models/concerns`), `Concerns` cannot be a namespace. That is, `app/models/concerns/geolocatable.rb` is expected to define `Geolocatable`, not `Concerns::Geolocatable`.
 
