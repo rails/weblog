@@ -86,7 +86,7 @@ These files are going to be preloaded on boot, and on each reload.
 
 ## Rails.autoloaders
 
-In Zeitwerk mode, `Rails.autoloaders` is an enumerable that has two Zeitwerk instances called `main`, and `once`. The former is the one managing your application, and the latter manages engines loaded as gems, as well as anything in the somewhat unknown `config.autoload_once_paths` (whose future is not bright). Rails reloads with `main`, and `once` is there just for autoloading and eager loading, but no need to reload.
+In Zeitwerk mode, `Rails.autoloaders` is an enumerable that has two Zeitwerk instances called `main`, and `once`. The former is the one managing your application, and the latter manages engines loaded as gems, as well as anything in the somewhat unknown `config.autoload_once_paths` (whose future is not bright). Rails reloads with `main`, and `once` is there just for autoloading and eager loading, but does not reload.
 
 Those instances are accessible respectively as
 
