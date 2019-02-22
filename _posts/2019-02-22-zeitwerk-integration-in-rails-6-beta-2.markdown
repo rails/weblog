@@ -56,7 +56,7 @@ after the line that loads the defaults.
 
 ## State of the API
 
-While a first API for Zeitwerk mode is converging, this is still a bit exploratory right now. Please, if you are reading this in a future version of Rails make sure to check the current documentation.
+While a first API for Zeitwerk mode is converging, this is still a bit exploratory right now. Please, check the current documentation if your version of Rails is newer than `6.0.0.beta2`.
 
 ## Autoload paths
 
