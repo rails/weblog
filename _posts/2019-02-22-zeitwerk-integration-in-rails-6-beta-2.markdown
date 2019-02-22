@@ -30,7 +30,7 @@ While Rails 6 final is going to have proper documentation about it, this post wi
 
 Also, applications get some performance benefits for the same price:
 
-* Autoloading a constant no longer involves walking autoload paths looking for a relative match in the file system. Zeitwerk does one single pass and autoloads everything using absolute file names. In addition, that single pass descends into directories lazily, only when the namespaces are used.
+* Autoloading a constant no longer involves walking autoload paths looking for a relative match in the file system. Zeitwerk does one single pass and autoloads everything using absolute file names. In addition, that single pass descends into subdirectories lazily, only when the namespaces are used.
 
 * When an application is reoloaded due to changes in the file system, code in the autoload paths of engines that were loaded as gems won't be reloaded anymore.
 
