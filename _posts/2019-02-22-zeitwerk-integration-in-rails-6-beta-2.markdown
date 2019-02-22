@@ -122,7 +122,7 @@ at the top of `config/application.rb`, before `Bundle.require`.
 
 * Once the application has booted, autoload paths are frozen.
 
-* Directories in `ActiveSupport::Dependencies.autoload_paths` that do not exist on boot are ignored. We are referring here to the actual elements of the array only, not to their subdirectories. New subdirectories of autoload paths that existed at boot are picked up just fine as always.
+* Directories in `ActiveSupport::Dependencies.autoload_paths` that do not exist on boot are ignored. We are referring here to the actual elements of the array only, not to their subdirectories. New subdirectories of autoload paths that existed at boot are picked up just fine as always. (This may change for final.)
 
 * A file that defines a class or module that acts as a namespace, needs to define the class or module using the `class` and `module` keywords. For example, if you have `app/models/hotel.rb` defining the `Hotel` class, and `app/models/hotel/pricing.rb` defining a mixin for hotels, the `Hotel` class must be defined with `class`, you cannot do `Hotel = Class.new { ... }` or `Hotel = Struct.new { ... }` or anything like that. Those idioms are fine in classes and modules that do not act as namespaces.
 
