@@ -3,7 +3,7 @@ layout: "post"
 title: "Zeitwerk integration in Rails 6 (Beta 2)"
 categories: "releases"
 author: "fxn"
-published: false
+published: true
 date: "2019-02-22 09:59:45 +0100"
 ---
 
@@ -62,29 +62,31 @@ While a first API for Zeitwerk mode is converging, this is still a bit explorato
 
 The configuration point for autoload paths remains `config.autoload_paths`, and if you push by hand to `ActiveSupport::Dependencies.autoload_paths` during application initialization, that will also work.
 
-`ActiveSupport::Dependencies.autoload_paths` is frozen when the initialization enters its last phase. If you get frozen errors, please consider moving the modification to a regular initializer.
-
 ### require_dependency
 
-All known use cases of `require_dependency` have been eliminated, in principle you should just delete all these calls in the code base. See also the next section about STIs.
+All known use cases of `require_dependency` have been eliminated. In principle, you should just delete all these calls in the code base. See also the next section about STIs.
 
 ### STIs
 
-Active Record needs to have STI hierarchy loaded in order to generate correct SQL, STI classes cannot be loaded lazily. Preloading in Zeitwerk was designed for this use case:
+Active Record needs to have STI hierarchies fully loaded in order to generate correct SQL. Preloading in Zeitwerk was designed for this use case:
 
 ```ruby
-# config/initializers/preload_sti.rb
-Rails.autoloaders.main.preload("#{Rails.root}/app/models/leaf_1.rb")
-Rails.autoloaders.main.preload("#{Rails.root}/app/models/leaf_2.rb")
+# config/initializers/preload_vehicle_sti.rb
+autoloader = Rails.autoloaders.main
+sti_leaves = %w(car motorbike truck)
+
+sti_leaves.each do |leaf|
+  autoloader.preload("#{Rails.root}/app/models/#{leaf}.rb")
+end
 ```
 
-By preloading the leaves of the tree, autoloading will take care of the entire hierarchy upwards following the references to superclasses present in the class definition.
+By preloading the leaves of the tree, autoloading will take care of the entire hierarchy upwards following superclasses.
 
-These files are preloaded on boot and on each reload.
+These files are going to be preloaded on boot, and on each reload.
 
 ### Rails.autoloaders
 
-In Zetiwerk mode, `Rails.autoloaders` is an enumerable that has two Zeitwerk instances called `main`, and `once`. The former is the one managing your application, and the latter manages engines loaded as gems, as well as anything in `config.autoload_once_paths`. Rails reloads with `main`, and `once` is there just for autoloading and eager loading, but no need to reload.
+In Zetiwerk mode, `Rails.autoloaders` is an enumerable that has two Zeitwerk instances called `main`, and `once`. The former is the one managing your application, and the latter manages engines loaded as gems, as well as anything in the somewhat unknown `config.autoload_once_paths` (whose future is not bright). Rails reloads with `main`, and `once` is there just for autoloading and eager loading, but no need to reload.
 
 Those instances are accessible respectively as
 
