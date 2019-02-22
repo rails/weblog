@@ -72,6 +72,7 @@ Active Record needs to have STI hierarchies fully loaded in order to generate co
 
 ```ruby
 # config/initializers/preload_vehicle_sti.rb
+
 autoloader = Rails.autoloaders.main
 sti_leaves = %w(car motorbike truck)
 
