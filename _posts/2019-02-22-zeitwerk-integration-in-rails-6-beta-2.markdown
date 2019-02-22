@@ -96,7 +96,7 @@ Rails.autoloaders.main
 Rails.autoloaders.once
 ```
 
-but since `Rails.autoloaders` is an enumerable, there won't be too many use case for direct access, probably.
+but since `Rails.autoloaders` is an enumerable, there won't be too many use cases for direct access, probably.
 
 ## Inspecting autoloders activity
 
