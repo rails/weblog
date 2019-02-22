@@ -40,11 +40,13 @@ Also, applications get some performance benefits for the same price:
 
 Rails 6 ships with two autoloading modes: `:zeitwerk` and `:classic`. They are set using the new configuration point `config.autoloader`.
 
-Zeitwerk mode is the default in Rails 6, so you have it enabled if `config/application.rb` has
+Zeitwerk mode is the default in Rails 6 for CRuby, automatically enabled by
 
 ```ruby
 load_defaults "6.0"
 ```
+
+in `config/application.rb`.
 
 Applications can opt-out putting
 
