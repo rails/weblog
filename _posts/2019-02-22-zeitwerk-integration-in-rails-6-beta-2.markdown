@@ -100,7 +100,7 @@ Rails.autoloaders.once
 
 but since `Rails.autoloaders` is an enumerable, there won't be too many use cases for direct access, probably.
 
-## Inspecting autoloders activity
+## Inspecting autoloaders activity
 
 If you want to see the autoloaders working, you can throw
 
