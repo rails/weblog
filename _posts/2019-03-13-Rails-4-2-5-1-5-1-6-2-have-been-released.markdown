@@ -12,7 +12,7 @@ Hello everyone!
 Rails 4.2.11.1, 5.0.7.2, 5.1.6.2, 5.2.2.1, and 6.0.0.beta3 have been released! These contain the following important security fixes. It is recommended that users upgrade as soon as possible:
 
 * [CVE-2019-5418 File Content Disclosure in Action View](https://groups.google.com/forum/#!topic/rubyonrails-security/pFRKI96Sm8Q)
-* [CVE-2019-5419 Denial of Service Vulnerability in Action View](https://groups.google.com/forum/#!topic/rubyonrails-security/GN7w9fFAQela)
+* [CVE-2019-5419 Denial of Service Vulnerability in Action View](https://groups.google.com/forum/#!topic/rubyonrails-security/GN7w9fFAQeI)
 
 Rails 5.2.2.1 and 6.0.0.beta3 also contain the following fix:
 
