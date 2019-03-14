@@ -202,6 +202,32 @@ blockquote.twitter-tweet a[href^="https://twitter.com"] {
   font-size: 12px;
 }
 
+nav.pagination {
+  margin: 0 0 2em;
+  overflow: hidden;
+}
+
+nav.pagination a {
+  border-bottom: 0.2rem solid #cc0000;
+  color: #cc0000;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+  text-decoration: none;
+}
+
+nav.pagination a:hover {
+  border-bottom: 0.2rem solid #000000;
+  color: #000000;
+}
+
+nav.pagination .previous {
+  float: left;
+}
+
+nav.pagination .next {
+  float: right;
+}
+
 @media only screen and (max-width: 640px) {
   nav {
     margin: 2rem 2rem 3rem;

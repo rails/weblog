@@ -1,0 +1,12 @@
+<nav class="pagination">
+  {% if paginator.next_page %}
+    <a href="{{ base_url }}/page{{paginator.next_page}}" class="previous">{{ site.pagination.previous }}</a>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1%}
+      <a href="{{ base_url }}/" class="next">{{ site.pagination.next }}</a>
+    {% else %}
+      <a href="{{ base_url }}/page{{paginator.previous_page}}" class="next">{{ site.pagination.next }}</a>
+    {% endif %}
+  {% endif %}
+</nav>

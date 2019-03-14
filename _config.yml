@@ -5,12 +5,17 @@ exclude:
   - Gemfile.lock
   - README.md
   - CNAME
+paginate: 10
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
+pagination:
+   previous: "&larr; Previous"
+   next: "Next &rarr;"
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
