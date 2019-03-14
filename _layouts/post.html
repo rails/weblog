@@ -36,6 +36,14 @@
 <!-- End Post -->
           </section>
         </article>
+        <nav class="pagination">
+          {% if page.previous %}
+            <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">&larr; Previous</a>
+          {% endif %}
+          {% if page.next %}
+            <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next &rarr;</a>
+          {% endif %}
+        </nav>
 <!-- End Content -->
       </main>
     </div>

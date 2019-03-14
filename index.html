@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
-{% for post in site.posts offset: 0 limit: 10 %}
+{% for post in paginator.posts %}
 {% include post.html %}
 {% endfor %}
+{% include pagination.html %}
