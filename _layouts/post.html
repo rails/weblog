@@ -38,10 +38,10 @@
         </article>
         <nav class="pagination">
           {% if page.previous %}
-            <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">&larr; Previous</a>
+            <a href="{{ page.previous.url }}" title="{{ page.previous.title }}" class="previous">{{ site.pagination.previous }}</a>
           {% endif %}
           {% if page.next %}
-            <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">Next &rarr;</a>
+            <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next">{{ site.pagination.next }}</a>
           {% endif %}
         </nav>
 <!-- End Content -->
