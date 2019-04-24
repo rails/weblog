@@ -4,7 +4,7 @@ title: 'Rails 6.0.0 rc1 released'
 categories: releases
 author: dhh
 published: true
-date: 2019-04-24 12:00:00 -08:00
+date: 2019-04-24 11:30:00 -08:00
 ---
 Okay, so we didn’t quite make our [aspirational release schedule](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/), but Rails 6 is now almost ready, so here’s the first release candidate! There isn’t anything remarkably new compared to the beta releases, but everything has been polished (in [about 1000 commits!](https://github.com/rails/rails/compare/v6.0.0.beta2...v6.0.0.rc1)), and we believe this candidate could become the final release, lest we find any egregious bugs.
 
