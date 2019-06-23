@@ -34,7 +34,7 @@ We've done our best to minimize any impact to your applications, but if you run 
 If you run in to security issues, please follow the reporting process which can be found
 [here](http://rubyonrails.org/security/).
 
-## SHA-256
+## Rails 4.2.11.1, 5.0.7.2, 5.1.6.2, 5.2.2.1, and 6.0.0.beta3 SHA-256
 
 If you'd like to verify that your gem is the same as the one we've uploaded,
 please use these SHA-256 hashes.

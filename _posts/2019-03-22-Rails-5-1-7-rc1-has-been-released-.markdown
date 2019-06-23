@@ -19,7 +19,7 @@ and mention me (@rafaelfranca) on it, so that we can fix it before the final rel
 
 
 
-## CHANGES since 5.1.6
+## CHANGES since 5.1.6 (rc1)
 
 To view the changes for each gem, please read the changelogs on GitHub:
 * [Action Cable CHANGELOG](https://github.com/rails/rails/blob/v5.1.7.rc1/actioncable/CHANGELOG.md)
@@ -41,7 +41,7 @@ To see a summary of changes, please read the release on GitHub:
 To see the full list of changes, [check out all the commits on
 GitHub](https://github.com/rails/rails/compare/v5.1.6...v5.1.7.rc1).
 
-## SHA-256
+## Rails 5.1.7.rc1 SHA-256
 
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-256 hashes.

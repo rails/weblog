@@ -37,7 +37,7 @@ The remaining gems (Action Mailer, Action View, Active Job, Active Model, Active
 To see the full list of changes, [check out all the commits on
 GitHub](https://github.com/rails/rails/compare/v4.2.9...v4.2.10).
 
-## SHA-256
+## Rails 4.2.10 SHA-256
 
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-256 hashes.

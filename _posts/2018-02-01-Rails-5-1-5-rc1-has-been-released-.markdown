@@ -33,7 +33,7 @@ To view the changes for each gem, please read the changelogs on GitHub:
 To see the full list of changes, [check out all the commits on
 GitHub](https://github.com/rails/rails/compare/v5.1.4...v5.1.5.rc1).
 
-## SHA-256
+## Rails 5.1.5.rc1 SHA-256
 
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-256 hashes.

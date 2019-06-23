@@ -34,7 +34,7 @@ To see a summary of changes, please read the release on GitHub:
 To see the full list of changes, [check out all the commits on
 GitHub](https://github.com/rails/rails/compare/v5.2.2...v5.2.3).
 
-## SHA-256
+## Rails 5.2.3 SHA-256
 
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-256 hashes.

@@ -14,7 +14,7 @@ If no regressions are found, expect the final release on Wednesday, March 27, 20
 If you find one, please open an [issue on GitHub](https://github.com/rails/rails/issues/new)
 and mention me (@rafaelfranca) on it, so that we can fix it before the final release.
 
-## CHANGES since 5.2.2
+## CHANGES since 5.2.2 (rc1)
 
 To view the changes for each gem, please read the changelogs on GitHub:
 * [Action Cable CHANGELOG](https://github.com/rails/rails/blob/v5.2.3.rc1/actioncable/CHANGELOG.md)
@@ -37,7 +37,7 @@ To see a summary of changes, please read the release on GitHub:
 To see the full list of changes, [check out all the commits on
 GitHub](https://github.com/rails/rails/compare/v5.2.2...v5.2.3.rc1).
 
-## SHA-256
+## Rails 5.2.3.rc1 SHA-256
 
 If you'd like to verify that your gem is the same as the one I've uploaded,
 please use these SHA-256 hashes.
