@@ -19,7 +19,7 @@ _rails schema:cache:dump_, check its documentation for more. These 3 changes are
 
 ### [Schema Cache: deduplicate when using init_with](https://github.com/rails/rails/pull/36529)
 
-…ran deduplication for most things in the schema cache. The second change skipped storing the&nbsp;_columns\_hash_ in the YML, because it could be derived with&nbsp;_columns.index\_by(&:name)_. Thus saving storing every column object again, but just nested under the name. Neat! Rounding out the features: the deduplication should also be run when parsing YML and the parser invoking _init\_with_. Remedied that, phew! I suggest you do check all three changes out because they show to really re-sculpt a feature over multiple PRs.
+…ran deduplication for most things in the schema cache. The second change skipped storing the _columns\_hash_ in the YML, because it could be derived with _columns.index\_by(&:name)_. Thus saving storing every column object again, but just nested under the name. Neat! Rounding out the features: the deduplication should also be run when parsing YML and the parser invoking _init\_with_. Remedied that, phew! I suggest you do check all three changes out because they show to really re-sculpt a feature over multiple PRs.
 
 ### [Active Record: avoid redundant time.getutc when serializing](https://github.com/rails/rails/pull/36508)
 
