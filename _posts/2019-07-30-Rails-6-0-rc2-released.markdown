@@ -6,7 +6,7 @@ author: dhh
 published: true
 date: 2019-07-30 09:00:00 -08:00
 ---
-The final version of Rails 6.0 is almost ready, but before we put a pin in it, please enjoy this (hopefully?) second release candidate. We've cleared all the blockers that were discovered during the first release candidate, and if nothing new and major is discovered, we'll ship the final release in a couple of weeks.
+The final version of Rails 6.0 is almost ready, but before we put a pin in it, please enjoy this second release candidate. We've cleared all the blockers that were discovered during the first release candidate, and if nothing new and major is discovered, we'll ship the final release in a couple of weeks.
 
 There has been [the 172 commits of changes since rc1](https://github.com/rails/rails/compare/v6.0.0.rc1...v6.0.0.rc2).
 
