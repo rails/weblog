@@ -4,7 +4,7 @@ title: 'Rails 6.0.0 rc2 released'
 categories: releases
 author: dhh
 published: true
-date: 2019-07-29 09:00:00 -08:00
+date: 2019-07-30 09:00:00 -08:00
 ---
 The final version of Rails 6.0 is almost ready, but before we put a pin in it, please enjoy this (hopefully?) second release candidate. We've cleared all the blockers that were discovered during the first release candidate, and if nothing new and major is discovered, we'll ship the final release in a couple of weeks.
 
