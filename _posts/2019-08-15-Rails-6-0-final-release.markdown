@@ -24,7 +24,7 @@ With [parallel testing support](https://github.com/rails/rails/pull/31900), you 
 
 Webpacker is now the default JavaScript bundler for Rails through the new app/javascript directory. We're still using the asset pipeline with Sprockets for CSS and static assets, though. The two integrate very nicely and offer the best trade-off of advanced JavaScript features with an it-just-works approach to other assets.
 
-[Xavier Noria's new Zeitwerk code loader for Ruby](https://medium.com/@fxn/zeitwerk-a-new-code-loader-for-ruby-ae7895977e73)]. No more const_missing, no more code loading gotchas, hello Module#autoload!
+[Xavier Noria's new Zeitwerk code loader for Ruby](https://medium.com/@fxn/zeitwerk-a-new-code-loader-for-ruby-ae7895977e73). No more const_missing, no more code loading gotchas, hello Module#autoload!
 
 Those are just some of the marque additions, but Rails 6.0 is also packed with minor changes, fixes, and upgrades. Just some I'd call out: [Proper Action Cable testing](https://github.com/rails/rails/pull/33659#issue-209385961), Action Cable JavaScript rewritten in ES6, protection against DNS rebinding attacks, and per-environment credentials. Also, Rails 6 will require Ruby 2.5.0+ now. You can check out everything in [the individual framework CHANGELOG files](https://github.com/rails/rails/tree/v6.0.0) for the nitty-gritty rundown.
 
