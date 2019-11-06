@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Rails 6.0.1 RC1 released'
+title: 'Rails 6.0.1 released'
 categories: releases
 author: george
 published: true
