@@ -7,7 +7,7 @@ published: true
 date: 2019-11-17
 ---
 
-Hey there! This is [Daniel] bringing you the latest new in Rails. I am writing
+Hey there! This is [Daniel] bringing you the latest news in Rails. I am writing
 from [RubyConf] in Nashville, so come find me and say hello if you are here
 too!
 
