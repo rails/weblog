@@ -66,7 +66,7 @@ class GoodbitsEmail
         md << "## #{cb[:variables][:subheading]}\n"
       when "Image"
         md << "![](#{cb[:image_url]})\n" if cb[:image_url] != nil
-      when "Article", "Title & Text"
+      when "Article", "Title & Text", "Link & Text"
         md << "### [#{cb[:variables][:title]}](#{cb[:variables][:link_to]})\n"
         md << html_to_md(cb[:variables][:html_description])
       end
