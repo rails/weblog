@@ -6,6 +6,12 @@ author: tenderlove
 published: true
 date: 2020-03-19 10:03:21 -0700
 ---
+
+### Update
+
+I accidentally posted the wrong shas for the 5.2.4.2 release in the original
+version of this post.  I've updated the post to reflect the correct information.
+
 Hi everyone,
 
 HAPPY THURSDAY EVERYONE!!!!
@@ -49,20 +55,20 @@ baf2a7d294b0f5cff209f754e877eeebb9263115c3f91bf91255733beb9df84f  actionmailer-6
 Here are the checksums for 5.2.4.2:
 
 ```
-70c10e163e526fd80d9eacaef7dc57209d24081a683e558acfd6b8f08a51ac35  actioncable-5.2.4.2.gem
-007c391895214ce89fa11c10d9593d4cb83d1bf139a1653d95f4c6311c56b36c  actionmailer-5.2.4.2.gem
-f021075fcc86739b443054df65985daaa463683f0950b8625fb42b8255851320  actionpack-5.2.4.2.gem
-95bbbbd002e2c4b25fab1f1b16152472502bc5ae854df48a2674dfd057c6a1d3  actionview-5.2.4.2.gem
-f593868d6ea71b0a794ab80a85fb504aa3a633d5c1af90060764e8c540b6a0b0  activejob-5.2.4.2.gem
-0d6d5387c893ff282bfeaf93f866148530e39f5fe3fc41351a38847ec059cf65  activemodel-5.2.4.2.gem
-c80502e6fe56967d5d9440874693f7077def06defd077a0a07f8471ca5823f28  activerecord-5.2.4.2.gem
-3301753069dfc94659e232453a745b597fa1270664ae6d4667b58e386186b9f7  activestorage-5.2.4.2.gem
-6dc8c752d3db60796bce8239d5255ff3ebcd3ca564c114cd85e7728565715b47  activesupport-5.2.4.2.gem
-61188ba5392b4fc7d028b428c52ac9f8e4cd913314dd86c52b7aae539d3f3678  rails-5.2.4.2.gem
-bfb6419b0796d74a23280067539aa2c38eb695dd9540a876c86ba9fd438ffe32  railties-5.2.4.2.gem
+$ shasum -a 256 *-5.2.4.2.gem
+bbb8c0cd649eabec75a86f7750e264f0e20335cfadb1c6901427d9401af28b60  actioncable-5.2.4.2.gem
+bf2c0b60db93a6e7a86483f791ce631564ec0182270851ae83bd72e4bdb2e24d  actionmailer-5.2.4.2.gem
+5df1b1a9e70f959a9b00087bef01893dc4c2fc15a8d040a827daf6844d4c34f0  actionpack-5.2.4.2.gem
+97227c123908b84fface498ed50d755c12408037440380ee4b8b9a208cafe33a  actionview-5.2.4.2.gem
+71df9fd6b723b1bb97e71329179ac1e2b5f8173ec6de5dd33937639e135a5be3  activejob-5.2.4.2.gem
+b109119b3de473ebb24c4a85fcf9462ee052b83d647cd00c922ed609c06e8e49  activemodel-5.2.4.2.gem
+e5d6db49d48018bf54133f6155a635e4de69f73dbbef6cb8cc79223604cc58f9  activerecord-5.2.4.2.gem
+49a3b1c7cfe3fddb409df595b372d1077cf67536c4a3ba635e642676c2fda1b4  activestorage-5.2.4.2.gem
+8c3ae3df5b08b49b6b5d9c5028da1a1e582f1243b7362dbb9736f65ede492378  activesupport-5.2.4.2.gem
+44ab2836290ef259ed12fc6a24c1e62e317a534b79c37c0d1a8ec7ef893513f5  rails-5.2.4.2.gem
+26b44b3d6c650d64ea2496c3328b9092efef5101ed953a660a93e2d643b359dc  railties-5.2.4.2.gem
 ```
 
 Thanks to Jesse Campos for reporting this issue!
 
 Have a good day!
-
