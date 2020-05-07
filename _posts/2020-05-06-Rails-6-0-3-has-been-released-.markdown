@@ -8,7 +8,7 @@ date: 2020-05-06 14:25:51 -04:00
 ---
 Hi everyone,
 
-I am happy to announce that Rails 6.0.3 has been released.
+I am happy to announce that Rails 6.0.3 has been released. This version fixes warnings when used with Ruby 2.7.
 
 
 ## CHANGES since 6.0.2
