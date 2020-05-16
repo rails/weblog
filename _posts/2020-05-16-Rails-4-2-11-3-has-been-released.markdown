@@ -7,7 +7,7 @@ published: true
 date: 2020-05-16 10:54:19 +01:00
 ---
 
-Due to an unfortunate oversight, Rails 4.2.11.2 has a missing constant error. To address this Rails 4.2.11.3 has been released.
+Due to an unfortunate oversight, Rails 4.2.11.2 has a [missing constant error][2]. To address this Rails 4.2.11.3 has been released.
 
 The original announcement for [CVE-2020-8163][1] has a follow-up message with an updated patch if you’re unable to use the gems.
 
@@ -29,3 +29,4 @@ f33ac1fc4e3dff3f35369caaf7ca21ace876637fabba9d05e512bfc06379c789  railties-4.2.1
 Apologies to anyone affected by this error.
 
 [1]: https://groups.google.com/forum/#!topic/rubyonrails-security/hWuKcHyoKh0
+[2]: https://github.com/rails/rails/issues/39301
