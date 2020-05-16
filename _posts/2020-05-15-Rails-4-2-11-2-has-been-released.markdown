@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 4.2.11.2 has been released'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2020-05-15 09:34:58 -07:00
