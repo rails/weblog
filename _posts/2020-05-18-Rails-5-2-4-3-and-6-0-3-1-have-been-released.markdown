@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 5.2.4.3 and 6.0.3.1 have been released'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2020-05-18 09:00:57 -07:00
