@@ -11,7 +11,7 @@ Hi everyone!
 
 Rails 6.0.3.2 has been released!  This version of Rails contains an important
 security patch, and you should upgrade!  The release contains only one patch
-that addresses CVE-2020-8185.  You can read about CVE-2020-8185 [here](https://groups.google.com/g/rubyonrails-security/c/pAe9EV8gbM0).
+that addresses CVE-2020-8185.  You can read about CVE-2020-8185 [here](https://groups.google.com/d/topic/rubyonrails-security/pAe9EV8gbM0).
 
 Here are the checksums for the released gems:
 
