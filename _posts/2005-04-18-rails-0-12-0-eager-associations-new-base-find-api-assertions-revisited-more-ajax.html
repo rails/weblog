@@ -24,14 +24,14 @@ Person.find(1, 5, 6, :conditions =&gt;"administrator = 1", :order =&gt;"created_
 Person.find(:first, :order =&gt;"created_on DESC", :offset =&gt; 5)
 Person.find(:all, :conditions =&gt; [ "category IN (?)", categories], :limit =&gt; 50)
 Person.find(:all, :offset =&gt; 10, :limit =&gt; 10)
-</pre><p><b>Better testing</b><br />
+</pre><p><b>Better testing</b><br>
 We&#8217;ve also slashed the huge number of assertions for testing controllers. In one fell swoop, we&#8217;ve gone from around thirty to <a href="http://ap.rubyonrails.com/classes/Test/Unit/Assertions.html">a shap seven</a>. The remaining assertions are more flexible than before, not nearly as hard to remember, and are followed on by the fantastic new assert_tag, which makes examining the <span class="caps">HTML</span> output of an action so much easier than the <span class="caps">XHTML</span>/<span class="caps">REXML</span> fumblings of yesterday.</p>
-<p><b>More Ajaxing</b><br />
+<p><b>More Ajaxing</b><br>
 Of course, we couldn&#8217;t make a new release without asserting the undisputed position as the number one framework for doing Ajaxed applications. This release contains a bunch of <a href="http://mir.aculo.us/demos/effects/demo1.html">new smooth effects</a> for visualizing your non-refreshing actions. It&#8217;s now much easier to make Ajaxed applications that treat the unfortunate without Javascript nicely with request.xml_http_request? and alternative targets for ajax links and forms. We&#8217;ve also added periodically_call_remote that can be used to Ajax-update a given block every so seconds.</p>
 <p>In the next release, which will be not very far off, we&#8217;re also adding awesome support for both Google Suggest-like search boxes and for <a href="http://sean.treadway.info/demo/upload">upload progress indicators</a>. There&#8217;s a powerful team behind pushing the envelope on this. We have so not seen the end of it.</p>
-<p><b>A total of 96 changes, tweaks, and fixes</b><br />
+<p><b>A total of 96 changes, tweaks, and fixes</b><br>
 All these goodies are just the tip of the iceberg, though. There&#8217;s a total of 96 new features, changes, tweaks, and fixes packed into this monster of a release. And we didn&#8217;t even have time to push in all of the <a href="http://dev.rubyonrails.com/report/3">pending patches</a>. How&#8217;s that for an action-packed three weeks since the last release?</p>
-<p><b>Fully backwards compatible!</b><br />
+<p><b>Fully backwards compatible!</b><br>
 Despite the true onslaught of new features, fixes, and goodies, we&#8217;ve managed to keep this release fully backwards compatible with 0.11.1. So you just do a &#8220;gem update rails&#8221; and all the new stuff is available for use in your current application (to take advantage of the new JS effects you&#8217;ll want to copy that one over, though &#8212; use <code>rails .</code> in your app dir to get that for free).</p>
 <p>See the changelogs for the full story:</p>
 <ul>

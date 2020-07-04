@@ -36,10 +36,10 @@ date: 2007-05-11 04:47:00.000000000 +01:00
 <p>Next, the new features:</p>
 <p><strong>Feature:</strong> The &#8220;deploy:cold&#8221; task will run migrations before starting the app. If it is the first time you&#8217;ve deployed your app, chances are the database needs setting up, too!</p>
 <p><strong>Feature:</strong> The old method of extending tasks (e.g., tasks named &#8220;before_deploy&#8221; and &#8220;after_deploy&#8221; extending the &#8220;deploy&#8221; task) is now discouraged (though not formally deprecated, yet). The new approach uses some new keywords:</p>
-<macro:code lang="ruby">before :deploy, :my_custom_task<br />
+<macro:code lang="ruby">before :deploy, :my_custom_task<br>
 after  &#8220;deploy:symlink&#8221;, :do_this, :and_do_that</macro:code>
 <p>More generally, you can attach tasks of your own creation to arbitrary &#8220;events&#8221;, using the &#8220;on&#8221; keyword:</p>
-<macro:code lang="ruby">on :before, :my_custom_task, :only =&gt; :deploy<br />
+<macro:code lang="ruby">on :before, :my_custom_task, :only =&gt; :deploy<br>
 on :after, :do_this, :and_do_that, :only =&gt; &#8220;deploy:symlink&#8221;</macro:code>
 <p>The :before event gets triggered before any event is invoked, and :after gets called immediately after the event finishes successfully. There are four other events currently supported by Capistrano:</p>
 <ul>
@@ -51,7 +51,7 @@ on :after, :do_this, :and_do_that, :only =&gt; &#8220;deploy:symlink&#8221;</mac
 <p>You can even define your own events, and then trigger them using the &#8220;trigger&#8221; method.</p>
 <p><strong>Feature:</strong> The &#8220;deploy:app&#8221; namespace has been axed. The tasks that it contained now live in the &#8220;deploy&#8221; namespace directly. Thus, &#8220;deploy:app:start&#8221; and &#8220;deploy:app:stop&#8221; are now &#8220;deploy:start&#8221; and &#8220;deploy:stop&#8221;, respectively.</p>
 <p><strong>Feature:</strong> If your &#8220;scm_command&#8221; is set to a custom value because your <span class="caps">SCM</span> lives in a non-standard location on the remote host, you previously ran into problems if your <span class="caps">SCM</span> command did not live at the same location on your local host. Now, if you need different settings for the scm_command depending on whether it is being invoked locally or remotely, you have the option of specifying either one separately:</p>
-<macro:code lang="ruby">set :scm_command, &#8220;/opt/local/bin/svn&#8221;<br />
+<macro:code lang="ruby">set :scm_command, &#8220;/opt/local/bin/svn&#8221;<br>
 set :local_scm_command, &#8220;/usr/local/bin/svn&#8221;</macro:code>
 <p>Note that if &#8220;scm_command&#8221; is set, &#8220;local_scm_command&#8221; will default to that value, but if &#8220;local_scm_command&#8221; is set, &#8220;scm_command&#8221; is unaffected.</p>
 <p><strong>Feature:</strong> Servers are now uniquely identified by Capistrano based on their full connection information, including hostname, username, and port. (Before, servers were only unique based on the hostname.) This makes it possible to use Capistrano in a NAT&#8217;ed environment, where all of your servers are using the same hostname, with different port numbers.</p>

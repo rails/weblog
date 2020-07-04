@@ -9,7 +9,7 @@ published: true
 date: 2006-05-31 14:51:00.000000000 +01:00
 ---
 <p>An Achilles&#8217; heal of Rails is no good way to test your <span class="caps">RJS</span>. As the presentation behavior gets more and more sophisticated, the inability to test it becomes a real problem. Not anymore.</p>
-<p><a href="http://glu.ttono.us/">Kevin Clark</a> has released <a href="http://thar.be/svn/projects/plugins/arts/"><span class="caps">ARTS</span></a>, a mechanism to test <span class="caps">RJS</span>. His <span class="caps">API</span> is simple yet flexible. A single point of entry let&#8217;s you test a considerable amount of the <span class="caps">RJS</span> you can generate. Here&#8217;s an idea of what you can do:<br />
+<p><a href="http://glu.ttono.us/">Kevin Clark</a> has released <a href="http://thar.be/svn/projects/plugins/arts/"><span class="caps">ARTS</span></a>, a mechanism to test <span class="caps">RJS</span>. His <span class="caps">API</span> is simple yet flexible. A single point of entry let&#8217;s you test a considerable amount of the <span class="caps">RJS</span> you can generate. Here&#8217;s an idea of what you can do:<br>
 <pre><code>
   assert_rjs :alert, 'Hi!'                                                     
   assert_rjs :assign, 'a', '2'                                                 

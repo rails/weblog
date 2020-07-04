@@ -8,11 +8,11 @@ published: true
 date: 2011-05-22 02:40:00.000000000 +01:00
 ---
 <p>As I promised at RailsConf, we&#8217;re finally good to go on the Rails 3.1: Release Candidate. This is a fantastically exciting release. We have three new star features and an even greater number of just awesome improvements. First the stars:</p>
-<p><b>The Asset Pipeline</b><br/>
+<p><b>The Asset Pipeline</b><br>
 The star feature of 3.1 is the asset pipeline powered by <a href="https://github.com/sstephenson/sprockets/">Sprockets 2.0</a>. It makes <span class="caps">CSS</span> and JavaScript first-class code citizens and enables proper organization, including use in plugins and engines. See <a href="http://www.youtube.com/watch?v=cGdCI2HhfAU">my RailsConf keynote</a> for a full tour. This comes with <a href="http://sass-lang.com/"><span class="caps">SCSS</span></a> as the default for stylesheets and <a href="http://coffeescript.org/">CoffeeScript</a> as the default for JavaScript. Much documentation is on the way for this.</p>
-<p><b><span class="caps">HTTP</span> Streaming</b><br/>
+<p><b><span class="caps">HTTP</span> Streaming</b><br>
 This lets the browser download your stylesheet and javascripts while the server is still generating the response. The result is noticeable faster pages. It&#8217;s opt-in and does require support from the web server as well, but the popular combo of nginx and unicorn is ready to take advantage of it. There&#8217;s a great <a href="http://railscasts.com/episodes/266-http-streaming">Railscast on <span class="caps">HTTP</span> streaming</a> and <a href="https://github.com/rails/rails/blob/master/actionpack/lib/action_controller/metal/streaming.rb">the <span class="caps">API</span> documentation</a> is strong too.</p>
-<p><b>jQuery is now the default</b><br/>
+<p><b>jQuery is now the default</b><br>
 We&#8217;ve made <a href="http://jquery.com/">jQuery</a> the default JavaScript framework that ships with Rails, but it&#8217;s silly easy to switch back to Prototype if you fancy. It&#8217;s all bundled up in the jquery-rails and prototype-rails gems. Just depend on the one you&#8217;d like in the Gemfile and it&#8217;ll Just Work.</p>
 <p>Other good stuff:</p>
 <ul><li><a href="http://edgerails.info/articles/what-s-new-in-edge-rails/2011/05/06/reversible-migrations/index.html">Reversible migrations</a>: <span class="caps">DRY</span> migrations that know how to revert themselves. Cleaner, nicer migrations.</li>

@@ -71,7 +71,7 @@ You&#8217;ve written &lt;%= @post.body.chars.length %&gt; characters.
 <p>We&#8217;ve also improved the handling of module loading, which means that a reference for Accounting::Subscription will look for app/models/accounting/subscription.rb. At the same time, that means that merely referencing Subscription will <em>not</em> look for subscription.rb in any subdir of app/models. Only app/models/subscription.rb will be tried. If you for some reason depended on this, you can still get it back by adding app/models/accounting to config.load_paths in config/environment.rb.</p>
 <h1>Prototype</h1>
 <p>To better comply with the <span class="caps">HTML</span> spec, <strong>Prototype&#8217;s Ajax-based forms no longer serialize disabled form elements.</strong> Update your code if you rely on disabled field submission.</p>
-<p>For consistency <strong>Prototype&#8217;s Element and Field methods no longer take an arbitrary number of arguments.</strong> This means you need to update your code if you use Element.toggle, Element.show, Element.hide, Field.clear, and Field.present in hand-written JavaScript (the Prototype helpers have been updated to automatically generate the correct thing).<br />
+<p>For consistency <strong>Prototype&#8217;s Element and Field methods no longer take an arbitrary number of arguments.</strong> This means you need to update your code if you use Element.toggle, Element.show, Element.hide, Field.clear, and Field.present in hand-written JavaScript (the Prototype helpers have been updated to automatically generate the correct thing).<br>
 <pre><code>
 // if you have code that looks like this
 Element.show('page', 'sidebar', 'content');

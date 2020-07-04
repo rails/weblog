@@ -17,7 +17,7 @@ users = users.where("age &gt; 29")</p>
 	<li><span class="caps">SELECT</span> * <span class="caps">FROM</span> users</li>
 	<li><span class="caps">WHERE</span> name = &#8220;david&#8221; <span class="caps">AND</span> age &gt; 29</li>
 	<li><span class="caps">ORDER</span> BY name</li>
-	<li><span class="caps">LIMIT</span> 20<br />
+	<li><span class="caps">LIMIT</span> 20<br>
 users.order(:name).each { |user| puts user.name }</pre></code></li>
 </ol>
 <p>Read more in <a href="http://guides.rubyonrails.org/active_record_querying.html">new Active Record guide</a> and watch the <a href="http://rubyonrails.org/screencasts/rails3/active-relation-active-model">Dive into Rails 3: ARel video</a>.</p>
@@ -31,18 +31,18 @@ get :winners, :losers
 end
 <p>end</p>
 <ol>
-	<li>/sd34fgh/rooms<br />
-scope &#8216;:token&#8217;, :token =&gt; /\w{5,5}/ do<br />
-  resources :rooms<br />
+	<li>/sd34fgh/rooms<br>
+scope &#8216;:token&#8217;, :token =&gt; /\w{5,5}/ do<br>
+  resources :rooms<br>
 end</li>
 </ol>
 <ol>
 	<li>/descriptions</li>
 	<li>/pl/descriptions</li>
-	<li>/en/descriptions<br />
-scope &#8216;(:locale)&#8217;, :locale =&gt; /en|pl/ do<br />
-  resources :descriptions<br />
-  root :to =&gt; &#8216;projects#index&#8217;<br />
+	<li>/en/descriptions<br>
+scope &#8216;(:locale)&#8217;, :locale =&gt; /en|pl/ do<br>
+  resources :descriptions<br>
+  root :to =&gt; &#8216;projects#index&#8217;<br>
 end</pre></code></li>
 </ol>
 <p>Read more in the <a href="http://edgeguides.rubyonrails.org/routing.html">new routing guide</a>.</p>

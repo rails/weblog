@@ -25,8 +25,8 @@ render 'show'
 render :show
 </code></pre>
 <p>Rails chooses between file, template, and action depending on whether there is a leading slash, an embedded slash, or no slash at all in what&#8217;s to be rendered. Note that you can also use a symbol instead of a string when rendering an action. Other rendering styles (<code>:inline, :text, :update, :nothing, :json, :xml, :js</code>) still require an explicit option.</p>
-<p><a href="http://github.com/rails/rails/commit/061952392afd1dae1aa97a816e9a0c79df7c4514">commit</a> <a href="http://github.com/rails/rails/commit/d67e03871eabb912434dafac3eeb8e6ea7c5585f">commit</a><br />
-<a href="http://github.com/rails/rails/commit/cd1d6e8768ae13b11bc343701037b20ad35e6f1e">commit</a><br />
+<p><a href="http://github.com/rails/rails/commit/061952392afd1dae1aa97a816e9a0c79df7c4514">commit</a> <a href="http://github.com/rails/rails/commit/d67e03871eabb912434dafac3eeb8e6ea7c5585f">commit</a><br>
+<a href="http://github.com/rails/rails/commit/cd1d6e8768ae13b11bc343701037b20ad35e6f1e">commit</a><br>
 <a href="http://github.com/rails/rails/commit/80307c8b0a889acc7abb7f4e52fd4c02e1063ba8">commit</a></p>
 <h2>ActiveRecord fixes</h2>
 <p>A couple of fixes to ActiveRecord get rid of failing cases for associations. One handles quoting table names in some <code>has_many :through</code> associations &#8211; if the table name contains a <span class="caps">SQL</span> keyword, then you can&#8217;t use it in such an association in Rails 2.2. <a href="http://github.com/rails/rails/commit/75a133f92ff7e27b83032babf829d8a58803bb3c">commit</a></p>
