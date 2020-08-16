@@ -58,7 +58,7 @@ you really like these methods you can enforce that with a new rubocop-rails cop.
 ### [And plenty of refactoring](https://github.com/rails/rails/search?q=Refactor+committer-date%3A%3E2020-03-01+merge%3Afalse&unscoped_q=Refactor+committer-date%3A%3E2020-03-01+merge%3Afalse&type=Commits)
 
 Eileen refactored [invert_predicate] and [fetch_attribute] to get rid of some
-case statements in factor of a more object oriented approach. Aaron refactored
+case statements in favor of a more object oriented approach. Aaron refactored
 the [PartialRenderer], splitting out classes for rendering single objects and
 collections. John improved some things by making [ActionView rendering
 instrumentation] less DRY (sometimes WET code is better!).
