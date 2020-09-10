@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 6.0.3.2 has been released!'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2020-06-17 08:11:04 -07:00
