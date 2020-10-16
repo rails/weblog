@@ -11,7 +11,7 @@ Hey everyone!  Rails version 6.0.3.4 has been released!  This version is a
 security release and addresses one possible XSS attack vector in Actionable
 Exceptions.
 
-You can read more about the issue [here](https://groups.google.com/g/rubyonrails-security/c/yQzUVfv42jk).
+You can read more about the issue [here](https://discuss.rubyonrails.org/t/cve-2020-8264-possible-xss-vulnerability-in-action-pack-in-development-mode/76368).
 
 Here are the checksums for the gems:
 
