@@ -32,7 +32,7 @@ In addition to the many database and connection management improvements, [Aaron 
 
 ## Delegated Types
 
-Rails 6.1 adds "Delegated Types" as an alternative to single-table inheritance. This is helpful for representing class hierarchies allowing the superclass to be a concrete class that is represented by it's own table. Each subclass has its own table for additional attributes. Check out the [pull request](https://github.com/rails/rails/pull/39341) written by [DHH](https://github.com/dhh).
+Rails 6.1 adds "Delegated Types" as an alternative to single-table inheritance. This is helpful for representing class hierarchies allowing the superclass to be a concrete class that is represented by its own table. Each subclass has its own table for additional attributes. Check out the [pull request](https://github.com/rails/rails/pull/39341) written by [DHH](https://github.com/dhh).
 
 ## Destroy Associations Async
 
