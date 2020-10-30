@@ -52,7 +52,7 @@ Additionally, Rails 6.1 adds support to Active Storage for [permanent URLs for b
 
 If you like to run your application deprecation-warning free then this feature is for you. The feature allows applications to [optionally raise an error](https://github.com/rails/rails/pull/37940) if a deprecation warning is thrown. This is useful for making sure developers don't reintroduce deprecation warnings that have already been fixed. The feature was implemented by [Cliff Pruitt](https://github.com/cpruitt) of Test Double!
 
-## Peformance Improvements and Bug Fixes!
+## Performance Improvements and Bug Fixes!
 
 A release isn't just about the awesome features you get. It's also about fixing bugs, improving performance, and making Rails more stable for everyone. This release includes an improvement that [avoids making a query if `where` passes an empty array](https://github.com/rails/rails/pull/37266) reported by [Molly Struve](https://github.com/mstruve) and the fix implemented by [John Hawthorn](https://github.com/jhawthorn). [Eileen M. Uchitelle](https://github.com/eileencodes) and [Aaron Patterson](https://github.com/tenderlove) also implemented a [performance improvement](https://github.com/rails/rails/pull/39009) that speeds up `where` queries when we know all the values are an integer.
 
