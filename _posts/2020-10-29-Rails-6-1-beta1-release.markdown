@@ -6,7 +6,7 @@ author: eileencodes
 published: true
 date: 2020-10-29 10:00:00 -05:00
 ---
-The first beta for Rails 6.1 has been released and wow does it have a lot of great stuff! We've been hard at work these past few months implementing improvements to multiple databases, adding support for destroying associations in jobs instead of in memory, turning errors into objects, and so much more.
+The first beta for Rails 6.1 has been released and wow does it have a lot of great stuff! We've been hard at work these past few months implementing improvements to multiple databases, adding support for destroying associations in jobs instead of in-memory, turning errors into objects, and so much more.
 
 It's amazing how Rails has grown over the years and while we have some improvements to make to the [onboarding process](https://weblog.rubyonrails.org/2020/5/7/A-May-of-WTFs/), Rails has never been better. The features in this release focus on adding the functionality you need to keep your application up and running for years to come.
 
