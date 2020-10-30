@@ -36,7 +36,7 @@ Rails 6.1 adds "Delegated Types" as an alternative to single-table inheritance. 
 
 ## Destroy Associations Async
 
-Destroy associations asycn adds the ability for applications to `destroy` associations in a background job. This can help you avoid timeouts and other performance issues in your application when destroying data. The [implementation](https://github.com/rails/rails/pull/40157) was a group effort - the PR was started by [George Claghorn](https://github.com/georgeclaghorn) from Basecamp, further support added by [Cory Gwin](https://github.com/gwincr11) of GitHub and finalized by [Rafael França](https://github.com/rafaelfranca) and [Adrianna Chang](https://github.com/adrianna-chang-shopify) from Shopify.
+Destroy associations async adds the ability for applications to `destroy` associations in a background job. This can help you avoid timeouts and other performance issues in your application when destroying data. The [implementation](https://github.com/rails/rails/pull/40157) was a group effort - the PR was started by [George Claghorn](https://github.com/georgeclaghorn) from Basecamp, further support added by [Cory Gwin](https://github.com/gwincr11) of GitHub and finalized by [Rafael França](https://github.com/rafaelfranca) and [Adrianna Chang](https://github.com/adrianna-chang-shopify) from Shopify.
 
 ## Error Objects
 
