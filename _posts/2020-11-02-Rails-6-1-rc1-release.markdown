@@ -1,14 +1,18 @@
 ---
 layout: post
-title: 'Rails 6.1: Horizontal Sharding, Multi-DB Improvements, Strict Loading, Destroy Associations in Background, Error Objects, and more!'
+title: 'Rails 6.1 RC1: Horizontal Sharding, Multi-DB Improvements, Strict Loading, Destroy Associations in Background, Error Objects, and more!'
 categories: releases
 author: eileencodes
 published: true
-date: 2020-10-29 10:00:00 -05:00
+date: 2020-11-02 17:00:00 -05:00
 ---
-The first beta for Rails 6.1 has been released and wow does it have a lot of great stuff! We've been hard at work these past few months implementing improvements to multiple databases, adding support for destroying associations in jobs instead of in-memory, turning errors into objects, and so much more.
+The first release candidate for Rails 6.1 has been released and wow does it have a lot of great stuff! We've been hard
+at work these past few months implementing improvements to multiple databases, adding support for destroying
+associations in jobs instead of in-memory, turning errors into objects, and so much more.
 
-It's amazing how Rails has grown over the years and while we have some improvements to make to the [onboarding process](https://weblog.rubyonrails.org/2020/5/7/A-May-of-WTFs/), Rails has never been better. The features in this release focus on adding the functionality you need to keep your application up and running for years to come.
+It's amazing how Rails has grown over the years and while we have some improvements to make to the
+[onboarding process](https://weblog.rubyonrails.org/2020/5/7/A-May-of-WTFs/), Rails has never been better. The features
+in this release focus on adding the functionality you need to keep your application up and running for years to come.
 
 Let's look at some of the new functionality:
 
@@ -60,11 +64,11 @@ A release isn't just about the awesome features you get. It's also about fixing 
 
 The `classic` autoloader has served us well since the first Rails release, but there's a new kid on the block and it is going to start its deprecation cycle.
 
-New Rails projects are strongly discouraged from using the `classic` autoloader, and we recommend that existing projects running on `classic` switch to `zeitwerk` mode when upgrading. Please check the [_Upgrading Ruby on Rails_](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html) guide for tips.
+New Rails projects are strongly discouraged from using the `classic` autoloader, and we recommend that existing projects running on `classic` switch to `zeitwerk` mode when upgrading. Please check the [_Upgrading Ruby on Rails_](https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html) guide for tips.
 
 ## And more!
 
-There are so many great changes in Rails 6.1. [676](https://contributors.rubyonrails.org/edge/contributors) people made contributions to Rails. Check out the [CHANGELOGS](https://github.com/rails/rails/tree/v6.1.0.beta1) for more details on bug fixes, performance improvements, and other features.
+There are so many great changes in Rails 6.1. [686](https://contributors.rubyonrails.org/edge/contributors) people made contributions to Rails. Check out the [CHANGELOGS](https://github.com/rails/rails/tree/v6.1.0.rc1) for more details on bug fixes, performance improvements, and other features.
 
 Thank you to everyone who reported a bug, sent a pull request, and helped improve Rails. Rails is better because of your hard work!
 
