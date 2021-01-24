@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Defaults to "main" branch name, new webpacker guide and improved strict loading"
+title: "Defaults to \"main\" branch name, new webpacker guide and improved strict loading"
 categories: news
 author: morgoth85
 published: true
