@@ -36,6 +36,10 @@ class GoodbitsEmail
     @email = JSON.parse(raw_email, symbolize_names: true)[:newsletter_email]
   end
 
+  def date
+    Date.parse(email[:sent_at])
+  end
+
   def title
     email[:subject].strip
   end
@@ -90,7 +94,6 @@ end
 uri = URI.parse(url + ".json")
 path_parts = uri.path.split("/")
 slug = path_parts.last.gsub(".json", "")
-date = Date.new(*path_parts[1..3].map(&:to_i))
 
 goodbits_email = GoodbitsEmail.new(uri.open.read)
 
@@ -100,7 +103,7 @@ title: "#{goodbits_email.title}"
 categories: news
 author: #{goodbits_email.author}
 published: true
-date: #{date.to_s}
+date: #{goodbits_email.date}
 ---
 
 |
@@ -108,7 +111,7 @@ date: #{date.to_s}
 md = goodbits_email.markdown_render
 
 post_content = meta + md
-post_path = "_posts/#{date.strftime('%Y-%m-%d')}-this-week-in-rails-#{slug}.markdown"
+post_path = "_posts/#{goodbits_email.date.strftime('%Y-%m-%d')}-this-week-in-rails-#{slug}.markdown"
 
 File.open(post_path, 'w') do |f|
   f.write post_content
