@@ -25,6 +25,7 @@ end
 
 require 'uri'
 require 'open-uri'
+require 'openssl'
 require 'json'
 require 'nokogiri'
 require 'reverse_markdown'
@@ -95,7 +96,9 @@ uri = URI.parse(url + ".json")
 path_parts = uri.path.split("/")
 slug = path_parts.last.gsub(".json", "")
 
-goodbits_email = GoodbitsEmail.new(uri.open.read)
+resp = URI.open(uri, {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE})
+
+goodbits_email = GoodbitsEmail.new(resp.read)
 
 meta = %|---
 layout: post
