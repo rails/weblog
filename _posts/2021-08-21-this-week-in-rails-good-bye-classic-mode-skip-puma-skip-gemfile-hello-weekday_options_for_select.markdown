@@ -17,7 +17,7 @@ In this YouTube, DHH goes through the latest changes planned for Rails 7 and how
 
 A reminder to upgrade to the latest stable versions of Rails which includes a critical security fix for Action Pack.
 
-### [Dropping support for classic mode]()
+### Dropping support for classic mode
 
 There's an ongoing epic to delete the [classic](https://guides.rubyonrails.org/v6.1/autoloading_and_reloading_constants_classic_mode.html) autoloader that [started months ago](https://github.com/rails/rails/commit/0d523d83657ce7066f25d87f6f094e804590e1e8). Let's do a checkpoint in this newsletter.  
   
