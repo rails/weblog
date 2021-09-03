@@ -17,7 +17,7 @@ There are two important changes coming:
 
 Maybe your 6.x application is already ready for these changes. Otherwise, you can prepare in advance to ease the upgrade. Let's briefly explore their implications.
 
-### Applications need to run in `zeitwerk` mode
+## Applications need to run in `zeitwerk` mode
 
 Applications still running in `classic` mode have to switch to `zeitwerk` mode.
 
@@ -25,13 +25,13 @@ Don't be scared, many non-trivial Rails applications reported really smooth swit
 
 I am personally more than willing to help if you find anything unexpected, just [open an issue](https://github.com/rails/rails/issues/new) and tag `@fxn`.
 
-### The setter config.autoloader= has been deleted
+## The setter config.autoloader= has been deleted
 
 In Rails 7 there is no configuration point to set the autoloading mode, `config.autoloader=` has been deleted.
 
 In principle, only applications running in `classic` moded were using this one, since it was the way to opt-out from the default.
 
-### ActiveSupport::Dependencies private API has been deleted
+## ActiveSupport::Dependencies private API has been deleted
 
 You don't announce changes to internal APIs, but since `classic` has been there since the first release of Rails, this is worth being included in this post.
 
@@ -41,7 +41,7 @@ Auxiliary internal classes or modules are also gone, like `Reference`, `ClassCac
 
 About 90% of [`active_support/dependencies.rb`](https://github.com/rails/rails/blob/a44fbb5dcacd3281116f7d9881a25e8f08f729a4/activesupport/lib/active_support/dependencies.rb) has been deleted. You can compare with [the one in 6.1](https://github.com/rails/rails/blob/6-1-stable/activesupport/lib/active_support/dependencies.rb).
 
-### Autoloading during initialization
+## Autoloading during initialization
 
 Applications that autoloaded reloadable constants during initialization outside of `to_prepare` blocks got those constants unloaded and had this noisy warning issued since Rails 6.0:
 
@@ -74,7 +74,7 @@ Rails autoloads and reloads.
 
 If you still get this warning, please check the section about autoloading when the application boots in the [autoloading guide](https://guides.rubyonrails.org/v7.0/autoloading_and_reloading_constants.html#autoloading-when-the-application-boots). You'd get a `NameError` in Rails 7 otherwise.
 
-### Rails.autoloaders.zeitwerk_enabled?
+## Rails.autoloaders.zeitwerk_enabled?
 
 Engines that want to support Rails 6.x can check
 
