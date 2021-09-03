@@ -33,7 +33,7 @@ In Rails 7 there is no configuration point to set the autoloading mode, `config.
 
 You don't announce changes to internal APIs, but since `classic` has been there since the first release of Rails, this is worth being included in this post.
 
-`ActiveSupport::Dependencies` implemented the `classic` autoloader, and with its removal a lot of internal methods have been dropped in cascade like `hook!`, `unhook!`, `depend_on`, `require_or_load`, `qualified_name_for`, `mechanism`, `warnings_on_first_load`, `logger`, `verbose`, and many others.
+`ActiveSupport::Dependencies` implemented the `classic` autoloader, and with its removal a lot of internal methods have been dropped in cascade like `hook!`, `unhook!`, `depend_on`, `require_or_load`, `mechanism`, `qualified_name_for`, `warnings_on_first_load`, `logger`, `verbose`, and many others.
 
 Auxiliary internal classes or modules are also gone, like `Reference`, `ClassCache`, `ModuleConstMissing`, `Blamable`, and more.
 
