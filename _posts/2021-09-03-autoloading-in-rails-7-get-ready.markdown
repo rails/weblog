@@ -37,7 +37,7 @@ You don't announce changes to internal APIs, but since `classic` has been there 
 
 Auxiliary internal classes or modules are also gone, like `Reference`, `ClassCache`, `ModuleConstMissing`, `Blamable`, and more.
 
-About 90% of `active_support/dependencies.rb`has been deleted. You can compare the [version in edge](https://github.com/rails/rails/blob/a44fbb5dcacd3281116f7d9881a25e8f08f729a4/activesupport/lib/active_support/dependencies.rb) with [the one in 6.1](https://github.com/rails/rails/blob/6-1-stable/activesupport/lib/active_support/dependencies.rb).
+About 90% of `active_support/dependencies.rb` has been deleted. You can compare the [version in edge](https://github.com/rails/rails/blob/a44fbb5dcacd3281116f7d9881a25e8f08f729a4/activesupport/lib/active_support/dependencies.rb) with [the one in 6.1](https://github.com/rails/rails/blob/6-1-stable/activesupport/lib/active_support/dependencies.rb).
 
 ## Autoloading during initialization
 
