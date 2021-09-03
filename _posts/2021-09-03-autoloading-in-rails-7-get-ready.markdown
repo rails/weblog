@@ -23,7 +23,7 @@ Applications still running in `classic` mode have to switch to `zeitwerk` mode.
 
 Don't be scared, many non-trivial Rails applications reported really smooth switches. It is very likely that you only need to flip the switch, maybe configure some inflector, and done. Please check the [upgrading guide for Rails 6.0](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#autoloading) for details.
 
-I am personally more than willing to help if you find anything unexpected, just [open an issue](https://github.com/rails/rails/issues/new) and tag [`@fxn`](https://github.com/fxn).
+I am personally more than willing to help if you find anything unexpected, just [open an issue](https://github.com/rails/rails/issues/new) and tag [@fxn](https://github.com/fxn).
 
 ## The setter config.autoloader= has been deleted
 
