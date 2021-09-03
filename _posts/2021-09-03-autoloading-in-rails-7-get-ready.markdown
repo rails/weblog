@@ -23,27 +23,25 @@ Applications still running in `classic` mode have to switch to `zeitwerk` mode.
 
 Don't be scared, many non-trivial Rails applications reported really smooth switches. It is very likely that you only need to flip the switch, maybe configure some inflector, and done. Please check the [upgrading guide for Rails 6.0](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#autoloading) for details.
 
-I am personally more than willing to help if you find anything unexpected, just [open an issue](https://github.com/rails/rails/issues/new) and tag `@fxn`.
+I am personally more than willing to help if you find anything unexpected, just [open an issue](https://github.com/rails/rails/issues/new) and tag [`@fxn`](https://github.com/fxn).
 
 ## The setter config.autoloader= has been deleted
 
 In Rails 7 there is no configuration point to set the autoloading mode, `config.autoloader=` has been deleted.
 
-In principle, only applications running in `classic` moded were using this one, since it was the way to opt-out from the default.
-
 ## ActiveSupport::Dependencies private API has been deleted
 
 You don't announce changes to internal APIs, but since `classic` has been there since the first release of Rails, this is worth being included in this post.
 
-The `classic` autoloader was implemented in `ActiveSupport::Dependencies`, and with its removal a lot of internal methods have been dropped in cascade like `hook!`, `unhook!`, `depend_on`, `require_or_load`, `qualified_name_for`, `mechanism`, `warnings_on_first_load`, `logger`, `verbose`, and many others.
+`ActiveSupport::Dependencies` implemented the `classic` autoloader, and with its removal a lot of internal methods have been dropped in cascade like `hook!`, `unhook!`, `depend_on`, `require_or_load`, `qualified_name_for`, `mechanism`, `warnings_on_first_load`, `logger`, `verbose`, and many others.
 
 Auxiliary internal classes or modules are also gone, like `Reference`, `ClassCache`, `ModuleConstMissing`, `Blamable`, and more.
 
-About 90% of [`active_support/dependencies.rb`](https://github.com/rails/rails/blob/a44fbb5dcacd3281116f7d9881a25e8f08f729a4/activesupport/lib/active_support/dependencies.rb) has been deleted. You can compare with [the one in 6.1](https://github.com/rails/rails/blob/6-1-stable/activesupport/lib/active_support/dependencies.rb).
+About 90% of `active_support/dependencies.rb`has been deleted. You can compare the [version in edge](https://github.com/rails/rails/blob/a44fbb5dcacd3281116f7d9881a25e8f08f729a4/activesupport/lib/active_support/dependencies.rb) with [the one in 6.1](https://github.com/rails/rails/blob/6-1-stable/activesupport/lib/active_support/dependencies.rb).
 
 ## Autoloading during initialization
 
-Applications that autoloaded reloadable constants during initialization outside of `to_prepare` blocks got those constants unloaded and had this noisy warning issued since Rails 6.0:
+Applications that autoloaded reloadable constants during initialization outside of `to_prepare` blocks got those constants unloaded and had this warning issued since Rails 6.0:
 
 ```
 DEPRECATION WARNING: Initialization autoloaded the constant User.
