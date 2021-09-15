@@ -4,7 +4,7 @@ title: 'Rails 7.0 Alpha 1: New JavaScript Answers, At-Work Encryption, Query Ori
 categories: releases
 author: dhh
 published: true
-date: 2021-09-15 14:00:00 -08:00
+date: 2021-09-15 18:00:00 -05:00
 ---
 Welcome to the first alpha release of Rails 7. It brings some very exciting new answers to how we do JavaScript, an awesome approach to at-work encryption with Active Record, SQL query origin logging, asynchronous query loading, exclusive autoloading through Zeitwerk, and much more.
 
