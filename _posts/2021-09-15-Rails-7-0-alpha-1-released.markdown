@@ -42,7 +42,7 @@ When you have a controller action that needs to load two unrelated queries, you 
 
 Autoloading in Rails is one of those magical quality of life realities that it's easy to just take for granted. The trusty old `const_missing` approach which came with a range of quirks and missing features has finally been replaced exclusively with the [Zeitwerk code loader](https://github.com/fxn/zeitwerk#introduction). There are a few upgrade gotchas to be aware of, especially for older applications, but with this [upgrade guide](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#autoloading) you should be on your way in no time
 
-## A few other highlights
+## A Few Other Highlights
 
 - [Spring](https://github.com/rails/spring) is no longer on by default, as faster computers have made it less relevant on anything but the largest applications.
 - [ActionController::Live#send_stream](https://github.com/rails/rails/pull/41488) makes it easy to stream files that are being generated on-the-fly in controller actions.
