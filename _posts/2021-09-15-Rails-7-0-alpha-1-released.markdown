@@ -44,6 +44,6 @@ Autoloading in Rails is one of those magical quality of life realities that it's
 - [ActionController::Live#send_stream](https://github.com/rails/rails/pull/41488) makes it easy to stream files that are being generated on-the-fly in controller actions.
 - Parallelized testing will now compare your CPU core count to your test count and [scale the parallelization accordingly](https://github.com/rails/rails/pull/42761).
 
-## From all of us to all of you
+## From All Of Us To All Of You
 
 There are [over three thousand commits](https://github.com/rails/rails/compare/v6.1.4.1...main) that have gone into Rails 7 since we released version 6.1 last year. This is the work of hundreds of contributors. Including [over 200 first-time contributors](https://contributors.rubyonrails.org/contributors/in-time-window/this-year) this year alone. They join the [nearly six thousand contributors](https://contributors.rubyonrails.org) that have made changes to the Rails code base over the years!
