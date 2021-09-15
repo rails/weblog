@@ -47,6 +47,7 @@ Autoloading in Rails is one of those magical quality of life realities that it's
 - [Spring](https://github.com/rails/spring) is no longer on by default, as faster computers have made it less relevant on anything but the largest applications.
 - [ActionController::Live#send_stream](https://github.com/rails/rails/pull/41488) makes it easy to stream files that are being generated on-the-fly in controller actions.
 - Parallelized testing will now compare your CPU core count to your test count and [scale the parallelization accordingly](https://github.com/rails/rails/pull/42761).
+- Active Storage now uses the faster and more secure `libvips` as its [default variant processor](https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#activestorage-variant-processor-changed-to-vips).
 
 ## From All Of Us To All Of You
 
