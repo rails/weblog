@@ -30,7 +30,7 @@ But more importantly, by using Active Record Encryption, you define what constit
 
 Checkout the [full guide on how to use encrypted attributes](https://edgeguides.rubyonrails.org/active_record_encryption.html).
 
-## Trace query origins with Marginalia-style tagging
+## Trace Query Origins With Marginalia-Style Tagging
 
 Almost a decade ago, [Marginalia was extracted from Basecamp](https://signalvnoise.com/posts/3130-tech-note-mysql-query-comments-in-rails) to trace query origins with SQL comment tagging. Now this external gem has been [upstreamed into Active Record as QueryLogs](https://github.com/rails/rails/pull/42240).
 
