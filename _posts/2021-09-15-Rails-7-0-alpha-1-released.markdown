@@ -36,7 +36,7 @@ Almost a decade ago, [Marginalia was extracted from Basecamp](https://signalvnoi
 
 ## Zeitwerk Exclusively
 
-Autoloading in Rails is one of those magical quality of life realities that its easy to just take for granted. The trusty old const_missing approach which came with a range of quirks and missing features has finally been replaced exclusively with the [Zeitwerk code loader](https://github.com/fxn/zeitwerk#introduction). There are a few upgrade gotchas to be aware of, especially for older applications, but with this [upgrade guide](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#autoloading) you should be on your way in no time
+Autoloading in Rails is one of those magical quality of life realities that it's easy to just take for granted. The trusty old `const_missing` approach which came with a range of quirks and missing features has finally been replaced exclusively with the [Zeitwerk code loader](https://github.com/fxn/zeitwerk#introduction). There are a few upgrade gotchas to be aware of, especially for older applications, but with this [upgrade guide](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#autoloading) you should be on your way in no time
 
 ## A few other highlights
 
