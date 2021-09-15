@@ -6,7 +6,7 @@ author: dhh
 published: true
 date: 2021-09-15 14:00:00 -08:00
 ---
-Welcome to the first alpha release of Rails 7. It brings some very exciting new answers to how we do JavaScript, an awesome approach to at-work encryption with Active Record, SQL query origin logging, exclusive autoloading through Zeitwerk, and much more.
+Welcome to the first alpha release of Rails 7. It brings some very exciting new answers to how we do JavaScript, an awesome approach to at-work encryption with Active Record, SQL query origin logging, asynchronous query loading, exclusive autoloading through Zeitwerk, and much more.
 
 We usually don't do alpha releases for Rails, but given the fact that the new front-end approach is such a substantial change, we thought it best to validate that a little further before jumping straight on the beta -> release candidate -> final train.
 
@@ -33,6 +33,10 @@ Checkout the [full guide on how to use encrypted attributes](https://edgeguides.
 ## Trace Query Origins With Marginalia-Style Tagging
 
 Almost a decade ago, [Marginalia was extracted from Basecamp](https://signalvnoise.com/posts/3130-tech-note-mysql-query-comments-in-rails) to trace query origins with SQL comment tagging. Now this external gem has been [upstreamed into Active Record as QueryLogs](https://github.com/rails/rails/pull/42240).
+
+## Asynchronous Query Loading
+
+When you have a controller action that needs to load two unrelated queries, you can now do it concurrently through [Relation#load_async](https://github.com/rails/rails/pull/41372). If you have three complex queries that each take 100ms, you'd have to spend 300ms executing them one by one before. Now you can run them in parallel, spending only a total of 100ms on the set.
 
 ## Zeitwerk Exclusively
 
