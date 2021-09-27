@@ -9,7 +9,7 @@ date: 2021-09-27
 
 Hey! [Zzak](https://github.com/zzak) here with a JAM-PACKED edition of This Week In Rails. 🍇
 
-### [Server Timing Middlware for Development](https://github.com/rails/rails/pull/36289)
+### [Server Timing Middleware for Development](https://github.com/rails/rails/pull/36289)
 
 This PR started nearly 2 and a half years ago, finally made its way into Rails!  
   
@@ -57,7 +57,7 @@ This PR adds the --no-comment flag to pg\_dump to ensure COMMENT statements are 
 
 ### [Require latest release candidate for selenium-webdriver in Rails new](https://github.com/rails/rails/pull/43270)
 
-Since the "rexml" gem was removed from Ruby version \>= 3 the selenum-webdriver gem has been waiting for a release that includes their updated dependency on the standard library gem.
+Since the "rexml" gem was removed from Ruby version \>= 3 the selenium-webdriver gem has been waiting for a release that includes their updated dependency on the standard library gem.
 
 ### [Support clearing acronyms from inflector](https://github.com/rails/rails/pull/42475)
 
