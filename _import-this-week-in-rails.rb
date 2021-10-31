@@ -4,21 +4,22 @@
 #
 # Usage:
 #
-# _import-this-week-in-rails.rb PUBLIC_PAGE_URL
+# _import-this-week-in-rails.rb POST_DATE PUBLIC_PAGE_URL
 #
 # Example:
 #
-# _import-this-week-in-rails.rb http://us3.campaign-archive2.com/?u=2721e27ce456363785acc5405&id=5aed0d5741
+# _import-this-week-in-rails.rb 2021-10-31 https://world.hey.com/this.week.in.rails/halloween-edition-zeitwerk-migration-guide-selenium-webdriver-and-some-ruby-3-1-snacks-66c67b91
 #
 
-url = ARGV[0]
+post_date = ARGV[0]
+url = ARGV[1]
 
 if url.nil?
   puts "Usage:
-  _import-this-week-in-rails.rb PUBLIC_PAGE_URL
+  _import-this-week-in-rails.rb DATE PUBLIC_PAGE_URL
 
 Example:
-  _import-this-week-in-rails.rb https://rails-weekly.ongoodbits.com/2015/01/30/relation-or-file-fixtures-kwargs-and-more
+  _import-this-week-in-rails.rb 2021-10-31 https://world.hey.com/this.week.in.rails/halloween-edition-zeitwerk-migration-guide-selenium-webdriver-and-some-ruby-3-1-snacks-66c67b91
 "
   exit -1
 end
@@ -29,24 +30,26 @@ require 'json'
 require 'nokogiri'
 require 'reverse_markdown'
 
-class GoodbitsEmail
+class HeyWorldEmail
   attr_accessor :email
+  attr_accessor :post_date
 
-  def initialize(raw_email)
-    @email = JSON.parse(raw_email, symbolize_names: true)[:newsletter_email]
+  def initialize(post_date, raw_email)
+    @post_date = post_date
+    @email = Nokogiri::HTML(raw_email)
   end
 
   def date
-    Date.parse(email[:sent_at])
+    Date.parse(@post_date)
   end
 
   def title
-    email[:subject].strip
+    email.css("title").text
   end
 
   # Author is mentioned in the first text block of the email
   def author
-    intro_html = Nokogiri::HTML(content_blocks_for("Text")[0][:variables][:html_text])
+    intro_html = content
     begin
       intro_html
         .xpath("//a[contains(@href, 'twitter.com/') or contains(@href, 'github.com/') and not(contains(@href, 'rails'))]")
@@ -58,60 +61,36 @@ class GoodbitsEmail
     end
   end
 
+  def content
+    email.css(".trix-content")
+  end
+
   def markdown_render
-    md =[]
-    email[:content_blocks].each do |cb|
-      next if ["Header", "Footer"].include?(cb[:component_name])
-
-      case cb[:component_name]
-      when "Text"
-        md << html_to_md(cb[:variables][:html_text])
-      when "Subheading"
-        md << "## #{cb[:variables][:subheading]}\n"
-      when "Image"
-        md << "![](#{cb[:image_url]})\n" if cb[:image_url] != nil
-      when "Article", "Title & Text", "Link & Text"
-        md << "### [#{cb[:variables][:title]}](#{cb[:variables][:link_to]})\n"
-        md << html_to_md(cb[:variables][:html_description])
-      end
-
-    end
-    md.join("\n")
-  end
-
-  private
-  def html_to_md(html)
-    ReverseMarkdown.convert(html, unknown_tags: :bypass)
-  end
-
-  def content_blocks_for(component_name)
-    email[:content_blocks].select {|cb|
-      cb[:component_name] == component_name
-    }
+    ReverseMarkdown.convert content
   end
 end
 
-uri = URI.parse(url + ".json")
+uri = URI.parse(url)
 path_parts = uri.path.split("/")
-slug = path_parts.last.gsub(".json", "")
+slug = path_parts.last
 
-goodbits_email = GoodbitsEmail.new(uri.open.read)
+hey_world_email = HeyWorldEmail.new(post_date, uri.open.read)
 
 meta = %|---
 layout: post
-title: "#{goodbits_email.title}"
+title: "#{hey_world_email.title}"
 categories: news
-author: #{goodbits_email.author}
+author: #{hey_world_email.author}
 published: true
-date: #{goodbits_email.date}
+date: #{hey_world_email.date}
 ---
 
 |
 
-md = goodbits_email.markdown_render
+md = hey_world_email.markdown_render
 
 post_content = meta + md
-post_path = "_posts/#{goodbits_email.date.strftime('%Y-%m-%d')}-this-week-in-rails-#{slug}.markdown"
+post_path = "_posts/#{hey_world_email.date.strftime('%Y-%m-%d')}-this-week-in-rails-#{slug}.markdown"
 
 File.open(post_path, 'w') do |f|
   f.write post_content
