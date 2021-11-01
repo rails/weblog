@@ -4,22 +4,21 @@
 #
 # Usage:
 #
-# _import-this-week-in-rails.rb POST_DATE PUBLIC_PAGE_URL
+# _import-this-week-in-rails.rb PUBLIC_PAGE_URL
 #
 # Example:
 #
-# _import-this-week-in-rails.rb 2021-10-31 https://world.hey.com/this.week.in.rails/halloween-edition-zeitwerk-migration-guide-selenium-webdriver-and-some-ruby-3-1-snacks-66c67b91
+# _import-this-week-in-rails.rb https://world.hey.com/this.week.in.rails/halloween-edition-zeitwerk-migration-guide-selenium-webdriver-and-some-ruby-3-1-snacks-66c67b91
 #
 
-post_date = ARGV[0]
-url = ARGV[1]
+url = ARGV[0]
 
 if url.nil?
   puts "Usage:
-  _import-this-week-in-rails.rb DATE PUBLIC_PAGE_URL
+  _import-this-week-in-rails.rb PUBLIC_PAGE_URL
 
 Example:
-  _import-this-week-in-rails.rb 2021-10-31 https://world.hey.com/this.week.in.rails/halloween-edition-zeitwerk-migration-guide-selenium-webdriver-and-some-ruby-3-1-snacks-66c67b91
+  _import-this-week-in-rails.rb https://world.hey.com/this.week.in.rails/halloween-edition-zeitwerk-migration-guide-selenium-webdriver-and-some-ruby-3-1-snacks-66c67b91
 "
   exit -1
 end
@@ -29,6 +28,9 @@ require 'open-uri'
 require 'json'
 require 'nokogiri'
 require 'reverse_markdown'
+require 'date'
+
+post_date = ARGV[1] || Date.today.to_s
 
 class HeyWorldEmail
   attr_accessor :email
