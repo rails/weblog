@@ -4,7 +4,7 @@ title: 'Rails 7.0 RC1: New JavaScript Answers, At-Work Encryption, Query Origin 
 categories: releases
 author: dhh
 published: true
-date: 2021-12-06 18:00:00 +01:00
+date: 2021-12-06 16:50:00 -05:00
 ---
 We're almost ready to declare Rails 7 done! The feedback since [the first alpha release](https://weblog.rubyonrails.org/2021/9/15/Rails-7-0-alpha-1-released/) has been wonderful, we've eliminated a slew of issues, and we've seen Basecamp, HEY, GitHub, and Shopify all run in production on this alpha series. So we now feel so confident that this is nearly ready that we're skipping straight from alpha to release candidate. This is RC1.
 
@@ -20,7 +20,7 @@ At the same time, we've also [dramatically improved the integration](https://www
 
 ## At-Work Encryption With Active Record
 
-Extracted from [HEY](https://hey.com/security), we've added [encrypted attributes to Active Record](https://github.com/rails/rails/pull/41659), so your application can offer at-work encryption in addition to the traditional at-rest and in-transit coverage. 
+Extracted from [HEY](https://hey.com/security), we've added [encrypted attributes to Active Record](https://github.com/rails/rails/pull/41659), so your application can offer at-work encryption in addition to the traditional at-rest and in-transit coverage.
 
 As an immediate practical benefit, encrypting sensitive attributes adds an additional security layer. For example, if an attacker gained access to your database, a snapshot of it, or your application logs, they wouldn't be able to make sense of the encrypted information. And even without thinking about malicious actors, checking application logs for legit reasons shouldn't expose personal information from customers either.
 
@@ -49,4 +49,4 @@ Autoloading in Rails is one of those magical quality of life realities that it's
 
 ## From All Of Us To All Of You
 
-There are [over seven hundred commits](https://github.com/rails/rails/compare/v7.0.0.alpha2...7-0-stable) that have gone into this release candidate since we released the alpha three months ago. We hope to get this work in the hands of everyone before Christmas this year 🎄🎁❤️.
+There are [over seven hundred commits](https://github.com/rails/rails/compare/v7.0.0.alpha2...v7.0.0.rc1) that have gone into this release candidate since we released the alpha three months ago. We hope to get this work in the hands of everyone before Christmas this year 🎄🎁❤️.
