@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 6.0.4.2, 6.1.4.2, and 7.0.0.rc2 have been released'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2021-12-14 12:33:56 -08:00

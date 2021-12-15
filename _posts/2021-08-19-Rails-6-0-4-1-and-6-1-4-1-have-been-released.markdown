@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 6.0.4.1 and 6.1.4.1 have been released'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2021-08-19 09:40:25 -07:00

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Rails 6.0.4.3, 6.1.4.3, and 7.0.0.rc3 have been released'
-categories:
+categories: releases
 author: tenderlove
 published: true
 date: 2021-12-14 15:11:00 -08:00
